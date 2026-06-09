@@ -78,6 +78,19 @@ h1 {
   line-height: .84;
   letter-spacing: 0;
 }
+.relative-date {
+  display: inline-block;
+  margin: 20px 0 0;
+  padding: 9px 12px;
+  background: var(--sun);
+  color: var(--ink);
+  font-family: Archivo Black, Impact, sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(24px, 5vw, 56px);
+  line-height: .9;
+  text-shadow: none;
+  box-shadow: 0 14px 32px rgba(0,0,0,.22);
+}
 .date-line { margin: 16px 0 0; font-size: 18px; color: rgba(248,245,234,.9); }
 .poster-card {
   grid-column: 2;
@@ -126,6 +139,62 @@ h1 {
   line-height: .86;
 }
 .window { margin: 8px 0 20px; font-size: 24px; font-weight: 700; }
+.source-verdicts {
+  margin: 0 0 16px;
+  padding: 12px;
+  background: rgba(21,19,15,.08);
+  border: 1px solid rgba(21,19,15,.16);
+}
+.source-verdicts p {
+  margin: 0 0 8px;
+  font-family: Archivo Black, Impact, sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgba(21,19,15,.68);
+}
+.source-verdicts > div,
+.mini-source-verdicts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.source-verdict {
+  display: flex;
+  min-height: 70px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 11px 12px;
+  background: rgba(248,245,234,.82);
+  border: 2px solid rgba(21,19,15,.14);
+}
+.source-verdict small {
+  font-family: Archivo Black, Impact, sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: rgba(21,19,15,.62);
+}
+.source-verdict strong {
+  margin-top: 4px;
+  font-family: Archivo Black, Impact, sans-serif;
+  text-transform: uppercase;
+  font-size: clamp(20px, 5vw, 34px);
+  line-height: .92;
+}
+.source-verdict.good { border-color: rgba(75,212,191,.9); }
+.source-verdict.mixed { border-color: rgba(244,197,66,.9); }
+.source-verdict.poor,
+.source-verdict.bad { border-color: rgba(243,111,69,.86); }
+.source-verdict.unknown { opacity: .78; }
+.mini-source-verdicts {
+  margin: 10px 0 12px;
+}
+.mini-source-verdicts .source-verdict {
+  min-height: 58px;
+  padding: 9px 10px;
+}
+.mini-source-verdicts .source-verdict strong {
+  font-size: 18px;
+}
 .metric-row, .mini-metrics {
   display: flex;
   flex-wrap: wrap;
@@ -327,37 +396,48 @@ h1 {
 <body>
   <main class="page-shell">
     <section class="hero" aria-labelledby="page-title">
-      <div class="hero-photo" role="img" aria-label="Surfing in Baleal, Peniche" style="background-image: url('https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg')"></div>
+      <div class="hero-photo" role="img" aria-label="Surfing in Baleal, Peniche" style="background-image: url('https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg')"></div>
       <div class="wash"></div>
       <header class="masthead">
         <p class="kicker">Pedro's bodyboarding dispatch</p>
         <h1 id="page-title">Peniche Surf Plan</h1>
+        <p class="relative-date" data-target-date="2026-06-10">Wednesday, 10 June 2026</p>
         <p class="date-line">Wednesday, 10 June 2026 · Generated 2026-06-09 15:46 Portugal time</p>
       </header>
       <article class="poster-card verdict-card no-surf" aria-label="No surf today surf decision">
-    <div class="poster-photo" style="background-image: url('https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg')"></div>
+    <div class="poster-photo" style="background-image: url('https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg')"></div>
     <div class="poster-content">
       <p class="stamp">No surf today</p>
       <h2>Skip it</h2>
-      <p class="window">Least bad reference: Lagide - Lunch</p>
+      <p class="window">Least bad reference: Cantinho da Baia - Lunch</p>
+      <div class="source-verdicts" aria-label="Source verdicts">
+    <p>Source verdicts</p>
+    <div>
+      <span class="source-verdict bad"><small>Surfline</small><strong>POOR</strong></span>
+      <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+    </div>
+  </div>
       <div class="metric-row">
-        <span class="metric"><small>SL size</small><strong>1.5-2.1 m</strong></span>
+        <span class="metric"><small>SL size</small><strong>0.6-1.1 m</strong></span>
+        <span class="metric"><small>Energy</small><strong>399 kJ</strong></span>
         <span class="metric"><small>SL wind</small><strong>41 gust 50 km/h</strong></span>
         <span class="metric"><small>Surf-Forecast</small><strong>0/10</strong></span>
+        <span class="metric"><small>Tide</small><strong>high-mid falling</strong></span>
         <span class="metric"><small>Wave</small><strong>2.5 m</strong></span>
       </div>
       <div class="source-details" aria-label="Source detail comparison">
     <div>
       <span>Surfline table</span>
-      <strong>1.5-2.1 m</strong>
-      <em>Swell 2.8 m @ 9 s</em>
+      <strong>0.6-1.1 m</strong>
+      <em>Swell 3 m @ 8 s</em>
+      <em>399 kJ</em>
       <em>41 gust 50 km/h</em>
     </div>
     <div>
       <span>Surf-Forecast</span>
       <strong>0/10 stars</strong>
       <em>2.5 m @ 9 s</em>
-      <em>N 35 km/h on</em>
+      <em>N 35 km/h cross</em>
     </div>
   </div>
       <div class="wetsuit-strip" aria-label="Temperature and wetsuit advice">
@@ -368,15 +448,15 @@ h1 {
   </div>
       <div class="wind-pill poor">
         <span>Wind vs best</span>
-        <strong>N 35 km/h · onshore · too windy, strong</strong>
-        <em>Ideal E/ESE/SE, usable NE/ENE/SSE, clean &lt;=25 km/h</em>
+        <strong>N 35 km/h · cross-shore · too windy, strong</strong>
+        <em>Ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean &lt;=25 km/h</em>
       </div>
       <p class="why">Surfline and Surf-Forecast are poor/zero, and wind is above your normal limit.</p>
       <p class="verdict-quote">Not worth the drive today.</p>
-      <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Lagide/forecasts/latest">Surf-Forecast</a></div>
+      <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest">Surf-Forecast</a></div>
     </div>
   </article>
-      <a class="photo-credit" href="https://www.singlequiver.com/">Single Quiver</a>
+      <a class="photo-credit" href="https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg">Cantinho da Baia photo</a>
     </section>
 
     <section class="ranked" aria-labelledby="ranked-title">
@@ -388,45 +468,19 @@ h1 {
         <article class="spot-card">
     <div class="rank">01</div>
     <div>
-      <h3>Lagide</h3>
-      <p class="window-small">Lunch</p>
-      <p class="card-score">Score -31.0</p>
-    </div>
-    <div class="mini-metrics">
-      <span class="metric"><small>SF</small><strong>0/10</strong></span>
-      <span class="metric"><small>SL size</small><strong>1.5-2.1 m</strong></span>
-      <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
-      <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
-    </div>
-    <div class="source-details" aria-label="Source detail comparison">
-    <div>
-      <span>Surfline table</span>
-      <strong>1.5-2.1 m</strong>
-      <em>Swell 2.8 m @ 9 s</em>
-      <em>41 gust 50 km/h</em>
-    </div>
-    <div>
-      <span>Surf-Forecast</span>
-      <strong>0/10 stars</strong>
-      <em>2.5 m @ 9 s</em>
-      <em>N 35 km/h on</em>
-    </div>
-  </div>
-    <p class="wind-line poor">N 35 km/h · onshore · too windy, strong</p>
-    <p class="wind-profile">Best: ideal E/ESE/SE, usable NE/ENE/SSE, clean &lt;=25 km/h</p>
-    <p class="warning">wind is over 30 km/h; wind fit is poor or too strong</p>
-    <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Lagide/forecasts/latest">Surf-Forecast</a></div>
-  </article>
-<article class="spot-card">
-    <div class="rank">02</div>
-    <div>
       <h3>Cantinho da Baia</h3>
       <p class="window-small">Lunch</p>
-      <p class="card-score">Score -32.0</p>
+      <p class="card-score">Score -27.0</p>
     </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
     <div class="mini-metrics">
       <span class="metric"><small>SF</small><strong>0/10</strong></span>
       <span class="metric"><small>SL size</small><strong>0.6-1.1 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>399 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>high-mid falling</strong></span>
       <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
       <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
     </div>
@@ -435,6 +489,7 @@ h1 {
       <span>Surfline table</span>
       <strong>0.6-1.1 m</strong>
       <em>Swell 3 m @ 8 s</em>
+      <em>399 kJ</em>
       <em>41 gust 50 km/h</em>
     </div>
     <div>
@@ -450,29 +505,36 @@ h1 {
     <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest">Surf-Forecast</a></div>
   </article>
 <article class="spot-card">
-    <div class="rank">03</div>
+    <div class="rank">02</div>
     <div>
       <h3>Lagide</h3>
-      <p class="window-small">After work</p>
-      <p class="card-score">Score -35.0</p>
+      <p class="window-small">Lunch</p>
+      <p class="card-score">Score -31.0</p>
     </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>VERY POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
     <div class="mini-metrics">
       <span class="metric"><small>SF</small><strong>0/10</strong></span>
-      <span class="metric"><small>SL size</small><strong>1.2-1.8 m</strong></span>
+      <span class="metric"><small>SL size</small><strong>1.5-2.1 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>457 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>high-mid falling</strong></span>
       <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
       <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
     </div>
     <div class="source-details" aria-label="Source detail comparison">
     <div>
       <span>Surfline table</span>
-      <strong>1.2-1.8 m</strong>
-      <em>Swell 2.6 m @ 8 s</em>
-      <em>40 gust 59 km/h</em>
+      <strong>1.5-2.1 m</strong>
+      <em>Swell 2.8 m @ 9 s</em>
+      <em>457 kJ</em>
+      <em>41 gust 50 km/h</em>
     </div>
     <div>
       <span>Surf-Forecast</span>
       <strong>0/10 stars</strong>
-      <em>2.5 m @ 8 s</em>
+      <em>2.5 m @ 9 s</em>
       <em>N 35 km/h on</em>
     </div>
   </div>
@@ -482,15 +544,21 @@ h1 {
     <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Lagide/forecasts/latest">Surf-Forecast</a></div>
   </article>
 <article class="spot-card">
-    <div class="rank">04</div>
+    <div class="rank">03</div>
     <div>
       <h3>Cantinho da Baia</h3>
       <p class="window-small">After work</p>
-      <p class="card-score">Score -36.0</p>
+      <p class="card-score">Score -31.0</p>
     </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
     <div class="mini-metrics">
       <span class="metric"><small>SF</small><strong>0/10</strong></span>
       <span class="metric"><small>SL size</small><strong>0.9-1.2 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>341 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>low falling</strong></span>
       <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
       <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
     </div>
@@ -499,6 +567,7 @@ h1 {
       <span>Surfline table</span>
       <strong>0.9-1.2 m</strong>
       <em>Swell 2.8 m @ 7 s</em>
+      <em>341 kJ</em>
       <em>40 gust 59 km/h</em>
     </div>
     <div>
@@ -514,47 +583,21 @@ h1 {
     <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest">Surf-Forecast</a></div>
   </article>
 <article class="spot-card">
-    <div class="rank">05</div>
-    <div>
-      <h3>Belgas</h3>
-      <p class="window-small">Lunch</p>
-      <p class="card-score">Score -36.0</p>
-    </div>
-    <div class="mini-metrics">
-      <span class="metric"><small>SF</small><strong>0/10</strong></span>
-      <span class="metric"><small>SL size</small><strong>1.2-1.8 m</strong></span>
-      <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
-      <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
-    </div>
-    <div class="source-details" aria-label="Source detail comparison">
-    <div>
-      <span>Surfline table</span>
-      <strong>1.2-1.8 m</strong>
-      <em>Swell 2.4 m @ 9 s</em>
-      <em>36 gust 41 km/h</em>
-    </div>
-    <div>
-      <span>Surf-Forecast</span>
-      <strong>0/10 stars</strong>
-      <em>2.5 m @ 9 s</em>
-      <em>N 35 km/h cross-on</em>
-    </div>
-  </div>
-    <p class="wind-line poor">N 35 km/h · cross-onshore · too windy, strong</p>
-    <p class="wind-profile">Best: ideal E/ENE/ESE, usable NE/SE, clean &lt;=22 km/h</p>
-    <p class="warning">wind is over 30 km/h; wind fit is poor or too strong</p>
-    <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Belgas/forecasts/latest">Surf-Forecast</a></div>
-  </article>
-<article class="spot-card">
-    <div class="rank">06</div>
+    <div class="rank">04</div>
     <div>
       <h3>Molhe Leste</h3>
       <p class="window-small">After work</p>
-      <p class="card-score">Score -38.0</p>
+      <p class="card-score">Score -33.0</p>
     </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
     <div class="mini-metrics">
       <span class="metric"><small>SF</small><strong>0/10</strong></span>
       <span class="metric"><small>SL size</small><strong>0-0.3 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>47 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>low falling</strong></span>
       <span class="metric"><small>Wave</small><strong>2.4m</strong></span>
       <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
     </div>
@@ -563,6 +606,7 @@ h1 {
       <span>Surfline table</span>
       <strong>0-0.3 m</strong>
       <em>Swell 1 m @ 10 s</em>
+      <em>47 kJ</em>
       <em>30 gust 49 km/h</em>
     </div>
     <div>
@@ -576,6 +620,84 @@ h1 {
     <p class="wind-profile">Best: ideal N/NNE/NE, usable NNW/ENE/E, clean &lt;=25 km/h</p>
     <p class="warning">wind is over 30 km/h; wind fit is poor or too strong</p>
     <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/molhe-leste/640b9cb14878ebb2521e21fe">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Molhe-Leste/forecasts/latest">Surf-Forecast</a></div>
+  </article>
+<article class="spot-card">
+    <div class="rank">05</div>
+    <div>
+      <h3>Molhe Leste</h3>
+      <p class="window-small">Lunch</p>
+      <p class="card-score">Score -34.0</p>
+    </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
+    <div class="mini-metrics">
+      <span class="metric"><small>SF</small><strong>0/10</strong></span>
+      <span class="metric"><small>SL size</small><strong>0-0.3 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>61 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>high-mid falling</strong></span>
+      <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
+      <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
+    </div>
+    <div class="source-details" aria-label="Source detail comparison">
+    <div>
+      <span>Surfline table</span>
+      <strong>0-0.3 m</strong>
+      <em>Swell 1.9 m @ 9 s</em>
+      <em>61 kJ</em>
+      <em>27 gust 36 km/h</em>
+    </div>
+    <div>
+      <span>Surf-Forecast</span>
+      <strong>0/10 stars</strong>
+      <em>2.5 m @ 8 s</em>
+      <em>N 35 km/h cross-off</em>
+    </div>
+  </div>
+    <p class="wind-line poor">N 35 km/h · cross-off · too windy, strong</p>
+    <p class="wind-profile">Best: ideal N/NNE/NE, usable NNW/ENE/E, clean &lt;=25 km/h</p>
+    <p class="warning">wind is over 30 km/h; wind fit is poor or too strong</p>
+    <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/molhe-leste/640b9cb14878ebb2521e21fe">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Molhe-Leste/forecasts/latest">Surf-Forecast</a></div>
+  </article>
+<article class="spot-card">
+    <div class="rank">06</div>
+    <div>
+      <h3>Lagide</h3>
+      <p class="window-small">After work</p>
+      <p class="card-score">Score -35.0</p>
+    </div>
+    <div class="mini-source-verdicts" aria-label="Source verdicts">
+    <span class="source-verdict bad"><small>Surfline</small><strong>VERY POOR</strong></span>
+    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+  </div>
+    <div class="mini-metrics">
+      <span class="metric"><small>SF</small><strong>0/10</strong></span>
+      <span class="metric"><small>SL size</small><strong>1.2-1.8 m</strong></span>
+      <span class="metric"><small>Energy</small><strong>345 kJ</strong></span>
+      <span class="metric"><small>Tide</small><strong>low falling</strong></span>
+      <span class="metric"><small>Wave</small><strong>2.5m</strong></span>
+      <span class="metric"><small>Wind</small><strong>35 km/h</strong></span>
+    </div>
+    <div class="source-details" aria-label="Source detail comparison">
+    <div>
+      <span>Surfline table</span>
+      <strong>1.2-1.8 m</strong>
+      <em>Swell 2.6 m @ 8 s</em>
+      <em>345 kJ</em>
+      <em>40 gust 59 km/h</em>
+    </div>
+    <div>
+      <span>Surf-Forecast</span>
+      <strong>0/10 stars</strong>
+      <em>2.5 m @ 8 s</em>
+      <em>N 35 km/h on</em>
+    </div>
+  </div>
+    <p class="wind-line poor">N 35 km/h · onshore · too windy, strong</p>
+    <p class="wind-profile">Best: ideal E/ESE/SE, usable NE/ENE/SSE, clean &lt;=25 km/h</p>
+    <p class="warning">wind is over 30 km/h; wind fit is poor or too strong</p>
+    <div class="source-actions"><a class="source-button" href="https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2">Surfline</a><a class="source-button" href="https://www.surf-forecast.com/breaks/Lagide/forecasts/latest">Surf-Forecast</a></div>
   </article>
       </div>
     </section>
@@ -595,5 +717,21 @@ h1 {
       </div>
     </section>
   </main>
+  <script>(function updateRelativeDateLabel() {
+  var el = document.querySelector('.relative-date[data-target-date]');
+  if (!el) return;
+  var target = el.getAttribute('data-target-date');
+  var today = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Lisbon',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  }).format(new Date());
+  var todayDate = new Date(today + 'T12:00:00Z');
+  var targetDate = new Date(target + 'T12:00:00Z');
+  var diffDays = Math.round((targetDate - todayDate) / 86400000);
+  if (diffDays === 0) el.textContent = 'TODAY';
+  else if (diffDays === 1) el.textContent = 'TOMORROW';
+})();</script>
 </body>
 </html>
