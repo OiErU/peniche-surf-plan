@@ -174,7 +174,7 @@ h1 {
 .source-verdicts > div,
 .mini-source-verdicts {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
 }
 .source-verdict {
@@ -467,6 +467,7 @@ h1 {
     <div>
       <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
       <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+      <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
     </div>
   </div>
       <div class="metric-row">
@@ -494,6 +495,7 @@ h1 {
       <em>Wind state on-shore</em>
       <em>N 20 km/h on-shore</em>
     </div>
+    
   </div>
       <div class="wetsuit-strip" aria-label="Temperature and wetsuit advice">
     <span><small>Water</small><strong>16°C</strong></span>
@@ -530,6 +532,7 @@ h1 {
     <div class="mini-source-verdicts" aria-label="Source verdicts">
     <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
     <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+    <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.6-0.9 m</strong></span>
@@ -557,6 +560,7 @@ h1 {
       <em>Wind state cross-onshore</em>
       <em>N 20 km/h cross-onshore</em>
     </div>
+    
   </div>
     <p class="wind-line bad">N 20 km/h · cross-onshore · poor wind fit</p>
     <p class="warning">wind angle is poor for this spot</p>
@@ -572,6 +576,7 @@ h1 {
     <div class="mini-source-verdicts" aria-label="Source verdicts">
     <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
     <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+    <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.6-0.9 m</strong></span>
@@ -599,6 +604,7 @@ h1 {
       <em>Wind state on-shore</em>
       <em>N 20 km/h on-shore</em>
     </div>
+    
   </div>
     <p class="wind-line bad">N 20 km/h · onshore · poor wind fit</p>
     <p class="warning">wind angle is poor for this spot</p>
@@ -614,6 +620,7 @@ h1 {
     <div class="mini-source-verdicts" aria-label="Source verdicts">
     <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
     <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
+    <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.9-1.2 m</strong></span>
@@ -641,6 +648,7 @@ h1 {
       <em>Wind state cross-onshore</em>
       <em>N 15 km/h cross-onshore</em>
     </div>
+    
   </div>
     <p class="wind-line bad">N 15 km/h · cross-onshore · poor wind fit</p>
     <p class="warning">wind angle is poor for this spot</p>
@@ -659,13 +667,17 @@ h1 {
         <span>stars, wave, period, wind state and tide</span>
       </div>
       <div>
+        <span class="source-label">SwellMap ECMWF</span>
+        <span>3-hour ECMWF rating and conditions for Lagide, Cantinho, and Supertubos</span>
+      </div>
+      <div>
         <span class="source-label">Rule</span>
         <span>Weekdays prioritize lunch and after work; dawn only for extraordinary Lagide</span>
       </div>
     </section>
     <footer class="page-footer" aria-label="Report generation details">
       <span>Thursday, 11 June 2026</span>
-      <span>Generated 2026-06-11 10:00 Portugal time</span>
+      <span>Generated 2026-06-11 11:00 Portugal time</span>
     </footer>
   </main>
   <script>(function updateRelativeDateLabel() {
