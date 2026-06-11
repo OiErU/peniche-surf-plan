@@ -173,31 +173,39 @@ h1 {
 }
 .source-verdicts > div,
 .mini-source-verdicts {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 .source-verdict {
   display: flex;
-  min-height: 70px;
-  flex-direction: column;
-  justify-content: center;
-  padding: 11px 12px;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
   background: rgba(248,245,234,.82);
   border: 2px solid rgba(21,19,15,.14);
+  border-radius: 4px;
 }
-.source-verdict small {
+.source-verdict-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.source-verdict-label {
   font-family: Archivo Black, Impact, sans-serif;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 11px;
   color: rgba(21,19,15,.62);
+  white-space: nowrap;
 }
-.source-verdict strong {
-  margin-top: 4px;
+.source-verdict-value {
+  margin-left: auto;
   font-family: Archivo Black, Impact, sans-serif;
   text-transform: uppercase;
-  font-size: clamp(20px, 5vw, 34px);
-  line-height: .92;
+  font-size: 13px;
+  line-height: 1.2;
+  text-align: right;
 }
 .source-verdict.good { border-color: rgba(75,212,191,.9); }
 .source-verdict.mixed { border-color: rgba(244,197,66,.9); }
@@ -206,13 +214,6 @@ h1 {
 .source-verdict.unknown { opacity: .78; }
 .mini-source-verdicts {
   margin: 10px 0 12px;
-}
-.mini-source-verdicts .source-verdict {
-  min-height: 58px;
-  padding: 9px 10px;
-}
-.mini-source-verdicts .source-verdict strong {
-  font-size: 18px;
 }
 .metric-row, .mini-metrics {
   display: flex;
@@ -465,9 +466,9 @@ h1 {
       <div class="source-verdicts" aria-label="Source verdicts">
     <p>Source verdicts</p>
     <div>
-      <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
-      <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
-      <span class="source-verdict mixed"><small>SwellMap</small><strong>4/10 Reasonable</strong></span>
+      <span class="source-verdict mixed"><img src="https://secoora.org/wp-content/uploads/2024/11/surfline-logo-resized.png" alt="Surfline" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surfline</span><strong class="source-verdict-value">POOR TO FAIR</strong></span>
+      <span class="source-verdict bad"><img src="https://pt.surf-forecast.com/packs/components/smartbar/static/smartbanner-icon-09bf3471fd19be042f8ac01d9cadb461.png" alt="Surf-Forecast" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surf-Forecast</span><strong class="source-verdict-value">0/10 stars</strong></span>
+      <span class="source-verdict mixed"><img src="https://www.swellmap.com/assets/images/swellmapLogo.svg" alt="SwellMap" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">SwellMap</span><strong class="source-verdict-value">4/10 Reasonable</strong></span>
     </div>
   </div>
       <div class="metric-row">
@@ -534,9 +535,9 @@ h1 {
       <p class="card-score">Score 19.5</p>
     </div>
     <div class="mini-source-verdicts" aria-label="Source verdicts">
-    <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
-    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
-    <span class="source-verdict mixed"><small>SwellMap</small><strong>4/10 Reasonable</strong></span>
+    <span class="source-verdict mixed"><img src="https://secoora.org/wp-content/uploads/2024/11/surfline-logo-resized.png" alt="Surfline" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surfline</span><strong class="source-verdict-value">POOR TO FAIR</strong></span>
+    <span class="source-verdict bad"><img src="https://pt.surf-forecast.com/packs/components/smartbar/static/smartbanner-icon-09bf3471fd19be042f8ac01d9cadb461.png" alt="Surf-Forecast" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surf-Forecast</span><strong class="source-verdict-value">0/10 stars</strong></span>
+    <span class="source-verdict mixed"><img src="https://www.swellmap.com/assets/images/swellmapLogo.svg" alt="SwellMap" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">SwellMap</span><strong class="source-verdict-value">4/10 Reasonable</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.6-0.9 m</strong></span>
@@ -582,9 +583,9 @@ h1 {
       <p class="card-score">Score 12.5</p>
     </div>
     <div class="mini-source-verdicts" aria-label="Source verdicts">
-    <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
-    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
-    <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
+    <span class="source-verdict mixed"><img src="https://secoora.org/wp-content/uploads/2024/11/surfline-logo-resized.png" alt="Surfline" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surfline</span><strong class="source-verdict-value">POOR TO FAIR</strong></span>
+    <span class="source-verdict bad"><img src="https://pt.surf-forecast.com/packs/components/smartbar/static/smartbanner-icon-09bf3471fd19be042f8ac01d9cadb461.png" alt="Surf-Forecast" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surf-Forecast</span><strong class="source-verdict-value">0/10 stars</strong></span>
+    <span class="source-verdict unknown"><img src="https://www.swellmap.com/assets/images/swellmapLogo.svg" alt="SwellMap" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">SwellMap</span><strong class="source-verdict-value">not collected</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.6-0.9 m</strong></span>
@@ -626,9 +627,9 @@ h1 {
       <p class="card-score">Score 11.5</p>
     </div>
     <div class="mini-source-verdicts" aria-label="Source verdicts">
-    <span class="source-verdict mixed"><small>Surfline</small><strong>POOR TO FAIR</strong></span>
-    <span class="source-verdict bad"><small>Surf-Forecast</small><strong>0/10 stars</strong></span>
-    <span class="source-verdict unknown"><small>SwellMap</small><strong>not collected</strong></span>
+    <span class="source-verdict mixed"><img src="https://secoora.org/wp-content/uploads/2024/11/surfline-logo-resized.png" alt="Surfline" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surfline</span><strong class="source-verdict-value">POOR TO FAIR</strong></span>
+    <span class="source-verdict bad"><img src="https://pt.surf-forecast.com/packs/components/smartbar/static/smartbanner-icon-09bf3471fd19be042f8ac01d9cadb461.png" alt="Surf-Forecast" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">Surf-Forecast</span><strong class="source-verdict-value">0/10 stars</strong></span>
+    <span class="source-verdict unknown"><img src="https://www.swellmap.com/assets/images/swellmapLogo.svg" alt="SwellMap" class="source-verdict-icon" loading="lazy" onerror="this.style.display='none'"><span class="source-verdict-label">SwellMap</span><strong class="source-verdict-value">not collected</strong></span>
   </div>
     <div class="mini-metrics">
       <span class="metric"><small>SL size</small><strong>0.9-1.2 m</strong></span>
