@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-06-12",
-  "generatedAt": "2026-06-12 11:00 Portugal time",
+  "generatedAt": "2026-06-12 12:00 Portugal time",
   "verdict": {
     "state": "marginal",
     "label": "Marginal",
@@ -11,11 +11,13 @@
   "best": {
     "spot": "Lagide",
     "window": "Lunch",
-    "score": 34,
+    "score": 49,
+    "sessionLabel": "progression",
+    "confidenceLabel": "medium",
     "surfline": "FAIR",
     "sourceVerdicts": {
       "surfline": "FAIR",
-      "surfForecast": 0,
+      "surfForecast": null,
       "swellmap": "5/10 Reasonable"
     },
     "surflineDetails": {
@@ -24,14 +26,14 @@
       "waveMaxM": 1.1,
       "swellM": 1.4,
       "periodS": 8,
-      "energyKj": 101,
+      "energyKj": 111,
       "consistencyScore": 79,
       "windKph": 16,
       "gustKph": 22,
-      "waterTempC": 16,
+      "waterTempC": 17,
       "airTempC": 19
     },
-    "surfForecast": 0,
+    "surfForecast": null,
     "swellmap": {
       "time": "12:00",
       "rating": 5,
@@ -46,17 +48,17 @@
       "gustKts": 7.1
     },
     "tide": {
-      "label": "HIGH RISING",
-      "direction": "rising",
-      "summary": "HIGH RISING"
+      "label": "UNKNOWN",
+      "direction": null,
+      "summary": "not captured"
     },
     "waveM": 1.1,
-    "periodS": 8,
-    "windKph": 15,
-    "windDirection": "SW",
-    "windState": "cross-off",
-    "windStateLabel": "cross-offshore",
-    "windFit": "SW 15 km/h · cross-off · usable wind",
+    "periodS": null,
+    "windKph": 16,
+    "windDirection": null,
+    "windState": null,
+    "windStateLabel": "not captured",
+    "windFit": "direction not parsed 16 km/h · wind state unknown · good wind fit",
     "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
@@ -69,7 +71,7 @@
       "creditUrl": "https://www.singlequiver.com/"
     },
     "temperature": {
-      "waterTempC": 16,
+      "waterTempC": 17,
       "airTempC": 19,
       "source": "Surfline"
     },
@@ -77,19 +79,151 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Lagide looks like a fun-sized window: 0.6-1.1 m, 101 kJ, 8 s period, consistent 79/100, and wind is not fully clear.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
-    "shortExplanation": "Lagide is a dependable left-hand reef that turns modest swell into real rides · 0.6-1.1 m · 101 kJ · 8 s period · wind is not fully clear.",
+    "explanation": "Lagide looks like a clean fun-sized window for progression, medium confidence: 0.6-1.1 m, 111 kJ, 8 s period, consistent 79/100, and good wind at 16 km/h.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
+    "shortExplanation": "Lagide is a dependable left-hand reef that turns modest swell into real rides · label progression, medium confidence · 0.6-1.1 m · 111 kJ · 8 s period · good wind at 16 km/h.",
     "warnings": []
   },
   "ranked": [
     {
+      "spot": "Belgas",
+      "window": "After work",
+      "score": 43.5,
+      "sessionLabel": "rare opportunity",
+      "confidenceLabel": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": null,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.6,
+        "waveMaxM": 0.9,
+        "swellM": 0.9,
+        "periodS": 8,
+        "energyKj": 77,
+        "consistencyScore": 28,
+        "windKph": 14,
+        "gustKph": 17,
+        "waterTempC": 17,
+        "airTempC": 22
+      },
+      "surfForecast": null,
+      "swellmap": null,
+      "tide": {
+        "label": "UNKNOWN",
+        "direction": null,
+        "summary": "not captured"
+      },
+      "waveM": 0.9,
+      "periodS": null,
+      "windKph": 14,
+      "windDirection": null,
+      "windState": null,
+      "windStateLabel": "not captured",
+      "windFit": "direction not parsed 14 km/h · wind state unknown · good wind fit",
+      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
+        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
+        "credit": "Photo: Tiago Lima, CC BY 2.0, via Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
+      },
+      "temperature": {
+        "waterTempC": 17,
+        "airTempC": 22,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Belgas looks like a clean fun-sized north coast window for rare opportunity, medium confidence: 0.6-0.9 m, 77 kJ, 8 s period, lully 28/100, and good wind at 14 km/h.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully.",
+      "shortExplanation": "Belgas is an open beach break where the sandbanks decide everything · label rare opportunity, medium confidence · 0.6-0.9 m · 77 kJ · 8 s period · good wind at 14 km/h · Watch: Surfline consistency is lully.",
+      "warnings": [
+        "Surfline consistency is lully"
+      ]
+    },
+    {
+      "spot": "Almagreira",
+      "window": "After work",
+      "score": 42.5,
+      "sessionLabel": "rare opportunity",
+      "confidenceLabel": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": null,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.6,
+        "waveMaxM": 0.9,
+        "swellM": 0.8,
+        "periodS": 8,
+        "energyKj": 66,
+        "consistencyScore": 22,
+        "windKph": 14,
+        "gustKph": 17,
+        "waterTempC": 17,
+        "airTempC": 22
+      },
+      "surfForecast": null,
+      "swellmap": null,
+      "tide": {
+        "label": "UNKNOWN",
+        "direction": null,
+        "summary": "not captured"
+      },
+      "waveM": 0.9,
+      "periodS": null,
+      "windKph": 14,
+      "windDirection": null,
+      "windState": null,
+      "windStateLabel": "not captured",
+      "windFit": "direction not parsed 14 km/h · wind state unknown · good wind fit",
+      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Almagreira/forecasts/latest",
+        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
+        "credit": "Photo: Tiago Lima, CC BY 2.0, via Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
+      },
+      "temperature": {
+        "waterTempC": 17,
+        "airTempC": 22,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Almagreira looks like a clean fun-sized north coast window for rare opportunity, medium confidence: 0.6-0.9 m, 66 kJ, 8 s period, lully 22/100, and good wind at 14 km/h.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully.",
+      "shortExplanation": "Almagreira is an exposed north-coast beach break with more raw swell than Baleal · label rare opportunity, medium confidence · 0.6-0.9 m · 66 kJ · 8 s period · good wind at 14 km/h · Watch: Surfline consistency is lully.",
+      "warnings": [
+        "Surfline consistency is lully"
+      ]
+    },
+    {
       "spot": "Cerro",
       "window": "Lunch",
-      "score": 29,
+      "score": 32,
+      "sessionLabel": "check first",
+      "confidenceLabel": "medium",
       "surfline": "FAIR",
       "sourceVerdicts": {
         "surfline": "FAIR",
-        "surfForecast": 1,
+        "surfForecast": null,
         "swellmap": null
       },
       "surflineDetails": {
@@ -102,23 +236,23 @@
         "consistencyScore": 76,
         "windKph": 16,
         "gustKph": 22,
-        "waterTempC": 16,
+        "waterTempC": 17,
         "airTempC": 19
       },
-      "surfForecast": 1,
+      "surfForecast": null,
       "swellmap": null,
       "tide": {
-        "label": "HIGH RISING",
-        "direction": "rising",
-        "summary": "HIGH RISING"
+        "label": "UNKNOWN",
+        "direction": null,
+        "summary": "not captured"
       },
       "waveM": 1.1,
-      "periodS": 8,
-      "windKph": 15,
-      "windDirection": "SW",
-      "windState": "off",
-      "windStateLabel": "off-shore",
-      "windFit": "SW 15 km/h · offshore · usable wind",
+      "periodS": null,
+      "windKph": 16,
+      "windDirection": null,
+      "windState": null,
+      "windStateLabel": "not captured",
+      "windFit": "direction not parsed 16 km/h · wind state unknown · good wind fit",
       "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
@@ -131,7 +265,7 @@
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
       },
       "temperature": {
-        "waterTempC": 16,
+        "waterTempC": 17,
         "airTempC": 19,
         "source": "Surfline"
       },
@@ -139,132 +273,10 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cerro looks like a fun-sized window: 0.6-1.1 m, 84 kJ, 8 s period, consistent 76/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
-      "shortExplanation": "Cerro is a sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent · 0.6-1.1 m · 84 kJ · 8 s period · wind is not fully clear.",
-      "warnings": []
-    },
-    {
-      "spot": "Meio da Baia",
-      "window": "Lunch",
-      "score": 26,
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.6,
-        "waveMaxM": 1.1,
-        "swellM": 1.4,
-        "periodS": 8,
-        "energyKj": 111,
-        "consistencyScore": 79,
-        "windKph": 16,
-        "gustKph": 22,
-        "waterTempC": 16,
-        "airTempC": 19
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "HIGH RISING",
-        "direction": "rising",
-        "summary": "HIGH RISING"
-      },
-      "waveM": 1.1,
-      "periodS": 8,
-      "windKph": 15,
-      "windDirection": "SW",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "SW 15 km/h · cross-off · good wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
-        "credit": "Photo: Tiago Lima, CC BY 2.0, via Wikimedia Commons",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
-      },
-      "temperature": {
-        "waterTempC": 16,
-        "airTempC": 19,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a clean fun-sized window: 0.6-1.1 m, 111 kJ, 8 s period, consistent 79/100, and good wind at 15 km/h.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave.  Expect: it is less reliable than the main bay spots, so weak swell or short period can make it feel soft.",
-      "shortExplanation": "Meio da Baia is an inconsistent Baía spot that can work well when north-northwest swell reaches the bay · 0.6-1.1 m · 111 kJ · 8 s period · good wind at 15 km/h.",
-      "warnings": []
-    },
-    {
-      "spot": "Baleal",
-      "window": "Lunch",
-      "score": 14,
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 1.4,
-        "periodS": 8,
-        "energyKj": 61,
-        "consistencyScore": 66,
-        "windKph": 10,
-        "gustKph": 15,
-        "waterTempC": 16,
-        "airTempC": 30
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "HIGH RISING",
-        "direction": "rising",
-        "summary": "HIGH RISING"
-      },
-      "waveM": 0.6,
-      "periodS": 8,
-      "windKph": 15,
-      "windDirection": "SW",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "SW 15 km/h · cross-off · usable wind",
-      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
-        "credit": "Photo: Tiago Lima, CC BY 2.0, via Wikimedia Commons",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
-      },
-      "temperature": {
-        "waterTempC": 16,
-        "airTempC": 30,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Baleal looks like a small window: 0.3-0.6 m, 61 kJ, 8 s period, consistent 66/100, and wind is not fully clear.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: spot surf looks too small.",
-      "shortExplanation": "Baleal is a broad, forgiving beach setup with several peaks · 0.3-0.6 m · 61 kJ · 8 s period · wind is not fully clear · Watch: spot surf looks too small.",
+      "explanation": "Cerro looks like a clean fun-sized window for check first, medium confidence: 0.6-1.1 m, 84 kJ, 8 s period, consistent 76/100, and good wind at 16 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind.  Watch: Cerro may feel too soft without more push.",
+      "shortExplanation": "Cerro is a sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent · label check first, medium confidence · 0.6-1.1 m · 84 kJ · 8 s period · good wind at 16 km/h · Watch: Cerro may feel too soft without more push.",
       "warnings": [
-        "spot surf looks too small"
+        "Cerro may feel too soft without more push"
       ]
     }
   ]
