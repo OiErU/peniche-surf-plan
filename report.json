@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-06-13",
-  "generatedAt": "2026-06-13 14:00 Portugal time",
+  "generatedAt": "2026-06-13 15:00 Portugal time",
   "verdict": {
     "state": "marginal",
     "label": "Marginal",
@@ -35,22 +35,22 @@
       "windKph": 5,
       "gustKph": 7,
       "waterTempC": 17,
-      "airTempC": 20
+      "airTempC": 19
     },
     "surfForecast": 1,
     "swellmap": null,
     "tide": {
-      "label": "UNKNOWN",
-      "direction": null,
-      "summary": "not captured"
+      "label": "MID FALLING",
+      "direction": "falling",
+      "summary": "MID FALLING"
     },
     "waveM": 1.1,
     "periodS": 12,
     "windKph": 15,
-    "windDirection": "WNW",
-    "windState": null,
-    "windStateLabel": "not captured",
-    "windFit": "WNW 15 km/h · wind state unknown · poor wind fit",
+    "windDirection": "NW",
+    "windState": "on",
+    "windStateLabel": "on-shore",
+    "windFit": "NW 15 km/h · onshore · poor wind fit",
     "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
@@ -64,7 +64,7 @@
     },
     "temperature": {
       "waterTempC": 17,
-      "airTempC": 20,
+      "airTempC": 19,
       "source": "Surfline"
     },
     "wetsuit": {
@@ -78,6 +78,73 @@
     ]
   },
   "ranked": [
+    {
+      "spot": "Almagreira",
+      "window": "Afternoon — 15:00",
+      "windowRaw": "Early afternoon",
+      "windowTime": "15:00",
+      "score": 61,
+      "sessionLabel": "Rare window",
+      "sessionLabelRaw": "rare opportunity",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.6,
+        "waveMaxM": 0.9,
+        "swellM": 0.9,
+        "periodS": 12,
+        "energyKj": 94,
+        "consistencyScore": 52,
+        "windKph": 5,
+        "gustKph": 7,
+        "waterTempC": 18,
+        "airTempC": 19
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "UNKNOWN",
+        "direction": null,
+        "summary": "not captured"
+      },
+      "waveM": 0.9,
+      "periodS": 13,
+      "windKph": 5,
+      "windDirection": null,
+      "windState": null,
+      "windStateLabel": "not captured",
+      "windFit": "direction not parsed 5 km/h · wind state unknown · good wind fit",
+      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Almagreira/forecasts/latest",
+        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
+        "credit": "Photo: Tiago Lima, CC BY 2.0, via Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Surfing_in_Baleal_(4470860867).jpg"
+      },
+      "temperature": {
+        "waterTempC": 18,
+        "airTempC": 19,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Almagreira looks like a clean fun-sized north coast window for Rare window, Medium confidence: 0.6-0.9 m, 94 kJ, 13 s period, workable consistency 52/100, and good wind at 5 km/h.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered, so checking exposed beaches makes sense.  Expect: banks, rips and wind exposure decide whether it is magic or messy.",
+      "shortExplanation": "Almagreira is an exposed north-coast beach break with more raw swell than Baleal · label Rare window, Medium confidence · 0.6-0.9 m · 94 kJ · 13 s period · good wind at 5 km/h.",
+      "warnings": []
+    },
     {
       "spot": "Lagide",
       "window": "Afternoon — 15:00",
@@ -158,13 +225,13 @@
       "warnings": []
     },
     {
-      "spot": "Almagreira",
+      "spot": "Meio da Baia",
       "window": "Afternoon — 15:00",
       "windowRaw": "Early afternoon",
       "windowTime": "15:00",
-      "score": 45,
-      "sessionLabel": "Rare window",
-      "sessionLabelRaw": "rare opportunity",
+      "score": 38,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
       "surfline": "POOR TO FAIR",
@@ -177,12 +244,12 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0.6,
         "waveMaxM": 0.9,
-        "swellM": 0.9,
-        "periodS": 12,
-        "energyKj": 94,
-        "consistencyScore": 52,
+        "swellM": 1.4,
+        "periodS": 11,
+        "energyKj": 130,
+        "consistencyScore": 54,
         "windKph": 5,
-        "gustKph": 7,
+        "gustKph": 6,
         "waterTempC": 18,
         "airTempC": 20
       },
@@ -194,17 +261,17 @@
         "summary": "not captured"
       },
       "waveM": 0.9,
-      "periodS": 13,
-      "windKph": 15,
-      "windDirection": "WNW",
+      "periodS": 12,
+      "windKph": 5,
+      "windDirection": null,
       "windState": null,
       "windStateLabel": "not captured",
-      "windFit": "WNW 15 km/h · wind state unknown · poor wind fit",
-      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+      "windFit": "direction not parsed 5 km/h · wind state unknown · good wind fit",
+      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Almagreira/forecasts/latest",
-        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
       },
       "photo": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Surfing_in_Baleal_%284470860867%29.jpg",
@@ -220,92 +287,9 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Almagreira looks like a fun-sized north coast window for Rare window, Medium confidence: 0.6-0.9 m, 94 kJ, 13 s period, workable consistency 52/100, and wind is the main risk.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered, so checking exposed beaches makes sense.  Watch: wind angle is poor for this spot.",
-      "shortExplanation": "Almagreira is an exposed north-coast beach break with more raw swell than Baleal · label Rare window, Medium confidence · 0.6-0.9 m · 94 kJ · 13 s period · wind is the main risk · Watch: wind angle is poor for this spot.",
-      "warnings": [
-        "wind angle is poor for this spot"
-      ]
-    },
-    {
-      "spot": "Supertubos",
-      "window": "Afternoon — 15:00",
-      "windowRaw": "Early afternoon",
-      "windowTime": "15:00",
-      "score": 38.5,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR",
-      "sourceVerdicts": {
-        "surfline": "POOR",
-        "surfForecast": 1,
-        "swellmap": "7/10 Good"
-      },
-      "surflineDetails": {
-        "rating": "POOR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 0.9,
-        "periodS": 12,
-        "energyKj": 63,
-        "consistencyScore": 39,
-        "windKph": 13,
-        "gustKph": 16,
-        "waterTempC": 18,
-        "airTempC": 32
-      },
-      "surfForecast": 1,
-      "swellmap": {
-        "time": "15:00",
-        "rating": 7,
-        "label": "Good",
-        "faceM": 1,
-        "waveM": 1,
-        "swellDir": "WNW",
-        "swellM": 0.93,
-        "periodS": 11.6,
-        "windDir": "WNW",
-        "windKts": 6.5,
-        "gustKts": 7.8
-      },
-      "tide": {
-        "label": "UNKNOWN",
-        "direction": null,
-        "summary": "not captured"
-      },
-      "waveM": 0.6,
-      "periodS": 12,
-      "windKph": 15,
-      "windDirection": "WNW",
-      "windState": null,
-      "windStateLabel": "not captured",
-      "windFit": "WNW 15 km/h · wind state unknown · good wind fit",
-      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-      },
-      "photo": {
-        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-        "credit": "Surfer Galaxy",
-        "creditUrl": "https://surfergalaxy.com/"
-      },
-      "temperature": {
-        "waterTempC": 18,
-        "airTempC": 32,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Supertubos looks like a clean small window for Worth checking, Low confidence: 0.3-0.6 m, 63 kJ, 12 s period, lully 39/100, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: spot surf looks too small.",
-      "shortExplanation": "Supertubos is a fast, hollow sand-bottom wave that gets serious quickly · label Worth checking, Low confidence · 0.3-0.6 m · 63 kJ · 12 s period · good wind at 15 km/h · Watch: spot surf looks too small.",
-      "warnings": [
-        "spot surf looks too small"
-      ]
+      "explanation": "Meio da Baia looks like a clean fun-sized window for Worth checking, Medium confidence: 0.6-0.9 m, 130 kJ, 12 s period, workable consistency 54/100, and good wind at 5 km/h.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave.  Expect: it is less reliable than the main bay spots, so weak swell or short period can make it feel soft.",
+      "shortExplanation": "Meio da Baia is an inconsistent Baía spot that can work well when north-northwest swell reaches the bay · label Worth checking, Medium confidence · 0.6-0.9 m · 130 kJ · 12 s period · good wind at 5 km/h.",
+      "warnings": []
     }
   ]
 }
