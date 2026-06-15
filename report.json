@@ -1,12 +1,12 @@
 {
   "targetDate": "2026-06-15",
-  "generatedAt": "2026-06-15 10:00 Portugal time",
+  "generatedAt": "2026-06-15 11:00 Portugal time",
   "verdict": {
-    "state": "no-surf",
-    "label": "No surf today",
-    "headline": "Skip it",
-    "reason": "Surfline and Surf-Forecast agree that the useful windows are poor.",
-    "quote": "Not worth the drive today."
+    "state": "marginal",
+    "label": "Marginal",
+    "headline": "Belgas Lunch",
+    "reason": "There is a possible lunch at Belgas, but the sources are not strong enough for a confident call.",
+    "quote": "If in doubt, paddle out."
   },
   "best": {
     "spot": "Belgas",
@@ -152,6 +152,90 @@
       ]
     },
     {
+      "spot": "Supertubos",
+      "window": "Lunch",
+      "windowRaw": "Lunch",
+      "windowTime": "12:00",
+      "score": 5.5,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": "5/10 Reasonable"
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0,
+        "waveMaxM": 0.3,
+        "swellM": 0.4,
+        "periodS": 9,
+        "energyKj": 15,
+        "consistencyScore": 0,
+        "windKph": 19,
+        "gustKph": 21,
+        "waterTempC": 18,
+        "airTempC": 20
+      },
+      "surfForecast": 0,
+      "swellmap": {
+        "time": "12:00",
+        "rating": 5,
+        "label": "Reasonable",
+        "faceM": 0.75,
+        "waveM": 0.75,
+        "swellDir": "WNW",
+        "swellM": 0.52,
+        "periodS": 9.1,
+        "windDir": "N",
+        "windKts": 10.1,
+        "gustKts": 12.3
+      },
+      "tide": {
+        "label": "MID RISING",
+        "direction": "rising",
+        "summary": "MID RISING",
+        "captured": true
+      },
+      "waveM": 0.3,
+      "periodS": 10,
+      "windKph": 20,
+      "windDirection": "NNW",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "NNW 20 km/h · cross-off · usable wind",
+      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
+        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
+      },
+      "photo": {
+        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
+        "credit": "Surfer Galaxy",
+        "creditUrl": "https://surfergalaxy.com/"
+      },
+      "temperature": {
+        "waterTempC": 18,
+        "airTempC": 20,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Supertubos looks like a small window for Too soft, Medium confidence: 0-0.3 m, 15 kJ, 10 s period, lully 0/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; Supertubos looks below your bodyboard fun size.",
+      "shortExplanation": "Supertubos is a fast, hollow sand-bottom wave that gets serious quickly · label Too soft, Medium confidence · 0-0.3 m · 15 kJ · 10 s period · 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste · wind is not fully clear · Watch: Surfline consistency is lully; spot surf looks too small; Supertubos looks below your bodyboard fun size.",
+      "warnings": [
+        "Surfline consistency is lully",
+        "spot surf looks too small",
+        "Supertubos looks below your bodyboard fun size"
+      ]
+    },
+    {
       "spot": "Lagide",
       "window": "Lunch",
       "windowRaw": "Lunch",
@@ -233,90 +317,6 @@
         "Surfline consistency is lully",
         "spot surf looks too small",
         "wind angle is poor for this spot"
-      ]
-    },
-    {
-      "spot": "Supertubos",
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": -2,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR",
-      "sourceVerdicts": {
-        "surfline": "POOR",
-        "surfForecast": 0,
-        "swellmap": "5/10 Reasonable"
-      },
-      "surflineDetails": {
-        "rating": "POOR",
-        "waveMinM": 0,
-        "waveMaxM": 0.3,
-        "swellM": 0.4,
-        "periodS": 9,
-        "energyKj": 15,
-        "consistencyScore": 0,
-        "windKph": 19,
-        "gustKph": 21,
-        "waterTempC": 18,
-        "airTempC": 19
-      },
-      "surfForecast": 0,
-      "swellmap": {
-        "time": "12:00",
-        "rating": 5,
-        "label": "Reasonable",
-        "faceM": 0.75,
-        "waveM": 0.75,
-        "swellDir": "WNW",
-        "swellM": 0.52,
-        "periodS": 9.1,
-        "windDir": "N",
-        "windKts": 10.1,
-        "gustKts": 12.3
-      },
-      "tide": {
-        "label": "MID RISING",
-        "direction": "rising",
-        "summary": "MID RISING",
-        "captured": true
-      },
-      "waveM": 0.3,
-      "periodS": 10,
-      "windKph": 20,
-      "windDirection": "NNW",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "NNW 20 km/h · cross-off · usable wind",
-      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-      },
-      "photo": {
-        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-        "credit": "Surfer Galaxy",
-        "creditUrl": "https://surfergalaxy.com/"
-      },
-      "temperature": {
-        "waterTempC": 18,
-        "airTempC": 19,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Supertubos looks like a small window for Too soft, Low confidence: 0-0.3 m, 15 kJ, 10 s period, lully 0/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; Supertubos looks below your bodyboard fun size.",
-      "shortExplanation": "Supertubos is a fast, hollow sand-bottom wave that gets serious quickly · label Too soft, Low confidence · 0-0.3 m · 15 kJ · 10 s period · 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste · wind is not fully clear · Watch: Surfline consistency is lully; spot surf looks too small; Supertubos looks below your bodyboard fun size.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "spot surf looks too small",
-        "Supertubos looks below your bodyboard fun size"
       ]
     }
   ]
