@@ -90,9 +90,38 @@ summary:focus-visible {
 .masthead {
   grid-column: 2;
   align-self: start;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: start;
   color: var(--paper-quiet);
   max-width: 920px;
   text-shadow: 0 2px 24px rgba(0,0,0,.42);
+}
+.masthead-copy {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+.report-run-badge {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: end;
+  margin: 0;
+  padding: 9px 12px;
+  max-width: 158px;
+  background: rgba(18,16,11,.88);
+  color: var(--paper-quiet);
+  border: 2px solid rgba(239,230,201,.86);
+  border-radius: 999px;
+  box-shadow: 6px 7px 0 rgba(18,16,11,.24);
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.05;
+  text-shadow: none;
 }
 .kicker {
   margin: 0 0 10px;
@@ -735,6 +764,15 @@ h1 {
     grid-template-columns: 16px minmax(0, 1fr) 16px;
     padding: 24px 0 30px;
   }
+  .masthead {
+    gap: 10px;
+    max-width: none;
+  }
+  .report-run-badge {
+    max-width: 118px;
+    padding: 8px 9px;
+    font-size: 11px;
+  }
   h1 { font-size: 48px; }
   .relative-date {
     font-size: 22px;
@@ -805,9 +843,12 @@ h1 {
       <div class="hero-photo" role="img" aria-label="Surfing in Baleal, Peniche" style="background-image: url('images/spots/belgas.jpg')"></div>
       <div class="wash"></div>
       <header class="masthead">
-        <p class="kicker">Pedro's bodyboarding dispatch</p>
-        <h1 id="page-title">Bodyboard</h1>
-        <p class="relative-date" data-target-date="2026-06-22">Monday, 22 June 2026</p>
+        <p class="report-run-badge" aria-label="Report run time">5pm Report</p>
+        <div class="masthead-copy">
+          <p class="kicker">Pedro's bodyboarding dispatch</p>
+          <h1 id="page-title">Bodyboard</h1>
+          <p class="relative-date" data-target-date="2026-06-22">Monday, 22 June 2026</p>
+        </div>
       </header>
       
       <article class="poster-card verdict-card no-surf" aria-label="Probably skip surf decision">
