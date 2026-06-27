@@ -1,10 +1,12 @@
 {
   "targetDate": "2026-06-27",
-  "generatedAt": "2026-06-27 08:00 Portugal time",
-  "status": "ok",
+  "generatedAt": "2026-06-27 09:00 Portugal time",
+  "status": "degraded",
   "dataQuality": {
-    "degraded": false,
-    "warnings": [],
+    "degraded": true,
+    "warnings": [
+      "Almagreira | Surfline | all eligible windows | source missing | url=https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f?view=table"
+    ],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -13,8 +15,12 @@
   "collection": {
     "completed": true,
     "retryCount": 0,
-    "failedSources": [],
-    "failedSpots": [],
+    "failedSources": [
+      "Surfline"
+    ],
+    "failedSpots": [
+      "almagreira"
+    ],
     "generatedFromFallback": false
   },
   "verdict": {
@@ -122,7 +128,7 @@
         "windKph": 0,
         "gustKph": 1,
         "waterTempC": 19,
-        "airTempC": 17
+        "airTempC": 19
       },
       "surfForecast": 2,
       "swellmap": {
@@ -166,7 +172,7 @@
       },
       "temperature": {
         "waterTempC": 19,
-        "airTempC": 17,
+        "airTempC": 19,
         "source": "Surfline"
       },
       "wetsuit": {
@@ -178,79 +184,6 @@
       "warnings": [
         "6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste",
         "Supertubos is a check-first bodyboard size"
-      ]
-    },
-    {
-      "spot": "Almagreira",
-      "window": "Mid-morning — 11:00",
-      "windowRaw": "Mid-morning",
-      "windowTime": "11:00",
-      "score": 31,
-      "sessionLabel": "Rare window",
-      "sessionLabelRaw": "rare opportunity",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 0.9,
-        "periodS": 8,
-        "energyKj": 48,
-        "consistencyScore": 19,
-        "windKph": 4,
-        "gustKph": 4,
-        "waterTempC": 19,
-        "airTempC": 19
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid rising",
-        "direction": "rising",
-        "summary": "Mid rising",
-        "captured": true
-      },
-      "waveM": 0.6,
-      "periodS": 14,
-      "windKph": 0,
-      "windDirection": "WSW",
-      "windState": "glassy",
-      "windStateLabel": "glassy",
-      "windFit": "WSW 0 km/h · glassy · good wind fit",
-      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Almagreira/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
-      },
-      "photo": {
-        "url": "images/spots/almagreira.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/almagreira.jpg",
-        "alt": "Photo of Almagreira surf spot"
-      },
-      "temperature": {
-        "waterTempC": 19,
-        "airTempC": 19,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Almagreira looks like a clean small north coast window for Rare window, Low confidence: 0.3-0.6 m, 48 kJ, 14 s period, lully 19/100, and glassy conditions.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 14s+ at mid tide still tends to close out on exposed beaches, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; 14s+ at mid tide still tends to close out on exposed beaches.",
-      "shortExplanation": "Almagreira is worth a quick check for mid-morning — 11:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide makes this one less convincing.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "14s+ at mid tide still tends to close out on exposed beaches"
       ]
     },
     {
@@ -323,6 +256,92 @@
       "shortExplanation": "Cerro is worth a quick check for afternoon — 16:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "Cerro may feel too soft without more push"
+      ]
+    },
+    {
+      "spot": "Cantinho da Baia",
+      "window": "Mid-morning — 11:00",
+      "windowRaw": "Mid-morning",
+      "windowTime": "11:00",
+      "score": 16,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "FAIR",
+      "sourceVerdicts": {
+        "surfline": "FAIR",
+        "surfForecast": 2,
+        "swellmap": "6/10 Reasonable"
+      },
+      "surflineDetails": {
+        "rating": "FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 1.4,
+        "periodS": 9,
+        "energyKj": 152,
+        "consistencyScore": 73,
+        "windKph": 7,
+        "gustKph": 8,
+        "waterTempC": 19,
+        "airTempC": 19
+      },
+      "surfForecast": 2,
+      "swellmap": {
+        "time": "12:00",
+        "rating": 6,
+        "label": "Reasonable",
+        "faceM": 0.84,
+        "waveM": 0.84,
+        "swellDir": "WNW",
+        "swellM": 0.59,
+        "periodS": 9.1,
+        "windDir": "W",
+        "windKts": 4.3,
+        "gustKts": 7.9
+      },
+      "tide": {
+        "label": "Mid rising",
+        "direction": "rising",
+        "summary": "Mid rising",
+        "captured": true
+      },
+      "waveM": 0.6,
+      "periodS": 9,
+      "windKph": 0,
+      "windDirection": "WSW",
+      "windState": "glassy",
+      "windStateLabel": "glassy",
+      "windFit": "WSW 0 km/h · glassy · good wind fit",
+      "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest",
+        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF",
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-cantinho-da-baia-estatica/"
+      },
+      "photo": {
+        "url": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
+        "credit": "Cantinho da Baia photo",
+        "creditUrl": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
+        "alt": "Photo of Cantinho da Baia surf spot"
+      },
+      "temperature": {
+        "waterTempC": 19,
+        "airTempC": 19,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Cantinho da Baia looks like a clean small window for Too soft, Medium confidence: 0.3-0.6 m, 152 kJ, 9 s period, consistent 73/100, and glassy conditions.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at mid tide is still too weak in the sheltered bay.  Watch: spot surf looks too small; 6-9s at mid tide is still too weak in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for mid-morning — 11:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should help keep it tidy.  The tide is a bit awkward for the bay, so stay cautious.",
+      "warnings": [
+        "spot surf looks too small",
+        "6-9s at mid tide is still too weak in the sheltered bay",
+        "Cantinho da Baia looks below your bodyboard fun size"
       ]
     }
   ]
