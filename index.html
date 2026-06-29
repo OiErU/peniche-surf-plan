@@ -389,12 +389,25 @@ h1 {
 }
 .why-pick span {
   display: block;
+  min-height: 82px;
+  padding: 12px;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: rgba(239,230,201,.72);
+}
+.why-pick small {
+  display: block;
   margin-bottom: 5px;
   font-family: Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 900;
   color: var(--muted);
+}
+.why-pick strong {
+  display: block;
+  font-size: 16px;
+  line-height: 1.18;
 }
 .mini-metrics {
   display: grid;
@@ -423,13 +436,13 @@ h1 {
   line-height: 1.2;
   overflow-wrap: anywhere;
 }
-.call-explainer,
+.conversational-summary,
 .card-explainer {
   border-left: 8px solid var(--teal);
   background: rgba(239,230,201,.8);
   color: var(--ink);
 }
-.call-explainer {
+.conversational-summary {
   margin: 0;
   padding: 14px 16px;
   font-size: 24px;
@@ -787,7 +800,7 @@ h1 {
   .poster-content { padding: 22px 18px 20px; }
   .poster-card h2 { font-size: 48px; }
   .window { font-size: 23px; }
-  .call-explainer {
+  .conversational-summary {
     font-size: 19px;
     line-height: 1.18;
   }
@@ -857,7 +870,7 @@ h1 {
       <p class="stamp" data-base-label="Probably skip" data-target-date="2026-06-30">PROBABLY SKIP</p>
       <h2>No reliable window</h2>
       <p class="window">Best of a bad day: Baleal - Lunch</p>
-      <p class="call-explainer">Baleal does not look like the one to chase.  This should feel like a fun progression session rather than a heavy one.  Wind is the main thing to watch.  The tide should help the reef hold shape.</p>
+      <p class="conversational-summary">Tomorrow is probably one to skip. Baleal at Lunch looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy, so I&#39;d only consider it if the cam looks much better than expected.</p>
       <div class="special-highlights" aria-label="Special condition highlights">
     <strong>High consistency 72/100</strong>
   </div>
@@ -869,7 +882,9 @@ h1 {
   </div>
       <section class="why-pick" aria-label="Why this pick">
     <h3>Why this pick</h3>
-    <p>Baleal gets the nod because it has the clearest balance for this window.  Wind is the weak point, so this is more of a check-first call.  The tide and period give it a better chance of holding shape.  Check the cam first because the wind could make it frustrating.</p>
+    <div>
+      <span><small>Wind</small><strong>N 30 km/h · cross-onshore · too windy, strong</strong></span><span><small>Session</small><strong>Safe fun</strong></span><span><small>Tide / period</small><strong>10-13s at mid tide suits the Baleal sandbanks and gives workable peaks</strong></span><span><small>Watch</small><strong>wind is over 30 km/h</strong></span>
+    </div>
   </section>
       <details class="conditions-details">
     <summary>Conditions evidence</summary>
