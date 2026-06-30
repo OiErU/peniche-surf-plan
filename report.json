@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-06-30",
-  "generatedAt": "2026-06-29 21:00 Portugal time",
+  "generatedAt": "2026-06-30 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -21,11 +21,11 @@
     "state": "no-surf",
     "label": "Probably skip",
     "headline": "No reliable window",
-    "reason": "Surfline and Surf-Forecast are poor/zero, and wind is above your normal limit.",
+    "reason": "Main blocker: wind is over 30 km/h.",
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TOMORROW at Baleal, it’s probably not worth chasing—there’s no reliable window and the wind is the main problem (cross-on and strong), so even lunch probably won’t feel right. With low confidence on the conditions, I’d treat it as a skip unless you get a pleasant surprise on arrival. If you do go, just keep your plan flexible and be ready to leave quickly if it’s still too windy.",
+    "text": "TODAY it’s probably not worth chasing, even though Baleal at lunch is the best available option on paper. The main problem is the wind: it’s too strong and cross-onshore, so the session quality is likely to be messy. Unless you go and it somehow feels calmer on arrival, I’d skip and save your energy for a better window.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
     "cacheHit": false
@@ -35,27 +35,27 @@
     "window": "Lunch",
     "windowRaw": "Lunch",
     "windowTime": "12:00",
-    "score": -20,
+    "score": -1,
     "sessionLabel": "Safe fun",
     "sessionLabelRaw": "safe fun",
-    "confidenceLabel": "Low confidence",
-    "confidenceLabelRaw": "low",
-    "surfline": "POOR",
+    "confidenceLabel": "Medium confidence",
+    "confidenceLabelRaw": "medium",
+    "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
-      "surfline": "POOR",
+      "surfline": "POOR TO FAIR",
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": "POOR",
+      "rating": "POOR TO FAIR",
       "waveMinM": 0.9,
       "waveMaxM": 1.2,
-      "swellM": 2.1,
-      "periodS": 8,
-      "energyKj": 289,
-      "consistencyScore": 72,
+      "swellM": 2.6,
+      "periodS": 10,
+      "energyKj": 258,
+      "consistencyScore": 68,
       "windKph": 24,
-      "gustKph": 33,
+      "gustKph": 31,
       "waterTempC": 20,
       "airTempC": 18
     },
@@ -96,7 +96,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Baleal looks like a fun-sized window for Safe fun, Low confidence: 0.9-1.2 m, 289 kJ, 10 s period, consistent 72/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks.  Watch: wind is over 30 km/h; wind fit is poor or too strong.",
+    "explanation": "Baleal looks like a fun-sized window for Safe fun, Medium confidence: 0.9-1.2 m, 258 kJ, 10 s period, consistent 68/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind is over 30 km/h; wind fit is poor or too strong.",
     "shortExplanation": "Baleal is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
     "warnings": [
       "wind is over 30 km/h",
