@@ -1,11 +1,13 @@
 {
-  "targetDate": "2026-06-30",
-  "generatedAt": "2026-06-30 17:00 Portugal time",
-  "status": "ok",
+  "targetDate": "2026-07-01",
+  "generatedAt": "2026-06-30 19:00 Portugal time",
+  "status": "manual_check",
   "dataQuality": {
-    "degraded": false,
+    "degraded": true,
     "warnings": [],
-    "errors": [],
+    "errors": [
+      "Tide data for target date 2026-07-01 is missing or incomplete in the cache. Run `npm run tides:fetch` to update it."
+    ],
     "excludedSpots": [],
     "excludedWindows": [],
     "fallbackSourcesUsed": []
@@ -18,91 +20,13 @@
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "no-surf",
-    "label": "Probably skip",
-    "headline": "No reliable window",
-    "reason": "Surfline and Surf-Forecast are poor/zero, and wind is above your normal limit.",
-    "quote": "Not worth the drive today."
+    "state": "no-data",
+    "label": "No reliable window",
+    "headline": "Check source login",
+    "reason": "No usable Surfline or Surf-Forecast data was collected.",
+    "quote": null
   },
-  "conversationalSummary": {
-    "text": "Tomorrow is probably one to skip. Cerro at After work (17:30 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
-    "provider": "fallback",
-    "model": null,
-    "cacheHit": false
-  },
-  "best": {
-    "spot": "Cerro",
-    "window": "After work (17:30 start)",
-    "windowRaw": "After work",
-    "windowTime": "17:30",
-    "score": -33,
-    "sessionLabel": "Worth checking",
-    "sessionLabelRaw": "check first",
-    "confidenceLabel": "Low confidence",
-    "confidenceLabelRaw": "low",
-    "surfline": "POOR",
-    "sourceVerdicts": {
-      "surfline": "POOR",
-      "surfForecast": 0,
-      "swellmap": null
-    },
-    "surflineDetails": {
-      "rating": "POOR",
-      "waveMinM": 1.2,
-      "waveMaxM": 1.5,
-      "swellM": 2,
-      "periodS": 9,
-      "energyKj": 272,
-      "consistencyScore": 74,
-      "windKph": 36,
-      "gustKph": 54,
-      "waterTempC": 19,
-      "airTempC": 19
-    },
-    "surfForecast": 0,
-    "swellmap": null,
-    "tide": {
-      "label": "Mid dropping",
-      "direction": "falling",
-      "summary": "Mid dropping",
-      "captured": true
-    },
-    "waveM": 1.5,
-    "periodS": 10,
-    "windKph": 30,
-    "windDirection": "N",
-    "windState": "cross-on",
-    "windStateLabel": "cross-onshore",
-    "windFit": "N 30 km/h · cross-onshore · too windy, strong",
-    "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
-    "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
-      "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-    },
-    "photo": {
-      "url": "images/spots/cerro.jpg",
-      "credit": "Local file",
-      "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-      "alt": "Photo of Cerro surf spot"
-    },
-    "temperature": {
-      "waterTempC": 19,
-      "airTempC": 19,
-      "source": "Surfline"
-    },
-    "wetsuit": {
-      "suit": "4/3",
-      "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-    },
-    "explanation": "Cerro looks like a solid window for Worth checking, Low confidence: 1.2-1.5 m, 272 kJ, 10 s period, consistent 74/100, and wind is the main risk.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Watch: wind is over 30 km/h; wind fit is poor or too strong; gusts over 45 km/h add chop risk.",
-    "shortExplanation": "Cerro is worth a quick check for after work (17:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-    "warnings": [
-      "wind is over 30 km/h",
-      "wind fit is poor or too strong",
-      "gusts over 45 km/h add chop risk"
-    ]
-  },
+  "conversationalSummary": null,
+  "best": null,
   "ranked": []
 }
