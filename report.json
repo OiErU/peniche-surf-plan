@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-06-30",
-  "generatedAt": "2026-06-30 09:00 Portugal time",
+  "generatedAt": "2026-06-30 10:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,10 +25,10 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY there’s no really reliable window, and with the wind looking too strong for comfort at Baleal it’s probably not worth chasing. Surfline is only poor to fair, so even though lunch could line up with a bit of push for the sandbanks, the wind is the main thing that’s likely to spoil it. I’d check Surfline and MEO Beachcam first before you make any plans—unless the cams look way cleaner than expected, I’d save the drive.",
+    "text": "TODAY is probably one to skip—there’s no reliable window, mainly because the wind looks too strong and cross-onshore. Surfline and MEO Beachcam aren’t painting a great picture, so I wouldn’t bother chasing waves at Baleal, even with lunch as the least-bad option. I’ll check the cams before leaving, and unless they surprise us with much cleaner conditions, I’m saving the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Baleal",
@@ -52,12 +52,12 @@
       "waveMaxM": 1.2,
       "swellM": 2.6,
       "periodS": 10,
-      "energyKj": 258,
+      "energyKj": 266,
       "consistencyScore": 68,
-      "windKph": 24,
-      "gustKph": 31,
+      "windKph": 23,
+      "gustKph": 29,
       "waterTempC": 20,
-      "airTempC": 20
+      "airTempC": 21
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -89,19 +89,107 @@
     },
     "temperature": {
       "waterTempC": 20,
-      "airTempC": 20,
+      "airTempC": 21,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Baleal looks like a fun-sized window for Safe fun, Medium confidence: 0.9-1.2 m, 258 kJ, 10 s period, consistent 68/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind is over 30 km/h; wind fit is poor or too strong.",
+    "explanation": "Baleal looks like a fun-sized window for Safe fun, Medium confidence: 0.9-1.2 m, 266 kJ, 10 s period, consistent 68/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind is over 30 km/h; wind fit is poor or too strong.",
     "shortExplanation": "Baleal is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
     "warnings": [
       "wind is over 30 km/h",
       "wind fit is poor or too strong"
     ]
   },
-  "ranked": []
+  "ranked": [
+    {
+      "spot": "Supertubos",
+      "window": "Lunch",
+      "windowRaw": "Lunch",
+      "windowTime": "12:00",
+      "score": -24,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": "4/10 Reasonable"
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 1.7,
+        "periodS": 10,
+        "energyKj": 67,
+        "consistencyScore": 27,
+        "windKph": 22,
+        "gustKph": 28,
+        "waterTempC": 19,
+        "airTempC": 21
+      },
+      "surfForecast": 0,
+      "swellmap": {
+        "time": "12:00",
+        "rating": 4,
+        "label": "Reasonable",
+        "faceM": 1.54,
+        "waveM": 1.54,
+        "swellDir": "WNW",
+        "swellM": 1.14,
+        "periodS": 10,
+        "windDir": "N",
+        "windKts": 16.4,
+        "gustKts": 20.3
+      },
+      "tide": {
+        "label": "Rising with push",
+        "direction": "rising",
+        "summary": "Rising with push",
+        "captured": true
+      },
+      "waveM": 0.6,
+      "periodS": 10,
+      "windKph": 30,
+      "windDirection": "N",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "N 30 km/h · cross-off · too windy, strong",
+      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
+        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
+        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
+      },
+      "photo": {
+        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
+        "credit": "Surfer Galaxy",
+        "creditUrl": "https://surfergalaxy.com/",
+        "alt": "Photo of Supertubos surf spot"
+      },
+      "temperature": {
+        "waterTempC": 19,
+        "airTempC": 21,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Supertubos looks like a small window for Worth checking, Medium confidence: 0.3-0.6 m, 67 kJ, 10 s period, lully 27/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: Surfline consistency is lully; spot surf looks too small; wind is over 30 km/h; wind fit is poor or too strong.",
+      "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
+      "warnings": [
+        "Surfline consistency is lully",
+        "spot surf looks too small",
+        "wind is over 30 km/h",
+        "wind fit is poor or too strong"
+      ]
+    }
+  ]
 }
