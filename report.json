@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-01",
-  "generatedAt": "2026-06-30 21:00 Portugal time",
+  "generatedAt": "2026-07-01 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -20,102 +20,260 @@
   "verdict": {
     "state": "marginal",
     "label": "Worth checking",
-    "headline": "Cantinho da Baia After work (18:00 start)",
-    "reason": "Cantinho da Baia is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the bay stay organised.",
+    "headline": "Supertubos Lunch",
+    "reason": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Cantinho da Baia at After work (18:00 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "text": "Supertubos at Lunch looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the lack of push could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
     "provider": "fallback",
     "model": null,
     "cacheHit": false
   },
   "best": {
-    "spot": "Cantinho da Baia",
-    "window": "After work (18:00 start)",
-    "windowRaw": "After work",
-    "windowTime": "18:00",
-    "score": 27,
-    "sessionLabel": "Safe fun",
-    "sessionLabelRaw": "safe fun",
-    "confidenceLabel": "Medium confidence",
-    "confidenceLabelRaw": "medium",
+    "spot": "Supertubos",
+    "window": "Lunch",
+    "windowRaw": "Lunch",
+    "windowTime": "12:00",
+    "score": 28,
+    "sessionLabel": "Worth checking",
+    "sessionLabelRaw": "check first",
+    "confidenceLabel": "High confidence",
+    "confidenceLabelRaw": "high",
     "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
       "surfline": "POOR TO FAIR",
-      "surfForecast": 0,
+      "surfForecast": 2,
       "swellmap": "4/10 Reasonable"
     },
     "surflineDetails": {
       "rating": "POOR TO FAIR",
-      "waveMinM": 0.9,
-      "waveMaxM": 1.2,
-      "swellM": 3.2,
+      "waveMinM": 0.3,
+      "waveMaxM": 0.6,
+      "swellM": 1.5,
       "periodS": 9,
-      "energyKj": 509,
-      "consistencyScore": 80,
-      "windKph": 24,
-      "gustKph": 41,
+      "energyKj": 49,
+      "consistencyScore": 7,
+      "windKph": 14,
+      "gustKph": 14,
       "waterTempC": 19,
-      "airTempC": 19
+      "airTempC": 16
     },
-    "surfForecast": 0,
+    "surfForecast": 2,
     "swellmap": {
-      "time": "18:00",
+      "time": "12:00",
       "rating": 4,
       "label": "Reasonable",
-      "faceM": 1.65,
-      "waveM": 1.65,
+      "faceM": 1.56,
+      "waveM": 1.56,
       "swellDir": "NW",
-      "swellM": 1.24,
-      "periodS": 9.3,
+      "swellM": 1.19,
+      "periodS": 9.9,
       "windDir": "N",
-      "windKts": 12.1,
-      "gustKts": 14.7
+      "windKts": 13.6,
+      "gustKts": 19.2
     },
     "tide": {
-      "label": "Mid dropping",
-      "direction": "falling",
-      "summary": "Mid dropping",
+      "label": "Rising with push",
+      "direction": "rising",
+      "summary": "Rising with push",
       "captured": true
     },
-    "waveM": 1.2,
-    "periodS": 10,
+    "waveM": 0.6,
+    "periodS": 11,
     "windKph": 20,
     "windDirection": "N",
-    "windState": "cross-on",
-    "windStateLabel": "cross-onshore",
-    "windFit": "N 20 km/h · cross-onshore · poor wind fit",
-    "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
+    "windState": "cross-off",
+    "windStateLabel": "cross-offshore",
+    "windFit": "N 20 km/h · cross-off · good wind fit",
+    "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest",
-      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF",
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-cantinho-da-baia-estatica/"
+      "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
+      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
+      "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
     },
     "photo": {
-      "url": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-      "credit": "Cantinho da Baia photo",
-      "creditUrl": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-      "alt": "Photo of Cantinho da Baia surf spot"
+      "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
+      "credit": "Surfer Galaxy",
+      "creditUrl": "https://surfergalaxy.com/",
+      "alt": "Photo of Supertubos surf spot"
     },
     "temperature": {
       "waterTempC": 19,
-      "airTempC": 19,
+      "airTempC": 16,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.9-1.2 m, 509 kJ, 10 s period, very consistent 80/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 10-13s at mid tide gives the sheltered bay workable wrap-around lines.  Watch: wind angle is poor for this spot; gusts over 35 km/h could make it messy.",
-    "shortExplanation": "Cantinho da Baia is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the bay stay organised.",
+    "explanation": "Supertubos looks like a clean small window for Worth checking, High confidence: 0.3-0.6 m, 49 kJ, 11 s period, lully 7/100, and good wind at 20 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small.",
+    "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
     "warnings": [
-      "wind angle is poor for this spot",
-      "gusts over 35 km/h could make it messy"
+      "Surfline consistency is lully",
+      "spot surf looks too small"
     ]
   },
   "ranked": [
+    {
+      "spot": "Cantinho da Baia",
+      "window": "After work (18:00 start)",
+      "windowRaw": "After work",
+      "windowTime": "18:00",
+      "score": 23,
+      "sessionLabel": "Safe fun",
+      "sessionLabelRaw": "safe fun",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": "4/10 Reasonable"
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.9,
+        "waveMaxM": 1.2,
+        "swellM": 2.8,
+        "periodS": 9,
+        "energyKj": 433,
+        "consistencyScore": 71,
+        "windKph": 25,
+        "gustKph": 45,
+        "waterTempC": 19,
+        "airTempC": 19
+      },
+      "surfForecast": 0,
+      "swellmap": {
+        "time": "18:00",
+        "rating": 4,
+        "label": "Reasonable",
+        "faceM": 1.61,
+        "waveM": 1.61,
+        "swellDir": "NW",
+        "swellM": 1.19,
+        "periodS": 9.3,
+        "windDir": "N",
+        "windKts": 12.5,
+        "gustKts": 19.6
+      },
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 1.2,
+      "periodS": 10,
+      "windKph": 25,
+      "windDirection": "N",
+      "windState": "cross-on",
+      "windStateLabel": "cross-onshore",
+      "windFit": "N 25 km/h · cross-onshore · poor wind fit",
+      "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest",
+        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF",
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-cantinho-da-baia-estatica/"
+      },
+      "photo": {
+        "url": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
+        "credit": "Cantinho da Baia photo",
+        "creditUrl": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
+        "alt": "Photo of Cantinho da Baia surf spot"
+      },
+      "temperature": {
+        "waterTempC": 19,
+        "airTempC": 19,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.9-1.2 m, 433 kJ, 10 s period, consistent 71/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 10-13s at mid tide gives the sheltered bay workable wrap-around lines.  Watch: wind angle is poor for this spot; gusts over 35 km/h could make it messy.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the bay stay organised.",
+      "warnings": [
+        "wind angle is poor for this spot",
+        "gusts over 35 km/h could make it messy"
+      ]
+    },
+    {
+      "spot": "Cerro",
+      "window": "After work (18:00 start)",
+      "windowRaw": "After work",
+      "windowTime": "18:00",
+      "score": 13,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 1.2,
+        "waveMaxM": 1.5,
+        "swellM": 1.8,
+        "periodS": 9,
+        "energyKj": 283,
+        "consistencyScore": 69,
+        "windKph": 25,
+        "gustKph": 45,
+        "waterTempC": 19,
+        "airTempC": 19
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 1.5,
+      "periodS": 10,
+      "windKph": 25,
+      "windDirection": "N",
+      "windState": "cross-on",
+      "windStateLabel": "cross-onshore",
+      "windFit": "N 25 km/h · cross-onshore · poor wind fit",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/cerro.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
+      },
+      "temperature": {
+        "waterTempC": 19,
+        "airTempC": 19,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Cerro looks like a solid window for Worth checking, Medium confidence: 1.2-1.5 m, 283 kJ, 10 s period, consistent 69/100, and wind is the main risk.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Watch: wind angle is poor for this spot; gusts over 35 km/h could make it messy.",
+      "shortExplanation": "Cerro is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "warnings": [
+        "wind angle is poor for this spot",
+        "gusts over 35 km/h could make it messy"
+      ]
+    },
     {
       "spot": "Baleal",
       "window": "After work (18:00 start)",
@@ -134,16 +292,16 @@
       },
       "surflineDetails": {
         "rating": "POOR TO FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
+        "waveMinM": 0.6,
+        "waveMaxM": 1.1,
         "swellM": 2,
         "periodS": 10,
-        "energyKj": 259,
+        "energyKj": 218,
         "consistencyScore": 68,
         "windKph": 20,
-        "gustKph": 34,
+        "gustKph": 35,
         "waterTempC": 19,
-        "airTempC": 18
+        "airTempC": 16
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -153,13 +311,13 @@
         "summary": "Mid dropping",
         "captured": true
       },
-      "waveM": 1.2,
-      "periodS": 9,
-      "windKph": 20,
+      "waveM": 1.1,
+      "periodS": 8,
+      "windKph": 25,
       "windDirection": "N",
       "windState": "on",
       "windStateLabel": "on-shore",
-      "windFit": "N 20 km/h · onshore · poor wind fit",
+      "windFit": "N 25 km/h · onshore · poor wind fit",
       "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
@@ -175,177 +333,18 @@
       },
       "temperature": {
         "waterTempC": 19,
-        "airTempC": 18,
+        "airTempC": 16,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Baleal looks like a fun-sized window for Safe fun, Low confidence: 0.9-1.2 m, 259 kJ, 9 s period, consistent 68/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks.",
+      "explanation": "Baleal looks like a fun-sized window for Safe fun, Low confidence: 0.6-1.1 m, 218 kJ, 8 s period, consistent 68/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks.",
       "shortExplanation": "Baleal is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
       "warnings": [
         "wind angle is poor for this spot",
         "6-9s at mid tide is soft and sectiony on the Baleal sandbanks"
-      ]
-    },
-    {
-      "spot": "Supertubos",
-      "window": "After work (18:00 start)",
-      "windowRaw": "After work",
-      "windowTime": "18:00",
-      "score": 9,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR",
-      "sourceVerdicts": {
-        "surfline": "POOR",
-        "surfForecast": 1,
-        "swellmap": "4/10 Reasonable"
-      },
-      "surflineDetails": {
-        "rating": "POOR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 1.6,
-        "periodS": 10,
-        "energyKj": 50,
-        "consistencyScore": 13,
-        "windKph": 20,
-        "gustKph": 34,
-        "waterTempC": 19,
-        "airTempC": 18
-      },
-      "surfForecast": 1,
-      "swellmap": {
-        "time": "18:00",
-        "rating": 4,
-        "label": "Reasonable",
-        "faceM": 1.56,
-        "waveM": 1.56,
-        "swellDir": "NW",
-        "swellM": 1.22,
-        "periodS": 9.8,
-        "windDir": "N",
-        "windKts": 12.7,
-        "gustKts": 15.5
-      },
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 0.6,
-      "periodS": 10,
-      "windKph": 20,
-      "windDirection": "N",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "N 20 km/h · cross-off · good wind fit",
-      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
-        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-      },
-      "photo": {
-        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-        "credit": "Surfer Galaxy",
-        "creditUrl": "https://surfergalaxy.com/",
-        "alt": "Photo of Supertubos surf spot"
-      },
-      "temperature": {
-        "waterTempC": 19,
-        "airTempC": 18,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Supertubos looks like a clean small window for Worth checking, Low confidence: 0.3-0.6 m, 50 kJ, 10 s period, lully 13/100, and good wind at 20 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small.",
-      "shortExplanation": "Supertubos is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "spot surf looks too small"
-      ]
-    },
-    {
-      "spot": "Meio da Baia",
-      "window": "After work (18:00 start)",
-      "windowRaw": "After work",
-      "windowTime": "18:00",
-      "score": 7,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 1.2,
-        "waveMaxM": 1.8,
-        "swellM": 2.7,
-        "periodS": 10,
-        "energyKj": 462,
-        "consistencyScore": 78,
-        "windKph": 24,
-        "gustKph": 41,
-        "waterTempC": 19,
-        "airTempC": 19
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 1.8,
-      "periodS": 10,
-      "windKph": 25,
-      "windDirection": "N",
-      "windState": "on",
-      "windStateLabel": "on-shore",
-      "windFit": "N 25 km/h · onshore · poor wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": 19,
-        "airTempC": 19,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a solid window for Worth checking, Medium confidence: 1.2-1.8 m, 462 kJ, 10 s period, consistent 78/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at mid tide works well on exposed beaches.  Watch: wind angle is poor for this spot; Meio da Baia is a check-first bodyboard size; gusts over 35 km/h could make it messy.",
-      "shortExplanation": "Meio da Baia is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-      "warnings": [
-        "wind angle is poor for this spot",
-        "Meio da Baia is a check-first bodyboard size",
-        "gusts over 35 km/h could make it messy"
       ]
     }
   ]
