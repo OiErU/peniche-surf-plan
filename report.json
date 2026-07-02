@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-02",
-  "generatedAt": "2026-07-02 13:00 Portugal time",
+  "generatedAt": "2026-07-02 14:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,9 +25,9 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY after work (around 16:30) at Cantinho da Baia is the best available call, but it’s a pretty “check-first” kind of session. The swell sounds small and the sheltered-bay setup can be wrap-starved near high tide, plus there are gusty north winds that may add chop. I’d check the Surfline cams and the MEO Beachcam before leaving—if it doesn’t look clearly better than expected, I’d skip it and come back for a cleaner window.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "text": "Cantinho da Baia at After work (16:30 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the lack of push could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
     "cacheHit": false
   },
   "best": {
@@ -52,10 +52,10 @@
       "waveMaxM": 0.9,
       "swellM": 2.3,
       "periodS": 8,
-      "energyKj": 155,
-      "consistencyScore": 76,
-      "windKph": 29,
-      "gustKph": 48,
+      "energyKj": 156,
+      "consistencyScore": 75,
+      "windKph": 30,
+      "gustKph": 52,
       "waterTempC": 19,
       "airTempC": 21
     },
@@ -108,7 +108,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.6-0.9 m, 155 kJ, 9 s period, consistent 76/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 6-9s at high tide is too weak and wrap-starved in the sheltered bay; gusts over 45 km/h add chop risk.",
+    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.6-0.9 m, 156 kJ, 9 s period, consistent 75/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 6-9s at high tide is too weak and wrap-starved in the sheltered bay; gusts over 45 km/h add chop risk.",
     "shortExplanation": "Cantinho da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is a bit awkward for the bay, so stay cautious.",
     "warnings": [
       "6-9s at high tide is too weak and wrap-starved in the sheltered bay",
@@ -136,14 +136,14 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0.6,
         "waveMaxM": 1.1,
-        "swellM": 1.7,
+        "swellM": 2,
         "periodS": 9,
-        "energyKj": 120,
+        "energyKj": 122,
         "consistencyScore": 74,
-        "windKph": 21,
-        "gustKph": 40,
+        "windKph": 22,
+        "gustKph": 41,
         "waterTempC": 19,
-        "airTempC": 38
+        "airTempC": 37
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -175,14 +175,14 @@
       },
       "temperature": {
         "waterTempC": 19,
-        "airTempC": 38,
+        "airTempC": 37,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Baleal looks like a fun-sized window for Safe fun, Low confidence: 0.6-1.1 m, 120 kJ, 9 s period, consistent 74/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; gusts over 35 km/h could make it messy.",
+      "explanation": "Baleal looks like a fun-sized window for Safe fun, Low confidence: 0.6-1.1 m, 122 kJ, 9 s period, consistent 74/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; gusts over 35 km/h could make it messy.",
       "shortExplanation": "Baleal is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
       "warnings": [
         "wind angle is poor for this spot",
