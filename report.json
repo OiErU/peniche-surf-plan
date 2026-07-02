@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-02",
-  "generatedAt": "2026-07-02 09:00 Portugal time",
+  "generatedAt": "2026-07-02 10:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "For TODAY, Cantinho da Baia at lunch is the best bet, but it’s probably more “safe and easy” than proper surfing—especially since the swell will be pretty weak around low tide in that sheltered bay. I’d check the Surfline cams and the MEO Beachcam first, because if it’s not showing clean, pushy waves there, it’s not worth forcing it. With the north wind there may be some cross-shore chop, so only commit if the faces look much better than expected.",
+    "text": "For TODAY, I’d only head out after a Surfline and MEO Beachcam check, since Cantinho da Baia at lunch is likely to be pretty underwhelming when things are low and the swell is more “there than solid.” The good news is the sheltered bay should keep it fairly usable despite a mixed, cross-shore north breeze, but at this point it could end up flat or underpowered. If the cams show it’s meaningfully better than expected, Cantinho at lunch is the best bet; otherwise I’d just skip the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Cantinho da Baia",
@@ -64,14 +64,14 @@
       "time": "12:00",
       "rating": 4,
       "label": "Reasonable",
-      "faceM": 1.47,
-      "waveM": 1.47,
+      "faceM": 1.45,
+      "waveM": 1.45,
       "swellDir": "NW",
-      "swellM": 1.15,
+      "swellM": 1.14,
       "periodS": 9.2,
       "windDir": "N",
-      "windKts": 11,
-      "gustKts": 15.5
+      "windKts": 10.8,
+      "gustKts": 13.1
     },
     "tide": {
       "label": "Low rising",
@@ -82,10 +82,10 @@
     "waveM": 1.1,
     "periodS": 9,
     "windKph": 15,
-    "windDirection": "N",
+    "windDirection": "NNE",
     "windState": "cross",
     "windStateLabel": "cross-shore",
-    "windFit": "N 15 km/h · cross-shore · usable wind",
+    "windFit": "NNE 15 km/h · cross-shore · usable wind",
     "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -155,10 +155,10 @@
       "waveM": 1.5,
       "periodS": 9,
       "windKph": 15,
-      "windDirection": "N",
+      "windDirection": "NNE",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "N 15 km/h · cross-onshore · poor wind fit",
+      "windFit": "NNE 15 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
@@ -227,10 +227,10 @@
       "waveM": 1.5,
       "periodS": 9,
       "windKph": 15,
-      "windDirection": "N",
+      "windDirection": "NNE",
       "windState": "on",
       "windStateLabel": "on-shore",
-      "windFit": "N 15 km/h · onshore · poor wind fit",
+      "windFit": "NNE 15 km/h · onshore · poor wind fit",
       "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
@@ -286,7 +286,7 @@
         "windKph": 21,
         "gustKph": 40,
         "waterTempC": 19,
-        "airTempC": 29
+        "airTempC": 32
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -318,7 +318,7 @@
       },
       "temperature": {
         "waterTempC": 19,
-        "airTempC": 29,
+        "airTempC": 32,
         "source": "Surfline"
       },
       "wetsuit": {
