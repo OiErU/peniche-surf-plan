@@ -1,10 +1,12 @@
 {
   "targetDate": "2026-07-03",
-  "generatedAt": "2026-07-03 11:00 Portugal time",
-  "status": "ok",
+  "generatedAt": "2026-07-03 12:00 Portugal time",
+  "status": "degraded",
   "dataQuality": {
-    "degraded": false,
-    "warnings": [],
+    "degraded": true,
+    "warnings": [
+      "Baleal | Surfline | all eligible windows | source missing | url=https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6?view=table"
+    ],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -13,8 +15,12 @@
   "collection": {
     "completed": true,
     "retryCount": 0,
-    "failedSources": [],
-    "failedSpots": [],
+    "failedSources": [
+      "Surfline"
+    ],
+    "failedSpots": [
+      "baleal"
+    ],
     "generatedFromFallback": false
   },
   "verdict": {
