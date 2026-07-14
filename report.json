@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-14",
-  "generatedAt": "2026-07-13 21:00 Portugal time",
+  "generatedAt": "2026-07-14 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,9 +25,9 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Rey Cortiço at Lunch looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
-    "provider": "fallback",
-    "model": null,
+    "text": "For TODAY, I’d make it a check-first kind of day: Rey Cortiço around lunch is the best bet, but the cameras can easily decide it because the wind angle isn’t great for that spot and Surfline’s consistency looks a bit iffy. Before leaving, I’d check Surfline and the MEO Beachcam for Rey Cortiço—if it doesn’t look properly clean, I’d rather skip. If the cams look much better than expected, go with it, and keep an eye on the rising tide and the way the sandbanks are setting up.",
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
     "cacheHit": false
   },
   "best": {
@@ -50,14 +50,14 @@
       "rating": "POOR TO FAIR",
       "waveMinM": 0.3,
       "waveMaxM": 0.6,
-      "swellM": 0.5,
+      "swellM": 0.4,
       "periodS": 7,
-      "energyKj": 36,
+      "energyKj": 33,
       "consistencyScore": 3,
-      "windKph": 8,
-      "gustKph": 8,
+      "windKph": 9,
+      "gustKph": 9,
       "waterTempC": 20,
-      "airTempC": 20
+      "airTempC": 19
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -89,14 +89,14 @@
     },
     "temperature": {
       "waterTempC": 20,
-      "airTempC": 20,
+      "airTempC": 19,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Medium confidence: 0.3-0.6 m, 36 kJ, 11 s period, lully 3/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 10-13s at mid tide also works on Belgas, but low tide is not a deal-breaker, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
+    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Medium confidence: 0.3-0.6 m, 33 kJ, 11 s period, lully 3/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 10-13s at mid tide also works on Belgas, but low tide is not a deal-breaker, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
     "shortExplanation": "Rey Cortiço is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
@@ -124,14 +124,14 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0.3,
         "waveMaxM": 0.6,
-        "swellM": 0.5,
-        "periodS": 6,
-        "energyKj": 32,
+        "swellM": 0.4,
+        "periodS": 7,
+        "energyKj": 28,
         "consistencyScore": 2,
-        "windKph": 8,
-        "gustKph": 8,
+        "windKph": 9,
+        "gustKph": 9,
         "waterTempC": 20,
-        "airTempC": 20
+        "airTempC": 19
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -163,14 +163,14 @@
       },
       "temperature": {
         "waterTempC": 20,
-        "airTempC": 20,
+        "airTempC": 19,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Almagreira looks like a small north coast window for Rare window, Medium confidence: 0.3-0.6 m, 32 kJ, 6 s period, lully 2/100, and wind is the main risk.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
+      "explanation": "Almagreira looks like a small north coast window for Rare window, Medium confidence: 0.3-0.6 m, 28 kJ, 6 s period, lully 2/100, and wind is the main risk.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
       "shortExplanation": "Almagreira is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "Surfline consistency is lully",
@@ -199,10 +199,10 @@
         "waveMaxM": 0.6,
         "swellM": 0.5,
         "periodS": 7,
-        "energyKj": 23,
+        "energyKj": 21,
         "consistencyScore": 1,
-        "windKph": 4,
-        "gustKph": 4,
+        "windKph": 2,
+        "gustKph": 3,
         "waterTempC": 20,
         "airTempC": 20
       },
@@ -211,14 +211,14 @@
         "time": "12:00",
         "rating": 1,
         "label": "Poor",
-        "faceM": 0.54,
-        "waveM": 0.54,
+        "faceM": 0.53,
+        "waveM": 0.53,
         "swellDir": "NW",
         "swellM": 0.29,
         "periodS": 8,
         "windDir": "WNW",
-        "windKts": 3.9,
-        "gustKts": 4.6
+        "windKts": 3.7,
+        "gustKts": 7.5
       },
       "tide": {
         "label": "Mid rising",
@@ -255,7 +255,7 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Lagide looks like a small window for Fun progression, Medium confidence: 0.3-0.6 m, 23 kJ, 11 s period, lully 1/100, and wind is the main risk.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; SwellMap rating 1/10 Poor — caution.",
+      "explanation": "Lagide looks like a small window for Fun progression, Medium confidence: 0.3-0.6 m, 21 kJ, 11 s period, lully 1/100, and wind is the main risk.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; SwellMap rating 1/10 Poor — caution.",
       "shortExplanation": "Lagide is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the reef hold shape.",
       "warnings": [
         "Surfline consistency is lully",
@@ -270,8 +270,8 @@
       "windowRaw": "Lunch",
       "windowTime": "12:00",
       "score": -30,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
       "confidenceLabel": "Low confidence",
       "confidenceLabelRaw": "low",
       "surfline": "POOR TO FAIR",
@@ -282,30 +282,30 @@
       },
       "surflineDetails": {
         "rating": "POOR TO FAIR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 0.6,
+        "waveMinM": 0,
+        "waveMaxM": 0.3,
+        "swellM": 0.5,
         "periodS": 6,
-        "energyKj": 32,
-        "consistencyScore": 1,
-        "windKph": 12,
-        "gustKph": 12,
+        "energyKj": 27,
+        "consistencyScore": 0,
+        "windKph": 13,
+        "gustKph": 13,
         "waterTempC": 20,
-        "airTempC": 18
+        "airTempC": 16
       },
       "surfForecast": 0,
       "swellmap": {
         "time": "12:00",
         "rating": 1,
         "label": "Poor",
-        "faceM": 0.51,
-        "waveM": 0.51,
+        "faceM": 0.5,
+        "waveM": 0.5,
         "swellDir": "NW",
         "swellM": 0.29,
         "periodS": 8.4,
-        "windDir": "W",
+        "windDir": "WNW",
         "windKts": 4,
-        "gustKts": 4.7
+        "gustKts": 7
       },
       "tide": {
         "label": "Mid rising",
@@ -313,13 +313,13 @@
         "summary": "Mid rising",
         "captured": true
       },
-      "waveM": 0.6,
+      "waveM": 0.3,
       "periodS": 6,
       "windKph": 10,
       "windDirection": "WNW",
-      "windState": "cross-on",
-      "windStateLabel": "cross-onshore",
-      "windFit": "WNW 10 km/h · cross-onshore · poor wind fit",
+      "windState": "cross",
+      "windStateLabel": "cross-shore",
+      "windFit": "WNW 10 km/h · cross-shore · usable wind",
       "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
@@ -335,20 +335,20 @@
       },
       "temperature": {
         "waterTempC": 20,
-        "airTempC": 18,
+        "airTempC": 16,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 32 kJ, 6 s period, lully 1/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; SwellMap rating 1/10 Poor — caution.",
-      "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is helping, but the spot still looks serious.",
+      "explanation": "Supertubos looks like a small window for Too soft, Low confidence: 0-0.3 m, 27 kJ, 6 s period, lully 0/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; SwellMap rating 1/10 Poor — caution.",
+      "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
-        "wind angle is poor for this spot",
         "6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste",
+        "Supertubos looks below your bodyboard fun size",
         "SwellMap rating 1/10 Poor — caution"
       ]
     }
