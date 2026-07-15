@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-15",
-  "generatedAt": "2026-07-15 15:00 Portugal time",
+  "generatedAt": "2026-07-15 16:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,10 +25,10 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY there’s no reliable window for bodyboarding—spots look too soft and Surfline consistency is pretty weak, so it’s probably not worth chasing. Cerro is the least bad option after work (around an 18:00 start), but it may still feel below your fun size, especially with only mixed wind. I’d check Surfline and the MEO Beachcam before leaving, and if it doesn’t look noticeably better than expected, I’d save the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Tomorrow is probably one to skip. Cerro at After work (18:00 start) looks like the least-bad option, but not really something worth chasing. The lack of push looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Cerro",
@@ -52,7 +52,7 @@
       "waveMaxM": 0.3,
       "swellM": 0.2,
       "periodS": 6,
-      "energyKj": 19,
+      "energyKj": 14,
       "consistencyScore": 0,
       "windKph": 10,
       "gustKph": 13,
@@ -96,7 +96,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0-0.3 m, 19 kJ, 9 s period, lully 0/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
+    "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0-0.3 m, 14 kJ, 9 s period, lully 0/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
     "shortExplanation": "Cerro is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
     "warnings": [
       "Surfline consistency is lully",
@@ -111,11 +111,11 @@
       "window": "After work (18:00 start)",
       "windowRaw": "After work",
       "windowTime": "18:00",
-      "score": -35,
+      "score": -27,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
       "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
@@ -126,9 +126,9 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0,
         "waveMaxM": 0.3,
-        "swellM": 0.4,
+        "swellM": 0.3,
         "periodS": 9,
-        "energyKj": 10,
+        "energyKj": null,
         "consistencyScore": 0,
         "windKph": 10,
         "gustKph": 13,
@@ -172,14 +172,13 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Meio da Baia looks like a small window for Too soft, Low confidence: 0-0.3 m, 10 kJ, 9 s period, lully 0/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; Meio da Baia looks below your bodyboard fun size; Meio da Baia may feel too soft without more push.",
+      "explanation": "Meio da Baia looks like a small window for Too soft, Medium confidence: 0-0.3 m, energy not captured, 9 s period, lully 0/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; Meio da Baia looks below your bodyboard fun size.",
       "shortExplanation": "Meio da Baia is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
         "wind angle is poor for this spot",
-        "Meio da Baia looks below your bodyboard fun size",
-        "Meio da Baia may feel too soft without more push"
+        "Meio da Baia looks below your bodyboard fun size"
       ]
     },
     {
@@ -204,12 +203,12 @@
         "waveMaxM": 0.3,
         "swellM": 0.3,
         "periodS": 9,
-        "energyKj": 25,
-        "consistencyScore": 1,
-        "windKph": 12,
-        "gustKph": 13,
+        "energyKj": 19,
+        "consistencyScore": 0,
+        "windKph": 8,
+        "gustKph": 11,
         "waterTempC": 20,
-        "airTempC": 26
+        "airTempC": 25
       },
       "surfForecast": 0,
       "swellmap": {
@@ -253,14 +252,14 @@
       },
       "temperature": {
         "waterTempC": 20,
-        "airTempC": 26,
+        "airTempC": 25,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "3/2 Dakine",
         "reason": "Warm water, warm air, and light wind make the 3/2 reasonable."
       },
-      "explanation": "Supertubos looks like a small window for Too soft, Low confidence: 0-0.3 m, 25 kJ, 9 s period, lully 1/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; SwellMap rating 1/10 Poor — caution.",
+      "explanation": "Supertubos looks like a small window for Too soft, Low confidence: 0-0.3 m, 19 kJ, 9 s period, lully 0/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; SwellMap rating 1/10 Poor — caution.",
       "shortExplanation": "Supertubos is worth a quick check for after work (18:00 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is helping, but the spot still looks serious.",
       "warnings": [
         "Surfline consistency is lully",
@@ -268,96 +267,6 @@
         "wind angle is poor for this spot",
         "6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste",
         "Supertubos looks below your bodyboard fun size",
-        "SwellMap rating 1/10 Poor — caution"
-      ]
-    },
-    {
-      "spot": "Cantinho da Baia",
-      "window": "After work (16:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "16:30",
-      "score": -59,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": "1/10 Poor"
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0,
-        "waveMaxM": 0.3,
-        "swellM": 0.4,
-        "periodS": 8,
-        "energyKj": 36,
-        "consistencyScore": 14,
-        "windKph": 10,
-        "gustKph": 13,
-        "waterTempC": 20,
-        "airTempC": 21
-      },
-      "surfForecast": 0,
-      "swellmap": {
-        "time": "18:00",
-        "rating": 1,
-        "label": "Poor",
-        "faceM": 0.37,
-        "waveM": 0.37,
-        "swellDir": "WNW",
-        "swellM": 0.25,
-        "periodS": 8.4,
-        "windDir": "WNW",
-        "windKts": 6.5,
-        "gustKts": 7.8
-      },
-      "tide": {
-        "label": "High dropping",
-        "direction": "falling",
-        "summary": "High dropping",
-        "captured": true
-      },
-      "waveM": 0.3,
-      "periodS": 9,
-      "windKph": 15,
-      "windDirection": "W",
-      "windState": "on",
-      "windStateLabel": "on-shore",
-      "windFit": "W 15 km/h · onshore · poor wind fit",
-      "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest",
-        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF",
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-cantinho-da-baia-estatica/"
-      },
-      "photo": {
-        "url": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-        "credit": "Cantinho da Baia photo",
-        "creditUrl": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-        "alt": "Photo of Cantinho da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": 20,
-        "airTempC": 21,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Cantinho da Baia looks like a small window for Too soft, Low confidence: 0-0.3 m, 36 kJ, 9 s period, lully 14/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size; Cantinho da Baia may feel too soft without more push; SwellMap rating 1/10 Poor — caution.",
-      "shortExplanation": "Cantinho da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is a bit awkward for the bay, so stay cautious.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "spot surf looks too small",
-        "wind angle is poor for this spot",
-        "6-9s at high tide is too weak and wrap-starved in the sheltered bay",
-        "Cantinho da Baia looks below your bodyboard fun size",
-        "Cantinho da Baia may feel too soft without more push",
         "SwellMap rating 1/10 Poor — caution"
       ]
     }
