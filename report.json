@@ -1,6 +1,6 @@
 {
-  "targetDate": "2026-07-16",
-  "generatedAt": "2026-07-16 17:00 Portugal time",
+  "targetDate": "2026-07-17",
+  "generatedAt": "2026-07-16 19:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,19 +25,19 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY there’s probably no reliable window—everything’s feeling too soft, and Surfline looks poor with the spot surf likely below your bodyboard fun size. Wind is only mixed, but the swell just isn’t really there, and Cerro won’t be much of a payoff even after work. I’d check Surfline and MEO Beachcam first and then save the drive unless the cams look noticeably better than expected.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Tomorrow is probably one to skip. Rey Cortiço at Lunch looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
-    "spot": "Cerro",
-    "window": "After work (18:30 start)",
-    "windowRaw": "After work",
-    "windowTime": "18:30",
-    "score": -28,
-    "sessionLabel": "Too soft",
-    "sessionLabelRaw": "too weak",
+    "spot": "Rey Cortiço",
+    "window": "Lunch",
+    "windowRaw": "Lunch",
+    "windowTime": "12:00",
+    "score": -36,
+    "sessionLabel": "Rare window",
+    "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
     "surfline": "POOR",
@@ -51,41 +51,41 @@
       "waveMinM": 0,
       "waveMaxM": 0.3,
       "swellM": 0.2,
-      "periodS": 6,
+      "periodS": 8,
       "energyKj": null,
       "consistencyScore": 0,
-      "windKph": 15,
-      "gustKph": 20,
+      "windKph": 16,
+      "gustKph": 19,
       "waterTempC": 20,
       "airTempC": 21
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid dropping",
-      "direction": "falling",
-      "summary": "Mid dropping",
+      "label": "Low rising",
+      "direction": "rising",
+      "summary": "Low rising",
       "captured": true
     },
     "waveM": 0.3,
-    "periodS": 9,
+    "periodS": 8,
     "windKph": 15,
-    "windDirection": "W",
-    "windState": "cross-off",
-    "windStateLabel": "cross-offshore",
-    "windFit": "W 15 km/h · cross-off · usable wind",
-    "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+    "windDirection": "NNW",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "NNW 15 km/h · cross-onshore · poor wind fit",
+    "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+      "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
       "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
     },
     "photo": {
-      "url": "images/spots/cerro.jpg",
+      "url": "images/spots/belgas.jpg",
       "credit": "Local file",
-      "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-      "alt": "Photo of Cerro surf spot"
+      "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
+      "alt": "Photo of Rey Cortiço surf spot"
     },
     "temperature": {
       "waterTempC": 20,
@@ -96,12 +96,12 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0-0.3 m, energy not captured, 9 s period, lully 0/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size.",
-    "shortExplanation": "Cerro is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
+    "explanation": "Rey Cortiço looks like a small window for Rare window, Low confidence: 0-0.3 m, energy not captured, 8 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at low tide can still work on Belgas if the sandbars are lined up.  Watch: Surfline consistency is lully; wind angle is poor for this spot; exposed north spot probably too small.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
-      "spot surf looks too small",
-      "Cerro looks below your bodyboard fun size"
+      "wind angle is poor for this spot",
+      "exposed north spot probably too small"
     ]
   },
   "ranked": []
