@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-17",
-  "generatedAt": "2026-07-17 09:00 Portugal time",
+  "generatedAt": "2026-07-17 10:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,19 +25,19 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY is probably one to skip—Molhe Leste looks too soft and on the small side, and Surfline consistency isn’t great. Tide is near high and rising, but it still doesn’t seem like it’ll stack up for a decent session at the level you’re looking for. Since the wind is only mixed, the main issue is simply not enough shape/energy, so it’s probably not worth chasing. Check Surfline or the MEO Beachcam for Molhe Leste before you commit, and if it doesn’t look surprisingly better than expected, save the drive.",
+    "text": "TODAY looks like no reliable window, so it’s probably not worth chasing. Rey Cortiço at lunch is the best of what’s available, but the wind angle looks wrong for the spot and the Surfline consistency is pretty poor, so it may end up too small and messy. I’d do a cam check on Surfline/MEO before leaving and save the drive unless it looks noticeably cleaner than expected.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
-    "spot": "Molhe Leste",
-    "window": "After work (16:30 start)",
-    "windowRaw": "After work",
-    "windowTime": "16:30",
-    "score": -37,
-    "sessionLabel": "Too soft",
-    "sessionLabelRaw": "too weak",
+    "spot": "Rey Cortiço",
+    "window": "Lunch",
+    "windowRaw": "Lunch",
+    "windowTime": "12:00",
+    "score": -36,
+    "sessionLabel": "Rare window",
+    "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
     "surfline": "POOR",
@@ -54,55 +54,54 @@
       "periodS": 8,
       "energyKj": null,
       "consistencyScore": 0,
-      "windKph": 20,
-      "gustKph": 25,
+      "windKph": 17,
+      "gustKph": 19,
       "waterTempC": 20,
-      "airTempC": 21
+      "airTempC": 19
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Near high",
+      "label": "Low rising",
       "direction": "rising",
-      "summary": "Near high",
+      "summary": "Low rising",
       "captured": true
     },
     "waveM": 0.3,
     "periodS": 8,
-    "windKph": 20,
+    "windKph": 15,
     "windDirection": "NNW",
-    "windState": "cross",
-    "windStateLabel": "cross-shore",
-    "windFit": "NNW 20 km/h · cross-shore · usable wind",
-    "bestWind": "ideal N/NNE/NE, usable NNW/ENE/E, clean <=25 km/h",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "NNW 15 km/h · cross-onshore · poor wind fit",
+    "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/molhe-leste/640b9cb14878ebb2521e21fe",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Molhe-Leste/forecasts/latest",
+      "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
       "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/penichemolhelesteestatica/"
+      "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
     },
     "photo": {
-      "url": "https://vert-mag.com/vert2/wp-content/uploads/2015/03/ML3-1140x641.jpg",
-      "credit": "Vert Magazine",
-      "creditUrl": "https://vert-mag.com/",
-      "alt": "Photo of Molhe Leste surf spot"
+      "url": "images/spots/belgas.jpg",
+      "credit": "Local file",
+      "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
+      "alt": "Photo of Rey Cortiço surf spot"
     },
     "temperature": {
       "waterTempC": 20,
-      "airTempC": 21,
+      "airTempC": 19,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Molhe Leste looks like a small window for Too soft, Low confidence: 0-0.3 m, energy not captured, 8 s period, lully 0/100, and wind is not fully clear.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size.",
-    "shortExplanation": "Molhe Leste is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide is leaning more serious than easy here.",
+    "explanation": "Rey Cortiço looks like a small window for Rare window, Low confidence: 0-0.3 m, energy not captured, 8 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at low tide can still work on Belgas if the sandbars are lined up.  Watch: Surfline consistency is lully; wind angle is poor for this spot; exposed north spot probably too small.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
-      "spot surf looks too small",
-      "6-9s at high tide is too flat and weak for Supertubos / Molhe Leste",
-      "Molhe Leste looks below your bodyboard fun size"
+      "wind angle is poor for this spot",
+      "exposed north spot probably too small"
     ]
   },
   "ranked": []
