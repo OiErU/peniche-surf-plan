@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-17",
-  "generatedAt": "2026-07-17 15:00 Portugal time",
+  "generatedAt": "2026-07-17 16:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,36 +25,36 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "Today is probably one to skip—there’s no reliable window for Molhe Leste, and the surf looks too soft and small, especially with the tide running near high and staying a bit flat/weak for proper punch. Surfline consistency is really poor, so I’d check Surfline and the MEO Beachcam for Molhe Leste before you even think about leaving. Unless the cams show something meaningfully better than expected, save the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Tomorrow is probably one to skip. Molhe Leste at After work (16:30 start) looks like the least-bad option, but not really something worth chasing. The lack of push looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Molhe Leste",
     "window": "After work (16:30 start)",
     "windowRaw": "After work",
     "windowTime": "16:30",
-    "score": -37,
+    "score": -43,
     "sessionLabel": "Too soft",
     "sessionLabelRaw": "too weak",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": "POOR",
+    "surfline": "VERY POOR",
     "sourceVerdicts": {
-      "surfline": "POOR",
+      "surfline": "VERY POOR",
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": "POOR",
+      "rating": "VERY POOR",
       "waveMinM": 0,
       "waveMaxM": 0.3,
       "swellM": 0.2,
       "periodS": 8,
-      "energyKj": 10,
+      "energyKj": null,
       "consistencyScore": 0,
-      "windKph": 20,
+      "windKph": 19,
       "gustKph": 24,
       "waterTempC": 20,
       "airTempC": 25
@@ -96,7 +96,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Molhe Leste looks like a small window for Too soft, Low confidence: 0-0.3 m, 10 kJ, 8 s period, lully 0/100, and wind is not fully clear.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size.",
+    "explanation": "Molhe Leste looks like a small window for Too soft, Low confidence: 0-0.3 m, energy not captured, 8 s period, lully 0/100, and wind is not fully clear.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size.",
     "shortExplanation": "Molhe Leste is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide is leaning more serious than easy here.",
     "warnings": [
       "Surfline consistency is lully",
