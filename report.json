@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-18",
-  "generatedAt": "2026-07-18 07:00 Portugal time",
+  "generatedAt": "2026-07-18 08:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -20,22 +20,22 @@
   "verdict": {
     "state": "marginal",
     "label": "Worth checking",
-    "headline": "Rey Cortiço Early morning — 08:00",
-    "reason": "Rey Cortiço is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "headline": "Rey Cortiço Mid-morning — 11:00",
+    "reason": "Rey Cortiço is worth a quick check for mid-morning — 11:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Rey Cortiço early morning around 08:00 is the best bet, but this is a check-first kind of window. The wind looks like it’s coming in cross-on and the surfline consistency isn’t great, so I’d rather you check Surfline and the MEO Beachcam before committing—if it doesn’t look noticeably cleaner on the cams, I’d skip. Tide is mid and dropping, which can help the sandbanks get punchy, but only go if the cameras show it’s coming together.",
+    "text": "For TODAY, I’d do a check-first call rather than just go for it. Rey Cortiço around mid-morning (near 11:00) is looking like the best available option, but the cams/Sufline consistency is pretty poor and the wind angle isn’t great for that spot, so it could easily be choppy. I’ll check Surfline and the MEO Beachcam before leaving, and if they don’t look clearly better than expected I’m probably skipping.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
-    "window": "Early morning — 08:00",
-    "windowRaw": "Early morning",
-    "windowTime": "08:00",
-    "score": 15,
+    "window": "Mid-morning — 11:00",
+    "windowRaw": "Mid-morning",
+    "windowTime": "11:00",
+    "score": 13,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
@@ -57,14 +57,14 @@
       "windKph": 18,
       "gustKph": 23,
       "waterTempC": 20,
-      "airTempC": 19
+      "airTempC": 20
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid dropping",
+      "label": "Low dropping",
       "direction": "falling",
-      "summary": "Mid dropping",
+      "summary": "Low dropping",
       "captured": true
     },
     "waveM": 0.6,
@@ -89,15 +89,15 @@
     },
     "temperature": {
       "waterTempC": 20,
-      "airTempC": 19,
+      "airTempC": 20,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 11 kJ, 8 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
-    "shortExplanation": "Rey Cortiço is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 11 kJ, 8 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at low tide can still work on Belgas if the sandbars are lined up, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for mid-morning — 11:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
       "wind angle is poor for this spot"
@@ -106,14 +106,14 @@
   "ranked": [
     {
       "spot": "Baleal",
-      "window": "Early morning — 08:00",
-      "windowRaw": "Early morning",
-      "windowTime": "08:00",
-      "score": -27,
+      "window": "Mid-morning — 11:00",
+      "windowRaw": "Mid-morning",
+      "windowTime": "11:00",
+      "score": -35,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
       "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
@@ -131,14 +131,14 @@
         "windKph": 9,
         "gustKph": 25,
         "waterTempC": 20,
-        "airTempC": 17
+        "airTempC": 19
       },
       "surfForecast": 0,
       "swellmap": null,
       "tide": {
-        "label": "Mid dropping",
+        "label": "Low dropping",
         "direction": "falling",
-        "summary": "Mid dropping",
+        "summary": "Low dropping",
         "captured": true
       },
       "waveM": 0.3,
@@ -163,20 +163,20 @@
       },
       "temperature": {
         "waterTempC": 20,
-        "airTempC": 17,
+        "airTempC": 19,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Baleal looks like a small window for Too soft, Low confidence: 0-0.3 m, energy not captured, 4 s period, lully 0/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; Baleal looks below your bodyboard fun size.",
-      "shortExplanation": "Baleal is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
+      "explanation": "Baleal looks like a small window for Too soft, Medium confidence: 0-0.3 m, energy not captured, 4 s period, lully 0/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 6-9s at low tide is too shallow and weak over the Baleal sandbanks; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at low tide is too shallow and weak over the Baleal sandbanks; Baleal looks below your bodyboard fun size.",
+      "shortExplanation": "Baleal is worth a quick check for mid-morning — 11:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide makes this one less convincing.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
         "wind angle is poor for this spot",
-        "6-9s at mid tide is soft and sectiony on the Baleal sandbanks",
+        "6-9s at low tide is too shallow and weak over the Baleal sandbanks",
         "Baleal looks below your bodyboard fun size"
       ]
     }
