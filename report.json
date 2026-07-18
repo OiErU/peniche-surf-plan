@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-18",
-  "generatedAt": "2026-07-18 09:00 Portugal time",
+  "generatedAt": "2026-07-18 10:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "For TODAY, I’d do a check-first call rather than just go for it. Rey Cortiço around mid-morning (near 11:00) is looking like the best available option, but the cams/Sufline consistency is pretty poor and the wind angle isn’t great for that spot, so it could easily be choppy. I’ll check Surfline and the MEO Beachcam before leaving, and if they don’t look clearly better than expected I’m probably skipping.",
+    "text": "TODAY I’d do a quick Surfline and MEO Beachcam check before heading out, because Rey Cortiço is only really “maybe” in the mid-morning window. The waves could line up, but the wind setup looks off for that spot and Surfline consistency is pretty poor, so it could easily be choppy. Tide’s dropping, which can still leave a little chance if the sandbanks line up, but I’m keeping it conditional—only go if the cams look noticeably cleaner than expected. Otherwise, save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
@@ -50,11 +50,11 @@
       "rating": "POOR",
       "waveMinM": 0.3,
       "waveMaxM": 0.6,
-      "swellM": 0.5,
+      "swellM": 0.6,
       "periodS": 4,
       "energyKj": 11,
       "consistencyScore": 0,
-      "windKph": 18,
+      "windKph": 17,
       "gustKph": 23,
       "waterTempC": 20,
       "airTempC": 20
@@ -124,14 +124,14 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0,
         "waveMaxM": 0.3,
-        "swellM": 0.6,
+        "swellM": 0.7,
         "periodS": 4,
         "energyKj": null,
         "consistencyScore": 0,
         "windKph": 9,
-        "gustKph": 25,
+        "gustKph": 24,
         "waterTempC": 20,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -163,7 +163,7 @@
       },
       "temperature": {
         "waterTempC": 20,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
