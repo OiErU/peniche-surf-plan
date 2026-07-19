@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-19",
-  "generatedAt": "2026-07-19 16:00 Portugal time",
+  "generatedAt": "2026-07-19 17:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,17 +25,17 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY looks like a probable skip overall, and there isn’t a reliable window to count on. Even at Rey Cortiço, the wind looks like the main problem (poor wind angle and onshore), and the Surfline consistency is pretty weak—so it’s more likely to be messy than worth it. Check Surfline and MEO Beachcam before you head out, and only drive if the cams look noticeably cleaner than you’d expect.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "text": "Tomorrow is probably one to skip. Rey Cortiço at Evening — 19:00 looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
     "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
-    "window": "Evening — 17:00",
+    "window": "Evening — 19:00",
     "windowRaw": "Evening",
-    "windowTime": "17:00",
-    "score": 12,
+    "windowTime": "19:00",
+    "score": 0.5,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
@@ -62,9 +62,9 @@
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid rising",
-      "direction": "rising",
-      "summary": "Mid rising",
+      "label": "Near high",
+      "direction": "falling",
+      "summary": "Near high",
       "captured": true
     },
     "waveM": 0.6,
@@ -96,11 +96,12 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 24 kJ, 6 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
-    "shortExplanation": "Rey Cortiço is worth a quick check for evening — 17:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 24 kJ, 6 s period, lully 0/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot; 6-9s at high tide is usually too fat for Belgas.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for evening — 19:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is fine, but Belgas can still work lower if the rest is better.",
     "warnings": [
       "Surfline consistency is lully",
-      "wind angle is poor for this spot"
+      "wind angle is poor for this spot",
+      "6-9s at high tide is usually too fat for Belgas"
     ]
   },
   "ranked": []
