@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-22",
-  "generatedAt": "2026-07-22 12:00 Portugal time",
+  "generatedAt": "2026-07-22 13:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -178,79 +178,6 @@
       ]
     },
     {
-      "spot": "Meio da Baia",
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": 4,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.6,
-        "waveMaxM": 0.9,
-        "swellM": 0.8,
-        "periodS": 8,
-        "energyKj": 44,
-        "consistencyScore": null,
-        "windKph": 4,
-        "gustKph": 6,
-        "waterTempC": 22,
-        "airTempC": 21
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 0.9,
-      "periodS": 7,
-      "windKph": 10,
-      "windDirection": "W",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "W 10 km/h · cross-shore · poor wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": 22,
-        "airTempC": 21,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a fun-sized window for Too soft, Medium confidence: 0.6-0.9 m, 44 kJ, 7 s period, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: wind angle is poor for this spot; Meio da Baia may feel too soft without more push.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-      "warnings": [
-        "wind angle is poor for this spot",
-        "Meio da Baia may feel too soft without more push"
-      ]
-    },
-    {
       "spot": "Lagide",
       "window": "After work (17:30 start)",
       "windowRaw": "After work",
@@ -334,6 +261,81 @@
         "Surfline consistency is lully",
         "spot surf looks too small",
         "wind angle is poor for this spot"
+      ]
+    },
+    {
+      "spot": "Cerro",
+      "window": "After work (17:30 start)",
+      "windowRaw": "After work",
+      "windowTime": "17:30",
+      "score": -23,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Low confidence",
+      "confidenceLabelRaw": "low",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 0.5,
+        "periodS": 8,
+        "energyKj": 26,
+        "consistencyScore": 4,
+        "windKph": 8,
+        "gustKph": 10,
+        "waterTempC": 22,
+        "airTempC": 21
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "Rising with push",
+        "direction": "rising",
+        "summary": "Rising with push",
+        "captured": true
+      },
+      "waveM": 0.6,
+      "periodS": 10,
+      "windKph": 15,
+      "windDirection": "W",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "W 15 km/h · cross-off · usable wind",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/cerro.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
+      },
+      "temperature": {
+        "waterTempC": 22,
+        "airTempC": 21,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 26 kJ, 10 s period, lully 4/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
+      "shortExplanation": "Cerro is worth a quick check for after work (17:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
+      "warnings": [
+        "Surfline consistency is lully",
+        "spot surf looks too small",
+        "Cerro looks below your bodyboard fun size",
+        "Cerro may feel too soft without more push"
       ]
     }
   ]
