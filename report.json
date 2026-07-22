@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-22",
-  "generatedAt": "2026-07-22 11:00 Portugal time",
+  "generatedAt": "2026-07-22 12:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -56,7 +56,7 @@
       "consistencyScore": 0,
       "windKph": 8,
       "gustKph": 9,
-      "waterTempC": 20,
+      "waterTempC": 21,
       "airTempC": 21
     },
     "surfForecast": 0,
@@ -88,7 +88,7 @@
       "alt": "Photo of Rey Cortiço surf spot"
     },
     "temperature": {
-      "waterTempC": 20,
+      "waterTempC": 21,
       "airTempC": 21,
       "source": "Surfline"
     },
@@ -178,6 +178,79 @@
       ]
     },
     {
+      "spot": "Meio da Baia",
+      "window": "Lunch",
+      "windowRaw": "Lunch",
+      "windowTime": "12:00",
+      "score": 4,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "FAIR",
+      "sourceVerdicts": {
+        "surfline": "FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "FAIR",
+        "waveMinM": 0.6,
+        "waveMaxM": 0.9,
+        "swellM": 0.8,
+        "periodS": 8,
+        "energyKj": 44,
+        "consistencyScore": null,
+        "windKph": 4,
+        "gustKph": 6,
+        "waterTempC": 22,
+        "airTempC": 21
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 0.9,
+      "periodS": 7,
+      "windKph": 10,
+      "windDirection": "W",
+      "windState": "cross",
+      "windStateLabel": "cross-shore",
+      "windFit": "W 10 km/h · cross-shore · poor wind fit",
+      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/meio-da-baia.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
+        "alt": "Photo of Meio da Baia surf spot"
+      },
+      "temperature": {
+        "waterTempC": 22,
+        "airTempC": 21,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Meio da Baia looks like a fun-sized window for Too soft, Medium confidence: 0.6-0.9 m, 44 kJ, 7 s period, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: wind angle is poor for this spot; Meio da Baia may feel too soft without more push.",
+      "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "warnings": [
+        "wind angle is poor for this spot",
+        "Meio da Baia may feel too soft without more push"
+      ]
+    },
+    {
       "spot": "Lagide",
       "window": "After work (17:30 start)",
       "windowRaw": "After work",
@@ -261,80 +334,6 @@
         "Surfline consistency is lully",
         "spot surf looks too small",
         "wind angle is poor for this spot"
-      ]
-    },
-    {
-      "spot": "Meio da Baia",
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": -4,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.6,
-        "waveMaxM": 0.9,
-        "swellM": 0.8,
-        "periodS": 8,
-        "energyKj": 44,
-        "consistencyScore": 27,
-        "windKph": 4,
-        "gustKph": 6,
-        "waterTempC": 20,
-        "airTempC": 21
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 0.9,
-      "periodS": 7,
-      "windKph": 10,
-      "windDirection": "W",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "W 10 km/h · cross-shore · poor wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": 20,
-        "airTempC": 21,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a fun-sized window for Too soft, Medium confidence: 0.6-0.9 m, 44 kJ, 7 s period, lully 27/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; wind angle is poor for this spot; Meio da Baia may feel too soft without more push.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "wind angle is poor for this spot",
-        "Meio da Baia may feel too soft without more push"
       ]
     }
   ]
