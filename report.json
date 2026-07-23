@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-23",
-  "generatedAt": "2026-07-23 10:00 Portugal time",
+  "generatedAt": "2026-07-23 11:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -28,7 +28,7 @@
     "text": "TODAY after work I’d only go if the cams look better than expected—Rey Cortiço is the best available call, but Surfline consistency is pretty patchy and the wind angle isn’t great for that spot. Since it’s dead low and rising, it could still line up briefly on the sandbanks, but wind will likely decide how clean it is. Please do your Surfline and MEO Beachcam check before leaving, and if it doesn’t look noticeably improved, I’d skip and save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Rey Cortiço",
@@ -265,80 +265,79 @@
       ]
     },
     {
-      "spot": "Baleal",
-      "window": "After work (18:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "18:30",
-      "score": -42,
+      "spot": "Cerro",
+      "window": "Lunch",
+      "windowRaw": "Lunch",
+      "windowTime": "12:00",
+      "score": -30,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
       "confidenceLabel": "Low confidence",
       "confidenceLabelRaw": "low",
-      "surfline": "POOR TO FAIR",
+      "surfline": "FAIR",
       "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
+        "surfline": "FAIR",
         "surfForecast": 0,
         "swellmap": null
       },
       "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0,
-        "waveMaxM": 0.3,
-        "swellM": 0.7,
+        "rating": "FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 0.6,
         "periodS": 7,
-        "energyKj": 17,
-        "consistencyScore": 1,
-        "windKph": 8,
-        "gustKph": 11,
-        "waterTempC": 21,
-        "airTempC": 23
+        "energyKj": 24,
+        "consistencyScore": 0,
+        "windKph": 6,
+        "gustKph": 7,
+        "waterTempC": 22,
+        "airTempC": 21
       },
       "surfForecast": 0,
       "swellmap": null,
       "tide": {
-        "label": "Rising with push",
-        "direction": "rising",
-        "summary": "Rising with push",
+        "label": "High dropping",
+        "direction": "falling",
+        "summary": "High dropping",
         "captured": true
       },
-      "waveM": 0.3,
+      "waveM": 0.6,
       "periodS": 7,
-      "windKph": 15,
-      "windDirection": "WNW",
-      "windState": "cross-on",
-      "windStateLabel": "cross-onshore",
-      "windFit": "WNW 15 km/h · cross-onshore · poor wind fit",
-      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "windKph": 10,
+      "windDirection": "W",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "W 10 km/h · cross-off · usable wind",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
         "swellmap": null,
         "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
       },
       "photo": {
-        "url": "images/spots/baleal.jpg",
+        "url": "images/spots/cerro.jpg",
         "credit": "Local file",
-        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
-        "alt": "Photo of Baleal surf spot"
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
       },
       "temperature": {
-        "waterTempC": 21,
-        "airTempC": 23,
+        "waterTempC": 22,
+        "airTempC": 21,
         "source": "Surfline"
       },
       "wetsuit": {
-        "suit": "3/2 Dakine",
-        "reason": "Warm water, warm air, and light wind make the 3/2 reasonable."
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Baleal looks like a small window for Too soft, Low confidence: 0-0.3 m, 17 kJ, 7 s period, lully 1/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; Baleal looks below your bodyboard fun size; Baleal may feel too soft without more push.",
-      "shortExplanation": "Baleal is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
+      "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 24 kJ, 7 s period, lully 0/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at high tide is usually too fat for exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
+      "shortExplanation": "Cerro is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide is part of the picture, but not the deciding factor.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
-        "wind angle is poor for this spot",
-        "6-9s at mid tide is soft and sectiony on the Baleal sandbanks",
-        "Baleal looks below your bodyboard fun size",
-        "Baleal may feel too soft without more push"
+        "6-9s at high tide is usually too fat for exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia",
+        "Cerro looks below your bodyboard fun size",
+        "Cerro may feel too soft without more push"
       ]
     }
   ]
