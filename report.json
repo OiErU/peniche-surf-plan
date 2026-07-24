@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-24",
-  "generatedAt": "2026-07-24 12:00 Portugal time",
+  "generatedAt": "2026-07-24 13:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,9 +25,9 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY is probably a skip with no reliable window. Rey Cortiço is the best available call, but the wind looks onshore and poorly matched for it, and Surfline consistency isn’t great, so it’s not worth chasing. I’d check Surfline or MEO Beachcam before leaving and only commit if the cams look surprisingly clean. Otherwise, save the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "text": "Tomorrow is probably one to skip. Rey Cortiço at After work (16:30 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
     "cacheHit": false
   },
   "best": {
@@ -35,19 +35,19 @@
     "window": "After work (16:30 start)",
     "windowRaw": "After work",
     "windowTime": "16:30",
-    "score": 22,
+    "score": 14,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": null,
+    "surfline": "POOR",
     "sourceVerdicts": {
-      "surfline": null,
+      "surfline": "POOR",
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": null,
+      "rating": "POOR",
       "waveMinM": 0.6,
       "waveMaxM": 0.9,
       "swellM": 0.9,
@@ -57,7 +57,7 @@
       "windKph": 12,
       "gustKph": 15,
       "waterTempC": 21,
-      "airTempC": 20
+      "airTempC": 21
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -89,7 +89,7 @@
     },
     "temperature": {
       "waterTempC": 21,
-      "airTempC": 20,
+      "airTempC": 21,
       "source": "Surfline"
     },
     "wetsuit": {
