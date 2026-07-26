@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-26",
-  "generatedAt": "2026-07-26 15:00 Portugal time",
+  "generatedAt": "2026-07-26 16:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 2,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,17 +25,17 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "It’s probably not worth chasing today—there’s no reliable window, mainly because the wind’s way too strong and onshore. Even with some size potentially wrapping into the bay later (Meio da Baia around mid/late afternoon), the Surfline consistency looks poor and the conditions could easily stay messy. I’d check Surfline or MEO Beachcam first before leaving, and only head out if the cams look noticeably cleaner than expected; otherwise, save the drive.",
+    "text": "It’s probably not worth chasing today—there’s no reliable window with the north wind running strong and onshore, so even the best option (Meio da Baia around the evening) can end up feeling too soft or messy. Before you leave, do a quick Surfline + MEO Beachcam check; if the cams don’t look noticeably cleaner than expected, save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Meio da Baia",
-    "window": "Afternoon — 16:00",
-    "windowRaw": "Afternoon",
-    "windowTime": "16:00",
-    "score": -42.5,
+    "window": "Evening — 17:00",
+    "windowRaw": "Evening",
+    "windowTime": "17:00",
+    "score": -49,
     "sessionLabel": "Worth checking",
     "sessionLabelRaw": "check first",
     "confidenceLabel": "Low confidence",
@@ -51,20 +51,20 @@
       "waveMinM": 0.6,
       "waveMaxM": 1.1,
       "swellM": 1.7,
-      "periodS": 7,
-      "energyKj": 90,
-      "consistencyScore": 12,
+      "periodS": 6,
+      "energyKj": 86,
+      "consistencyScore": 8,
       "windKph": 17,
-      "gustKph": 22,
+      "gustKph": 21,
       "waterTempC": 21,
       "airTempC": 20
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid dropping",
+      "label": "Low dropping",
       "direction": "falling",
-      "summary": "Mid dropping",
+      "summary": "Low dropping",
       "captured": true
     },
     "waveM": 1.1,
@@ -96,12 +96,13 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 90 kJ, 7 s period, lully 12/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; wind is over 30 km/h; wind fit is poor or too strong.",
-    "shortExplanation": "Meio da Baia is worth a quick check for afternoon — 16:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+    "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 86 kJ, 7 s period, lully 8/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at low tide can still make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia punchy.  Watch: Surfline consistency is lully; wind is over 30 km/h; wind fit is poor or too strong; Meio da Baia may feel too soft without more push.",
+    "shortExplanation": "Meio da Baia is worth a quick check for evening — 17:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
     "warnings": [
       "Surfline consistency is lully",
       "wind is over 30 km/h",
-      "wind fit is poor or too strong"
+      "wind fit is poor or too strong",
+      "Meio da Baia may feel too soft without more push"
     ]
   },
   "ranked": []
