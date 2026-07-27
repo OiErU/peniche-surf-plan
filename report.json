@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-27",
-  "generatedAt": "2026-07-27 12:00 Portugal time",
+  "generatedAt": "2026-07-27 13:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -28,7 +28,7 @@
     "text": "For TODAY after work, I’d pick Lagide, but only after a quick cam check—Surfline and MEO Beachcam first—because the wind angle is a bit off for that spot and could make it choppy. Swell looks small-but-useable for longer rides, especially as the tide’s dropping through the middle, but conditions can swing fast with wind. If the cams don’t look notably cleaner than expected, I’d hold off.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Lagide",
@@ -57,7 +57,7 @@
       "windKph": 16,
       "gustKph": 21,
       "waterTempC": 21,
-      "airTempC": 21
+      "airTempC": 22
     },
     "surfForecast": 0,
     "swellmap": {
@@ -101,7 +101,7 @@
     },
     "temperature": {
       "waterTempC": 21,
-      "airTempC": 21,
+      "airTempC": 22,
       "source": "Surfline"
     },
     "wetsuit": {
@@ -142,7 +142,7 @@
         "windKph": 16,
         "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": {
@@ -186,7 +186,7 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
@@ -201,48 +201,48 @@
     },
     {
       "spot": "Meio da Baia",
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": 21,
+      "window": "After work (16:30 start)",
+      "windowRaw": "After work",
+      "windowTime": "16:30",
+      "score": 17,
       "sessionLabel": "Worth checking",
       "sessionLabelRaw": "check first",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
+      "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
-        "surfline": "FAIR",
+        "surfline": "POOR TO FAIR",
         "surfForecast": 0,
         "swellmap": null
       },
       "surflineDetails": {
-        "rating": "FAIR",
+        "rating": "POOR TO FAIR",
         "waveMinM": 0.9,
         "waveMaxM": 1.2,
-        "swellM": 0.8,
-        "periodS": 11,
-        "energyKj": 160,
-        "consistencyScore": 66,
-        "windKph": 9,
-        "gustKph": 9,
+        "swellM": 1.3,
+        "periodS": 10,
+        "energyKj": 189,
+        "consistencyScore": 69,
+        "windKph": 16,
+        "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": null,
       "tide": {
-        "label": "Mid rising",
-        "direction": "rising",
-        "summary": "Mid rising",
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
         "captured": true
       },
       "waveM": 1.2,
-      "periodS": 7,
-      "windKph": 10,
-      "windDirection": "NW",
+      "periodS": 10,
+      "windKph": 15,
+      "windDirection": "WNW",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "NW 10 km/h · cross-onshore · poor wind fit",
+      "windFit": "WNW 15 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
@@ -258,15 +258,15 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 160 kJ, 7 s period, consistent 66/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: wind angle is poor for this spot.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 189 kJ, 10 s period, consistent 69/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at mid tide works well on exposed beaches.  Watch: wind angle is poor for this spot.",
+      "shortExplanation": "Meio da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "wind angle is poor for this spot"
       ]
@@ -298,7 +298,7 @@
         "windKph": 16,
         "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -330,7 +330,7 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
