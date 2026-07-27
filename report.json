@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-27",
-  "generatedAt": "2026-07-27 14:00 Portugal time",
+  "generatedAt": "2026-07-27 15:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "For TODAY after work, I’d pick Lagide, but only after a quick cam check—Surfline and MEO Beachcam first—because the wind angle is a bit off for that spot and could make it choppy. Swell looks small-but-useable for longer rides, especially as the tide’s dropping through the middle, but conditions can swing fast with wind. If the cams don’t look notably cleaner than expected, I’d hold off.",
+    "text": "For TODAY I’d only go for Lagide after work if the cams look better than expected, because the wind angle is pretty poor for the spot. Surfline and MEO are giving it a poor-to-fair vibe, so do a quick camera check before leaving and let that decide. If it’s reading clean with decent wall, the mid-dropping tide should give you some longer workable rides; otherwise it’s probably not worth chasing.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Lagide",
@@ -82,10 +82,10 @@
     "waveM": 1.2,
     "periodS": 10,
     "windKph": 15,
-    "windDirection": "WNW",
+    "windDirection": "NW",
     "windState": "cross-on",
     "windStateLabel": "cross-onshore",
-    "windFit": "WNW 15 km/h · cross-onshore · poor wind fit",
+    "windFit": "NW 15 km/h · cross-onshore · poor wind fit",
     "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
@@ -167,10 +167,10 @@
       "waveM": 0.9,
       "periodS": 10,
       "windKph": 15,
-      "windDirection": "WNW",
+      "windDirection": "NW",
       "windState": "on",
       "windStateLabel": "on-shore",
-      "windFit": "WNW 15 km/h · onshore · poor wind fit",
+      "windFit": "NW 15 km/h · onshore · poor wind fit",
       "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -239,10 +239,10 @@
       "waveM": 1.2,
       "periodS": 10,
       "windKph": 15,
-      "windDirection": "WNW",
+      "windDirection": "NW",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "WNW 15 km/h · cross-onshore · poor wind fit",
+      "windFit": "NW 15 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
@@ -311,10 +311,10 @@
       "waveM": 1.1,
       "periodS": 10,
       "windKph": 15,
-      "windDirection": "WNW",
+      "windDirection": "NW",
       "windState": "cross",
       "windStateLabel": "cross-shore",
-      "windFit": "WNW 15 km/h · cross-shore · poor wind fit",
+      "windFit": "NW 15 km/h · cross-shore · poor wind fit",
       "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
