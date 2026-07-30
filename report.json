@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-30",
-  "generatedAt": "2026-07-29 21:00 Portugal time",
+  "generatedAt": "2026-07-30 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,9 +25,9 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "Tomorrow is probably one to skip. Rey Cortiço at Lunch looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
-    "provider": "fallback",
-    "model": null,
+    "text": "It’s probably not worth chasing a session today, even though Rey Cortiço at lunch is the best of what’s available. Wind looks like the main problem and Surfline consistency is poor, so you’re likely to get messy conditions. Before you bother leaving, do a quick check on the Surfline cams and MEO Beachcam—unless they look surprisingly much better, I’d save the drive.",
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
     "cacheHit": false
   },
   "best": {
@@ -51,13 +51,13 @@
       "waveMinM": 0.3,
       "waveMaxM": 0.6,
       "swellM": 0.5,
-      "periodS": 7,
+      "periodS": 8,
       "energyKj": 18,
       "consistencyScore": 1,
       "windKph": 15,
-      "gustKph": 18,
+      "gustKph": 17,
       "waterTempC": 21,
-      "airTempC": 20
+      "airTempC": 19
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -89,7 +89,7 @@
     },
     "temperature": {
       "waterTempC": 21,
-      "airTempC": 20,
+      "airTempC": 19,
       "source": "Surfline"
     },
     "wetsuit": {
