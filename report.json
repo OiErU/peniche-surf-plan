@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-07-30",
-  "generatedAt": "2026-07-30 14:00 Portugal time",
+  "generatedAt": "2026-07-30 15:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,10 +25,10 @@
     "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY is probably one to skip—there’s no reliable window for bodyboarding, and Rey Cortiço looks like the least-bad option but only on a good sweep, with onshore wind and a poor wind angle likely to make it messy. I’d do a quick camera check on Surfline and MEO Beachcam for your preferred spot first, and if it doesn’t look noticeably cleaner than expected, just save the drive. With the consistency low and the north exposure so hit-or-miss, it’s not worth chasing.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Tomorrow is probably one to skip. Rey Cortiço at After work (18:00 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
@@ -71,9 +71,9 @@
     "periodS": 10,
     "windKph": 20,
     "windDirection": "NNW",
-    "windState": "on",
-    "windStateLabel": "on-shore",
-    "windFit": "NNW 20 km/h · onshore · poor wind fit",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "NNW 20 km/h · cross-onshore · poor wind fit",
     "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
