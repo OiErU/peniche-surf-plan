@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-04",
-  "generatedAt": "2026-08-04 16:00 Portugal time",
+  "generatedAt": "2026-08-04 17:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 2,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,34 +25,34 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "It’s TODAY and I’d treat this one as a check-first situation: Rey Cortiço after work (around 16:30) is the best bet on paper, but the wind doesn’t look friendly for the spot and Surfline has been inconsistent. I’m going to check the Surfline cams and the MEO Beachcam before leaving, and if it doesn’t look noticeably cleaner there, I’ll skip it. The tide’s mid rising, so if the sandbanks line up right you might still get some punchy sets, but it’s a rare window with low confidence. Check the cams first, then go only if it’s clearly better than expected.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Rey Cortiço at After work (16:30 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
     "window": "After work (16:30 start)",
     "windowRaw": "After work",
     "windowTime": "16:30",
-    "score": 14,
+    "score": 27,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
-    "confidenceLabel": "Low confidence",
-    "confidenceLabelRaw": "low",
-    "surfline": "POOR",
+    "confidenceLabel": "Medium confidence",
+    "confidenceLabelRaw": "medium",
+    "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
-      "surfline": "POOR",
+      "surfline": "POOR TO FAIR",
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": "POOR",
+      "rating": "POOR TO FAIR",
       "waveMinM": 0.3,
       "waveMaxM": 0.6,
       "swellM": 0.6,
       "periodS": 7,
-      "energyKj": 34,
+      "energyKj": 38,
       "consistencyScore": 5,
       "windKph": 14,
       "gustKph": 19,
@@ -96,7 +96,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 34 kJ, 8 s period, lully 5/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
+    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Medium confidence: 0.3-0.6 m, 38 kJ, 8 s period, lully 5/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
     "shortExplanation": "Rey Cortiço is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
@@ -127,11 +127,11 @@
         "swellM": 0.7,
         "periodS": 8,
         "energyKj": 27,
-        "consistencyScore": 4,
-        "windKph": 13,
-        "gustKph": 18,
+        "consistencyScore": 5,
+        "windKph": 11,
+        "gustKph": 16,
         "waterTempC": 21,
-        "airTempC": 26
+        "airTempC": 25
       },
       "surfForecast": 0,
       "swellmap": {
@@ -175,14 +175,14 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 26,
+        "airTempC": 25,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "3/2 Dakine",
         "reason": "Warm water, warm air, and light wind make the 3/2 reasonable."
       },
-      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 27 kJ, 8 s period, lully 4/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste.",
+      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 27 kJ, 8 s period, lully 5/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste.",
       "shortExplanation": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
       "warnings": [
         "Surfline consistency is lully",
@@ -306,7 +306,7 @@
         "windKph": 16,
         "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 26
+        "airTempC": 25
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -338,7 +338,7 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 26,
+        "airTempC": 25,
         "source": "Surfline"
       },
       "wetsuit": {
