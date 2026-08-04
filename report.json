@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-04",
-  "generatedAt": "2026-08-04 10:00 Portugal time",
+  "generatedAt": "2026-08-04 11:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -28,7 +28,7 @@
     "text": "TODAY, I’d check the Surfline cams and the MEO Beachcam before I leave, because Rey Cortiço at lunch is the best available option but the wind angle isn’t great and the Surfline consistency has been a bit weak. The tide’s around dead low and it can still line up on the sandbanks, but it sounds like a “rare window” kind of day. Only head out if the cams look noticeably cleaner than expected; otherwise I’d skip it.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Rey Cortiço",
@@ -182,7 +182,7 @@
       "window": "Lunch",
       "windowRaw": "Lunch",
       "windowTime": "12:00",
-      "score": -10,
+      "score": -18,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
       "confidenceLabel": "Low confidence",
@@ -200,7 +200,7 @@
         "swellM": 0.3,
         "periodS": 9,
         "energyKj": 21,
-        "consistencyScore": null,
+        "consistencyScore": 1,
         "windKph": 10,
         "gustKph": 11,
         "waterTempC": 21,
@@ -243,9 +243,10 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 21 kJ, 9 s period, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at low tide can still make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia punchy.  Watch: spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
+      "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 21 kJ, 9 s period, lully 1/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at low tide can still make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia punchy.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
       "shortExplanation": "Cerro is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
       "warnings": [
+        "Surfline consistency is lully",
         "spot surf looks too small",
         "Cerro looks below your bodyboard fun size",
         "Cerro may feel too soft without more push"
