@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-09",
-  "generatedAt": "2026-08-09 14:00 Portugal time",
+  "generatedAt": "2026-08-09 15:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY looks like a check-first kind of situation at Rey Cortiço, aiming around the afternoon (around 16:00). The swell is there but the wind angle isn’t great and onshore wind could spoil it, especially with how exposed that beach break is. Before you leave, check Surfline and the MEO Beachcam for Rey Cortiço conditions—if it doesn’t look notably cleaner than expected, I’d skip.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Rey Cortiço at Afternoon — 16:00 looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
@@ -57,7 +57,7 @@
       "windKph": 16,
       "gustKph": 22,
       "waterTempC": 21,
-      "airTempC": 21
+      "airTempC": 22
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -70,10 +70,10 @@
     "waveM": 0.6,
     "periodS": 7,
     "windKph": 15,
-    "windDirection": "NW",
+    "windDirection": "NNW",
     "windState": "on",
     "windStateLabel": "on-shore",
-    "windFit": "NW 15 km/h · onshore · poor wind fit",
+    "windFit": "NNW 15 km/h · onshore · poor wind fit",
     "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
@@ -89,7 +89,7 @@
     },
     "temperature": {
       "waterTempC": 21,
-      "airTempC": 21,
+      "airTempC": 22,
       "source": "Surfline"
     },
     "wetsuit": {
