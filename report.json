@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-13",
-  "generatedAt": "2026-08-13 11:00 Portugal time",
+  "generatedAt": "2026-08-13 12:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -20,173 +20,99 @@
   "verdict": {
     "state": "marginal",
     "label": "Worth checking",
-    "headline": "Rey Cortiço After work (18:30 start)",
-    "reason": "Rey Cortiço is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "headline": "Supertubos Lunch",
+    "reason": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Rey Cortiço after work (18:30 start) looks like the best available option, but the wind angle is pretty poor for that spot and it’s getting a low-confidence kind of window. Surfline is reading rough, so I’d do a cam check on Surfline and MEO Beachcam first before committing, since the sandbanks can shift fast there. If the cams don’t look much cleaner than expected, I’d skip it—otherwise, go with low expectations and just aim for workable sets.",
+    "text": "For TODAY, I’d treat it as a worth-checking day at Supertubos around lunch, but I’m not expecting it to be super consistent. The cams (Surfline and MEO Beachcam for your preferred setups) are the key check before you leave, because Surfline looks a bit “lully” on reliability. Wind is mixed and could turn cross-off, and with the tide rising you’re more likely to get that pushy, punchy sandbar setup—so only go if the cams look noticeably better than you’re expecting.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
-    "spot": "Rey Cortiço",
-    "window": "After work (18:30 start)",
-    "windowRaw": "After work",
-    "windowTime": "18:30",
-    "score": 25,
-    "sessionLabel": "Rare window",
-    "sessionLabelRaw": "rare opportunity",
-    "confidenceLabel": "Low confidence",
-    "confidenceLabelRaw": "low",
-    "surfline": "POOR",
+    "spot": "Supertubos",
+    "window": "Lunch",
+    "windowRaw": "Lunch",
+    "windowTime": "12:00",
+    "score": 28,
+    "sessionLabel": "Worth checking",
+    "sessionLabelRaw": "check first",
+    "confidenceLabel": "Medium confidence",
+    "confidenceLabelRaw": "medium",
+    "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
-      "surfline": "POOR",
+      "surfline": "POOR TO FAIR",
       "surfForecast": 0,
-      "swellmap": null
+      "swellmap": "5/10 Reasonable"
     },
     "surflineDetails": {
-      "rating": "POOR",
+      "rating": "POOR TO FAIR",
       "waveMinM": 0.6,
       "waveMaxM": 0.9,
-      "swellM": 0.8,
-      "periodS": 10,
-      "energyKj": 72,
-      "consistencyScore": 52,
-      "windKph": 23,
-      "gustKph": 35,
+      "swellM": 0.9,
+      "periodS": 9,
+      "energyKj": 62,
+      "consistencyScore": 22,
+      "windKph": 13,
+      "gustKph": 18,
       "waterTempC": 22,
-      "airTempC": 21
+      "airTempC": 26
     },
     "surfForecast": 0,
-    "swellmap": null,
+    "swellmap": {
+      "time": "12:00",
+      "rating": 5,
+      "label": "Reasonable",
+      "faceM": 0.79,
+      "waveM": 0.79,
+      "swellDir": "WNW",
+      "swellM": 0.61,
+      "periodS": 9.1,
+      "windDir": "N",
+      "windKts": 10.3,
+      "gustKts": 12.5
+    },
     "tide": {
-      "label": "Low dropping",
-      "direction": "falling",
-      "summary": "Low dropping",
+      "label": "Rising with push",
+      "direction": "rising",
+      "summary": "Rising with push",
       "captured": true
     },
     "waveM": 0.9,
     "periodS": 10,
-    "windKph": 20,
-    "windDirection": "N",
-    "windState": "cross-on",
-    "windStateLabel": "cross-onshore",
-    "windFit": "N 20 km/h · cross-onshore · poor wind fit",
-    "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+    "windKph": 25,
+    "windDirection": "NNW",
+    "windState": "cross-off",
+    "windStateLabel": "cross-offshore",
+    "windFit": "NNW 25 km/h · cross-off · usable wind",
+    "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
-      "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+      "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
+      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
+      "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
     },
     "photo": {
-      "url": "images/spots/belgas.jpg",
-      "credit": "Local file",
-      "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
-      "alt": "Photo of Rey Cortiço surf spot"
+      "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
+      "credit": "Surfer Galaxy",
+      "creditUrl": "https://surfergalaxy.com/",
+      "alt": "Photo of Supertubos surf spot"
     },
     "temperature": {
       "waterTempC": 22,
-      "airTempC": 21,
+      "airTempC": 26,
       "source": "Surfline"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a fun-sized north coast window for Rare window, Low confidence: 0.6-0.9 m, 72 kJ, 10 s period, workable consistency 52/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 10-13s at low tide can still work well on Belgas, so checking exposed beaches makes sense.  Watch: wind angle is poor for this spot.",
-    "shortExplanation": "Rey Cortiço is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "explanation": "Supertubos looks like a fun-sized window for Worth checking, Medium confidence: 0.6-0.9 m, 62 kJ, 10 s period, lully 22/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: Surfline consistency is lully.",
+    "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
     "warnings": [
-      "wind angle is poor for this spot"
+      "Surfline consistency is lully"
     ]
   },
-  "ranked": [
-    {
-      "spot": "Supertubos",
-      "window": "After work (17:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "17:30",
-      "score": 21,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": "4/10 Reasonable"
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 0.8,
-        "periodS": 9,
-        "energyKj": 53,
-        "consistencyScore": 18,
-        "windKph": 21,
-        "gustKph": 32,
-        "waterTempC": 22,
-        "airTempC": 26
-      },
-      "surfForecast": 0,
-      "swellmap": {
-        "time": "18:00",
-        "rating": 4,
-        "label": "Reasonable",
-        "faceM": 0.8,
-        "waveM": 0.8,
-        "swellDir": "WNW",
-        "swellM": 0.63,
-        "periodS": 9.1,
-        "windDir": "N",
-        "windKts": 13.2,
-        "gustKts": 16.2
-      },
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 0.6,
-      "periodS": 10,
-      "windKph": 20,
-      "windDirection": "N",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "N 20 km/h · cross-off · good wind fit",
-      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
-        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-      },
-      "photo": {
-        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-        "credit": "Surfer Galaxy",
-        "creditUrl": "https://surfergalaxy.com/",
-        "alt": "Photo of Supertubos surf spot"
-      },
-      "temperature": {
-        "waterTempC": 22,
-        "airTempC": 26,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Supertubos looks like a clean small window for Worth checking, Medium confidence: 0.3-0.6 m, 53 kJ, 10 s period, lully 18/100, and good wind at 20 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 10-13s at mid tide is the prime barrel / wedge setup for Supertubos / Molhe Leste; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: Surfline consistency is lully; spot surf looks too small.",
-      "shortExplanation": "Supertubos is worth a quick check for after work (17:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide is lining up for a powerful wedge, so keep the comfort level in mind.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "spot surf looks too small"
-      ]
-    }
-  ]
+  "ranked": []
 }
