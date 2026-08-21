@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-22",
-  "generatedAt": "2026-08-21 19:00 Portugal time",
+  "generatedAt": "2026-08-21 21:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -184,6 +184,78 @@
       "warnings": []
     },
     {
+      "spot": "Rey Cortiço",
+      "window": "Early morning — 08:00",
+      "windowRaw": "Early morning",
+      "windowTime": "08:00",
+      "score": 41,
+      "sessionLabel": "Heavy / advanced",
+      "sessionLabelRaw": "advanced/heavy",
+      "confidenceLabel": "High confidence",
+      "confidenceLabelRaw": "high",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 2,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.9,
+        "waveMaxM": 1.2,
+        "swellM": 1.6,
+        "periodS": 10,
+        "energyKj": 216,
+        "consistencyScore": 67,
+        "windKph": 12,
+        "gustKph": 15,
+        "waterTempC": null,
+        "airTempC": null
+      },
+      "surfForecast": 2,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid rising",
+        "direction": "rising",
+        "summary": "Mid rising",
+        "captured": true
+      },
+      "waveM": 1.2,
+      "periodS": 10,
+      "windKph": 5,
+      "windDirection": "NNW",
+      "windState": "glassy",
+      "windStateLabel": "glassy",
+      "windFit": "NNW 5 km/h · glassy · good wind fit",
+      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
+      },
+      "photo": {
+        "url": "images/spots/belgas.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
+        "alt": "Photo of Rey Cortiço surf spot"
+      },
+      "temperature": {
+        "waterTempC": null,
+        "airTempC": 18,
+        "source": "Surf-Forecast"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Rey Cortiço looks like a clean fun-sized window for Heavy / advanced, High confidence: 0.9-1.2 m, 216 kJ, 10 s period, consistent 67/100, and glassy conditions.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 10-13s at mid tide also works on Belgas, but low tide is not a deal-breaker.  Watch: Rey Cortiço is a check-first bodyboard size.",
+      "shortExplanation": "Rey Cortiço is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide should let the sandbars work without overdoing it.",
+      "warnings": [
+        "Rey Cortiço is a check-first bodyboard size"
+      ]
+    },
+    {
       "spot": "Cantinho da Baia",
       "window": "Early morning — 08:00",
       "windowRaw": "Early morning",
@@ -234,11 +306,11 @@
       },
       "waveM": 0.9,
       "periodS": 10,
-      "windKph": 10,
+      "windKph": 5,
       "windDirection": "NNW",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "NNW 10 km/h · cross-onshore · poor wind fit",
+      "windFit": "NNW 5 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -266,76 +338,6 @@
       "warnings": [
         "wind angle is poor for this spot"
       ]
-    },
-    {
-      "spot": "Meio da Baia",
-      "window": "Lunch — 13:00",
-      "windowRaw": "Lunch",
-      "windowTime": "13:00",
-      "score": 33,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.1,
-        "periodS": 9,
-        "energyKj": 171,
-        "consistencyScore": 71,
-        "windKph": 8,
-        "gustKph": 9,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "periodS": 10,
-      "windKph": 10,
-      "windDirection": "WSW",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "WSW 10 km/h · cross-shore · usable wind",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 20,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 171 kJ, 10 s period, consistent 71/100, and wind is not fully clear.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at mid tide works well on exposed beaches.  Expect: it is less reliable than the main bay spots, so weak swell or short period can make it feel soft.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
-      "warnings": []
     }
   ]
 }
