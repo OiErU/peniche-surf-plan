@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-22",
-  "generatedAt": "2026-08-22 11:00 Portugal time",
+  "generatedAt": "2026-08-22 12:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -184,76 +184,6 @@
       "warnings": []
     },
     {
-      "spot": "Meio da Baia",
-      "window": "Lunch — 13:00",
-      "windowRaw": "Lunch",
-      "windowTime": "13:00",
-      "score": 33,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.3,
-        "periodS": 9,
-        "energyKj": 182,
-        "consistencyScore": 70,
-        "windKph": 8,
-        "gustKph": 8,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "periodS": 10,
-      "windKph": 10,
-      "windDirection": "WSW",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "WSW 10 km/h · cross-shore · usable wind",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 20,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 182 kJ, 10 s period, consistent 70/100, and wind is not fully clear.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at mid tide works well on exposed beaches.  Expect: it is less reliable than the main bay spots, so weak swell or short period can make it feel soft.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
-      "warnings": []
-    },
-    {
       "spot": "Cantinho da Baia",
       "window": "Lunch — 13:00",
       "windowRaw": "Lunch",
@@ -335,6 +265,79 @@
       "shortExplanation": "Cantinho da Baia is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the bay stay organised.",
       "warnings": [
         "wind angle is poor for this spot"
+      ]
+    },
+    {
+      "spot": "Baleal",
+      "window": "Lunch — 13:00",
+      "windowRaw": "Lunch",
+      "windowTime": "13:00",
+      "score": 8,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Medium confidence",
+      "confidenceLabelRaw": "medium",
+      "surfline": "FAIR",
+      "sourceVerdicts": {
+        "surfline": "FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "FAIR",
+        "waveMinM": 0.6,
+        "waveMaxM": 0.9,
+        "swellM": 1.3,
+        "periodS": 9,
+        "energyKj": 99,
+        "consistencyScore": 71,
+        "windKph": 12,
+        "gustKph": 12,
+        "waterTempC": null,
+        "airTempC": null
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 0.9,
+      "periodS": 10,
+      "windKph": 10,
+      "windDirection": "WSW",
+      "windState": "cross",
+      "windStateLabel": "cross-shore",
+      "windFit": "WSW 10 km/h · cross-shore · poor wind fit",
+      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/baleal.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
+        "alt": "Photo of Baleal surf spot"
+      },
+      "temperature": {
+        "waterTempC": null,
+        "airTempC": 20,
+        "source": "Surf-Forecast"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Baleal looks like a fun-sized window for Too soft, Medium confidence: 0.6-0.9 m, 99 kJ, 10 s period, consistent 71/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks.  Watch: wind angle is poor for this spot; Baleal looks below your bodyboard fun size.",
+      "shortExplanation": "Baleal is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "warnings": [
+        "wind angle is poor for this spot",
+        "Baleal looks below your bodyboard fun size"
       ]
     }
   ]
