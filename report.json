@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-22",
-  "generatedAt": "2026-08-21 21:00 Portugal time",
+  "generatedAt": "2026-08-22 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -20,72 +20,72 @@
   "verdict": {
     "state": "go",
     "label": "Go bodyboarding",
-    "headline": "Go bodyboarding: Lagide Lunch — 13:00",
-    "reason": "Lagide looks like the best bodyboard option for lunch — 13:00.  This should feel like a fun progression session rather than a heavy one.  The wind should be manageable, but not a big advantage.  The tide should help the reef hold shape.",
+    "headline": "Go bodyboarding: Lagide Early morning — 08:00",
+    "reason": "Lagide looks like the best bodyboard option for early morning — 08:00.  This should feel like a fun progression session rather than a heavy one.  The wind should help keep it tidy.  The tide should help the reef hold shape.",
     "quote": "Best window. Go get wet."
   },
   "conversationalSummary": {
-    "text": "Lagide at Lunch — 13:00 looks like the best call. The conditions line up well enough for a worthwhile session without looking too heavy. I'd still give the cam a quick look before leaving, but this is the main plan.",
-    "provider": "fallback",
-    "model": null,
+    "text": "It’s GO for bodyboarding TODAY, with Lagide looking best in the early window around 08:00. The cams on Surfline and MEO Beachcam should be your quick check before you leave, but wind looks nicely sorted and conditions point to clean, rideable lefts as the tide is mid rising. With solid swell for a progression session, I’d head for Lagide first.",
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
     "cacheHit": false
   },
   "best": {
     "spot": "Lagide",
-    "window": "Lunch — 13:00",
-    "windowRaw": "Lunch",
-    "windowTime": "13:00",
-    "score": 57,
+    "window": "Early morning — 08:00",
+    "windowRaw": "Early morning",
+    "windowTime": "08:00",
+    "score": 58,
     "sessionLabel": "Fun progression",
     "sessionLabelRaw": "progression",
     "confidenceLabel": "High confidence",
     "confidenceLabelRaw": "high",
-    "surfline": "FAIR",
+    "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
-      "surfline": "FAIR",
+      "surfline": "POOR TO FAIR",
       "surfForecast": 2,
       "swellmap": "6/10 Reasonable"
     },
     "surflineDetails": {
-      "rating": "FAIR",
-      "waveMinM": 0.9,
-      "waveMaxM": 1.2,
-      "swellM": 1.1,
-      "periodS": 9,
-      "energyKj": 164,
-      "consistencyScore": 70,
-      "windKph": 8,
-      "gustKph": 9,
+      "rating": "POOR TO FAIR",
+      "waveMinM": 1.2,
+      "waveMaxM": 1.5,
+      "swellM": 1.7,
+      "periodS": 10,
+      "energyKj": 250,
+      "consistencyScore": 67,
+      "windKph": 12,
+      "gustKph": 12,
       "waterTempC": null,
       "airTempC": null
     },
     "surfForecast": 2,
     "swellmap": {
-      "time": "12:00",
+      "time": "09:00",
       "rating": 6,
       "label": "Reasonable",
-      "faceM": 0.99,
-      "waveM": 0.99,
-      "swellDir": "NNW",
-      "swellM": 0.74,
+      "faceM": 1.04,
+      "waveM": 1.04,
+      "swellDir": "NW",
+      "swellM": 0.81,
       "periodS": 9.1,
-      "windDir": "W",
-      "windKts": 5.2,
-      "gustKts": 6.2
+      "windDir": "WNW",
+      "windKts": 3.7,
+      "gustKts": 7.4
     },
     "tide": {
-      "label": "Mid dropping",
-      "direction": "falling",
-      "summary": "Mid dropping",
+      "label": "Mid rising",
+      "direction": "rising",
+      "summary": "Mid rising",
       "captured": true
     },
-    "waveM": 1.2,
+    "waveM": 1.5,
     "periodS": 10,
-    "windKph": 10,
-    "windDirection": "WSW",
-    "windState": "cross-off",
-    "windStateLabel": "cross-offshore",
-    "windFit": "WSW 10 km/h · cross-off · usable wind",
+    "windKph": 5,
+    "windDirection": "N",
+    "windState": "glassy",
+    "windStateLabel": "glassy",
+    "windFit": "N 5 km/h · glassy · good wind fit",
     "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
@@ -101,174 +101,32 @@
     },
     "temperature": {
       "waterTempC": null,
-      "airTempC": 20,
+      "airTempC": 17,
       "source": "Surf-Forecast"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Lagide looks like a fun-sized window for Fun progression, High confidence: 0.9-1.2 m, 164 kJ, 10 s period, consistent 70/100, and wind is not fully clear.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
-    "shortExplanation": "Lagide is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide should help the reef hold shape.",
+    "explanation": "Lagide looks like a clean solid window for Fun progression, High confidence: 1.2-1.5 m, 250 kJ, 10 s period, consistent 67/100, and glassy conditions.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
+    "shortExplanation": "Lagide is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide should help the reef hold shape.",
     "warnings": []
   },
   "ranked": [
     {
-      "spot": "Cerro",
-      "window": "Lunch — 13:00",
-      "windowRaw": "Lunch",
-      "windowTime": "13:00",
-      "score": 44,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "FAIR",
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 1,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.6,
-        "waveMaxM": 1.1,
-        "swellM": 1.1,
-        "periodS": 9,
-        "energyKj": 136,
-        "consistencyScore": 69,
-        "windKph": 8,
-        "gustKph": 9,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 1,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 1.1,
-      "periodS": 10,
-      "windKph": 10,
-      "windDirection": "WSW",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "WSW 10 km/h · cross-off · good wind fit",
-      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/cerro.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-        "alt": "Photo of Cerro surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 20,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Medium confidence: 0.6-1.1 m, 136 kJ, 10 s period, consistent 69/100, and good wind at 10 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
-      "shortExplanation": "Cerro is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
-      "warnings": []
-    },
-    {
-      "spot": "Rey Cortiço",
+      "spot": "Cantinho da Baia",
       "window": "Early morning — 08:00",
       "windowRaw": "Early morning",
       "windowTime": "08:00",
-      "score": 41,
-      "sessionLabel": "Heavy / advanced",
-      "sessionLabelRaw": "advanced/heavy",
+      "score": 58,
+      "sessionLabel": "Safe fun",
+      "sessionLabelRaw": "safe fun",
       "confidenceLabel": "High confidence",
       "confidenceLabelRaw": "high",
       "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
         "surfForecast": 2,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.6,
-        "periodS": 10,
-        "energyKj": 216,
-        "consistencyScore": 67,
-        "windKph": 12,
-        "gustKph": 15,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 2,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid rising",
-        "direction": "rising",
-        "summary": "Mid rising",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "periodS": 10,
-      "windKph": 5,
-      "windDirection": "NNW",
-      "windState": "glassy",
-      "windStateLabel": "glassy",
-      "windFit": "NNW 5 km/h · glassy · good wind fit",
-      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
-      },
-      "photo": {
-        "url": "images/spots/belgas.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
-        "alt": "Photo of Rey Cortiço surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 18,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Rey Cortiço looks like a clean fun-sized window for Heavy / advanced, High confidence: 0.9-1.2 m, 216 kJ, 10 s period, consistent 67/100, and glassy conditions.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 10-13s at mid tide also works on Belgas, but low tide is not a deal-breaker.  Watch: Rey Cortiço is a check-first bodyboard size.",
-      "shortExplanation": "Rey Cortiço is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide should let the sandbars work without overdoing it.",
-      "warnings": [
-        "Rey Cortiço is a check-first bodyboard size"
-      ]
-    },
-    {
-      "spot": "Cantinho da Baia",
-      "window": "Early morning — 08:00",
-      "windowRaw": "Early morning",
-      "windowTime": "08:00",
-      "score": 35,
-      "sessionLabel": "Safe fun",
-      "sessionLabelRaw": "safe fun",
-      "confidenceLabel": "Medium confidence",
-      "confidenceLabelRaw": "medium",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 1,
         "swellmap": "6/10 Reasonable"
       },
       "surflineDetails": {
@@ -277,26 +135,26 @@
         "waveMaxM": 0.9,
         "swellM": 1.6,
         "periodS": 10,
-        "energyKj": 180,
+        "energyKj": 191,
         "consistencyScore": 67,
-        "windKph": 14,
-        "gustKph": 14,
+        "windKph": 12,
+        "gustKph": 12,
         "waterTempC": null,
         "airTempC": null
       },
-      "surfForecast": 1,
+      "surfForecast": 2,
       "swellmap": {
         "time": "09:00",
         "rating": 6,
         "label": "Reasonable",
-        "faceM": 0.98,
-        "waveM": 0.98,
+        "faceM": 0.96,
+        "waveM": 0.96,
         "swellDir": "NW",
-        "swellM": 0.76,
+        "swellM": 0.75,
         "periodS": 9,
         "windDir": "WNW",
-        "windKts": 4.3,
-        "gustKts": 5.2
+        "windKts": 3.7,
+        "gustKts": 7.5
       },
       "tide": {
         "label": "Mid rising",
@@ -307,10 +165,10 @@
       "waveM": 0.9,
       "periodS": 10,
       "windKph": 5,
-      "windDirection": "NNW",
-      "windState": "cross-on",
-      "windStateLabel": "cross-onshore",
-      "windFit": "NNW 5 km/h · cross-onshore · poor wind fit",
+      "windDirection": "N",
+      "windState": "glassy",
+      "windStateLabel": "glassy",
+      "windFit": "N 5 km/h · glassy · good wind fit",
       "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -326,18 +184,156 @@
       },
       "temperature": {
         "waterTempC": null,
-        "airTempC": 18,
+        "airTempC": 17,
         "source": "Surf-Forecast"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.6-0.9 m, 180 kJ, 10 s period, consistent 67/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 10-13s at mid tide gives the sheltered bay workable wrap-around lines.  Watch: wind angle is poor for this spot.",
-      "shortExplanation": "Cantinho da Baia is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should help the bay stay organised.",
-      "warnings": [
-        "wind angle is poor for this spot"
-      ]
+      "explanation": "Cantinho da Baia looks like a clean fun-sized window for Safe fun, High confidence: 0.6-0.9 m, 191 kJ, 10 s period, consistent 67/100, and glassy conditions.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 10-13s at mid tide gives the sheltered bay workable wrap-around lines.  Expect: expect softer waves and more people, but usually enough room to spread out.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide should help the bay stay organised.",
+      "warnings": []
+    },
+    {
+      "spot": "Meio da Baia",
+      "window": "Early morning — 08:00",
+      "windowRaw": "Early morning",
+      "windowTime": "08:00",
+      "score": 53,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
+      "confidenceLabel": "High confidence",
+      "confidenceLabelRaw": "high",
+      "surfline": "FAIR",
+      "sourceVerdicts": {
+        "surfline": "FAIR",
+        "surfForecast": 2,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "FAIR",
+        "waveMinM": 1.2,
+        "waveMaxM": 1.5,
+        "swellM": 1.8,
+        "periodS": 10,
+        "energyKj": 264,
+        "consistencyScore": 67,
+        "windKph": 12,
+        "gustKph": 12,
+        "waterTempC": null,
+        "airTempC": null
+      },
+      "surfForecast": 2,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid rising",
+        "direction": "rising",
+        "summary": "Mid rising",
+        "captured": true
+      },
+      "waveM": 1.5,
+      "periodS": 10,
+      "windKph": 5,
+      "windDirection": "N",
+      "windState": "glassy",
+      "windStateLabel": "glassy",
+      "windFit": "N 5 km/h · glassy · good wind fit",
+      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/meio-da-baia.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
+        "alt": "Photo of Meio da Baia surf spot"
+      },
+      "temperature": {
+        "waterTempC": null,
+        "airTempC": 17,
+        "source": "Surf-Forecast"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Meio da Baia looks like a clean solid window for Worth checking, High confidence: 1.2-1.5 m, 264 kJ, 10 s period, consistent 67/100, and glassy conditions.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at mid tide works well on exposed beaches.  Expect: it is less reliable than the main bay spots, so weak swell or short period can make it feel soft.",
+      "shortExplanation": "Meio da Baia is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
+      "warnings": []
+    },
+    {
+      "spot": "Cerro",
+      "window": "Early morning — 08:00",
+      "windowRaw": "Early morning",
+      "windowTime": "08:00",
+      "score": 53,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
+      "confidenceLabel": "High confidence",
+      "confidenceLabelRaw": "high",
+      "surfline": "FAIR",
+      "sourceVerdicts": {
+        "surfline": "FAIR",
+        "surfForecast": 2,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "FAIR",
+        "waveMinM": 0.9,
+        "waveMaxM": 1.4,
+        "swellM": 1.4,
+        "periodS": 10,
+        "energyKj": 205,
+        "consistencyScore": 66,
+        "windKph": 12,
+        "gustKph": 12,
+        "waterTempC": null,
+        "airTempC": null
+      },
+      "surfForecast": 2,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid rising",
+        "direction": "rising",
+        "summary": "Mid rising",
+        "captured": true
+      },
+      "waveM": 1.4,
+      "periodS": 10,
+      "windKph": 5,
+      "windDirection": "N",
+      "windState": "glassy",
+      "windStateLabel": "glassy",
+      "windFit": "N 5 km/h · glassy · good wind fit",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/cerro.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
+      },
+      "temperature": {
+        "waterTempC": null,
+        "airTempC": 17,
+        "source": "Surf-Forecast"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Cerro looks like a clean solid window for Worth checking, High confidence: 0.9-1.4 m, 205 kJ, 10 s period, consistent 66/100, and glassy conditions.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
+      "shortExplanation": "Cerro is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
+      "warnings": []
     }
   ]
 }
