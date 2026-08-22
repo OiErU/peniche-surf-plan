@@ -1,12 +1,10 @@
 {
   "targetDate": "2026-08-22",
-  "generatedAt": "2026-08-22 10:00 Portugal time",
-  "status": "degraded",
+  "generatedAt": "2026-08-22 11:00 Portugal time",
+  "status": "ok",
   "dataQuality": {
-    "degraded": true,
-    "warnings": [
-      "Lagide | Surfline | all eligible windows | source missing | url=https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2?view=table"
-    ],
+    "degraded": false,
+    "warnings": [],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -15,58 +13,66 @@
   "collection": {
     "completed": true,
     "retryCount": 0,
-    "failedSources": [
-      "Surfline"
-    ],
-    "failedSpots": [
-      "lagide"
-    ],
+    "failedSources": [],
+    "failedSpots": [],
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Cerro Lunch — 13:00",
-    "reason": "Cerro is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
-    "quote": "If in doubt, paddle out."
+    "state": "go",
+    "label": "Go bodyboarding",
+    "headline": "Go bodyboarding: Lagide Lunch — 13:00",
+    "reason": "Lagide looks like the best bodyboard option for lunch — 13:00.  This should feel like a fun progression session rather than a heavy one.  The wind should be manageable, but not a big advantage.  The tide should help the reef hold shape.",
+    "quote": "Best window. Go get wet."
   },
   "conversationalSummary": {
-    "text": "For TODAY, I’d do a camera check before heading out, but Cerro around lunch (13:00) looks like it could be worth trying. The wave outlook on Surfline is only fair, though the consistency is decent, and the wind seems like it’s lining up okay for exposed beachbreak waves. Tide should be in a decent falling window for building a bit of shape, so if the cams don’t look significantly better than expected, I’d pass.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "text": "Lagide at Lunch — 13:00 looks like the best call. The conditions line up well enough for a worthwhile session without looking too heavy. I'd still give the cam a quick look before leaving, but this is the main plan.",
+    "provider": "fallback",
+    "model": null,
     "cacheHit": false
   },
   "best": {
-    "spot": "Cerro",
+    "spot": "Lagide",
     "window": "Lunch — 13:00",
     "windowRaw": "Lunch",
     "windowTime": "13:00",
-    "score": 44,
-    "sessionLabel": "Worth checking",
-    "sessionLabelRaw": "check first",
-    "confidenceLabel": "Medium confidence",
-    "confidenceLabelRaw": "medium",
+    "score": 57,
+    "sessionLabel": "Fun progression",
+    "sessionLabelRaw": "progression",
+    "confidenceLabel": "High confidence",
+    "confidenceLabelRaw": "high",
     "surfline": "FAIR",
     "sourceVerdicts": {
       "surfline": "FAIR",
-      "surfForecast": 1,
-      "swellmap": null
+      "surfForecast": 2,
+      "swellmap": "6/10 Reasonable"
     },
     "surflineDetails": {
       "rating": "FAIR",
       "waveMinM": 0.9,
       "waveMaxM": 1.2,
-      "swellM": 1.2,
+      "swellM": 1.3,
       "periodS": 9,
-      "energyKj": 148,
-      "consistencyScore": 69,
+      "energyKj": 177,
+      "consistencyScore": 70,
       "windKph": 8,
       "gustKph": 8,
       "waterTempC": null,
       "airTempC": null
     },
-    "surfForecast": 1,
-    "swellmap": null,
+    "surfForecast": 2,
+    "swellmap": {
+      "time": "12:00",
+      "rating": 6,
+      "label": "Reasonable",
+      "faceM": 0.98,
+      "waveM": 0.98,
+      "swellDir": "NNW",
+      "swellM": 0.74,
+      "periodS": 9.1,
+      "windDir": "WSW",
+      "windKts": 3.6,
+      "gustKts": 4.3
+    },
     "tide": {
       "label": "Mid dropping",
       "direction": "falling",
@@ -79,19 +85,19 @@
     "windDirection": "WSW",
     "windState": "cross-off",
     "windStateLabel": "cross-offshore",
-    "windFit": "WSW 10 km/h · cross-off · good wind fit",
-    "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+    "windFit": "WSW 10 km/h · cross-off · usable wind",
+    "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
-      "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest",
+      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF",
+      "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-estatica/"
     },
     "photo": {
-      "url": "images/spots/cerro.jpg",
-      "credit": "Local file",
-      "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-      "alt": "Photo of Cerro surf spot"
+      "url": "https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg",
+      "credit": "Single Quiver",
+      "creditUrl": "https://www.singlequiver.com/",
+      "alt": "Photo of Lagide surf spot"
     },
     "temperature": {
       "waterTempC": null,
@@ -102,79 +108,67 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 148 kJ, 10 s period, consistent 69/100, and good wind at 10 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
-    "shortExplanation": "Cerro is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
+    "explanation": "Lagide looks like a fun-sized window for Fun progression, High confidence: 0.9-1.2 m, 177 kJ, 10 s period, consistent 70/100, and wind is not fully clear.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
+    "shortExplanation": "Lagide is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide should help the reef hold shape.",
     "warnings": []
   },
   "ranked": [
     {
-      "spot": "Lagide",
+      "spot": "Cerro",
       "window": "Lunch — 13:00",
       "windowRaw": "Lunch",
       "windowTime": "13:00",
-      "score": 41,
-      "sessionLabel": "Fun progression",
-      "sessionLabelRaw": "progression",
+      "score": 44,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
-      "surfline": null,
+      "surfline": "FAIR",
       "sourceVerdicts": {
-        "surfline": null,
-        "surfForecast": 2,
-        "swellmap": "6/10 Reasonable"
+        "surfline": "FAIR",
+        "surfForecast": 1,
+        "swellmap": null
       },
       "surflineDetails": {
-        "rating": null,
-        "waveMinM": null,
-        "waveMaxM": null,
-        "swellM": null,
-        "periodS": null,
-        "energyKj": null,
-        "consistencyScore": null,
-        "windKph": null,
-        "gustKph": null,
+        "rating": "FAIR",
+        "waveMinM": 0.9,
+        "waveMaxM": 1.2,
+        "swellM": 1.2,
+        "periodS": 9,
+        "energyKj": 148,
+        "consistencyScore": 69,
+        "windKph": 8,
+        "gustKph": 8,
         "waterTempC": null,
         "airTempC": null
       },
-      "surfForecast": 2,
-      "swellmap": {
-        "time": "12:00",
-        "rating": 6,
-        "label": "Reasonable",
-        "faceM": 0.98,
-        "waveM": 0.98,
-        "swellDir": "NNW",
-        "swellM": 0.74,
-        "periodS": 9.1,
-        "windDir": "WSW",
-        "windKts": 3.6,
-        "gustKts": 4.3
-      },
+      "surfForecast": 1,
+      "swellmap": null,
       "tide": {
         "label": "Mid dropping",
         "direction": "falling",
         "summary": "Mid dropping",
         "captured": true
       },
-      "waveM": 1.3,
+      "waveM": 1.2,
       "periodS": 10,
       "windKph": 10,
-      "windDirection": "W",
+      "windDirection": "WSW",
       "windState": "cross-off",
       "windStateLabel": "cross-offshore",
-      "windFit": "W 10 km/h · cross-off · usable wind",
-      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "windFit": "WSW 10 km/h · cross-off · good wind fit",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest",
-        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF",
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-estatica/"
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
       },
       "photo": {
-        "url": "https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg",
-        "credit": "Single Quiver",
-        "creditUrl": "https://www.singlequiver.com/",
-        "alt": "Photo of Lagide surf spot"
+        "url": "images/spots/cerro.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
       },
       "temperature": {
         "waterTempC": null,
@@ -185,8 +179,8 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Lagide looks like a fun-sized window for Fun progression, Medium confidence: not captured, energy not captured, 10 s period, and wind is not fully clear.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at mid tide suits the reef shelves and gives long workable walls.  Expect: it can get busy, and it is usually more flow than heavy barrel.",
-      "shortExplanation": "Lagide is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide should help the reef hold shape.",
+      "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 148 kJ, 10 s period, consistent 69/100, and good wind at 10 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
+      "shortExplanation": "Cerro is worth a quick check for lunch — 13:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
       "warnings": []
     },
     {
