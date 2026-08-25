@@ -1,12 +1,10 @@
 {
   "targetDate": "2026-08-25",
-  "generatedAt": "2026-08-25 13:00 Portugal time",
-  "status": "degraded",
+  "generatedAt": "2026-08-25 14:00 Portugal time",
+  "status": "ok",
   "dataQuality": {
-    "degraded": true,
-    "warnings": [
-      "Lagide | Surfline | all eligible windows | source missing | url=https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2?view=table"
-    ],
+    "degraded": false,
+    "warnings": [],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -15,12 +13,8 @@
   "collection": {
     "completed": true,
     "retryCount": 0,
-    "failedSources": [
-      "Surfline"
-    ],
-    "failedSpots": [
-      "lagide"
-    ],
+    "failedSources": [],
+    "failedSpots": [],
     "generatedFromFallback": false
   },
   "verdict": {
@@ -34,14 +28,14 @@
     "text": "TODAY after work (around 16:30) Almagreira looks like the best available bet, but the surfline consistency is a bit lully so I’d treat it as a check-first situation. Wind fit is pretty good and the tide is mid dropping, which can sharpen things up on these exposed beach breaks—so don’t assume it’ll be glassy. I’d check Surfline and the MEO Beachcam before leaving and only go if it looks noticeably better than expected. Otherwise, it’s probably not worth the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Almagreira",
     "window": "After work (16:30 start)",
     "windowRaw": "After work",
     "windowTime": "16:30",
-    "score": 5,
+    "score": 29,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
@@ -102,13 +96,100 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Almagreira looks like a clean small window for Rare window, Low confidence: 0.3-0.6 m, 27 kJ, 7 s period, lully 0/100, and good wind at 20 km/h.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully.",
+    "explanation": "Almagreira looks like a clean small north coast window for Rare window, Low confidence: 0.3-0.6 m, 27 kJ, 7 s period, lully 0/100, and good wind at 20 km/h.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully.",
     "shortExplanation": "Almagreira is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
     "warnings": [
       "Surfline consistency is lully"
     ]
   },
   "ranked": [
+    {
+      "spot": "Lagide",
+      "window": "After work (16:30 start)",
+      "windowRaw": "After work",
+      "windowTime": "16:30",
+      "score": -15,
+      "sessionLabel": "Fun progression",
+      "sessionLabelRaw": "progression",
+      "confidenceLabel": "Low confidence",
+      "confidenceLabelRaw": "low",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": "2/10 Poor"
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 1.1,
+        "periodS": 7,
+        "energyKj": 21,
+        "consistencyScore": 0,
+        "windKph": 17,
+        "gustKph": 22,
+        "waterTempC": 22,
+        "airTempC": 21
+      },
+      "surfForecast": 0,
+      "swellmap": {
+        "time": "18:00",
+        "rating": 2,
+        "label": "Poor",
+        "faceM": 0.73,
+        "waveM": 0.73,
+        "swellDir": "WNW",
+        "swellM": 0.24,
+        "periodS": 6.8,
+        "windDir": "WSW",
+        "windKts": 8,
+        "gustKts": 9.6
+      },
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 0.6,
+      "periodS": 7,
+      "windKph": 20,
+      "windDirection": "WSW",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "WSW 20 km/h · cross-off · usable wind",
+      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest",
+        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF",
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-estatica/"
+      },
+      "photo": {
+        "url": "https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg",
+        "credit": "Single Quiver",
+        "creditUrl": "https://www.singlequiver.com/",
+        "alt": "Photo of Lagide surf spot"
+      },
+      "temperature": {
+        "waterTempC": 22,
+        "airTempC": 21,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Lagide looks like a small window for Fun progression, Low confidence: 0.3-0.6 m, 21 kJ, 7 s period, lully 0/100, and wind is not fully clear.  A dependable left-hand reef that turns modest swell into real rides; this is best for clean, playful walls when the bigger beaches are too wild or too small.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at mid tide is soft and sectiony on the reef shelves; SwellMap rating 2/10 Poor — caution.",
+      "shortExplanation": "Lagide is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a little, but it is not a perfect match.",
+      "warnings": [
+        "Surfline consistency is lully",
+        "spot surf looks too small",
+        "6-9s at mid tide is soft and sectiony on the reef shelves",
+        "SwellMap rating 2/10 Poor — caution"
+      ]
+    },
     {
       "spot": "Cerro",
       "window": "After work (16:30 start)",
@@ -270,82 +351,6 @@
         "wind angle is poor for this spot",
         "6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste",
         "SwellMap rating 2/10 Poor — caution"
-      ]
-    },
-    {
-      "spot": "Baleal",
-      "window": "After work (16:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "16:30",
-      "score": -30,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0,
-        "waveMaxM": 0.3,
-        "swellM": 1.1,
-        "periodS": 7,
-        "energyKj": 13,
-        "consistencyScore": 0,
-        "windKph": 16,
-        "gustKph": 23,
-        "waterTempC": 22,
-        "airTempC": 25
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 0.3,
-      "periodS": 7,
-      "windKph": 20,
-      "windDirection": "WSW",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "WSW 20 km/h · cross-off · usable wind",
-      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/baleal.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
-        "alt": "Photo of Baleal surf spot"
-      },
-      "temperature": {
-        "waterTempC": 22,
-        "airTempC": 25,
-        "source": "Surfline"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Baleal looks like a small window for Too soft, Low confidence: 0-0.3 m, 13 kJ, 7 s period, lully 0/100, and wind is not fully clear.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; Baleal looks below your bodyboard fun size; Baleal may feel too soft without more push.",
-      "shortExplanation": "Baleal is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide is part of the picture, but not the deciding factor.",
-      "warnings": [
-        "Surfline consistency is lully",
-        "spot surf looks too small",
-        "6-9s at mid tide is soft and sectiony on the Baleal sandbanks",
-        "Baleal looks below your bodyboard fun size",
-        "Baleal may feel too soft without more push"
       ]
     }
   ]
