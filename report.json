@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-25",
-  "generatedAt": "2026-08-25 14:00 Portugal time",
+  "generatedAt": "2026-08-25 16:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY after work (around 16:30) Almagreira looks like the best available bet, but the surfline consistency is a bit lully so I’d treat it as a check-first situation. Wind fit is pretty good and the tide is mid dropping, which can sharpen things up on these exposed beach breaks—so don’t assume it’ll be glassy. I’d check Surfline and the MEO Beachcam before leaving and only go if it looks noticeably better than expected. Otherwise, it’s probably not worth the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Almagreira at After work (16:30 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the weak source agreement could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Almagreira",
@@ -55,9 +55,9 @@
       "energyKj": 27,
       "consistencyScore": 0,
       "windKph": 18,
-      "gustKph": 25,
+      "gustKph": 23,
       "waterTempC": 21,
-      "airTempC": 21
+      "airTempC": 20
     },
     "surfForecast": 0,
     "swellmap": null,
@@ -89,7 +89,7 @@
     },
     "temperature": {
       "waterTempC": 21,
-      "airTempC": 21,
+      "airTempC": 20,
       "source": "Surfline"
     },
     "wetsuit": {
@@ -127,8 +127,8 @@
         "periodS": 7,
         "energyKj": 21,
         "consistencyScore": 0,
-        "windKph": 17,
-        "gustKph": 22,
+        "windKph": 18,
+        "gustKph": 23,
         "waterTempC": 22,
         "airTempC": 21
       },
@@ -195,7 +195,7 @@
       "window": "After work (16:30 start)",
       "windowRaw": "After work",
       "windowTime": "16:30",
-      "score": -23,
+      "score": -19,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
       "confidenceLabel": "Low confidence",
@@ -210,12 +210,12 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0.3,
         "waveMaxM": 0.6,
-        "swellM": 0.5,
+        "swellM": 0.6,
         "periodS": 7,
         "energyKj": 27,
         "consistencyScore": 0,
-        "windKph": 17,
-        "gustKph": 22,
+        "windKph": 18,
+        "gustKph": 23,
         "waterTempC": 22,
         "airTempC": 21
       },
@@ -230,10 +230,10 @@
       "waveM": 0.6,
       "periodS": 7,
       "windKph": 20,
-      "windDirection": "SW",
+      "windDirection": "WSW",
       "windState": "cross-off",
       "windStateLabel": "cross-offshore",
-      "windFit": "SW 20 km/h · cross-off · usable wind",
+      "windFit": "WSW 20 km/h · cross-off · good wind fit",
       "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
@@ -256,8 +256,8 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cerro looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 27 kJ, 7 s period, lully 0/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
-      "shortExplanation": "Cerro is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
+      "explanation": "Cerro looks like a clean small window for Too soft, Low confidence: 0.3-0.6 m, 27 kJ, 7 s period, lully 0/100, and good wind at 20 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: Surfline consistency is lully; spot surf looks too small; Cerro looks below your bodyboard fun size; Cerro may feel too soft without more push.",
+      "shortExplanation": "Cerro is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should help keep it tidy.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
@@ -287,12 +287,12 @@
         "waveMaxM": 0.6,
         "swellM": 1,
         "periodS": 7,
-        "energyKj": 30,
+        "energyKj": 29,
         "consistencyScore": 0,
-        "windKph": 16,
-        "gustKph": 23,
+        "windKph": 11,
+        "gustKph": 18,
         "waterTempC": 22,
-        "airTempC": 25
+        "airTempC": 24
       },
       "surfForecast": 0,
       "swellmap": {
@@ -317,10 +317,10 @@
       "waveM": 0.6,
       "periodS": 7,
       "windKph": 20,
-      "windDirection": "SW",
+      "windDirection": "WSW",
       "windState": "on",
       "windStateLabel": "on-shore",
-      "windFit": "SW 20 km/h · onshore · poor wind fit",
+      "windFit": "WSW 20 km/h · onshore · poor wind fit",
       "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
@@ -336,14 +336,14 @@
       },
       "temperature": {
         "waterTempC": 22,
-        "airTempC": 25,
+        "airTempC": 24,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 30 kJ, 7 s period, lully 0/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; SwellMap rating 2/10 Poor — caution.",
+      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 29 kJ, 7 s period, lully 0/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; SwellMap rating 2/10 Poor — caution.",
       "shortExplanation": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is helping, but the spot still looks serious.",
       "warnings": [
         "Surfline consistency is lully",
