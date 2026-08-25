@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-26",
-  "generatedAt": "2026-08-25 19:00 Portugal time",
+  "generatedAt": "2026-08-25 21:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -18,24 +18,24 @@
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Rey Cortiço Lunch",
-    "reason": "Rey Cortiço is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide should let the sandbars work without overdoing it.",
-    "quote": "If in doubt, paddle out."
+    "state": "no-surf",
+    "label": "Probably skip",
+    "headline": "No reliable window",
+    "reason": "Main blocker: Surfline consistency is lully.",
+    "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "Rey Cortiço at Lunch looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the weak source agreement could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "text": "Tomorrow is probably one to skip. Rey Cortiço at After work (16:30 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
     "provider": "fallback",
     "model": null,
     "cacheHit": false
   },
   "best": {
     "spot": "Rey Cortiço",
-    "window": "Lunch",
-    "windowRaw": "Lunch",
-    "windowTime": "12:00",
-    "score": 21,
+    "window": "After work (16:30 start)",
+    "windowRaw": "After work",
+    "windowTime": "16:30",
+    "score": 14,
     "sessionLabel": "Rare window",
     "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Low confidence",
@@ -48,32 +48,32 @@
     },
     "surflineDetails": {
       "rating": "POOR",
-      "waveMinM": 0.3,
-      "waveMaxM": 0.6,
-      "swellM": 1,
-      "periodS": 6,
-      "energyKj": 30,
-      "consistencyScore": 0,
-      "windKph": 29,
-      "gustKph": 37,
+      "waveMinM": 0.6,
+      "waveMaxM": 0.9,
+      "swellM": 1.1,
+      "periodS": 7,
+      "energyKj": 56,
+      "consistencyScore": 8,
+      "windKph": 18,
+      "gustKph": 22,
       "waterTempC": 21,
       "airTempC": 20
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid rising",
-      "direction": "rising",
-      "summary": "Mid rising",
+      "label": "Mid dropping",
+      "direction": "falling",
+      "summary": "Mid dropping",
       "captured": true
     },
-    "waveM": 0.6,
-    "periodS": 6,
-    "windKph": 25,
-    "windDirection": "WSW",
-    "windState": "cross",
-    "windStateLabel": "cross-shore",
-    "windFit": "WSW 25 km/h · cross-shore · usable wind",
+    "waveM": 0.9,
+    "periodS": 7,
+    "windKph": 20,
+    "windDirection": "W",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "W 20 km/h · cross-onshore · poor wind fit",
     "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
@@ -96,11 +96,11 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Rey Cortiço looks like a small north coast window for Rare window, Low confidence: 0.3-0.6 m, 30 kJ, 6 s period, lully 0/100, and wind is not fully clear.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; gusts over 35 km/h could make it messy.",
-    "shortExplanation": "Rey Cortiço is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide should let the sandbars work without overdoing it.",
+    "explanation": "Rey Cortiço looks like a fun-sized north coast window for Rare window, Low confidence: 0.6-0.9 m, 56 kJ, 7 s period, lully 8/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: Surfline consistency is lully; wind angle is poor for this spot.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "warnings": [
       "Surfline consistency is lully",
-      "gusts over 35 km/h could make it messy"
+      "wind angle is poor for this spot"
     ]
   },
   "ranked": [
@@ -131,7 +131,7 @@
         "windKph": 19,
         "gustKph": 23,
         "waterTempC": 22,
-        "airTempC": 21
+        "airTempC": 20
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -143,11 +143,11 @@
       },
       "waveM": 0.9,
       "periodS": 7,
-      "windKph": 15,
+      "windKph": 20,
       "windDirection": "W",
       "windState": "cross-off",
       "windStateLabel": "cross-offshore",
-      "windFit": "W 15 km/h · cross-off · usable wind",
+      "windFit": "W 20 km/h · cross-off · usable wind",
       "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
@@ -163,7 +163,7 @@
       },
       "temperature": {
         "waterTempC": 22,
-        "airTempC": 21,
+        "airTempC": 20,
         "source": "Surfline"
       },
       "wetsuit": {
@@ -204,7 +204,7 @@
         "windKph": 19,
         "gustKph": 23,
         "waterTempC": 22,
-        "airTempC": 21
+        "airTempC": 20
       },
       "surfForecast": 0,
       "swellmap": {
@@ -228,11 +228,11 @@
       },
       "waveM": 0.9,
       "periodS": 7,
-      "windKph": 15,
+      "windKph": 20,
       "windDirection": "W",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "W 15 km/h · cross-onshore · poor wind fit",
+      "windFit": "W 20 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -248,7 +248,7 @@
       },
       "temperature": {
         "waterTempC": 22,
-        "airTempC": 21,
+        "airTempC": 20,
         "source": "Surfline"
       },
       "wetsuit": {
@@ -290,7 +290,7 @@
         "windKph": 16,
         "gustKph": 20,
         "waterTempC": 22,
-        "airTempC": 21
+        "airTempC": 18
       },
       "surfForecast": 0,
       "swellmap": {
@@ -314,11 +314,11 @@
       },
       "waveM": 1.1,
       "periodS": 7,
-      "windKph": 15,
+      "windKph": 20,
       "windDirection": "W",
       "windState": "cross-on",
       "windStateLabel": "cross-onshore",
-      "windFit": "W 15 km/h · cross-onshore · poor wind fit",
+      "windFit": "W 20 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
@@ -334,7 +334,7 @@
       },
       "temperature": {
         "waterTempC": 22,
-        "airTempC": 21,
+        "airTempC": 18,
         "source": "Surfline"
       },
       "wetsuit": {
