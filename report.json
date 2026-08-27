@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-27",
-  "generatedAt": "2026-08-27 14:00 Portugal time",
+  "generatedAt": "2026-08-27 15:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,17 +25,17 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY after work (around a 17:00 start) at Cerro is worth checking, mainly because the swell looks usable and Surfline’s been a bit more consistent than the wider surf-forecast. Wind is a bit mixed and the tide’s dropping, so it could get sharp in exposed patches, and there’s also the usual rocks factor to keep in mind. Before I leave I’ll check Surfline and the MEO Beachcam for Cerro—if they don’t look clearly cleaner than expected, I’m likely to cancel and save the session.",
+    "text": "TODAY after work from around 17:00 at Cerro is worth a quick camera check before you head out, since the swell looks decent but it’s not super consistent. Wind looks a bit mixed and cross-off, so I’d want to see Surfline cams (and MEO Beachcam for your preferred spots) showing clean, organized waves in the bay before committing. The tide is mid dropping which can sharpen things on open beaches, so if the cams look much better than expected, Cerro should be your best bet—otherwise I’d skip.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Cerro",
     "window": "After work (17:00 start)",
     "windowRaw": "After work",
     "windowTime": "17:00",
-    "score": 31,
+    "score": 38,
     "sessionLabel": "Worth checking",
     "sessionLabelRaw": "check first",
     "confidenceLabel": "Medium confidence",
@@ -43,7 +43,7 @@
     "surfline": "FAIR",
     "sourceVerdicts": {
       "surfline": "FAIR",
-      "surfForecast": 0,
+      "surfForecast": 1,
       "swellmap": null
     },
     "surflineDetails": {
@@ -59,7 +59,7 @@
       "waterTempC": 21,
       "airTempC": 20
     },
-    "surfForecast": 0,
+    "surfForecast": 1,
     "swellmap": null,
     "tide": {
       "label": "Mid dropping",
@@ -201,7 +201,7 @@
         "windKph": 17,
         "gustKph": 23,
         "waterTempC": 21,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": null,
@@ -233,7 +233,7 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
@@ -274,10 +274,10 @@
         "periodS": 8,
         "energyKj": 215,
         "consistencyScore": 75,
-        "windKph": 18,
-        "gustKph": 24,
+        "windKph": 15,
+        "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 21
+        "airTempC": 22
       },
       "surfForecast": 0,
       "swellmap": {
@@ -321,7 +321,7 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 21,
+        "airTempC": 22,
         "source": "Surfline"
       },
       "wetsuit": {
