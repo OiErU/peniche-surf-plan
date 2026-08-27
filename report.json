@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-27",
-  "generatedAt": "2026-08-27 15:00 Portugal time",
+  "generatedAt": "2026-08-27 16:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -20,46 +20,46 @@
   "verdict": {
     "state": "marginal",
     "label": "Worth checking",
-    "headline": "Cerro After work (17:00 start)",
-    "reason": "Cerro is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
+    "headline": "Rey Cortiço After work (17:00 start)",
+    "reason": "Rey Cortiço is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY after work from around 17:00 at Cerro is worth a quick camera check before you head out, since the swell looks decent but it’s not super consistent. Wind looks a bit mixed and cross-off, so I’d want to see Surfline cams (and MEO Beachcam for your preferred spots) showing clean, organized waves in the bay before committing. The tide is mid dropping which can sharpen things on open beaches, so if the cams look much better than expected, Cerro should be your best bet—otherwise I’d skip.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
+    "text": "Rey Cortiço at After work (17:00 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
     "cacheHit": false
   },
   "best": {
-    "spot": "Cerro",
+    "spot": "Rey Cortiço",
     "window": "After work (17:00 start)",
     "windowRaw": "After work",
     "windowTime": "17:00",
-    "score": 38,
-    "sessionLabel": "Worth checking",
-    "sessionLabelRaw": "check first",
+    "score": 48,
+    "sessionLabel": "Rare window",
+    "sessionLabelRaw": "rare opportunity",
     "confidenceLabel": "Medium confidence",
     "confidenceLabelRaw": "medium",
-    "surfline": "FAIR",
+    "surfline": "POOR TO FAIR",
     "sourceVerdicts": {
-      "surfline": "FAIR",
-      "surfForecast": 1,
+      "surfline": "POOR TO FAIR",
+      "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": "FAIR",
-      "waveMinM": 0.9,
-      "waveMaxM": 1.2,
-      "swellM": 1.1,
+      "rating": "POOR TO FAIR",
+      "waveMinM": 0.6,
+      "waveMaxM": 1.1,
+      "swellM": 1.5,
       "periodS": 8,
-      "energyKj": 122,
-      "consistencyScore": 78,
-      "windKph": 22,
-      "gustKph": 26,
-      "waterTempC": 21,
-      "airTempC": 20
+      "energyKj": 111,
+      "consistencyScore": 81,
+      "windKph": 17,
+      "gustKph": 23,
+      "waterTempC": null,
+      "airTempC": null
     },
-    "surfForecast": 1,
+    "surfForecast": 0,
     "swellmap": null,
     "tide": {
       "label": "Mid dropping",
@@ -67,143 +67,72 @@
       "summary": "Mid dropping",
       "captured": true
     },
-    "waveM": 1.2,
+    "waveM": 1.1,
     "periodS": 8,
     "windKph": 25,
     "windDirection": "W",
-    "windState": "cross-off",
-    "windStateLabel": "cross-offshore",
-    "windFit": "W 25 km/h · cross-off · usable wind",
-    "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "W 25 km/h · cross-onshore · poor wind fit",
+    "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+      "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
       "swellmap": null,
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
     },
     "photo": {
-      "url": "images/spots/cerro.jpg",
+      "url": "images/spots/belgas.jpg",
       "credit": "Local file",
-      "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-      "alt": "Photo of Cerro surf spot"
+      "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
+      "alt": "Photo of Rey Cortiço surf spot"
     },
     "temperature": {
-      "waterTempC": 21,
+      "waterTempC": null,
       "airTempC": 20,
-      "source": "Surfline"
+      "source": "Surf-Forecast"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cerro looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 122 kJ, 8 s period, consistent 78/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
-    "shortExplanation": "Cerro is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
-    "warnings": []
+    "explanation": "Rey Cortiço looks like a fun-sized north coast window for Rare window, Medium confidence: 0.6-1.1 m, 111 kJ, 8 s period, very consistent 81/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at mid tide can turn Belgas punchy and rippable, so checking exposed beaches makes sense.  Watch: wind angle is poor for this spot.",
+    "shortExplanation": "Rey Cortiço is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
+    "warnings": [
+      "wind angle is poor for this spot"
+    ]
   },
   "ranked": [
     {
-      "spot": "Almagreira",
+      "spot": "Cerro",
       "window": "After work (17:00 start)",
       "windowRaw": "After work",
       "windowTime": "17:00",
-      "score": 9,
-      "sessionLabel": "Heavy / advanced",
-      "sessionLabelRaw": "advanced/heavy",
+      "score": 33,
+      "sessionLabel": "Worth checking",
+      "sessionLabelRaw": "check first",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
       "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
+        "surfForecast": 1,
         "swellmap": null
       },
       "surflineDetails": {
         "rating": "POOR TO FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.1,
+        "waveMinM": 0.6,
+        "waveMaxM": 1.1,
+        "swellM": 0.9,
         "periodS": 8,
-        "energyKj": 122,
-        "consistencyScore": 78,
-        "windKph": 20,
+        "energyKj": 108,
+        "consistencyScore": 79,
+        "windKph": 21,
         "gustKph": 25,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Mid dropping",
-        "direction": "falling",
-        "summary": "Mid dropping",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "periodS": 8,
-      "windKph": 25,
-      "windDirection": "W",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "W 25 km/h · cross-shore · poor wind fit",
-      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/almagreira/5dea8356fe21a44513cecc3f",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Almagreira/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
-      },
-      "photo": {
-        "url": "images/spots/almagreira.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/almagreira.jpg",
-        "alt": "Photo of Almagreira surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 20,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Almagreira looks like a fun-sized window for Heavy / advanced, Medium confidence: 0.9-1.2 m, 122 kJ, 8 s period, consistent 78/100, and wind is the main risk.  An exposed north-coast beach break with more raw swell than Baleal; this is best for small, clean north-coast days when protected spots look underpowered; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: wind angle is poor for this spot; Almagreira is a check-first bodyboard size.",
-      "shortExplanation": "Almagreira is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-      "warnings": [
-        "wind angle is poor for this spot",
-        "Almagreira is a check-first bodyboard size"
-      ]
-    },
-    {
-      "spot": "Baleal",
-      "window": "After work (17:00 start)",
-      "windowRaw": "After work",
-      "windowTime": "17:00",
-      "score": -32,
-      "sessionLabel": "Too soft",
-      "sessionLabelRaw": "too weak",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR TO FAIR",
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0.3,
-        "waveMaxM": 0.6,
-        "swellM": 1.2,
-        "periodS": 8,
-        "energyKj": 47,
-        "consistencyScore": 47,
-        "windKph": 17,
-        "gustKph": 23,
         "waterTempC": 21,
-        "airTempC": 22
+        "airTempC": 20
       },
-      "surfForecast": 0,
+      "surfForecast": 1,
       "swellmap": null,
       "tide": {
         "label": "Mid dropping",
@@ -211,44 +140,38 @@
         "summary": "Mid dropping",
         "captured": true
       },
-      "waveM": 0.6,
+      "waveM": 1.1,
       "periodS": 8,
       "windKph": 25,
       "windDirection": "W",
-      "windState": "cross-on",
-      "windStateLabel": "cross-onshore",
-      "windFit": "W 25 km/h · cross-onshore · poor wind fit",
-      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "windState": "cross-off",
+      "windStateLabel": "cross-offshore",
+      "windFit": "W 25 km/h · cross-off · usable wind",
+      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
+        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
         "swellmap": null,
         "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
       },
       "photo": {
-        "url": "images/spots/baleal.jpg",
+        "url": "images/spots/cerro.jpg",
         "credit": "Local file",
-        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
-        "alt": "Photo of Baleal surf spot"
+        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+        "alt": "Photo of Cerro surf spot"
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 22,
+        "airTempC": 20,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Baleal looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 47 kJ, 8 s period, workable consistency 47/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; Baleal looks below your bodyboard fun size; Baleal may feel too soft without more push.",
-      "shortExplanation": "Baleal is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
-      "warnings": [
-        "spot surf looks too small",
-        "wind angle is poor for this spot",
-        "6-9s at mid tide is soft and sectiony on the Baleal sandbanks",
-        "Baleal looks below your bodyboard fun size",
-        "Baleal may feel too soft without more push"
-      ]
+      "explanation": "Cerro looks like a fun-sized window for Worth checking, Medium confidence: 0.6-1.1 m, 108 kJ, 8 s period, consistent 79/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Expect: it can feel softer or less defined than the main peaks, and rocks may appear closer to the west cliffs.",
+      "shortExplanation": "Cerro is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide and timing are lining up well for this spot.",
+      "warnings": []
     },
     {
       "spot": "Supertubos",
@@ -270,22 +193,22 @@
         "rating": "POOR TO FAIR",
         "waveMinM": 0.9,
         "waveMaxM": 1.4,
-        "swellM": 2,
+        "swellM": 1.9,
         "periodS": 8,
-        "energyKj": 215,
-        "consistencyScore": 75,
-        "windKph": 15,
+        "energyKj": 196,
+        "consistencyScore": 77,
+        "windKph": 14,
         "gustKph": 21,
         "waterTempC": 21,
-        "airTempC": 22
+        "airTempC": 21
       },
       "surfForecast": 0,
       "swellmap": {
         "time": "18:00",
         "rating": 3,
         "label": "Poor",
-        "faceM": 1.34,
-        "waveM": 1.34,
+        "faceM": 1.35,
+        "waveM": 1.35,
         "swellDir": "W",
         "swellM": 0.84,
         "periodS": 8.2,
@@ -321,14 +244,14 @@
       },
       "temperature": {
         "waterTempC": 21,
-        "airTempC": 22,
+        "airTempC": 21,
         "source": "Surfline"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Supertubos looks like a solid window for Heavy / advanced, Low confidence: 0.9-1.4 m, 215 kJ, 8 s period, consistent 75/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; Supertubos likely too big for comfort; Supertubos is above your current comfort range; SwellMap rating 3/10 Poor — caution.",
+      "explanation": "Supertubos looks like a solid window for Heavy / advanced, Low confidence: 0.9-1.4 m, 196 kJ, 8 s period, consistent 77/100, and wind is the main risk.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: wind angle is poor for this spot; 6-9s at mid tide stays weak and soft for Supertubos / Molhe Leste; Supertubos likely too big for comfort; Supertubos is above your current comfort range; SwellMap rating 3/10 Poor — caution.",
       "shortExplanation": "Supertubos is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is helping, but the spot still looks serious.",
       "warnings": [
         "wind angle is poor for this spot",
@@ -336,6 +259,83 @@
         "Supertubos likely too big for comfort",
         "Supertubos is above your current comfort range",
         "SwellMap rating 3/10 Poor — caution"
+      ]
+    },
+    {
+      "spot": "Baleal",
+      "window": "After work (17:00 start)",
+      "windowRaw": "After work",
+      "windowTime": "17:00",
+      "score": -42,
+      "sessionLabel": "Too soft",
+      "sessionLabelRaw": "too weak",
+      "confidenceLabel": "Low confidence",
+      "confidenceLabelRaw": "low",
+      "surfline": "POOR TO FAIR",
+      "sourceVerdicts": {
+        "surfline": "POOR TO FAIR",
+        "surfForecast": 0,
+        "swellmap": null
+      },
+      "surflineDetails": {
+        "rating": "POOR TO FAIR",
+        "waveMinM": 0.3,
+        "waveMaxM": 0.6,
+        "swellM": 1.1,
+        "periodS": 8,
+        "energyKj": 42,
+        "consistencyScore": 30,
+        "windKph": 16,
+        "gustKph": 24,
+        "waterTempC": 21,
+        "airTempC": 21
+      },
+      "surfForecast": 0,
+      "swellmap": null,
+      "tide": {
+        "label": "Mid dropping",
+        "direction": "falling",
+        "summary": "Mid dropping",
+        "captured": true
+      },
+      "waveM": 0.6,
+      "periodS": 8,
+      "windKph": 25,
+      "windDirection": "W",
+      "windState": "cross-on",
+      "windStateLabel": "cross-onshore",
+      "windFit": "W 25 km/h · cross-onshore · poor wind fit",
+      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+      "sourceLinks": {
+        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
+        "swellmap": null,
+        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+      },
+      "photo": {
+        "url": "images/spots/baleal.jpg",
+        "credit": "Local file",
+        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
+        "alt": "Photo of Baleal surf spot"
+      },
+      "temperature": {
+        "waterTempC": 21,
+        "airTempC": 21,
+        "source": "Surfline"
+      },
+      "wetsuit": {
+        "suit": "4/3",
+        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+      },
+      "explanation": "Baleal looks like a small window for Too soft, Low confidence: 0.3-0.6 m, 42 kJ, 8 s period, lully 30/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push.  Watch: Surfline consistency is lully; spot surf looks too small; wind angle is poor for this spot; 6-9s at mid tide is soft and sectiony on the Baleal sandbanks; Baleal looks below your bodyboard fun size; Baleal may feel too soft without more push.",
+      "shortExplanation": "Baleal is worth a quick check for after work (17:00 start), but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
+      "warnings": [
+        "Surfline consistency is lully",
+        "spot surf looks too small",
+        "wind angle is poor for this spot",
+        "6-9s at mid tide is soft and sectiony on the Baleal sandbanks",
+        "Baleal looks below your bodyboard fun size",
+        "Baleal may feel too soft without more push"
       ]
     }
   ]
