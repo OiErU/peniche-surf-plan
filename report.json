@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-28",
-  "generatedAt": "2026-08-28 14:00 Portugal time",
+  "generatedAt": "2026-08-28 15:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -25,10 +25,10 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY, I’d check the cams first before heading out—Supertubos looks like the best bet after work (around a 17:30 start), but it’s still a check-first kind of size. Surfline and MEO Beachcam should give you a quick read, and this one can get heavy fast, especially with the falling tide. If the wave line looks clean and not too blown out, it should be usable; if not, I’d pass and save the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Supertubos at After work (17:30 start) looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the uncertainty could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Supertubos",
@@ -54,8 +54,8 @@
       "periodS": 11,
       "energyKj": 197,
       "consistencyScore": 55,
-      "windKph": 17,
-      "gustKph": 21,
+      "windKph": 16,
+      "gustKph": 22,
       "waterTempC": null,
       "airTempC": null
     },
@@ -168,9 +168,9 @@
       "periodS": 11,
       "windKph": 15,
       "windDirection": "NW",
-      "windState": "on",
-      "windStateLabel": "on-shore",
-      "windFit": "NW 15 km/h · onshore · poor wind fit",
+      "windState": "cross-on",
+      "windStateLabel": "cross-onshore",
+      "windFit": "NW 15 km/h · cross-onshore · poor wind fit",
       "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
         "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -186,7 +186,7 @@
       },
       "temperature": {
         "waterTempC": null,
-        "airTempC": 20,
+        "airTempC": 21,
         "source": "Surf-Forecast"
       },
       "wetsuit": {
@@ -270,7 +270,7 @@
       },
       "temperature": {
         "waterTempC": null,
-        "airTempC": 20,
+        "airTempC": 21,
         "source": "Surf-Forecast"
       },
       "wetsuit": {
@@ -284,35 +284,35 @@
       ]
     },
     {
-      "spot": "Cerro",
+      "spot": "Baleal",
       "window": "After work (17:30 start)",
       "windowRaw": "After work",
       "windowTime": "17:30",
-      "score": 20,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
+      "score": 18,
+      "sessionLabel": "Safe fun",
+      "sessionLabelRaw": "safe fun",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
       "surfline": "POOR TO FAIR",
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
-        "surfForecast": 1,
+        "surfForecast": 0,
         "swellmap": null
       },
       "surflineDetails": {
         "rating": "POOR TO FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.4,
-        "swellM": 1.7,
+        "waveMinM": 0.6,
+        "waveMaxM": 1.1,
+        "swellM": 2.3,
         "periodS": 11,
-        "energyKj": 257,
-        "consistencyScore": 60,
-        "windKph": 23,
-        "gustKph": 25,
+        "energyKj": 224,
+        "consistencyScore": 59,
+        "windKph": 17,
+        "gustKph": 21,
         "waterTempC": null,
         "airTempC": null
       },
-      "surfForecast": 1,
+      "surfForecast": 0,
       "swellmap": null,
       "tide": {
         "label": "Mid dropping",
@@ -320,37 +320,37 @@
         "summary": "Mid dropping",
         "captured": true
       },
-      "waveM": 1.4,
+      "waveM": 1.1,
       "periodS": 11,
       "windKph": 15,
       "windDirection": "NW",
-      "windState": "cross",
-      "windStateLabel": "cross-shore",
-      "windFit": "NW 15 km/h · cross-shore · poor wind fit",
-      "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
+      "windState": "on",
+      "windStateLabel": "on-shore",
+      "windFit": "NW 15 km/h · onshore · poor wind fit",
+      "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+        "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
         "swellmap": null,
         "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
       },
       "photo": {
-        "url": "images/spots/cerro.jpg",
+        "url": "images/spots/baleal.jpg",
         "credit": "Local file",
-        "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-        "alt": "Photo of Cerro surf spot"
+        "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
+        "alt": "Photo of Baleal surf spot"
       },
       "temperature": {
         "waterTempC": null,
-        "airTempC": 20,
+        "airTempC": 21,
         "source": "Surf-Forecast"
       },
       "wetsuit": {
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cerro looks like a solid window for Worth checking, Medium confidence: 0.9-1.4 m, 257 kJ, 11 s period, workable consistency 60/100, and wind is the main risk.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at mid tide works well on exposed beaches.  Watch: wind angle is poor for this spot.",
-      "shortExplanation": "Cerro is worth a quick check for after work (17:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "explanation": "Baleal looks like a fun-sized window for Safe fun, Medium confidence: 0.6-1.1 m, 224 kJ, 11 s period, workable consistency 59/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at mid tide suits the Baleal sandbanks and gives workable peaks.  Watch: wind angle is poor for this spot.",
+      "shortExplanation": "Baleal is worth a quick check for after work (17:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
       "warnings": [
         "wind angle is poor for this spot"
       ]
