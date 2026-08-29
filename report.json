@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-29",
-  "generatedAt": "2026-08-29 05:00 Portugal time",
+  "generatedAt": "2026-08-29 06:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -28,7 +28,7 @@
     "text": "TODAY I’d only bother with Almagreira in the evening around 19:00 after a quick Surfline and MEO Beachcam check, because the wind angle looks pretty rough for that spot and it could easily get messy. Surf looks poor to fair, but with the low dropping tide there may still be enough to tempt a short session if conditions are cleaner than expected. Check the cams first—if it doesn’t look noticeably better, I’d skip it.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Almagreira",
@@ -211,8 +211,8 @@
         "periodS": 9,
         "energyKj": 52,
         "consistencyScore": 47,
-        "windKph": 4,
-        "gustKph": 6,
+        "windKph": 1,
+        "gustKph": 3,
         "waterTempC": null,
         "airTempC": null
       },
@@ -273,35 +273,35 @@
       ]
     },
     {
-      "spot": "Meio da Baia",
+      "spot": "Rey Cortiço",
       "window": "Early morning — 08:00",
       "windowRaw": "Early morning",
       "windowTime": "08:00",
-      "score": 17,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
+      "score": 23,
+      "sessionLabel": "Heavy / advanced",
+      "sessionLabelRaw": "advanced/heavy",
       "confidenceLabel": "Medium confidence",
       "confidenceLabelRaw": "medium",
-      "surfline": "POOR TO FAIR",
+      "surfline": "FAIR",
       "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
+        "surfline": "FAIR",
+        "surfForecast": 1,
         "swellmap": null
       },
       "surflineDetails": {
-        "rating": "POOR TO FAIR",
+        "rating": "FAIR",
         "waveMinM": 0.9,
         "waveMaxM": 1.2,
-        "swellM": 1.9,
+        "swellM": 1.6,
         "periodS": 9,
-        "energyKj": 180,
-        "consistencyScore": 70,
-        "windKph": 17,
+        "energyKj": 195,
+        "consistencyScore": 68,
+        "windKph": 14,
         "gustKph": 20,
         "waterTempC": null,
         "airTempC": null
       },
-      "surfForecast": 0,
+      "surfForecast": 1,
       "swellmap": null,
       "tide": {
         "label": "Low dropping",
@@ -311,23 +311,23 @@
       },
       "waveM": 1.2,
       "periodS": 9,
-      "windKph": 15,
+      "windKph": 10,
       "windDirection": "N",
-      "windState": "on",
-      "windStateLabel": "on-shore",
-      "windFit": "N 15 km/h · onshore · poor wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
+      "windState": "cross-on",
+      "windStateLabel": "cross-onshore",
+      "windFit": "N 10 km/h · cross-onshore · poor wind fit",
+      "bestWind": "ideal E/ENE/ESE, usable NE/SE, clean <=22 km/h",
       "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
+        "surfline": "https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a",
+        "surfForecast": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest",
         "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+        "beachcam": "https://beachcam.meo.pt/livecams/foz-do-arelho/"
       },
       "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
+        "url": "images/spots/belgas.jpg",
         "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
+        "creditUrl": "https://www.playocean.net/i/portugal/beaches/obidos/rei-do-cortico/praia-do-rei-do-cortico-3.jpg",
+        "alt": "Photo of Rey Cortiço surf spot"
       },
       "temperature": {
         "waterTempC": null,
@@ -338,10 +338,11 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Medium confidence: 0.9-1.2 m, 180 kJ, 9 s period, consistent 70/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at low tide can still make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia punchy.  Watch: wind angle is poor for this spot.",
-      "shortExplanation": "Meio da Baia is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+      "explanation": "Rey Cortiço looks like a fun-sized window for Heavy / advanced, Medium confidence: 0.9-1.2 m, 195 kJ, 9 s period, consistent 68/100, and wind is the main risk.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at low tide can still work on Belgas if the sandbars are lined up.  Watch: wind angle is poor for this spot; Rey Cortiço is a check-first bodyboard size.",
+      "shortExplanation": "Rey Cortiço is worth a quick check for early morning — 08:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide should let the sandbars work without overdoing it.",
       "warnings": [
-        "wind angle is poor for this spot"
+        "wind angle is poor for this spot",
+        "Rey Cortiço is a check-first bodyboard size"
       ]
     }
   ]
