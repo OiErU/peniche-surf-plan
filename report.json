@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-29",
-  "generatedAt": "2026-08-29 16:00 Portugal time",
+  "generatedAt": "2026-08-29 17:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,7 +12,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -28,7 +28,7 @@
     "text": "TODAY’s best bet is Almagreira in the evening around 19:00, but it’s a “check-first” kind of window because the wind angle isn’t great and cross-onshore can make it messy fast. I’d look at the Surfline cams and MEO Beachcam before heading out—if it doesn’t look notably cleaner than expected, I’d pass. Tide is low and dropping, so you may still get some punch on the exposed face, but only if the wind behaves. Check the cams and go with what they show.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Almagreira",
@@ -178,10 +178,10 @@
     },
     {
       "spot": "Supertubos",
-      "window": "Evening — 17:00",
+      "window": "Evening — 19:00",
       "windowRaw": "Evening",
-      "windowTime": "17:00",
-      "score": -9,
+      "windowTime": "19:00",
+      "score": -11.5,
       "sessionLabel": "Worth checking",
       "sessionLabelRaw": "check first",
       "confidenceLabel": "Low confidence",
@@ -200,8 +200,8 @@
         "periodS": 7,
         "energyKj": 15,
         "consistencyScore": 1,
-        "windKph": 14,
-        "gustKph": 22,
+        "windKph": 13,
+        "gustKph": 21,
         "waterTempC": null,
         "airTempC": null
       },
@@ -220,9 +220,9 @@
         "gustKts": 7.7
       },
       "tide": {
-        "label": "High dropping",
+        "label": "Low dropping",
         "direction": "falling",
-        "summary": "High dropping",
+        "summary": "Low dropping",
         "captured": true
       },
       "waveM": 0.6,
@@ -254,20 +254,20 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 15 kJ, 8 s period, lully 1/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.",
-      "shortExplanation": "Supertubos is worth a quick check for evening — 17:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is leaning more serious than easy here.",
+      "explanation": "Supertubos looks like a small window for Worth checking, Low confidence: 0.3-0.6 m, 15 kJ, 8 s period, lully 1/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at low tide is too dry and dumping for Supertubos / Molhe Leste.  Watch: Surfline consistency is lully; spot surf looks too small; 6-9s at low tide is too dry and dumping for Supertubos / Molhe Leste.",
+      "shortExplanation": "Supertubos is worth a quick check for evening — 19:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is leaning more serious than easy here.",
       "warnings": [
         "Surfline consistency is lully",
         "spot surf looks too small",
-        "6-9s at high tide is too flat and weak for Supertubos / Molhe Leste"
+        "6-9s at low tide is too dry and dumping for Supertubos / Molhe Leste"
       ]
     },
     {
       "spot": "Cantinho da Baia",
-      "window": "Evening — 17:00",
+      "window": "Evening — 19:00",
       "windowRaw": "Evening",
-      "windowTime": "17:00",
-      "score": -23,
+      "windowTime": "19:00",
+      "score": -23.5,
       "sessionLabel": "Too soft",
       "sessionLabelRaw": "too weak",
       "confidenceLabel": "Medium confidence",
@@ -306,9 +306,9 @@
         "gustKts": 7.5
       },
       "tide": {
-        "label": "High dropping",
+        "label": "Low dropping",
         "direction": "falling",
-        "summary": "High dropping",
+        "summary": "Low dropping",
         "captured": true
       },
       "waveM": 0.6,
@@ -340,12 +340,12 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cantinho da Baia looks like a small window for Too soft, Medium confidence: 0.3-0.6 m, 86 kJ, 8 s period, consistent 79/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay.  Watch: spot surf looks too small; wind angle is poor for this spot; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size.",
-      "shortExplanation": "Cantinho da Baia is worth a quick check for evening — 17:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is a bit awkward for the bay, so stay cautious.",
+      "explanation": "Cantinho da Baia looks like a small window for Too soft, Medium confidence: 0.3-0.6 m, 86 kJ, 8 s period, consistent 79/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at low tide is basically flat or too weak in the sheltered bay.  Watch: spot surf looks too small; wind angle is poor for this spot; 6-9s at low tide is basically flat or too weak in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for evening — 19:00, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is a bit awkward for the bay, so stay cautious.",
       "warnings": [
         "spot surf looks too small",
         "wind angle is poor for this spot",
-        "6-9s at high tide is too weak and wrap-starved in the sheltered bay",
+        "6-9s at low tide is basically flat or too weak in the sheltered bay",
         "Cantinho da Baia looks below your bodyboard fun size"
       ]
     }
