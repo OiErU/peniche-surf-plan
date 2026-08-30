@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-30",
-  "generatedAt": "2026-08-30 13:00 Portugal time",
+  "generatedAt": "2026-08-30 14:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,20 +12,20 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 1,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Lagide Evening — 19:00",
-    "reason": "Lagide is worth a quick check for evening — 19:00, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a little, but it is not a perfect match.",
-    "quote": "If in doubt, paddle out."
+    "state": "no-surf",
+    "label": "Probably skip",
+    "headline": "No reliable window",
+    "reason": "Main blocker: wind angle is poor for this spot.",
+    "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "Lagide at Evening — 19:00 looks like the best option, but it is still a check-first call. There is enough potential for a useful session, but the wind could spoil it. I'd check Surfline or MEO Beachcam before leaving.",
+    "text": "Tomorrow is probably one to skip. Lagide at Evening — 19:00 looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
     "provider": "fallback",
     "model": null,
     "cacheHit": false
@@ -35,19 +35,19 @@
     "window": "Evening — 19:00",
     "windowRaw": "Evening",
     "windowTime": "19:00",
-    "score": 7.5,
+    "score": -0.5,
     "sessionLabel": "Fun progression",
     "sessionLabelRaw": "progression",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": null,
+    "surfline": "POOR",
     "sourceVerdicts": {
-      "surfline": null,
+      "surfline": "POOR",
       "surfForecast": 0,
       "swellmap": "4/10 Reasonable"
     },
     "surflineDetails": {
-      "rating": null,
+      "rating": "POOR",
       "waveMinM": 0.6,
       "waveMaxM": 1.1,
       "swellM": 1.4,
