@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-31",
-  "generatedAt": "2026-08-31 05:00 Portugal time",
+  "generatedAt": "2026-08-31 06:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -18,14 +18,14 @@
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Cantinho da Baia Lunch",
-    "reason": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a bit, but the bay still needs enough push.",
-    "quote": "If in doubt, paddle out."
+    "state": "no-surf",
+    "label": "Probably skip",
+    "headline": "No reliable window",
+    "reason": "Surfline and Surf-Forecast are poor/zero, and wind is above your normal limit.",
+    "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY I’d keep it a check-first one: Cantinho da Baia around lunch is the best available call, but it can be fast and a bit shallow when the tide’s low, especially with that north cross-wind. I’m still tempted because it’s a sheltered sandy bay, so it should be more forgiving than the more exposed spots—but only if the cams look clearly better than expected. Before you leave, check Surfline and MEO Beachcam for Cantinho da Baia; if it doesn’t look much cleaner on the faces, I’d rather not chase it.",
+    "text": "Today is probably not worth chasing, even though Cantinho da Baia in the lunch window looks like the best available option. It’s mainly a mixed picture with the north wind crossing a bit, and the set period can feel fast and shallow around low/rising tide in the sheltered bay. I’d check Surfline or MEO Beachcam first before you head out, and only consider leaving if the cams look notably cleaner than expected—otherwise save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
     "cacheHit": false
@@ -35,19 +35,19 @@
     "window": "Lunch",
     "windowRaw": "Lunch",
     "windowTime": "12:00",
-    "score": 35,
+    "score": 24,
     "sessionLabel": "Safe fun",
     "sessionLabelRaw": "safe fun",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": "POOR TO FAIR",
+    "surfline": null,
     "sourceVerdicts": {
-      "surfline": "POOR TO FAIR",
+      "surfline": null,
       "surfForecast": 0,
       "swellmap": "4/10 Reasonable"
     },
     "surflineDetails": {
-      "rating": "POOR TO FAIR",
+      "rating": null,
       "waveMinM": 0.6,
       "waveMaxM": 0.9,
       "swellM": 1.7,
@@ -108,7 +108,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 170 kJ, 10 s period, consistent 68/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 10-13s at low tide is fast and shallow in the sheltered bay.",
+    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 170 kJ, 10 s period, consistent 68/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: 10-13s at low tide is fast and shallow in the sheltered bay.",
     "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a bit, but the bay still needs enough push.",
     "warnings": [
       "10-13s at low tide is fast and shallow in the sheltered bay"
