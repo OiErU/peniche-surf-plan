@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-31",
-  "generatedAt": "2026-08-31 09:00 Portugal time",
+  "generatedAt": "2026-08-31 10:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -25,17 +25,17 @@
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "TODAY I’d keep it a check-first one: Cantinho da Baia around lunch is the best available call, but it can be fast and a bit shallow when the tide’s low, especially with that north cross-wind. I’m still tempted because it’s a sheltered sandy bay, so it should be more forgiving than the more exposed spots—but only if the cams look clearly better than expected. Before you leave, check Surfline and MEO Beachcam for Cantinho da Baia; if it doesn’t look much cleaner on the faces, I’d rather not chase it.",
+    "text": "TODAY I’d go check the cams first—Cantinho da Baia at lunch is the best available option, but it sounds pretty marginal. Surfline looks poor-to-fair and the swell is small, so you’ll be relying on the sheltered bay to make it rideable, with low rising tide meaning the faster, shallower waves can get tricky. I’d look at Surfline and the MEO Beachcam for Cantinho before committing, and only leave if it’s cleaner than expected.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
     "spot": "Cantinho da Baia",
     "window": "Lunch",
     "windowRaw": "Lunch",
     "windowTime": "12:00",
-    "score": 35,
+    "score": 19,
     "sessionLabel": "Safe fun",
     "sessionLabelRaw": "safe fun",
     "confidenceLabel": "Low confidence",
@@ -44,7 +44,7 @@
     "sourceVerdicts": {
       "surfline": "POOR TO FAIR",
       "surfForecast": 0,
-      "swellmap": "4/10 Reasonable"
+      "swellmap": "3/10 Poor"
     },
     "surflineDetails": {
       "rating": "POOR TO FAIR",
@@ -52,7 +52,7 @@
       "waveMaxM": 0.9,
       "swellM": 1.7,
       "periodS": 10,
-      "energyKj": 170,
+      "energyKj": 179,
       "consistencyScore": 68,
       "windKph": 30,
       "gustKph": 35,
@@ -62,16 +62,16 @@
     "surfForecast": 0,
     "swellmap": {
       "time": "12:00",
-      "rating": 4,
-      "label": "Reasonable",
+      "rating": 3,
+      "label": "Poor",
       "faceM": 1.09,
       "waveM": 1.09,
       "swellDir": "NW",
       "swellM": 0.77,
       "periodS": 9.2,
       "windDir": "N",
-      "windKts": 14.2,
-      "gustKts": 21.8
+      "windKts": 14.7,
+      "gustKts": 18
     },
     "tide": {
       "label": "Low rising",
@@ -108,10 +108,11 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 170 kJ, 10 s period, consistent 68/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 10-13s at low tide is fast and shallow in the sheltered bay.",
+    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 179 kJ, 10 s period, consistent 68/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 10-13s at low tide is fast and shallow in the sheltered bay; SwellMap rating 3/10 Poor — caution.",
     "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a bit, but the bay still needs enough push.",
     "warnings": [
-      "10-13s at low tide is fast and shallow in the sheltered bay"
+      "10-13s at low tide is fast and shallow in the sheltered bay",
+      "SwellMap rating 3/10 Poor — caution"
     ]
   },
   "ranked": []
