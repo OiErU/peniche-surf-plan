@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-31",
-  "generatedAt": "2026-08-31 12:00 Portugal time",
+  "generatedAt": "2026-08-31 13:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,30 +12,30 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 2,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Cantinho da Baia Lunch",
-    "reason": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a bit, but the bay still needs enough push.",
-    "quote": "If in doubt, paddle out."
+    "state": "no-surf",
+    "label": "Probably skip",
+    "headline": "No reliable window",
+    "reason": "Main blocker: wind is over 30 km/h.",
+    "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY I’d go check the cams first—Cantinho da Baia at lunch is the best available option, but it sounds pretty marginal. Surfline looks poor-to-fair and the swell is small, so you’ll be relying on the sheltered bay to make it rideable, with low rising tide meaning the faster, shallower waves can get tricky. I’d look at Surfline and the MEO Beachcam for Cantinho before committing, and only leave if it’s cleaner than expected.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Tomorrow is probably one to skip. Cantinho da Baia at After work (16:30 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Cantinho da Baia",
-    "window": "Lunch",
-    "windowRaw": "Lunch",
-    "windowTime": "12:00",
-    "score": 19,
+    "window": "After work (16:30 start)",
+    "windowRaw": "After work",
+    "windowTime": "16:30",
+    "score": -23,
     "sessionLabel": "Safe fun",
     "sessionLabelRaw": "safe fun",
     "confidenceLabel": "Low confidence",
@@ -50,42 +50,42 @@
       "rating": "POOR TO FAIR",
       "waveMinM": 0.6,
       "waveMaxM": 0.9,
-      "swellM": 1.7,
+      "swellM": 1.9,
       "periodS": 10,
-      "energyKj": 179,
-      "consistencyScore": 68,
+      "energyKj": 229,
+      "consistencyScore": 66,
       "windKph": 30,
-      "gustKph": 35,
+      "gustKph": 36,
       "waterTempC": null,
       "airTempC": null
     },
     "surfForecast": 0,
     "swellmap": {
-      "time": "12:00",
+      "time": "18:00",
       "rating": 3,
       "label": "Poor",
-      "faceM": 1.09,
-      "waveM": 1.09,
+      "faceM": 1.12,
+      "waveM": 1.12,
       "swellDir": "NW",
-      "swellM": 0.77,
-      "periodS": 9.2,
+      "swellM": 0.83,
+      "periodS": 9.3,
       "windDir": "N",
-      "windKts": 14.7,
-      "gustKts": 18
+      "windKts": 14.6,
+      "gustKts": 17.9
     },
     "tide": {
-      "label": "Low rising",
+      "label": "Near high",
       "direction": "rising",
-      "summary": "Low rising",
+      "summary": "Near high",
       "captured": true
     },
     "waveM": 0.9,
     "periodS": 10,
-    "windKph": 25,
+    "windKph": 30,
     "windDirection": "N",
-    "windState": "cross",
-    "windStateLabel": "cross-shore",
-    "windFit": "N 25 km/h · cross-shore · usable wind",
+    "windState": "cross-on",
+    "windStateLabel": "cross-onshore",
+    "windFit": "N 30 km/h · cross-onshore · too windy, strong",
     "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
     "sourceLinks": {
       "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
@@ -108,10 +108,13 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 179 kJ, 10 s period, consistent 68/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: 10-13s at low tide is fast and shallow in the sheltered bay; SwellMap rating 3/10 Poor — caution.",
-    "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide helps a bit, but the bay still needs enough push.",
+    "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 229 kJ, 10 s period, consistent 66/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind is over 30 km/h; wind fit is poor or too strong; 10-13s at high tide can get fat and slow in the sheltered bay; gusts over 35 km/h could make it messy; SwellMap rating 3/10 Poor — caution.",
+    "shortExplanation": "Cantinho da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a bit, but the bay still needs enough push.",
     "warnings": [
-      "10-13s at low tide is fast and shallow in the sheltered bay",
+      "wind is over 30 km/h",
+      "wind fit is poor or too strong",
+      "10-13s at high tide can get fat and slow in the sheltered bay",
+      "gusts over 35 km/h could make it messy",
       "SwellMap rating 3/10 Poor — caution"
     ]
   },
