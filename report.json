@@ -1,10 +1,12 @@
 {
   "targetDate": "2026-09-01",
-  "generatedAt": "2026-09-01 10:00 Portugal time",
-  "status": "ok",
+  "generatedAt": "2026-09-01 11:00 Portugal time",
+  "status": "degraded",
   "dataQuality": {
-    "degraded": false,
-    "warnings": [],
+    "degraded": true,
+    "warnings": [
+      "Baleal | Surfline | all eligible windows | source missing | url=https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6?view=table"
+    ],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -12,9 +14,13 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 2,
-    "failedSources": [],
-    "failedSpots": [],
+    "retryCount": 0,
+    "failedSources": [
+      "Surfline"
+    ],
+    "failedSpots": [
+      "baleal"
+    ],
     "generatedFromFallback": false
   },
   "verdict": {
@@ -28,7 +34,7 @@
     "text": "TODAY is probably not worth the drive—there’s no reliable window, and Surfline looks poor with the wind angle not working for the bay option at Meio da Baia around lunch. The tide is low rising, but with this onshore wind it’s still likely to feel messy, especially given the low confidence. I’d check Surfline and MEO Beachcam first, and only leave if the cams look surprisingly cleaner than expected—otherwise I’d save it.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": false
+    "cacheHit": true
   },
   "best": {
     "spot": "Meio da Baia",
