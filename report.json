@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-09-01",
-  "generatedAt": "2026-08-31 21:00 Portugal time",
+  "generatedAt": "2026-09-01 05:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -18,53 +18,53 @@
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "no-surf",
-    "label": "Probably skip",
-    "headline": "No reliable window",
-    "reason": "Main blocker: wind angle is poor for this spot.",
-    "quote": "Not worth the drive today."
+    "state": "marginal",
+    "label": "Worth checking",
+    "headline": "Meio da Baia Lunch",
+    "reason": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+    "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Tomorrow is probably one to skip. Meio da Baia at After work (16:30 start) looks like the least-bad option, but not really something worth chasing. The wind looks like the main issue and could easily make it messy. I'd check Surfline or MEO Beachcam first, but unless it looks surprisingly clean, I'd save the drive.",
-    "provider": "fallback",
-    "model": null,
+    "text": "TODAY looks like a worth-checking only at Meio da Baia around lunch, but the wind angle is poor and could easily turn it choppy even if you get some wave. Given the low confidence overall, I’d check the Surfline cams first and then the MEO Beachcam for Meio da Baia—if it doesn’t look clean and punchy in the bay, skip the session. If the cams look surprisingly good, that’s your best bet from the options.",
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
     "cacheHit": false
   },
   "best": {
     "spot": "Meio da Baia",
-    "window": "After work (16:30 start)",
-    "windowRaw": "After work",
-    "windowTime": "16:30",
-    "score": -3,
+    "window": "Lunch",
+    "windowRaw": "Lunch",
+    "windowTime": "12:00",
+    "score": 7,
     "sessionLabel": "Worth checking",
     "sessionLabelRaw": "check first",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": "POOR",
+    "surfline": null,
     "sourceVerdicts": {
-      "surfline": "POOR",
+      "surfline": null,
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": "POOR",
+      "rating": null,
       "waveMinM": 0.6,
       "waveMaxM": 1.1,
-      "swellM": 1.8,
+      "swellM": 1.7,
       "periodS": 9,
-      "energyKj": 114,
-      "consistencyScore": 71,
-      "windKph": 32,
-      "gustKph": 41,
+      "energyKj": 111,
+      "consistencyScore": 72,
+      "windKph": 28,
+      "gustKph": 34,
       "waterTempC": null,
       "airTempC": null
     },
     "surfForecast": 0,
     "swellmap": null,
     "tide": {
-      "label": "Mid rising",
+      "label": "Low rising",
       "direction": "rising",
-      "summary": "Mid rising",
+      "summary": "Low rising",
       "captured": true
     },
     "waveM": 1.1,
@@ -96,20 +96,19 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 114 kJ, 9 s period, consistent 71/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at mid tide can make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia sharp and rippable.  Watch: wind angle is poor for this spot; gusts over 35 km/h could make it messy.",
-    "shortExplanation": "Meio da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
+    "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 111 kJ, 9 s period, consistent 72/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at low tide can still make exposed beaches like Belgas / Almagreira / Cerro / Meio da Baia punchy.  Watch: wind angle is poor for this spot.",
+    "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
     "warnings": [
-      "wind angle is poor for this spot",
-      "gusts over 35 km/h could make it messy"
+      "wind angle is poor for this spot"
     ]
   },
   "ranked": [
     {
       "spot": "Cantinho da Baia",
-      "window": "After work (16:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "16:30",
-      "score": -5,
+      "window": "Lunch",
+      "windowRaw": "Lunch",
+      "windowTime": "12:00",
+      "score": -2,
       "sessionLabel": "Safe fun",
       "sessionLabelRaw": "safe fun",
       "confidenceLabel": "Medium confidence",
@@ -118,7 +117,7 @@
       "sourceVerdicts": {
         "surfline": "POOR TO FAIR",
         "surfForecast": 0,
-        "swellmap": "2/10 Poor"
+        "swellmap": "3/10 Poor"
       },
       "surflineDetails": {
         "rating": "POOR TO FAIR",
@@ -126,31 +125,31 @@
         "waveMaxM": 0.9,
         "swellM": 1.8,
         "periodS": 9,
-        "energyKj": 141,
+        "energyKj": 145,
         "consistencyScore": 71,
-        "windKph": 32,
-        "gustKph": 41,
+        "windKph": 28,
+        "gustKph": 34,
         "waterTempC": null,
         "airTempC": null
       },
       "surfForecast": 0,
       "swellmap": {
-        "time": "18:00",
-        "rating": 2,
+        "time": "12:00",
+        "rating": 3,
         "label": "Poor",
-        "faceM": 1.02,
-        "waveM": 1.02,
+        "faceM": 1.06,
+        "waveM": 1.06,
         "swellDir": "NW",
-        "swellM": 0.62,
+        "swellM": 0.7,
         "periodS": 9,
         "windDir": "N",
-        "windKts": 14.8,
-        "gustKts": 18.2
+        "windKts": 14.2,
+        "gustKts": 21.7
       },
       "tide": {
-        "label": "Mid rising",
+        "label": "Low rising",
         "direction": "rising",
-        "summary": "Mid rising",
+        "summary": "Low rising",
         "captured": true
       },
       "waveM": 0.9,
@@ -182,13 +181,12 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.6-0.9 m, 141 kJ, 9 s period, consistent 71/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at mid tide is still too weak in the sheltered bay; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind angle is poor for this spot; 6-9s at mid tide is still too weak in the sheltered bay; gusts over 35 km/h could make it messy; SwellMap rating 2/10 Poor — caution.",
-      "shortExplanation": "Cantinho da Baia is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is a bit awkward for the bay, so stay cautious.",
+      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Medium confidence: 0.6-0.9 m, 145 kJ, 9 s period, consistent 71/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at low tide is basically flat or too weak in the sheltered bay; worth keeping on the radar because Surfline is showing it above Poor while most other local spots are Poor..  Watch: wind angle is poor for this spot; 6-9s at low tide is basically flat or too weak in the sheltered bay; SwellMap rating 3/10 Poor — caution.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide is a bit awkward for the bay, so stay cautious.",
       "warnings": [
         "wind angle is poor for this spot",
-        "6-9s at mid tide is still too weak in the sheltered bay",
-        "gusts over 35 km/h could make it messy",
-        "SwellMap rating 2/10 Poor — caution"
+        "6-9s at low tide is basically flat or too weak in the sheltered bay",
+        "SwellMap rating 3/10 Poor — caution"
       ]
     }
   ]
