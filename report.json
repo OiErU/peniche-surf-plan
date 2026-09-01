@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-09-01",
-  "generatedAt": "2026-09-01 05:00 Portugal time",
+  "generatedAt": "2026-09-01 06:00 Portugal time",
   "status": "ok",
   "dataQuality": {
     "degraded": false,
@@ -12,20 +12,20 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 0,
+    "retryCount": 1,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
   },
   "verdict": {
-    "state": "marginal",
-    "label": "Worth checking",
-    "headline": "Meio da Baia Lunch",
-    "reason": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide and timing are lining up well for this spot.",
-    "quote": "If in doubt, paddle out."
+    "state": "no-surf",
+    "label": "Probably skip",
+    "headline": "No reliable window",
+    "reason": "Main blocker: wind angle is poor for this spot.",
+    "quote": "Not worth the drive today."
   },
   "conversationalSummary": {
-    "text": "TODAY looks like a worth-checking only at Meio da Baia around lunch, but the wind angle is poor and could easily turn it choppy even if you get some wave. Given the low confidence overall, I’d check the Surfline cams first and then the MEO Beachcam for Meio da Baia—if it doesn’t look clean and punchy in the bay, skip the session. If the cams look surprisingly good, that’s your best bet from the options.",
+    "text": "TODAY at Baleal looks like no reliable window, mainly because the wind fit is poor for Meio da Baia and Surfline is coming through rough. There might be a little size around lunch with the low rising tide, but it’s the kind of conditional sandbar setup that can feel soft fast when the swell/push isn’t clearly there. I’d check Surfline and MEO Beachcam before leaving, but unless the cams show a lot cleaner/wider peaks than expected, it’s probably not worth chasing—save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
     "cacheHit": false
@@ -35,19 +35,19 @@
     "window": "Lunch",
     "windowRaw": "Lunch",
     "windowTime": "12:00",
-    "score": 7,
+    "score": -1,
     "sessionLabel": "Worth checking",
     "sessionLabelRaw": "check first",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": null,
+    "surfline": "POOR",
     "sourceVerdicts": {
-      "surfline": null,
+      "surfline": "POOR",
       "surfForecast": 0,
       "swellmap": null
     },
     "surflineDetails": {
-      "rating": null,
+      "rating": "POOR",
       "waveMinM": 0.6,
       "waveMaxM": 1.1,
       "swellM": 1.7,
