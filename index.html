@@ -26,6 +26,23 @@
 .similar-metrics strong{color:#18361b;font-weight:600}
 .similar-metrics span+span{border-left:1px solid #d4e7cb;padding-left:7px}
 .similar-note{font-size:11px;font-style:italic;color:#355a38;margin:6px 0 0;line-height:1.4}
+.history-polaroid{background:#ffffff;border:1px solid #d8dfdb;border-radius:4px;padding:10px 10px 14px;margin:12px auto 8px;box-shadow:0 8px 24px -4px rgba(0,0,0,0.18),0 2px 6px -1px rgba(0,0,0,0.1);transform:rotate(-0.8deg);transition:transform .2s ease,box-shadow .2s ease;max-width:100%;box-sizing:border-box}
+.history-polaroid:hover{transform:rotate(0deg) scale(1.008);box-shadow:0 12px 28px -4px rgba(0,0,0,0.24),0 3px 8px -1px rgba(0,0,0,0.12)}
+.polaroid-top{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:8px;padding:0 2px}
+.polaroid-badge{font-size:10px;font-weight:750;color:#1e5e22;text-transform:uppercase;letter-spacing:.3px}
+.polaroid-source{font-size:9px;font-weight:600;color:#556b59;background:#eef6eb;padding:2px 7px;border-radius:6px}
+.polaroid-photo-frame{position:relative;width:100%;aspect-ratio:4 / 3;max-height:260px;background:#0d2431;overflow:hidden;border-radius:2px;border:1px solid rgba(0,0,0,0.12)}
+.polaroid-photo-frame a{display:block;width:100%;height:100%;cursor:zoom-in}
+.polaroid-img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;transition:transform .3s ease}
+.polaroid-photo-frame:hover .polaroid-img{transform:scale(1.03)}
+.polaroid-chin{padding:10px 4px 2px;color:#1a1a1a}
+.polaroid-headline{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px}
+.polaroid-title{font-size:13px;color:#111827;font-weight:750;letter-spacing:-.2px}
+.polaroid-star{background:#2e7d32;color:#fff;font-size:10px;font-weight:750;padding:2px 7px;border-radius:8px;flex-shrink:0}
+.polaroid-metrics{display:flex;flex-wrap:wrap;gap:6px 8px;font-size:10.5px;color:#374151;line-height:1.4}
+.polaroid-metrics strong{color:#111827;font-weight:700}
+.polaroid-metrics span+span{border-left:1px solid #d1d5db;padding-left:8px}
+.polaroid-note{font-size:11px;font-style:italic;color:#374151;margin:7px 0 0;line-height:1.4;padding-top:6px;border-top:1px dashed #d1d5db}
 .sources-guide{margin:8px 0 4px;border-top:1px solid #e2ebef;padding-top:2px}
 .sources-guide summary{font-size:10px;color:#5b707c;font-weight:600;min-height:28px;padding:4px 0}
 .sources-guide summary::after{color:#7a8e99}
@@ -92,18 +109,25 @@
    <strong>Why this pick:</strong> While generic forecasts (Surfline Poor, Surf-Forecast 0/10) mark this window as Poor due to 25 km/h N wind, your personal Dawn Patrol history proves Lagide wraps this swell cleanly and delivers high-scoring sessions.
   </p>
 
-   <div class="history-similar-box">
-    <div class="similar-header">
-     <span class="similar-label">🎯 Most similar session you surfed</span>
-     <span class="similar-photo-badge">📷 1 session photo logged</span>
-    </div>
-    <div class="similar-headline">
-     <strong>10 Oct 2025 · 17:05–18:20</strong>
-     <span class="similar-star">5★</span>
-    </div>
-    <div class="similar-metrics"><span><strong>19</strong> waves</span><span>longest <strong>195m</strong></span><span>top <strong>39 km/h</strong></span><span>swell <strong>1.3m @ 11s</strong></span><span>wind <strong>24.2 km/h N</strong></span></div>
+    <figure class="history-polaroid" aria-label="Most similar session you surfed photo and data">
+     <div class="polaroid-top">
+      <span class="polaroid-badge">🎯 Most similar session you surfed</span>
+      <span class="polaroid-source">📷 Dawn Patrol</span>
+     </div>
+     <div class="polaroid-photo-frame">
+      <a href="history-photos/68e94090429d41a9f51b5c51.jpg" target="_blank" rel="noopener" aria-label="View full photo from session on 10 Oct 2025">
+       <img src="history-photos/68e94090429d41a9f51b5c51.jpg" alt="Session photo from 10 Oct 2025 at Lagide" class="polaroid-img" loading="lazy">
+      </a>
+     </div>
+     <figcaption class="polaroid-chin">
+      <div class="polaroid-headline">
+       <strong class="polaroid-title">10 Oct 2025 · 17:05–18:20</strong>
+       <span class="polaroid-star">5★</span>
+      </div>
+      <div class="polaroid-metrics"><span><strong>19</strong> waves</span><span>longest <strong>195m</strong></span><span>top <strong>39 km/h</strong></span><span>swell <strong>1.3m @ 11s</strong></span><span>wind <strong>24.2 km/h N</strong></span></div>
 
-   </div>
+     </figcaption>
+    </figure>
 
  </div>
      <p class="session-advice">Lagide is in your bodyboard sweet spot. N 25 km/h · onshore · poor wind fit</p>
@@ -221,18 +245,25 @@
    <strong>Why this pick:</strong> While generic forecasts (Surfline Poor, Surf-Forecast 0/10) mark this window as Poor due to 25 km/h N wind, your personal Dawn Patrol history proves Lagide wraps this swell cleanly and delivers high-scoring sessions.
   </p>
 
-   <div class="history-similar-box">
-    <div class="similar-header">
-     <span class="similar-label">🎯 Most similar session you surfed</span>
-     <span class="similar-photo-badge">📷 1 session photo logged</span>
-    </div>
-    <div class="similar-headline">
-     <strong>12 Mar 2025 · 12:03–13:10</strong>
-     <span class="similar-star">3★</span>
-    </div>
-    <div class="similar-metrics"><span><strong>9</strong> waves</span><span>longest <strong>116m</strong></span><span>top <strong>32 km/h</strong></span><span>swell <strong>1.6m @ 11s</strong></span><span>wind <strong>18.1 km/h SW</strong></span></div>
+    <figure class="history-polaroid" aria-label="Most similar session you surfed photo and data">
+     <div class="polaroid-top">
+      <span class="polaroid-badge">🎯 Most similar session you surfed</span>
+      <span class="polaroid-source">📷 Dawn Patrol</span>
+     </div>
+     <div class="polaroid-photo-frame">
+      <a href="history-photos/67d187ddba79ad61f938a13e.jpg" target="_blank" rel="noopener" aria-label="View full photo from session on 12 Mar 2025">
+       <img src="history-photos/67d187ddba79ad61f938a13e.jpg" alt="Session photo from 12 Mar 2025 at Lagide" class="polaroid-img" loading="lazy">
+      </a>
+     </div>
+     <figcaption class="polaroid-chin">
+      <div class="polaroid-headline">
+       <strong class="polaroid-title">12 Mar 2025 · 12:03–13:10</strong>
+       <span class="polaroid-star">3★</span>
+      </div>
+      <div class="polaroid-metrics"><span><strong>9</strong> waves</span><span>longest <strong>116m</strong></span><span>top <strong>32 km/h</strong></span><span>swell <strong>1.6m @ 11s</strong></span><span>wind <strong>18.1 km/h SW</strong></span></div>
 
-   </div>
+     </figcaption>
+    </figure>
   <div class="history-callout-alts"><span class="history-alts-label">Alternatives comparison:</span><div class="history-alts-list"><span class="history-alt-pill"><strong>Supertubos:</strong> Score 61 · 3.6★, 20% 5★</span><span class="history-alt-pill"><strong>Cantinho da Baia:</strong> Score 56 · 3.9★, 41% 5★</span><span class="history-alt-pill"><strong>Pico da Mota:</strong> Score 43 · 3.8★, 50% 5★</span></div></div>
  </div>
      <p class="session-advice">Lagide is in your bodyboard sweet spot. N 25 km/h · onshore · poor wind fit</p>
@@ -359,18 +390,25 @@
    <strong>Why this pick:</strong> While generic forecasts (Surfline Poor, Surf-Forecast 0/10) mark this window as Poor due to 20 km/h N wind, your personal Dawn Patrol history proves Lagide wraps this swell cleanly and delivers high-scoring sessions.
   </p>
 
-   <div class="history-similar-box">
-    <div class="similar-header">
-     <span class="similar-label">🎯 Most similar session you surfed</span>
-     <span class="similar-photo-badge">📷 1 session photo logged</span>
-    </div>
-    <div class="similar-headline">
-     <strong>21 Apr 2025 · 13:06–14:32</strong>
-     <span class="similar-star">4★</span>
-    </div>
-    <div class="similar-metrics"><span><strong>31</strong> waves</span><span>longest <strong>180m</strong></span><span>top <strong>30 km/h</strong></span><span>swell <strong>1m @ 10s</strong></span><span>wind <strong>13.4 km/h WNW</strong></span></div>
+    <figure class="history-polaroid" aria-label="Most similar session you surfed photo and data">
+     <div class="polaroid-top">
+      <span class="polaroid-badge">🎯 Most similar session you surfed</span>
+      <span class="polaroid-source">📷 Dawn Patrol</span>
+     </div>
+     <div class="polaroid-photo-frame">
+      <a href="history-photos/68064b1cc0e5a5f24a466fb7.jpg" target="_blank" rel="noopener" aria-label="View full photo from session on 21 Apr 2025">
+       <img src="history-photos/68064b1cc0e5a5f24a466fb7.jpg" alt="Session photo from 21 Apr 2025 at Lagide" class="polaroid-img" loading="lazy">
+      </a>
+     </div>
+     <figcaption class="polaroid-chin">
+      <div class="polaroid-headline">
+       <strong class="polaroid-title">21 Apr 2025 · 13:06–14:32</strong>
+       <span class="polaroid-star">4★</span>
+      </div>
+      <div class="polaroid-metrics"><span><strong>31</strong> waves</span><span>longest <strong>180m</strong></span><span>top <strong>30 km/h</strong></span><span>swell <strong>1m @ 10s</strong></span><span>wind <strong>13.4 km/h WNW</strong></span></div>
 
-   </div>
+     </figcaption>
+    </figure>
 
  </div>
      <p class="session-advice">Lagide is in your bodyboard sweet spot. N 20 km/h · onshore · poor wind fit</p>
