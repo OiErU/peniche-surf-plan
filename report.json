@@ -8,247 +8,15 @@
         "end": 1201,
         "estimated": true
       },
-      "status": "degraded",
+      "status": "ok",
       "verdict": {
         "state": "marginal",
         "label": "Worth checking",
-        "headline": "Lagide Lunch",
-        "reason": "Lagide is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a little, but it is not a perfect match.",
+        "headline": "Supertubos After work (16:30 start)",
+        "reason": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
         "quote": "If in doubt, paddle out."
       },
       "windows": [
-        {
-          "spot": "Lagide",
-          "spotId": "lagide",
-          "windowEnd": "13:30",
-          "qualityScore": 69,
-          "conditionsScore": 43.3,
-          "preferenceScore": 9,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 7
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": -12
-            },
-            {
-              "label": "Period and tide",
-              "points": 5
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 6
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 4
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 35
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 9
-            },
-            {
-              "label": "Provider consensus",
-              "points": -1.7000000000000028
-            }
-          ],
-          "consensus": {
-            "adjustment": -1.7000000000000002,
-            "usable": true,
-            "difference": -35,
-            "agreement": "mixed",
-            "explanation": "4Shor is less optimistic than our conditions assessment.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": {
-            "status": "ok",
-            "location": "Praia Baleal - Norte",
-            "url": "https://4shor.app/locations/praia-baleal-norte-768#scores",
-            "activity": "surfing",
-            "ability": "intermediate",
-            "scale": {
-              "min": 0,
-              "max": 100
-            },
-            "timezone": "UTC",
-            "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
-            "alignment": {
-              "score": 35,
-              "coverage": 1,
-              "blocks": [
-                {
-                  "start": "2026-09-07T09:00:00.000Z",
-                  "end": "2026-09-07T12:00:00.000Z",
-                  "score": 35,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                },
-                {
-                  "start": "2026-09-07T12:00:00.000Z",
-                  "end": "2026-09-07T15:00:00.000Z",
-                  "score": 35,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                }
-              ],
-              "usable": true,
-              "freshness": "fresh"
-            }
-          },
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 52.3,
-          "sessionLabel": "Fun progression",
-          "sessionLabelRaw": "progression",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "6 / 10",
-              "detail": "Reasonable · 12:00",
-              "state": "available",
-              "url": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF"
-            },
-            {
-              "name": "4Shor",
-              "value": "35 / 100",
-              "detail": "Surfing · Intermediate",
-              "state": "available",
-              "url": "https://4shor.app/locations/praia-baleal-norte-768#scores",
-              "profile": "Surfing / Intermediate",
-              "blended": true
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": "6/10 Reasonable"
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.9,
-            "waveMaxM": 1.2,
-            "swellM": 1.7,
-            "periodS": 12,
-            "energyKj": 202,
-            "consistencyScore": 51,
-            "windKph": 21,
-            "gustKph": 34,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": {
-            "time": "12:00",
-            "rating": 6,
-            "label": "Reasonable",
-            "faceM": 1.3,
-            "waveM": 1.3,
-            "swellDir": "WNW",
-            "swellM": 1.17,
-            "periodS": 10.1,
-            "windDir": "N",
-            "windKts": 12.5,
-            "gustKts": 15.2
-          },
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 1.2,
-          "surfRangeM": [
-            0.9,
-            1.2
-          ],
-          "typicalSurfM": 1.05,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "on",
-          "windStateLabel": "on-shore",
-          "windFit": "N 25 km/h · onshore · poor wind fit",
-          "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest",
-            "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF",
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-estatica/"
-          },
-          "photo": {
-            "url": "https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg",
-            "credit": "Single Quiver",
-            "creditUrl": "https://www.singlequiver.com/",
-            "alt": "Photo of Lagide surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Lagide looks like a fun-sized window for Fun progression, Low confidence: 0.9-1.2 m, 202 kJ, 12 s period, workable consistency 51/100, and wind is the main risk.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: wind angle is poor for this spot.",
-          "shortExplanation": "Lagide is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a little, but it is not a perfect match.",
-          "warnings": [
-            "wind angle is poor for this spot"
-          ]
-        },
         {
           "spot": "Supertubos",
           "spotId": "supertubos",
@@ -332,7 +100,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 69,
               "coverage": 1,
@@ -558,7 +326,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 69,
               "coverage": 1,
@@ -784,7 +552,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 69,
               "coverage": 1,
@@ -1010,7 +778,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 69.33333333333333,
               "coverage": 1,
@@ -1243,7 +1011,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 69.66666666666667,
               "coverage": 1,
@@ -1394,239 +1162,6 @@
           ]
         },
         {
-          "spot": "Cantinho da Baia",
-          "spotId": "cantinho",
-          "windowEnd": "13:30",
-          "qualityScore": 57,
-          "conditionsScore": 22.3,
-          "preferenceScore": 8,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 15
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": -12
-            },
-            {
-              "label": "Period and tide",
-              "points": -2
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 9
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 4
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 8
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 8
-            },
-            {
-              "label": "Provider consensus",
-              "points": 0.3000000000000007
-            }
-          ],
-          "consensus": {
-            "adjustment": 0.2999999999999998,
-            "usable": true,
-            "difference": 5.333333333333336,
-            "agreement": "agreement",
-            "explanation": "4Shor broadly agrees with our conditions assessment.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": {
-            "status": "ok",
-            "location": "Praia Baleal - Sul",
-            "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-            "activity": "surfing",
-            "ability": "intermediate",
-            "scale": {
-              "min": 0,
-              "max": 100
-            },
-            "timezone": "UTC",
-            "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
-            "alignment": {
-              "score": 62.333333333333336,
-              "coverage": 1,
-              "blocks": [
-                {
-                  "start": "2026-09-07T09:00:00.000Z",
-                  "end": "2026-09-07T12:00:00.000Z",
-                  "score": 62,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                },
-                {
-                  "start": "2026-09-07T12:00:00.000Z",
-                  "end": "2026-09-07T15:00:00.000Z",
-                  "score": 63,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                }
-              ],
-              "usable": true,
-              "freshness": "fresh"
-            }
-          },
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 30.3,
-          "sessionLabel": "Safe fun",
-          "sessionLabelRaw": "safe fun",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "6 / 10",
-              "detail": "Reasonable · 12:00",
-              "state": "available",
-              "url": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF"
-            },
-            {
-              "name": "4Shor",
-              "value": "62.3 / 100",
-              "detail": "Surfing · Intermediate",
-              "state": "available",
-              "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-              "profile": "Surfing / Intermediate",
-              "blended": true
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": "6/10 Reasonable"
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.6,
-            "waveMaxM": 1.1,
-            "swellM": 1.8,
-            "periodS": 12,
-            "energyKj": 605,
-            "consistencyScore": 88,
-            "windKph": 21,
-            "gustKph": 34,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": {
-            "time": "12:00",
-            "rating": 6,
-            "label": "Reasonable",
-            "faceM": 1.23,
-            "waveM": 1.23,
-            "swellDir": "WNW",
-            "swellM": 1.1,
-            "periodS": 10.3,
-            "windDir": "N",
-            "windKts": 12.5,
-            "gustKts": 15.3
-          },
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 1.1,
-          "surfRangeM": [
-            0.6,
-            1.1
-          ],
-          "typicalSurfM": 0.8500000000000001,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "cross-on",
-          "windStateLabel": "cross-onshore",
-          "windFit": "N 25 km/h · cross-onshore · poor wind fit",
-          "bestWind": "ideal NE/E/ESE/SE, usable NNE/ENE/SSE, clean <=25 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest",
-            "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF",
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-cantinho-da-baia-estatica/"
-          },
-          "photo": {
-            "url": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-            "credit": "Cantinho da Baia photo",
-            "creditUrl": "https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg",
-            "alt": "Photo of Cantinho da Baia surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-1.1 m, 605 kJ, 12 s period, very consistent 88/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: wind angle is poor for this spot; 10-13s at high tide can get fat and slow in the sheltered bay.",
-          "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a bit, but the bay still needs enough push.",
-          "warnings": [
-            "wind angle is poor for this spot",
-            "10-13s at high tide can get fat and slow in the sheltered bay"
-          ]
-        },
-        {
           "spot": "Lagide",
           "spotId": "lagide",
           "windowEnd": "20:00",
@@ -1709,7 +1244,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 44.333333333333336,
               "coverage": 1,
@@ -1943,7 +1478,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 39.666666666666664,
               "coverage": 1,
@@ -2177,7 +1712,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -2404,7 +1939,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -2631,7 +2166,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -2776,240 +2311,6 @@
           ]
         },
         {
-          "spot": "Supertubos",
-          "spotId": "supertubos",
-          "windowEnd": "13:30",
-          "qualityScore": 48,
-          "conditionsScore": 13.100000000000001,
-          "preferenceScore": 7,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 22
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": 0
-            },
-            {
-              "label": "Period and tide",
-              "points": -4
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": -35
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 3
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 4
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 22
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 7
-            },
-            {
-              "label": "Provider consensus",
-              "points": 1.1000000000000014
-            }
-          ],
-          "consensus": {
-            "adjustment": 1.0999999999999996,
-            "usable": true,
-            "difference": 22,
-            "agreement": "mixed",
-            "explanation": "4Shor is more optimistic than our conditions assessment.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": {
-            "status": "ok",
-            "location": "Praia do Medão Grande",
-            "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
-            "activity": "surfing",
-            "ability": "intermediate",
-            "scale": {
-              "min": 0,
-              "max": 100
-            },
-            "timezone": "UTC",
-            "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
-            "alignment": {
-              "score": 69,
-              "coverage": 1,
-              "blocks": [
-                {
-                  "start": "2026-09-07T09:00:00.000Z",
-                  "end": "2026-09-07T12:00:00.000Z",
-                  "score": 70,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                },
-                {
-                  "start": "2026-09-07T12:00:00.000Z",
-                  "end": "2026-09-07T15:00:00.000Z",
-                  "score": 67,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                }
-              ],
-              "usable": true,
-              "freshness": "fresh"
-            }
-          },
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 20.1,
-          "sessionLabel": "Heavy / advanced",
-          "sessionLabelRaw": "advanced/heavy",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "FAIR TO GOOD",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Fair To Good",
-              "detail": "12:00 · period",
-              "state": "positive",
-              "url": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "1 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "6 / 10",
-              "detail": "Reasonable · 12:00",
-              "state": "available",
-              "url": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF"
-            },
-            {
-              "name": "4Shor",
-              "value": "69 / 100",
-              "detail": "Surfing · Intermediate",
-              "state": "available",
-              "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
-              "profile": "Surfing / Intermediate",
-              "blended": true
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "FAIR TO GOOD",
-            "surfForecast": 1,
-            "swellmap": "6/10 Reasonable"
-          },
-          "surflineDetails": {
-            "rating": "FAIR TO GOOD",
-            "waveMinM": 1.2,
-            "waveMaxM": 1.5,
-            "swellM": 1.5,
-            "periodS": 12,
-            "energyKj": 296,
-            "consistencyScore": 42,
-            "windKph": 17,
-            "gustKph": 23,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 1,
-          "swellmap": {
-            "time": "12:00",
-            "rating": 6,
-            "label": "Reasonable",
-            "faceM": 1.27,
-            "waveM": 1.27,
-            "swellDir": "WNW",
-            "swellM": 1.17,
-            "periodS": 11.5,
-            "windDir": "N",
-            "windKts": 12.9,
-            "gustKts": 15.8
-          },
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 1.5,
-          "surfRangeM": [
-            1.2,
-            1.5
-          ],
-          "typicalSurfM": 1.35,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "cross-off",
-          "windStateLabel": "cross-offshore",
-          "windFit": "N 25 km/h · cross-off · usable wind",
-          "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-            "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
-            "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-          },
-          "photo": {
-            "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-            "credit": "Surfer Galaxy",
-            "creditUrl": "https://surfergalaxy.com/",
-            "alt": "Photo of Supertubos surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 21,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Supertubos looks like a solid window for Heavy / advanced, Low confidence: 1.2-1.5 m, 296 kJ, 12 s period, lully 42/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Supertubos likely too big for comfort; Supertubos is above your current comfort range.",
-          "shortExplanation": "Supertubos is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
-          "warnings": [
-            "10-13s at high tide can get too backed up for Supertubos / Molhe Leste",
-            "Supertubos likely too big for comfort",
-            "Supertubos is above your current comfort range"
-          ]
-        },
-        {
           "spot": "Cantinho da Baia",
           "spotId": "cantinho",
           "windowEnd": "20:00",
@@ -3092,7 +2393,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -3326,7 +2627,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 61,
               "coverage": 1,
@@ -3560,7 +2861,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -3787,7 +3088,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -4014,7 +3315,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -4161,410 +3462,6 @@
         {
           "spot": "Meio da Baia",
           "spotId": "meio-da-baia",
-          "windowEnd": "13:30",
-          "qualityScore": 35,
-          "conditionsScore": -0.5,
-          "preferenceScore": 1,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 7
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": -12
-            },
-            {
-              "label": "Period and tide",
-              "points": -6
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 9
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 0
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 0
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 1
-            },
-            {
-              "label": "Provider consensus",
-              "points": 1.5
-            }
-          ],
-          "consensus": {
-            "adjustment": 1.5,
-            "usable": true,
-            "difference": 29.333333333333336,
-            "agreement": "mixed",
-            "explanation": "4Shor is more optimistic than our conditions assessment.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": {
-            "status": "ok",
-            "location": "Praia Baleal - Sul",
-            "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-            "activity": "surfing",
-            "ability": "intermediate",
-            "scale": {
-              "min": 0,
-              "max": 100
-            },
-            "timezone": "UTC",
-            "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
-            "alignment": {
-              "score": 62.333333333333336,
-              "coverage": 1,
-              "blocks": [
-                {
-                  "start": "2026-09-07T09:00:00.000Z",
-                  "end": "2026-09-07T12:00:00.000Z",
-                  "score": 62,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                },
-                {
-                  "start": "2026-09-07T12:00:00.000Z",
-                  "end": "2026-09-07T15:00:00.000Z",
-                  "score": 63,
-                  "samples": 3,
-                  "resolutionMinutes": 180
-                }
-              ],
-              "usable": true,
-              "freshness": "fresh"
-            }
-          },
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 0.5,
-          "sessionLabel": "Worth checking",
-          "sessionLabelRaw": "check first",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "Not covered",
-              "detail": "ECMWF",
-              "state": "unavailable"
-            },
-            {
-              "name": "4Shor",
-              "value": "62.3 / 100",
-              "detail": "Surfing · Intermediate",
-              "state": "available",
-              "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-              "profile": "Surfing / Intermediate",
-              "blended": true
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": null
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.9,
-            "waveMaxM": 1.2,
-            "swellM": 1.8,
-            "periodS": 12,
-            "energyKj": 252,
-            "consistencyScore": 51,
-            "windKph": 21,
-            "gustKph": 34,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": null,
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 1.2,
-          "surfRangeM": [
-            0.9,
-            1.2
-          ],
-          "typicalSurfM": 1.05,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "on",
-          "windStateLabel": "on-shore",
-          "windFit": "N 25 km/h · onshore · poor wind fit",
-          "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-            "swellmap": null,
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-          },
-          "photo": {
-            "url": "images/spots/meio-da-baia.jpg",
-            "credit": "Local file",
-            "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-            "alt": "Photo of Meio da Baia surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.9-1.2 m, 252 kJ, 12 s period, workable consistency 51/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: wind angle is poor for this spot; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.",
-          "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide makes this one less convincing.",
-          "warnings": [
-            "wind angle is poor for this spot",
-            "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash"
-          ]
-        },
-        {
-          "spot": "Cerro",
-          "spotId": "cerro",
-          "windowEnd": "13:30",
-          "qualityScore": 33,
-          "conditionsScore": -2,
-          "preferenceScore": 1,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 7
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": -12
-            },
-            {
-              "label": "Period and tide",
-              "points": -6
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 9
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 0
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 0
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 1
-            },
-            {
-              "label": "Provider consensus",
-              "points": 0
-            }
-          ],
-          "consensus": {
-            "adjustment": 0,
-            "usable": false,
-            "difference": null,
-            "agreement": "unavailable",
-            "explanation": "4Shor is unavailable, stale, incomplete, or does not match this profile.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": null,
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": -1,
-          "sessionLabel": "Worth checking",
-          "sessionLabelRaw": "check first",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "Not covered",
-              "detail": "ECMWF",
-              "state": "unavailable"
-            },
-            {
-              "name": "4Shor",
-              "value": "Not mapped",
-              "detail": "No matching session score",
-              "state": "unavailable",
-              "profile": "Surfing / Intermediate",
-              "blended": false
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": null
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.9,
-            "waveMaxM": 1.2,
-            "swellM": 1.2,
-            "periodS": 12,
-            "energyKj": 218,
-            "consistencyScore": 50,
-            "windKph": 21,
-            "gustKph": 34,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": null,
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 1.2,
-          "surfRangeM": [
-            0.9,
-            1.2
-          ],
-          "typicalSurfM": 1.05,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "cross-on",
-          "windStateLabel": "cross-onshore",
-          "windFit": "N 25 km/h · cross-onshore · poor wind fit",
-          "bestWind": "ideal SSW, usable S/SW/SSE/SE, clean <=22 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
-            "swellmap": null,
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-          },
-          "photo": {
-            "url": "images/spots/cerro.jpg",
-            "credit": "Local file",
-            "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-            "alt": "Photo of Cerro surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Cerro looks like a fun-sized window for Worth checking, Low confidence: 0.9-1.2 m, 218 kJ, 12 s period, workable consistency 50/100, and wind is the main risk.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: wind angle is poor for this spot; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.",
-          "shortExplanation": "Cerro is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide makes this one less convincing.",
-          "warnings": [
-            "wind angle is poor for this spot",
-            "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash"
-          ]
-        },
-        {
-          "spot": "Meio da Baia",
-          "spotId": "meio-da-baia",
           "windowEnd": "20:00",
           "qualityScore": 30,
           "conditionsScore": -5.1,
@@ -4645,7 +3542,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -4865,7 +3762,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 61,
               "coverage": 1,
@@ -5085,7 +3982,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -5298,7 +4195,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -5511,7 +4408,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -6564,190 +5461,6 @@
         {
           "spot": "Molhe Leste",
           "spotId": "molhe-leste",
-          "windowEnd": "13:30",
-          "qualityScore": 61,
-          "conditionsScore": 26,
-          "preferenceScore": 6,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 12
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": 4
-            },
-            {
-              "label": "Period and tide",
-              "points": -4
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": -3
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 0
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 17
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 6
-            },
-            {
-              "label": "Provider consensus",
-              "points": 0
-            }
-          ],
-          "consensus": {
-            "adjustment": 0,
-            "usable": false,
-            "difference": null,
-            "agreement": "unavailable",
-            "explanation": "4Shor is unavailable, stale, incomplete, or does not match this profile.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": null,
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 32,
-          "sessionLabel": "Too soft",
-          "sessionLabelRaw": "too weak",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/molhe-leste/640b9cb14878ebb2521e21fe"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "1 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Molhe-Leste/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "Not covered",
-              "detail": "ECMWF",
-              "state": "unavailable"
-            },
-            {
-              "name": "4Shor",
-              "value": "Not mapped",
-              "detail": "No matching session score",
-              "state": "unavailable",
-              "profile": "Surfing / Intermediate",
-              "blended": false
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 1,
-            "swellmap": null
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.6,
-            "waveMaxM": 0.9,
-            "swellM": 1.5,
-            "periodS": 12,
-            "energyKj": 296,
-            "consistencyScore": 42,
-            "windKph": 20,
-            "gustKph": 30,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 1,
-          "swellmap": null,
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 0.9,
-          "surfRangeM": [
-            0.6,
-            0.9
-          ],
-          "typicalSurfM": 0.75,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "cross-off",
-          "windStateLabel": "cross-offshore",
-          "windFit": "N 25 km/h · cross-off · good wind fit",
-          "bestWind": "ideal N/NNE/NE, usable NNW/ENE/E, clean <=25 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/molhe-leste/640b9cb14878ebb2521e21fe",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Molhe-Leste/forecasts/latest",
-            "swellmap": null,
-            "beachcam": "https://beachcam.meo.pt/livecams/penichemolhelesteestatica/"
-          },
-          "photo": {
-            "url": "https://vert-mag.com/vert2/wp-content/uploads/2015/03/ML3-1140x641.jpg",
-            "credit": "Vert Magazine",
-            "creditUrl": "https://vert-mag.com/",
-            "alt": "Photo of Molhe Leste surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Molhe Leste looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 296 kJ, 12 s period, lully 42/100, and good wind at 25 km/h.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size.  Watch: 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size.",
-          "shortExplanation": "Molhe Leste is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  The wind should help keep it tidy.  The tide is helping, but the spot still looks serious.",
-          "warnings": [
-            "10-13s at high tide can get too backed up for Supertubos / Molhe Leste",
-            "Molhe Leste looks below your bodyboard fun size"
-          ]
-        },
-        {
-          "spot": "Molhe Leste",
-          "spotId": "molhe-leste",
           "windowEnd": "18:00",
           "qualityScore": 40,
           "conditionsScore": 5,
@@ -7673,190 +6386,6 @@
             "10-13s at low tide is fast and technical at Supertubos / Molhe Leste",
             "Molhe Leste looks below your bodyboard fun size",
             "gusts over 35 km/h could make it messy"
-          ]
-        },
-        {
-          "spot": "Baleal",
-          "spotId": "baleal",
-          "windowEnd": "13:30",
-          "qualityScore": 32,
-          "conditionsScore": -3,
-          "preferenceScore": 5,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 7
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": -12
-            },
-            {
-              "label": "Period and tide",
-              "points": 5
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": -6
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 0
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 3
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 5
-            },
-            {
-              "label": "Provider consensus",
-              "points": 0
-            }
-          ],
-          "consensus": {
-            "adjustment": 0,
-            "usable": false,
-            "difference": null,
-            "agreement": "unavailable",
-            "explanation": "4Shor is unavailable, stale, incomplete, or does not match this profile.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": null,
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 2,
-          "sessionLabel": "Too soft",
-          "sessionLabelRaw": "too weak",
-          "confidenceLabel": "Medium confidence",
-          "confidenceLabelRaw": "medium",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "1 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "Not covered",
-              "detail": "ECMWF",
-              "state": "unavailable"
-            },
-            {
-              "name": "4Shor",
-              "value": "Not mapped",
-              "detail": "No matching session score",
-              "state": "unavailable",
-              "profile": "Surfing / Intermediate",
-              "blended": false
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": null
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.6,
-            "waveMaxM": 0.9,
-            "swellM": 1.7,
-            "periodS": 12,
-            "energyKj": 163,
-            "consistencyScore": 47,
-            "windKph": 20,
-            "gustKph": 30,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": null,
-          "tide": {
-            "label": "Near high",
-            "direction": "falling",
-            "summary": "Near high",
-            "captured": true
-          },
-          "waveM": 0.9,
-          "surfRangeM": [
-            0.6,
-            0.9
-          ],
-          "typicalSurfM": 0.75,
-          "surfHeightSource": "Surfline",
-          "surflinePeriod": {
-            "date": "2026-09-07",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 12,
-          "windKph": 25,
-          "windDirection": "N",
-          "windState": "on",
-          "windStateLabel": "on-shore",
-          "windFit": "N 25 km/h · onshore · poor wind fit",
-          "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/baleal/5842041f4e65fad6a7708bc6",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Baleal-Sul/forecasts/latest",
-            "swellmap": null,
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-          },
-          "photo": {
-            "url": "images/spots/baleal.jpg",
-            "credit": "Local file",
-            "creditUrl": "https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg",
-            "alt": "Photo of Baleal surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 20,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Baleal looks like a fun-sized window for Too soft, Medium confidence: 0.6-0.9 m, 163 kJ, 12 s period, workable consistency 47/100, and wind is the main risk.  A broad, forgiving beach setup with several peaks; this is best for spreading out and finding a manageable wave when the bay has enough push; 10-13s at high tide is softer but still workable on the Baleal sandbanks.  Watch: wind angle is poor for this spot; Baleal looks below your bodyboard fun size.",
-          "shortExplanation": "Baleal is worth a quick check for lunch, but it is not a guaranteed session.  It looks too soft to make the drive worthwhile.  Wind is the main thing to watch.  The tide is part of the picture, but not the deciding factor.",
-          "warnings": [
-            "wind angle is poor for this spot",
-            "Baleal looks below your bodyboard fun size"
           ]
         },
         {
@@ -8890,7 +7419,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -9103,7 +7632,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -9316,7 +7845,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 63,
               "coverage": 1,
@@ -9536,7 +8065,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -9749,7 +8278,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -9975,7 +8504,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -10201,7 +8730,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 74.66666666666667,
               "coverage": 1,
@@ -10434,7 +8963,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -10660,7 +9189,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 46.666666666666664,
               "coverage": 1,
@@ -10892,7 +9421,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 60,
               "coverage": 1,
@@ -11112,7 +9641,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 76,
               "coverage": 1,
@@ -11325,7 +9854,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 76,
               "coverage": 1,
@@ -11538,7 +10067,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 76,
               "coverage": 1,
@@ -11751,7 +10280,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -12155,7 +10684,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -12375,7 +10904,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -12596,7 +11125,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 60,
               "coverage": 1,
@@ -12830,7 +11359,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -13058,7 +11587,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -13471,7 +12000,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -13699,7 +12228,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75.66666666666667,
               "coverage": 1,
@@ -13934,7 +12463,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 74.33333333333333,
               "coverage": 1,
@@ -14355,7 +12884,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -14570,7 +13099,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -14785,7 +13314,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75,
               "coverage": 1,
@@ -15000,7 +13529,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 75.66666666666667,
               "coverage": 1,
@@ -16710,7 +15239,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -16939,7 +15468,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -17168,7 +15697,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -17397,7 +15926,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 77.33333333333333,
               "coverage": 1,
@@ -18399,7 +16928,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -18628,7 +17157,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -19050,7 +17579,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -19457,7 +17986,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -20991,7 +19520,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -21206,7 +19735,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -21421,7 +19950,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -21636,7 +20165,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -21858,7 +20387,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -22094,7 +20623,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -22323,7 +20852,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -22552,7 +21081,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -22782,7 +21311,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -23012,7 +21541,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -23242,7 +21771,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 35,
               "coverage": 1,
@@ -24607,7 +23136,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -24846,7 +23375,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 73,
               "coverage": 1,
@@ -25079,7 +23608,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 73,
               "coverage": 1,
@@ -25312,7 +23841,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 73,
               "coverage": 1,
@@ -25545,7 +24074,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-07T11:04:14.015Z",
+            "fetchedAt": "2026-09-07T12:04:06.000Z",
             "alignment": {
               "score": 72.33333333333333,
               "coverage": 1,
@@ -25706,14 +24235,11 @@
     }
   ],
   "targetDate": "2026-09-07",
-  "generatedAt": "2026-09-07 12:00 Portugal time",
-  "status": "degraded",
+  "generatedAt": "2026-09-07 13:00 Portugal time",
+  "status": "ok",
   "dataQuality": {
-    "degraded": true,
-    "warnings": [
-      "Rey Cortiço | Surfline | lunch (Lunch) | consistencyScore missing | time=12:00 | url=https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a?view=table",
-      "Rey Cortiço | Surfline | after-work (After work) | consistencyScore missing | time=18:00 | url=https://www.surfline.com/surf-report/belgas/5dea852e909631442a25348a?view=table"
-    ],
+    "degraded": false,
+    "warnings": [],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -25729,27 +24255,27 @@
   "verdict": {
     "state": "marginal",
     "label": "Worth checking",
-    "headline": "Lagide Lunch",
-    "reason": "Lagide is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a little, but it is not a perfect match.",
+    "headline": "Supertubos After work (16:30 start)",
+    "reason": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
     "quote": "If in doubt, paddle out."
   },
   "conversationalSummary": {
-    "text": "Today I’d only bother checking before you go, because Lagide at lunch is the best option but the wind angle looks pretty off and Surfline is only poor to fair. The swell should be there, yet with that wind it can turn messy quickly, even though falling tide near high might still keep things workable. Do a quick look on Surfline cams and the MEO Beachcam for Lagide—if it doesn’t look noticeably cleaner than expected, I’d skip.",
+    "text": "TODAY I’d aim for Supertubos for the after-work window around 16:30, but it’s very much a “check the cams first” call. The swell looks decent, yet low tide can turn the wave fast and technical, and the gusty north wind could make it messy. Before I leave, I’d quickly compare Surfline and the MEO Beachcam for Supertubos—if it doesn’t look noticeably cleaner there, I’d pass.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "cacheHit": false
   },
   "best": {
-    "spot": "Lagide",
-    "spotId": "lagide",
-    "windowEnd": "13:30",
-    "qualityScore": 69,
-    "conditionsScore": 43.3,
-    "preferenceScore": 9,
+    "spot": "Supertubos",
+    "spotId": "supertubos",
+    "windowEnd": "18:00",
+    "qualityScore": 65,
+    "conditionsScore": 34.2,
+    "preferenceScore": 8,
     "scoreBreakdown": [
       {
         "label": "Provider grades and consistency",
-        "points": 7
+        "points": 19
       },
       {
         "label": "Wave size floor",
@@ -25761,11 +24287,11 @@
       },
       {
         "label": "Wind",
-        "points": -12
+        "points": 0
       },
       {
         "label": "Period and tide",
-        "points": 5
+        "points": -2
       },
       {
         "label": "Spot exposure and comfort",
@@ -25773,7 +24299,7 @@
       },
       {
         "label": "Wave and power fit",
-        "points": 6
+        "points": 9
       },
       {
         "label": "Local Surfline opportunity",
@@ -25781,7 +24307,7 @@
       },
       {
         "label": "Wind gusts",
-        "points": 0
+        "points": -4
       },
       {
         "label": "SwellMap support",
@@ -25789,31 +24315,31 @@
       },
       {
         "label": "Personal ground truth",
-        "points": 35
+        "points": 8
       },
       {
         "label": "Personal ranking preference",
-        "points": 9
+        "points": 8
       },
       {
         "label": "Provider consensus",
-        "points": -1.7000000000000028
+        "points": 0.20000000000000284
       }
     ],
     "consensus": {
-      "adjustment": -1.7000000000000002,
+      "adjustment": 0.20000000000000018,
       "usable": true,
-      "difference": -35,
-      "agreement": "mixed",
-      "explanation": "4Shor is less optimistic than our conditions assessment.",
+      "difference": 4,
+      "agreement": "agreement",
+      "explanation": "4Shor broadly agrees with our conditions assessment.",
       "relevance": 0.5,
       "activity": "surfing",
       "ability": "intermediate"
     },
     "fourshor": {
       "status": "ok",
-      "location": "Praia Baleal - Norte",
-      "url": "https://4shor.app/locations/praia-baleal-norte-768#scores",
+      "location": "Praia do Medão Grande",
+      "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
       "activity": "surfing",
       "ability": "intermediate",
       "scale": {
@@ -25821,23 +24347,16 @@
         "max": 100
       },
       "timezone": "UTC",
-      "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-      "fetchedAt": "2026-09-07T11:04:14.015Z",
+      "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
+      "fetchedAt": "2026-09-07T12:04:06.000Z",
       "alignment": {
-        "score": 35,
+        "score": 69,
         "coverage": 1,
         "blocks": [
           {
-            "start": "2026-09-07T09:00:00.000Z",
-            "end": "2026-09-07T12:00:00.000Z",
-            "score": 35,
-            "samples": 3,
-            "resolutionMinutes": 180
-          },
-          {
-            "start": "2026-09-07T12:00:00.000Z",
-            "end": "2026-09-07T15:00:00.000Z",
-            "score": 35,
+            "start": "2026-09-07T15:00:00.000Z",
+            "end": "2026-09-07T18:00:00.000Z",
+            "score": 69,
             "samples": 3,
             "resolutionMinutes": 180
           }
@@ -25846,83 +24365,83 @@
         "freshness": "fresh"
       }
     },
-    "window": "Lunch",
-    "windowRaw": "Lunch",
-    "windowTime": "12:00",
-    "score": 52.3,
-    "sessionLabel": "Fun progression",
-    "sessionLabelRaw": "progression",
+    "window": "After work (16:30 start)",
+    "windowRaw": "After work",
+    "windowTime": "16:30",
+    "score": 42.2,
+    "sessionLabel": "Worth checking",
+    "sessionLabelRaw": "check first",
     "confidenceLabel": "Low confidence",
     "confidenceLabelRaw": "low",
-    "surfline": "POOR TO FAIR",
+    "surfline": "FAIR",
     "providerRatings": [
       {
         "name": "Surfline",
-        "value": "Poor To Fair",
-        "detail": "12:00 · period",
-        "state": "available",
-        "url": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2"
+        "value": "Fair",
+        "detail": "18:00 · period",
+        "state": "positive",
+        "url": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3"
       },
       {
         "name": "Surf-Forecast",
-        "value": "0 / 10",
-        "detail": "1 PM · period",
+        "value": "1 / 10",
+        "detail": "4 PM · period",
         "state": "available",
-        "url": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest"
+        "url": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest"
       },
       {
         "name": "SwellMap",
         "value": "6 / 10",
-        "detail": "Reasonable · 12:00",
+        "detail": "Reasonable · 18:00",
         "state": "available",
-        "url": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF"
+        "url": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF"
       },
       {
         "name": "4Shor",
-        "value": "35 / 100",
+        "value": "69 / 100",
         "detail": "Surfing · Intermediate",
         "state": "available",
-        "url": "https://4shor.app/locations/praia-baleal-norte-768#scores",
+        "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
         "profile": "Surfing / Intermediate",
-        "blended": true
+        "blended": false
       }
     ],
     "sourceVerdicts": {
-      "surfline": "POOR TO FAIR",
-      "surfForecast": 0,
+      "surfline": "FAIR",
+      "surfForecast": 1,
       "swellmap": "6/10 Reasonable"
     },
     "surflineDetails": {
-      "rating": "POOR TO FAIR",
+      "rating": "FAIR",
       "waveMinM": 0.9,
       "waveMaxM": 1.2,
-      "swellM": 1.7,
-      "periodS": 12,
-      "energyKj": 202,
-      "consistencyScore": 51,
-      "windKph": 21,
-      "gustKph": 34,
+      "swellM": 1.3,
+      "periodS": 11,
+      "energyKj": 205,
+      "consistencyScore": 48,
+      "windKph": 23,
+      "gustKph": 37,
       "waterTempC": null,
       "airTempC": null
     },
-    "surfForecast": 0,
+    "surfForecast": 1,
     "swellmap": {
-      "time": "12:00",
+      "time": "18:00",
       "rating": 6,
       "label": "Reasonable",
-      "faceM": 1.3,
-      "waveM": 1.3,
+      "faceM": 1.18,
+      "waveM": 1.18,
       "swellDir": "WNW",
-      "swellM": 1.17,
-      "periodS": 10.1,
+      "swellM": 1.08,
+      "periodS": 10.3,
       "windDir": "N",
-      "windKts": 12.5,
-      "gustKts": 15.2
+      "windKts": 11.9,
+      "gustKts": 14.6
     },
     "tide": {
-      "label": "Near high",
+      "label": "Low dropping",
       "direction": "falling",
-      "summary": "Near high",
+      "summary": "Low dropping",
       "captured": true
     },
     "waveM": 1.2,
@@ -25934,55 +24453,56 @@
     "surfHeightSource": "Surfline",
     "surflinePeriod": {
       "date": "2026-09-07",
-      "time": "12:00",
+      "time": "18:00",
       "resolutionMinutes": 180
     },
     "periodS": 12,
     "windKph": 25,
     "windDirection": "N",
-    "windState": "on",
-    "windStateLabel": "on-shore",
-    "windFit": "N 25 km/h · onshore · poor wind fit",
-    "bestWind": "ideal E/ESE/SE, usable NE/ENE/SSE, clean <=25 km/h",
+    "windState": "cross-off",
+    "windStateLabel": "cross-offshore",
+    "windFit": "N 25 km/h · cross-off · usable wind",
+    "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
     "sourceLinks": {
-      "surfline": "https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2",
-      "surfForecast": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest",
-      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/lagide?dataset=ECMWF",
-      "beachcam": "https://beachcam.meo.pt/livecams/peniche-lagide-estatica/"
+      "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
+      "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
+      "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
+      "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
     },
     "photo": {
-      "url": "https://www.singlequiver.com/enelpico/wp-content/uploads/2016/05/Playa-de-Almagreira-en-Peniche.jpg",
-      "credit": "Single Quiver",
-      "creditUrl": "https://www.singlequiver.com/",
-      "alt": "Photo of Lagide surf spot"
+      "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
+      "credit": "Surfer Galaxy",
+      "creditUrl": "https://surfergalaxy.com/",
+      "alt": "Photo of Supertubos surf spot"
     },
     "temperature": {
       "waterTempC": null,
-      "airTempC": 20,
+      "airTempC": 21,
       "source": "Surf-Forecast"
     },
     "wetsuit": {
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Lagide looks like a fun-sized window for Fun progression, Low confidence: 0.9-1.2 m, 202 kJ, 12 s period, workable consistency 51/100, and wind is the main risk.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: wind angle is poor for this spot.",
-    "shortExplanation": "Lagide is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a little, but it is not a perfect match.",
+    "explanation": "Supertubos looks like a fun-sized window for Worth checking, Low confidence: 0.9-1.2 m, 205 kJ, 12 s period, workable consistency 48/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: 10-13s at low tide is fast and technical at Supertubos / Molhe Leste; gusts over 35 km/h could make it messy.",
+    "shortExplanation": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
     "warnings": [
-      "wind angle is poor for this spot"
+      "10-13s at low tide is fast and technical at Supertubos / Molhe Leste",
+      "gusts over 35 km/h could make it messy"
     ]
   },
   "ranked": [
     {
-      "spot": "Supertubos",
-      "spotId": "supertubos",
-      "windowEnd": "18:00",
-      "qualityScore": 65,
-      "conditionsScore": 34.2,
-      "preferenceScore": 8,
+      "spot": "Cantinho da Baia",
+      "spotId": "cantinho",
+      "windowEnd": "20:00",
+      "qualityScore": 45,
+      "conditionsScore": 10.100000000000001,
+      "preferenceScore": 9,
       "scoreBreakdown": [
         {
           "label": "Provider grades and consistency",
-          "points": 19
+          "points": 7
         },
         {
           "label": "Wave size floor",
@@ -25994,11 +24514,11 @@
         },
         {
           "label": "Wind",
-          "points": 0
+          "points": -12
         },
         {
           "label": "Period and tide",
-          "points": -2
+          "points": -3
         },
         {
           "label": "Spot exposure and comfort",
@@ -26026,245 +24546,19 @@
         },
         {
           "label": "Personal ranking preference",
-          "points": 8
-        },
-        {
-          "label": "Provider consensus",
-          "points": 0.20000000000000284
-        }
-      ],
-      "consensus": {
-        "adjustment": 0.20000000000000018,
-        "usable": true,
-        "difference": 4,
-        "agreement": "agreement",
-        "explanation": "4Shor broadly agrees with our conditions assessment.",
-        "relevance": 0.5,
-        "activity": "surfing",
-        "ability": "intermediate"
-      },
-      "fourshor": {
-        "status": "ok",
-        "location": "Praia do Medão Grande",
-        "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
-        "activity": "surfing",
-        "ability": "intermediate",
-        "scale": {
-          "min": 0,
-          "max": 100
-        },
-        "timezone": "UTC",
-        "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-        "fetchedAt": "2026-09-07T11:04:14.015Z",
-        "alignment": {
-          "score": 69,
-          "coverage": 1,
-          "blocks": [
-            {
-              "start": "2026-09-07T15:00:00.000Z",
-              "end": "2026-09-07T18:00:00.000Z",
-              "score": 69,
-              "samples": 3,
-              "resolutionMinutes": 180
-            }
-          ],
-          "usable": true,
-          "freshness": "fresh"
-        }
-      },
-      "window": "After work (16:30 start)",
-      "windowRaw": "After work",
-      "windowTime": "16:30",
-      "score": 42.2,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "FAIR",
-      "providerRatings": [
-        {
-          "name": "Surfline",
-          "value": "Fair",
-          "detail": "18:00 · period",
-          "state": "positive",
-          "url": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3"
-        },
-        {
-          "name": "Surf-Forecast",
-          "value": "1 / 10",
-          "detail": "4 PM · period",
-          "state": "available",
-          "url": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest"
-        },
-        {
-          "name": "SwellMap",
-          "value": "6 / 10",
-          "detail": "Reasonable · 18:00",
-          "state": "available",
-          "url": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF"
-        },
-        {
-          "name": "4Shor",
-          "value": "69 / 100",
-          "detail": "Surfing · Intermediate",
-          "state": "available",
-          "url": "https://4shor.app/locations/praia-do-medao-grande-176#scores",
-          "profile": "Surfing / Intermediate",
-          "blended": false
-        }
-      ],
-      "sourceVerdicts": {
-        "surfline": "FAIR",
-        "surfForecast": 1,
-        "swellmap": "6/10 Reasonable"
-      },
-      "surflineDetails": {
-        "rating": "FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.3,
-        "periodS": 11,
-        "energyKj": 205,
-        "consistencyScore": 48,
-        "windKph": 23,
-        "gustKph": 37,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 1,
-      "swellmap": {
-        "time": "18:00",
-        "rating": 6,
-        "label": "Reasonable",
-        "faceM": 1.18,
-        "waveM": 1.18,
-        "swellDir": "WNW",
-        "swellM": 1.08,
-        "periodS": 10.3,
-        "windDir": "N",
-        "windKts": 11.9,
-        "gustKts": 14.6
-      },
-      "tide": {
-        "label": "Low dropping",
-        "direction": "falling",
-        "summary": "Low dropping",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "surfRangeM": [
-        0.9,
-        1.2
-      ],
-      "typicalSurfM": 1.05,
-      "surfHeightSource": "Surfline",
-      "surflinePeriod": {
-        "date": "2026-09-07",
-        "time": "18:00",
-        "resolutionMinutes": 180
-      },
-      "periodS": 12,
-      "windKph": 25,
-      "windDirection": "N",
-      "windState": "cross-off",
-      "windStateLabel": "cross-offshore",
-      "windFit": "N 25 km/h · cross-off · usable wind",
-      "bestWind": "ideal N/NNE/NE, usable NNW/ENE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Supertubos/forecasts/latest",
-        "swellmap": "https://www.swellmap.com/surf-forecasts/portugal/supertubos?dataset=ECMWF",
-        "beachcam": "https://beachcam.meo.pt/livecams/penichesupertubosestatica/"
-      },
-      "photo": {
-        "url": "https://surfergalaxy.com/wp-content/uploads/2022/06/Imagefromcontrol.surfergalaxy.comon2022-02-20at12.12.24.jpeg",
-        "credit": "Surfer Galaxy",
-        "creditUrl": "https://surfergalaxy.com/",
-        "alt": "Photo of Supertubos surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 21,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Supertubos looks like a fun-sized window for Worth checking, Low confidence: 0.9-1.2 m, 205 kJ, 12 s period, workable consistency 48/100, and wind is not fully clear.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: 10-13s at low tide is fast and technical at Supertubos / Molhe Leste; gusts over 35 km/h could make it messy.",
-      "shortExplanation": "Supertubos is worth a quick check for after work (16:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  The wind should be manageable, but not a big advantage.  The tide is helping, but the spot still looks serious.",
-      "warnings": [
-        "10-13s at low tide is fast and technical at Supertubos / Molhe Leste",
-        "gusts over 35 km/h could make it messy"
-      ]
-    },
-    {
-      "spot": "Cantinho da Baia",
-      "spotId": "cantinho",
-      "windowEnd": "13:30",
-      "qualityScore": 57,
-      "conditionsScore": 22.3,
-      "preferenceScore": 8,
-      "scoreBreakdown": [
-        {
-          "label": "Provider grades and consistency",
-          "points": 15
-        },
-        {
-          "label": "Wave size floor",
-          "points": 0
-        },
-        {
-          "label": "Tide safety",
-          "points": 0
-        },
-        {
-          "label": "Wind",
-          "points": -12
-        },
-        {
-          "label": "Period and tide",
-          "points": -2
-        },
-        {
-          "label": "Spot exposure and comfort",
-          "points": 0
-        },
-        {
-          "label": "Wave and power fit",
           "points": 9
         },
         {
-          "label": "Local Surfline opportunity",
-          "points": 0
-        },
-        {
-          "label": "Wind gusts",
-          "points": 0
-        },
-        {
-          "label": "SwellMap support",
-          "points": 4
-        },
-        {
-          "label": "Personal ground truth",
-          "points": 8
-        },
-        {
-          "label": "Personal ranking preference",
-          "points": 8
-        },
-        {
           "label": "Provider consensus",
-          "points": 0.3000000000000007
+          "points": 1.1000000000000014
         }
       ],
       "consensus": {
-        "adjustment": 0.2999999999999998,
+        "adjustment": 1.0999999999999996,
         "usable": true,
-        "difference": 5.333333333333336,
-        "agreement": "agreement",
-        "explanation": "4Shor broadly agrees with our conditions assessment.",
+        "difference": 22,
+        "agreement": "mixed",
+        "explanation": "4Shor is more optimistic than our conditions assessment.",
         "relevance": 0.5,
         "activity": "surfing",
         "ability": "intermediate"
@@ -26281,22 +24575,22 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-09-07T11:04:14.015Z",
+        "fetchedAt": "2026-09-07T12:04:06.000Z",
         "alignment": {
-          "score": 62.333333333333336,
+          "score": 66,
           "coverage": 1,
           "blocks": [
             {
-              "start": "2026-09-07T09:00:00.000Z",
-              "end": "2026-09-07T12:00:00.000Z",
-              "score": 62,
+              "start": "2026-09-07T15:00:00.000Z",
+              "end": "2026-09-07T18:00:00.000Z",
+              "score": 56,
               "samples": 3,
               "resolutionMinutes": 180
             },
             {
-              "start": "2026-09-07T12:00:00.000Z",
-              "end": "2026-09-07T15:00:00.000Z",
-              "score": 63,
+              "start": "2026-09-07T18:00:00.000Z",
+              "end": "2026-09-07T21:00:00.000Z",
+              "score": 71,
               "samples": 3,
               "resolutionMinutes": 180
             }
@@ -26305,10 +24599,10 @@
           "freshness": "fresh"
         }
       },
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": 30.3,
+      "window": "After work (18:30 start)",
+      "windowRaw": "After work",
+      "windowTime": "18:30",
+      "score": 19.1,
       "sessionLabel": "Safe fun",
       "sessionLabelRaw": "safe fun",
       "confidenceLabel": "Low confidence",
@@ -26318,27 +24612,27 @@
         {
           "name": "Surfline",
           "value": "Poor To Fair",
-          "detail": "12:00 · period",
+          "detail": "18:00 · period",
           "state": "available",
           "url": "https://www.surfline.com/surf-report/cantinho-da-ba-a/5a1c9e91cbecc0001bb480c8"
         },
         {
           "name": "Surf-Forecast",
           "value": "0 / 10",
-          "detail": "1 PM · period",
+          "detail": "7 PM · period",
           "state": "available",
           "url": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest"
         },
         {
           "name": "SwellMap",
           "value": "6 / 10",
-          "detail": "Reasonable · 12:00",
+          "detail": "Reasonable · 18:00",
           "state": "available",
           "url": "https://www.swellmap.com/surf-forecasts/portugal/cantinho-da-baia?dataset=ECMWF"
         },
         {
           "name": "4Shor",
-          "value": "62.3 / 100",
+          "value": "66 / 100",
           "detail": "Surfing · Intermediate",
           "state": "available",
           "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -26354,49 +24648,49 @@
       "surflineDetails": {
         "rating": "POOR TO FAIR",
         "waveMinM": 0.6,
-        "waveMaxM": 1.1,
-        "swellM": 1.8,
-        "periodS": 12,
-        "energyKj": 605,
-        "consistencyScore": 88,
-        "windKph": 21,
-        "gustKph": 34,
+        "waveMaxM": 0.9,
+        "swellM": 1.6,
+        "periodS": 11,
+        "energyKj": 405,
+        "consistencyScore": 61,
+        "windKph": 24,
+        "gustKph": 36,
         "waterTempC": null,
         "airTempC": null
       },
       "surfForecast": 0,
       "swellmap": {
-        "time": "12:00",
+        "time": "18:00",
         "rating": 6,
         "label": "Reasonable",
-        "faceM": 1.23,
-        "waveM": 1.23,
+        "faceM": 1.15,
+        "waveM": 1.15,
         "swellDir": "WNW",
-        "swellM": 1.1,
-        "periodS": 10.3,
+        "swellM": 1.03,
+        "periodS": 10.6,
         "windDir": "N",
-        "windKts": 12.5,
-        "gustKts": 15.3
+        "windKts": 11.6,
+        "gustKts": 14.1
       },
       "tide": {
-        "label": "Near high",
-        "direction": "falling",
-        "summary": "Near high",
+        "label": "Dead low",
+        "direction": "rising",
+        "summary": "Dead low",
         "captured": true
       },
-      "waveM": 1.1,
+      "waveM": 0.9,
       "surfRangeM": [
         0.6,
-        1.1
+        0.9
       ],
-      "typicalSurfM": 0.8500000000000001,
+      "typicalSurfM": 0.75,
       "surfHeightSource": "Surfline",
       "surflinePeriod": {
         "date": "2026-09-07",
-        "time": "12:00",
+        "time": "18:00",
         "resolutionMinutes": 180
       },
-      "periodS": 12,
+      "periodS": 11,
       "windKph": 25,
       "windDirection": "N",
       "windState": "cross-on",
@@ -26424,231 +24718,12 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-1.1 m, 605 kJ, 12 s period, very consistent 88/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: wind angle is poor for this spot; 10-13s at high tide can get fat and slow in the sheltered bay.",
-      "shortExplanation": "Cantinho da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a bit, but the bay still needs enough push.",
+      "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.6-0.9 m, 405 kJ, 11 s period, workable consistency 61/100, and wind is the main risk.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: wind angle is poor for this spot; 10-13s at low tide is fast and shallow in the sheltered bay; gusts over 35 km/h could make it messy.",
+      "shortExplanation": "Cantinho da Baia is worth a quick check for after work (18:30 start), but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide helps a bit, but the bay still needs enough push.",
       "warnings": [
         "wind angle is poor for this spot",
-        "10-13s at high tide can get fat and slow in the sheltered bay"
-      ]
-    },
-    {
-      "spot": "Meio da Baia",
-      "spotId": "meio-da-baia",
-      "windowEnd": "13:30",
-      "qualityScore": 35,
-      "conditionsScore": -0.5,
-      "preferenceScore": 1,
-      "scoreBreakdown": [
-        {
-          "label": "Provider grades and consistency",
-          "points": 7
-        },
-        {
-          "label": "Wave size floor",
-          "points": 0
-        },
-        {
-          "label": "Tide safety",
-          "points": 0
-        },
-        {
-          "label": "Wind",
-          "points": -12
-        },
-        {
-          "label": "Period and tide",
-          "points": -6
-        },
-        {
-          "label": "Spot exposure and comfort",
-          "points": 0
-        },
-        {
-          "label": "Wave and power fit",
-          "points": 9
-        },
-        {
-          "label": "Local Surfline opportunity",
-          "points": 0
-        },
-        {
-          "label": "Wind gusts",
-          "points": 0
-        },
-        {
-          "label": "SwellMap support",
-          "points": 0
-        },
-        {
-          "label": "Personal ground truth",
-          "points": 0
-        },
-        {
-          "label": "Personal ranking preference",
-          "points": 1
-        },
-        {
-          "label": "Provider consensus",
-          "points": 1.5
-        }
-      ],
-      "consensus": {
-        "adjustment": 1.5,
-        "usable": true,
-        "difference": 29.333333333333336,
-        "agreement": "mixed",
-        "explanation": "4Shor is more optimistic than our conditions assessment.",
-        "relevance": 0.5,
-        "activity": "surfing",
-        "ability": "intermediate"
-      },
-      "fourshor": {
-        "status": "ok",
-        "location": "Praia Baleal - Sul",
-        "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-        "activity": "surfing",
-        "ability": "intermediate",
-        "scale": {
-          "min": 0,
-          "max": 100
-        },
-        "timezone": "UTC",
-        "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-09-07T11:04:14.015Z",
-        "alignment": {
-          "score": 62.333333333333336,
-          "coverage": 1,
-          "blocks": [
-            {
-              "start": "2026-09-07T09:00:00.000Z",
-              "end": "2026-09-07T12:00:00.000Z",
-              "score": 62,
-              "samples": 3,
-              "resolutionMinutes": 180
-            },
-            {
-              "start": "2026-09-07T12:00:00.000Z",
-              "end": "2026-09-07T15:00:00.000Z",
-              "score": 63,
-              "samples": 3,
-              "resolutionMinutes": 180
-            }
-          ],
-          "usable": true,
-          "freshness": "fresh"
-        }
-      },
-      "window": "Lunch",
-      "windowRaw": "Lunch",
-      "windowTime": "12:00",
-      "score": 0.5,
-      "sessionLabel": "Worth checking",
-      "sessionLabelRaw": "check first",
-      "confidenceLabel": "Low confidence",
-      "confidenceLabelRaw": "low",
-      "surfline": "POOR TO FAIR",
-      "providerRatings": [
-        {
-          "name": "Surfline",
-          "value": "Poor To Fair",
-          "detail": "12:00 · period",
-          "state": "available",
-          "url": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7"
-        },
-        {
-          "name": "Surf-Forecast",
-          "value": "0 / 10",
-          "detail": "1 PM · period",
-          "state": "available",
-          "url": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest"
-        },
-        {
-          "name": "SwellMap",
-          "value": "Not covered",
-          "detail": "ECMWF",
-          "state": "unavailable"
-        },
-        {
-          "name": "4Shor",
-          "value": "62.3 / 100",
-          "detail": "Surfing · Intermediate",
-          "state": "available",
-          "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
-          "profile": "Surfing / Intermediate",
-          "blended": true
-        }
-      ],
-      "sourceVerdicts": {
-        "surfline": "POOR TO FAIR",
-        "surfForecast": 0,
-        "swellmap": null
-      },
-      "surflineDetails": {
-        "rating": "POOR TO FAIR",
-        "waveMinM": 0.9,
-        "waveMaxM": 1.2,
-        "swellM": 1.8,
-        "periodS": 12,
-        "energyKj": 252,
-        "consistencyScore": 51,
-        "windKph": 21,
-        "gustKph": 34,
-        "waterTempC": null,
-        "airTempC": null
-      },
-      "surfForecast": 0,
-      "swellmap": null,
-      "tide": {
-        "label": "Near high",
-        "direction": "falling",
-        "summary": "Near high",
-        "captured": true
-      },
-      "waveM": 1.2,
-      "surfRangeM": [
-        0.9,
-        1.2
-      ],
-      "typicalSurfM": 1.05,
-      "surfHeightSource": "Surfline",
-      "surflinePeriod": {
-        "date": "2026-09-07",
-        "time": "12:00",
-        "resolutionMinutes": 180
-      },
-      "periodS": 12,
-      "windKph": 25,
-      "windDirection": "N",
-      "windState": "on",
-      "windStateLabel": "on-shore",
-      "windFit": "N 25 km/h · onshore · poor wind fit",
-      "bestWind": "ideal SSE, usable SE/S/ESE, clean <=22 km/h",
-      "sourceLinks": {
-        "surfline": "https://www.surfline.com/surf-report/meio-da-ba-a/63a4374bb5c53b335b3eada7",
-        "surfForecast": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest",
-        "swellmap": null,
-        "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-      },
-      "photo": {
-        "url": "images/spots/meio-da-baia.jpg",
-        "credit": "Local file",
-        "creditUrl": "https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg",
-        "alt": "Photo of Meio da Baia surf spot"
-      },
-      "temperature": {
-        "waterTempC": null,
-        "airTempC": 20,
-        "source": "Surf-Forecast"
-      },
-      "wetsuit": {
-        "suit": "4/3",
-        "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-      },
-      "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.9-1.2 m, 252 kJ, 12 s period, workable consistency 51/100, and wind is the main risk.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: wind angle is poor for this spot; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.",
-      "shortExplanation": "Meio da Baia is worth a quick check for lunch, but it is not a guaranteed session.  Treat it as a check-first call rather than a sure thing.  Wind is the main thing to watch.  The tide makes this one less convincing.",
-      "warnings": [
-        "wind angle is poor for this spot",
-        "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash"
+        "10-13s at low tide is fast and shallow in the sheltered bay",
+        "gusts over 35 km/h could make it messy"
       ]
     }
   ]
