@@ -96,6 +96,7 @@ html{scroll-padding-bottom:124px}
 .polaroid-photo-frame{position:relative;width:100%;aspect-ratio:1;background:#17313a;overflow:hidden;border:1px solid rgba(28,34,31,.42);border-radius:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.16),0 1px 1px rgba(0,0,0,.2);max-height:none}
 .polaroid-photo-frame::after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 24px rgba(1,16,22,.14);background:linear-gradient(180deg,rgba(255,236,195,.035),rgba(12,38,47,.035));mix-blend-mode:multiply}
 .polaroid-img{filter:saturate(.91) contrast(1.06) sepia(.045);transition:transform .35s ease,filter .35s ease}
+.polaroid-rating-badge{position:absolute;top:9px;right:9px;z-index:3;display:inline-flex;align-items:center;gap:2px;background:rgba(10,24,34,0.78);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.25);border-radius:12px;padding:3px 8px 4px;color:#facc15;font-size:15px;line-height:1;letter-spacing:1.5px;box-shadow:0 3px 10px rgba(0,0,0,0.4);pointer-events:none}
 .polaroid-chin{min-height:128px;padding:18px 7px 4px;color:#252722}
 .polaroid-headline{align-items:center;gap:10px;margin-bottom:13px}
 .polaroid-title{font-family:'On The Way','Brush Script MT','Segoe Print',cursive;font-size:23px;line-height:1;color:#253027;font-weight:normal;letter-spacing:.01em}
@@ -293,8 +294,7 @@ html{scroll-padding-bottom:124px}
    <strong>3.5★ average</strong>
    <span>across 50 sessions in matching conditions (27% 5★) · ~10.4 waves/session · longest wave 195m</span>
   </div>
-  <p class="history-callout-text">Moderate analogue. Swell height: historic 0.9 m, forecast 1.2 m. Period: historic 11 s, forecast 11 s. Wind effect differs: historic 19.7 km/h estimated cross-offshore → forecast 20 km/h estimated cross-shore. N 20 km/h · geometry unverified; estimated cross-shore from preferences at Cantinho da Baia · chop and poorer wave shape Historic or forecast tide unavailable. Spot swell exposure window is unverified. Wind geometry is unverified; estimated effects use project preferences and are not surveyed offshore/onshore labels.</p>
-  <p><strong>Moderate analogue</strong> · Confidence: Low · Raw conditions 93/100 · Surf outcome 79/100</p>
+  <p class="history-callout-text">Swell matches closely: 1.1m @ 11s historically vs 0.6–1.1 m @ 11s forecast. Wind was 16 km/h NNE (forecast: 20 km/h N).</p>
 
     <div class="history-polaroid-wrap">
      <div class="polaroid-top">
@@ -303,16 +303,17 @@ html{scroll-padding-bottom:124px}
      </div>
      <figure class="history-polaroid" aria-label="Historical surf comparison photo and data">
       <div class="polaroid-photo-frame">
-       <a href="https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg" target="_blank" rel="noopener" aria-label="View full photo from session on 16 Apr 2023">
-        <img src="https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg" alt="Spot photo from 16 Apr 2023 at Cantinho Da Baía" class="polaroid-img" loading="lazy">
+       <a href="https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg" target="_blank" rel="noopener" aria-label="View full photo from session on 9 Nov 2024">
+        <img src="https://static.wixstatic.com/media/11d520_e0564bbde92a4bc6944b92857a5079bd~mv2.jpg" alt="Spot photo from 9 Nov 2024 at Cantinho Da Baía" class="polaroid-img" loading="lazy">
        </a>
+       <div class="polaroid-rating-badge" aria-label="4 out of 5 stars">★★★★</div>
       </div>
       <figcaption class="polaroid-chin">
        <div class="polaroid-headline">
-        <strong class="polaroid-title">16 Apr 2023 · 10:09–11:29</strong>
-
+        <strong class="polaroid-title">9 Nov 2024 · 09:41–11:21</strong>
+        <span class="polaroid-star">4★</span>
        </div>
-       <div class="polaroid-metrics"><span><strong>11</strong> waves</span><span>longest <strong>60m</strong></span><span>top <strong>15 km/h</strong></span><span>swell <strong>0.9m @ 11s</strong></span><span>wind <strong>19.7 km/h NNE</strong></span></div>
+       <div class="polaroid-metrics"><span><strong>9</strong> waves</span><span>longest <strong>69m</strong></span><span>top <strong>21 km/h</strong></span><span>swell <strong>1.1m @ 11s</strong></span><span>wind <strong>16.3 km/h NNE</strong></span></div>
 
       </figcaption>
      </figure>
