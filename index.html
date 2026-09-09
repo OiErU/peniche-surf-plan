@@ -136,11 +136,12 @@ html{scroll-padding-bottom:124px}
 .fact-label{display:block;color:#9fb6c1;font-size:7.5px;font-weight:700;line-height:1;letter-spacing:.11em;text-transform:uppercase}
 .hero-facts strong{display:block;max-width:100%;overflow:hidden;color:#fff;font-size:11.5px;font-weight:650;line-height:1.25;text-overflow:ellipsis;white-space:nowrap}
 .recommendation-photo figcaption{top:auto;right:16px;bottom:72px;z-index:2;padding:3px 7px;border-color:rgba(156,186,198,.28);background:rgba(7,30,44,.56);color:rgba(226,237,242,.84);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
-.decision-stamp{position:absolute;z-index:4;top:8px;right:-4px;width:clamp(220px,44vw,285px);height:auto;margin:0;display:block;filter:drop-shadow(0 6px 10px rgba(1,13,19,.32));pointer-events:none;transform:rotate(2deg)}
-.decision-stamp--check{transform:rotate(-2.5deg)}
-.decision-stamp--skip{transform:rotate(2deg)}
-.hero-copy h1{max-width:calc(100% - 168px)}
-@media(max-width:380px){.header-controls-row{gap:6px}.forecast-days{gap:2px}.forecast-days button{padding-inline:2px}.forecast-day-relative{font-size:9px}.forecast-day-date{font-size:7.5px}.header-right{gap:4px}.report-run-badge{font-size:8px}.refresh-button{width:42px;height:42px}.hero-copy{padding-inline:16px}.hero-facts>span{padding-inline:6px}.hero-facts>span+span{padding-left:6px}.fact-label{font-size:6.8px;letter-spacing:.07em}.hero-facts strong{font-size:9.8px}.decision-stamp{top:6px;right:0;width:clamp(185px,50vw,225px)}.hero-copy h1{max-width:calc(100% - 150px)}}
+.decision-stamp{position:absolute;z-index:4;top:10px;right:10px;width:clamp(120px,28vw,165px);height:auto;aspect-ratio:1/1;margin:0;display:block;filter:drop-shadow(0 4px 12px rgba(1,13,19,.36));pointer-events:none;transform:rotate(3deg)}
+.decision-stamp--check{transform:rotate(-3deg)}
+.decision-stamp--skip{transform:rotate(2.5deg)}
+.decision-stamp--go{transform:rotate(3deg)}
+.hero-copy h1{max-width:calc(100% - 145px)}
+@media(max-width:380px){.header-controls-row{gap:6px}.forecast-days{gap:2px}.forecast-days button{padding-inline:2px}.forecast-day-relative{font-size:9px}.forecast-day-date{font-size:7.5px}.header-right{gap:4px}.report-run-badge{font-size:8px}.refresh-button{width:42px;height:42px}.hero-copy{padding-inline:16px}.hero-facts>span{padding-inline:6px}.hero-facts>span+span{padding-left:6px}.fact-label{font-size:6.8px;letter-spacing:.07em}.hero-facts strong{font-size:9.8px}.decision-stamp{top:8px;right:8px;width:clamp(105px,30vw,125px)}.hero-copy h1{max-width:calc(100% - 115px)}}
 .session-time-line{display:flex;align-items:center;gap:6px;flex-wrap:wrap;max-width:100%;margin-top:10px}
 .session-time-line .session-time{margin-top:0;flex:0 0 auto;font-size:13.5px;padding:4px 9px}
 .session-time-line .condition-rail{margin-top:0;flex:0 0 auto}
@@ -166,7 +167,7 @@ html{scroll-padding-bottom:124px}
    <section class="recommendation" aria-label="Probably skip surf decision">
     <div class="hero-visual">
      <figure class="recommendation-photo filter-midday"><img src="images/spots/meio-da-baia.jpg" alt="Photo of Meio da Baia surf spot" fetchpriority="high" width="640" height="700"><figcaption>Spot photo · <a href="https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg">Credit</a></figcaption></figure>
-     <img class="decision-stamp decision-stamp--skip" src="images/stamps/skip-today.png" alt="Recommendation: SKIP TODAY" aria-label="Recommendation: SKIP TODAY" width="340" height="186">
+     <img class="decision-stamp decision-stamp--skip" src="images/stamps/skip-today.png" alt="Recommendation: SKIP TODAY" aria-label="Recommendation: SKIP TODAY" width="200" height="200">
      <div class="hero-copy">
       <h1 id="page-title">Meio da Baia</h1>
       <div class="session-time-line"><p class="session-time">16:30<span>–</span>18:00</p><div class="condition-rail condition-rail--hero" aria-label="Wind type onshore"><span class="condition-rail-item"><span class="condition-rail-label">Wind</span><strong>onshore</strong></span></div></div>
@@ -263,7 +264,7 @@ html{scroll-padding-bottom:124px}
    <section class="recommendation" aria-label="Worth checking surf decision">
     <div class="hero-visual">
      <figure class="recommendation-photo filter-midday"><img src="images/spots/baleal.jpg" alt="Photo of Baleal surf spot" fetchpriority="auto" width="640" height="700"><figcaption>Spot photo · <a href="https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg">Credit</a></figcaption></figure>
-     <img class="decision-stamp decision-stamp--check" src="images/stamps/check-first.png" alt="Recommendation: CHECK FIRST" aria-label="Recommendation: CHECK FIRST" width="340" height="186">
+     <img class="decision-stamp decision-stamp--check" src="images/stamps/check-first.png" alt="Recommendation: CHECK FIRST" aria-label="Recommendation: CHECK FIRST" width="200" height="200">
      <div class="hero-copy">
       <h1 id="day-1-title">Baleal</h1>
       <div class="session-time-line"><p class="session-time">17:00<span>–</span>18:30</p><div class="condition-rail condition-rail--hero" aria-label="Wind type unknown"><span class="condition-rail-item"><span class="condition-rail-label">Wind</span><strong>unknown</strong></span></div></div>
