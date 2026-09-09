@@ -136,13 +136,11 @@ html{scroll-padding-bottom:124px}
 .fact-label{display:block;color:#9fb6c1;font-size:7.5px;font-weight:700;line-height:1;letter-spacing:.11em;text-transform:uppercase}
 .hero-facts strong{display:block;max-width:100%;overflow:hidden;color:#fff;font-size:11.5px;font-weight:650;line-height:1.25;text-overflow:ellipsis;white-space:nowrap}
 .recommendation-photo figcaption{top:auto;right:16px;bottom:72px;z-index:2;padding:3px 7px;border-color:rgba(156,186,198,.28);background:rgba(7,30,44,.56);color:rgba(226,237,242,.84);-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
-.decision-stamp{position:absolute;z-index:4;top:18px;right:18px;display:inline-grid;place-items:center;min-height:31px;margin:0;padding:6px 9px 5px;border:2px solid currentColor;border-radius:4px;background:rgba(5,25,35,.66);box-shadow:inset 0 0 0 1px rgba(5,25,35,.6),0 4px 14px rgba(1,13,19,.24);font-size:10px;font-weight:850;line-height:1;letter-spacing:.085em;text-transform:uppercase;transform:rotate(3deg);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);isolation:isolate;pointer-events:none}
-.decision-stamp::after{content:'';position:absolute;inset:2px;z-index:-1;opacity:.15;background:repeating-linear-gradient(12deg,currentColor 0 1px,transparent 1px 4px);mix-blend-mode:screen}
-.decision-stamp--go{color:var(--lime)}
-.decision-stamp--check{color:var(--amber);transform:rotate(-2.5deg)}
-.decision-stamp--skip{color:var(--coral);transform:rotate(2deg)}
-.hero-copy h1{max-width:calc(100% - 112px)}
-@media(max-width:380px){.header-controls-row{gap:6px}.forecast-days{gap:2px}.forecast-days button{padding-inline:2px}.forecast-day-relative{font-size:9px}.forecast-day-date{font-size:7.5px}.header-right{gap:4px}.report-run-badge{font-size:8px}.refresh-button{width:42px;height:42px}.hero-copy{padding-inline:16px}.hero-facts>span{padding-inline:6px}.hero-facts>span+span{padding-left:6px}.fact-label{font-size:6.8px;letter-spacing:.07em}.hero-facts strong{font-size:9.8px}.decision-stamp{top:14px;right:13px;font-size:9px;padding-inline:7px}.hero-copy h1{max-width:calc(100% - 100px)}}
+.decision-stamp{position:absolute;z-index:4;top:9px;right:8px;width:clamp(220px,44vw,290px);height:auto;margin:0;display:block;filter:drop-shadow(0 6px 10px rgba(1,13,19,.32));pointer-events:none;transform:rotate(2deg)}
+.decision-stamp--check{transform:rotate(-2.5deg)}
+.decision-stamp--skip{transform:rotate(2deg)}
+.hero-copy h1{max-width:calc(100% - 168px)}
+@media(max-width:380px){.header-controls-row{gap:6px}.forecast-days{gap:2px}.forecast-days button{padding-inline:2px}.forecast-day-relative{font-size:9px}.forecast-day-date{font-size:7.5px}.header-right{gap:4px}.report-run-badge{font-size:8px}.refresh-button{width:42px;height:42px}.hero-copy{padding-inline:16px}.hero-facts>span{padding-inline:6px}.hero-facts>span+span{padding-left:6px}.fact-label{font-size:6.8px;letter-spacing:.07em}.hero-facts strong{font-size:9.8px}.decision-stamp{top:8px;right:5px;width:clamp(190px,52vw,235px)}.hero-copy h1{max-width:calc(100% - 150px)}}
 </style></head><body>
  <a class="skip-link" href="#forecast-main">Skip to forecast</a><header class="app-header"><div class="header-brand-row"><a class="brand" href="./">Bodyboard</a></div><div class="header-controls-row"><nav class="forecast-days" aria-label="Forecast days"><button type="button" data-day-select="2026-09-09" aria-pressed="true" aria-label="Today, 9 Sept"><span class="forecast-day-relative" data-day-relative>Today</span><span class="forecast-day-date" data-day-date>9 Sept</span></button><button type="button" data-day-select="2026-09-10" aria-pressed="false" aria-label="Tomorrow, 10 Sept"><span class="forecast-day-relative" data-day-relative>Tomorrow</span><span class="forecast-day-date" data-day-date>10 Sept</span></button></nav><div class="header-right"><button type="button" class="refresh-button" data-app-refresh aria-label="Refresh forecast" title="Refresh forecast"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg></button><p class="report-run-badge" aria-label="Report run time">2pm Report</p></div></div></header>
  <main id="forecast-main" class="page-shell">
@@ -152,7 +150,7 @@ html{scroll-padding-bottom:124px}
    <section class="recommendation" aria-label="Probably skip surf decision">
     <div class="hero-visual">
      <figure class="recommendation-photo filter-midday"><img src="images/spots/meio-da-baia.jpg" alt="Photo of Meio da Baia surf spot" fetchpriority="high" width="640" height="700"><figcaption>Spot photo · <a href="https://www.surfingsilvercoast.com/img/surfmap/DSC02558_meio-da-baia.jpg">Credit</a></figcaption></figure>
-     <p class="decision-stamp decision-stamp--skip" aria-label="Recommendation: SKIP TODAY">SKIP TODAY</p>
+     <img class="decision-stamp decision-stamp--skip" src="images/stamps/skip-today.png" alt="Recommendation: SKIP TODAY" aria-label="Recommendation: SKIP TODAY" width="340" height="186">
      <div class="hero-copy">
       <h1 id="page-title">Meio da Baia</h1>
       <p class="session-time">16:30<span>–</span>18:00</p>
@@ -249,7 +247,7 @@ html{scroll-padding-bottom:124px}
    <section class="recommendation" aria-label="Worth checking surf decision">
     <div class="hero-visual">
      <figure class="recommendation-photo filter-midday"><img src="images/spots/baleal.jpg" alt="Photo of Baleal surf spot" fetchpriority="auto" width="640" height="700"><figcaption>Spot photo · <a href="https://surfinportugal.pt/wp-content/uploads/2024/02/spot-peniche-prainha-e1708033198982.jpg">Credit</a></figcaption></figure>
-     <p class="decision-stamp decision-stamp--check" aria-label="Recommendation: CHECK FIRST">CHECK FIRST</p>
+     <img class="decision-stamp decision-stamp--check" src="images/stamps/check-first.png" alt="Recommendation: CHECK FIRST" aria-label="Recommendation: CHECK FIRST" width="340" height="186">
      <div class="hero-copy">
       <h1 id="day-1-title">Baleal</h1>
       <p class="session-time">17:00<span>–</span>18:30</p>
