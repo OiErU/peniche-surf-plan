@@ -8,7 +8,7 @@
         "end": 1191,
         "estimated": true
       },
-      "status": "degraded",
+      "status": "ok",
       "verdict": {
         "state": "marginal",
         "label": "Worth checking",
@@ -104,7 +104,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 83,
               "coverage": 1,
@@ -566,7 +566,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -579,7 +579,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -592,7 +592,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -605,7 +605,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -618,22 +618,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -935,7 +935,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 83,
               "coverage": 1,
@@ -1397,7 +1397,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -1410,7 +1410,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -1423,7 +1423,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -1436,7 +1436,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -1449,22 +1449,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -1683,13 +1683,13 @@
           "spot": "Cerro",
           "spotId": "cerro",
           "windowEnd": "17:30",
-          "qualityScore": 59,
-          "conditionsScore": 24,
+          "qualityScore": 61,
+          "conditionsScore": 26,
           "preferenceScore": 0.5,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 17
+              "points": 19
             },
             {
               "label": "Wave size floor",
@@ -1758,7 +1758,7 @@
           "window": "Afternoon — 16:00",
           "windowRaw": "Afternoon",
           "windowTime": "16:00",
-          "score": 24.5,
+          "score": 26.5,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -1806,7 +1806,7 @@
             "swellM": 0.9,
             "periodS": 12,
             "energyKj": 159,
-            "consistencyScore": null,
+            "consistencyScore": 50,
             "windKph": 15,
             "gustKph": 15,
             "waterTempC": null,
@@ -2143,7 +2143,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -2156,7 +2156,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2169,7 +2169,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2182,7 +2182,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -2195,22 +2195,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2398,7 +2398,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 159 kJ, 12 s period, and good wind at 15 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 159 kJ, 12 s period, workable consistency 50/100, and good wind at 15 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash",
@@ -2410,13 +2410,13 @@
           "spot": "Cerro",
           "spotId": "cerro",
           "windowEnd": "18:30",
-          "qualityScore": 59,
-          "conditionsScore": 24,
+          "qualityScore": 61,
+          "conditionsScore": 26,
           "preferenceScore": 0,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 17
+              "points": 19
             },
             {
               "label": "Wave size floor",
@@ -2485,7 +2485,7 @@
           "window": "Evening — 17:00",
           "windowRaw": "Evening",
           "windowTime": "17:00",
-          "score": 24,
+          "score": 26,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -2533,7 +2533,7 @@
             "swellM": 0.9,
             "periodS": 12,
             "energyKj": 156,
-            "consistencyScore": null,
+            "consistencyScore": 51,
             "windKph": 12,
             "gustKph": 12,
             "waterTempC": null,
@@ -2870,7 +2870,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -2883,7 +2883,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2896,7 +2896,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2909,7 +2909,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -2922,22 +2922,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3134,7 +3134,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 156 kJ, 12 s period, and good wind at 10 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 156 kJ, 12 s period, workable consistency 51/100, and good wind at 10 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash",
@@ -3229,7 +3229,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 77,
               "coverage": 1,
@@ -3639,7 +3639,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -3652,7 +3652,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -3665,7 +3665,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -3678,7 +3678,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -3691,22 +3691,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3989,7 +3989,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 77,
               "coverage": 1,
@@ -4399,7 +4399,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -4412,7 +4412,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -4425,7 +4425,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -4438,7 +4438,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -4451,22 +4451,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4758,7 +4758,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 77,
               "coverage": 1,
@@ -5150,7 +5150,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -5163,7 +5163,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5176,7 +5176,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5189,7 +5189,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -5202,22 +5202,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5502,7 +5502,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 77,
               "coverage": 1,
@@ -5894,7 +5894,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -5907,7 +5907,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5920,7 +5920,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5933,7 +5933,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -5946,22 +5946,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6255,7 +6255,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -6326,8 +6326,8 @@
             "periodS": 12,
             "energyKj": 59,
             "consistencyScore": 24,
-            "windKph": 10,
-            "gustKph": 13,
+            "windKph": 7,
+            "gustKph": 11,
             "waterTempC": null,
             "airTempC": null
           },
@@ -6674,7 +6674,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -6687,7 +6687,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6700,7 +6700,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6713,7 +6713,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -6726,22 +6726,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -7347,7 +7347,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -7360,7 +7360,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -7373,7 +7373,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -7386,7 +7386,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -7399,22 +7399,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8018,7 +8018,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -8031,7 +8031,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8044,7 +8044,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8057,7 +8057,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -8070,22 +8070,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8747,7 +8747,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -8760,7 +8760,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8773,7 +8773,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8786,7 +8786,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -8799,22 +8799,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -9108,7 +9108,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -9179,8 +9179,8 @@
             "periodS": 12,
             "energyKj": 55,
             "consistencyScore": 15,
-            "windKph": 14,
-            "gustKph": 15,
+            "windKph": 5,
+            "gustKph": 8,
             "waterTempC": null,
             "airTempC": null
           },
@@ -9527,7 +9527,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -9540,7 +9540,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9553,7 +9553,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9566,7 +9566,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -9579,22 +9579,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -9775,7 +9775,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 27,
+            "airTempC": 26,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -10249,7 +10249,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -10262,7 +10262,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -10275,7 +10275,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -10288,7 +10288,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -10301,22 +10301,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -10620,7 +10620,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -11089,7 +11089,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -11102,7 +11102,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -11115,7 +11115,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -11128,7 +11128,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -11141,22 +11141,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11458,7 +11458,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 64,
               "coverage": 1,
@@ -11920,7 +11920,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -11933,7 +11933,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -11946,7 +11946,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -11959,7 +11959,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -11972,22 +11972,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -12289,7 +12289,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 64,
               "coverage": 1,
@@ -12751,7 +12751,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -12764,7 +12764,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -12777,7 +12777,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -12790,7 +12790,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -12803,22 +12803,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -13120,7 +13120,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 80.33333333333333,
               "coverage": 1,
@@ -13589,7 +13589,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -13602,7 +13602,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -13615,7 +13615,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -13628,7 +13628,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -13641,22 +13641,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -13949,7 +13949,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 64,
               "coverage": 1,
@@ -14411,7 +14411,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -14424,7 +14424,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -14437,7 +14437,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -14450,7 +14450,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -14463,22 +14463,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -14781,7 +14781,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 73.33333333333333,
               "coverage": 1,
@@ -15198,7 +15198,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -15211,7 +15211,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -15224,7 +15224,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -15237,7 +15237,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -15250,22 +15250,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -15925,7 +15925,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -15938,7 +15938,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -15951,7 +15951,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -15964,7 +15964,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -15977,22 +15977,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -16173,7 +16173,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 27,
+            "airTempC": 26,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -16276,7 +16276,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 62.333333333333336,
               "coverage": 1,
@@ -16636,7 +16636,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -16649,7 +16649,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -16662,7 +16662,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -16675,7 +16675,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -16688,22 +16688,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -16977,7 +16977,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 79.33333333333333,
               "coverage": 1,
@@ -17378,7 +17378,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -17391,7 +17391,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -17404,7 +17404,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -17417,7 +17417,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -17430,22 +17430,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -17719,7 +17719,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -18113,7 +18113,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -18126,7 +18126,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18139,7 +18139,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18152,7 +18152,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -18165,22 +18165,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -18463,7 +18463,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 70,
               "coverage": 1,
@@ -18864,7 +18864,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -18877,7 +18877,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18890,7 +18890,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18903,7 +18903,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -18916,22 +18916,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -19214,7 +19214,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -19608,7 +19608,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -19621,7 +19621,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -19634,7 +19634,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -19647,7 +19647,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -19660,22 +19660,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -19958,7 +19958,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -20352,7 +20352,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -20365,7 +20365,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -20378,7 +20378,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -20391,7 +20391,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -20404,22 +20404,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -20703,7 +20703,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 60.333333333333336,
               "coverage": 1,
@@ -21063,7 +21063,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -21076,7 +21076,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21089,7 +21089,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21102,7 +21102,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -21115,22 +21115,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -21414,7 +21414,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -21767,7 +21767,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -21780,7 +21780,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21793,7 +21793,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21806,7 +21806,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -21819,22 +21819,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -22119,7 +22119,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -22472,7 +22472,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -22485,7 +22485,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -22498,7 +22498,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -22511,7 +22511,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -22524,22 +22524,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -22824,7 +22824,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -23177,7 +23177,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -23190,7 +23190,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23203,7 +23203,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23216,7 +23216,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -23229,22 +23229,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -23530,7 +23530,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 73.33333333333333,
               "coverage": 1,
@@ -23929,7 +23929,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -23942,7 +23942,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23955,7 +23955,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23968,7 +23968,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -23981,22 +23981,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -24281,7 +24281,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -24685,7 +24685,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -24698,7 +24698,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24711,7 +24711,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24724,7 +24724,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -24737,22 +24737,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -25037,7 +25037,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -25429,7 +25429,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -25442,7 +25442,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -25455,7 +25455,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -25468,7 +25468,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -25481,22 +25481,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -25781,7 +25781,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -26180,7 +26180,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -26193,7 +26193,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26206,7 +26206,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26219,7 +26219,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -26232,22 +26232,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -26532,7 +26532,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -26936,7 +26936,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -26949,7 +26949,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26962,7 +26962,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26975,7 +26975,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -26988,22 +26988,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -27289,7 +27289,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71.33333333333333,
               "coverage": 1,
@@ -27715,7 +27715,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -27728,7 +27728,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -27741,7 +27741,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -27754,7 +27754,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -27767,22 +27767,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -28069,7 +28069,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -28488,7 +28488,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -28501,7 +28501,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28514,7 +28514,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28527,7 +28527,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -28540,22 +28540,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -28736,7 +28736,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 22,
+            "airTempC": 23,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -28842,7 +28842,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 70,
               "coverage": 1,
@@ -29268,7 +29268,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -29281,7 +29281,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29294,7 +29294,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29307,7 +29307,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -29320,22 +29320,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -29516,7 +29516,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 22,
+            "airTempC": 23,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -29944,7 +29944,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -29957,7 +29957,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29970,7 +29970,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29983,7 +29983,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -29996,22 +29996,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -30628,7 +30628,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -30641,7 +30641,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -30654,7 +30654,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -30667,7 +30667,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -30680,22 +30680,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -31300,7 +31300,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -31313,7 +31313,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31326,7 +31326,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31339,7 +31339,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -31352,22 +31352,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -31954,7 +31954,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -31967,7 +31967,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31980,7 +31980,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31993,7 +31993,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -32006,22 +32006,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -32298,7 +32298,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -32720,7 +32720,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -32733,7 +32733,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32746,7 +32746,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32759,7 +32759,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -32772,22 +32772,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -33073,7 +33073,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -33483,7 +33483,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -33496,7 +33496,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -33509,7 +33509,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -33522,7 +33522,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -33535,22 +33535,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -33836,7 +33836,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -34253,7 +34253,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -34266,7 +34266,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34279,7 +34279,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34292,7 +34292,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -34305,22 +34305,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -34606,7 +34606,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -35028,7 +35028,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -35041,7 +35041,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35054,7 +35054,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35067,7 +35067,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -35080,22 +35080,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -35382,7 +35382,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -35813,7 +35813,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -35826,7 +35826,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35839,7 +35839,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35852,7 +35852,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -35865,22 +35865,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -36477,7 +36477,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -36490,7 +36490,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -36503,7 +36503,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -36516,7 +36516,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -36529,22 +36529,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -36823,7 +36823,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-09-13T13:06:04.891Z",
+            "fetchedAt": "2026-09-13T14:05:07.353Z",
             "alignment": {
               "score": 71,
               "coverage": 1,
@@ -37254,7 +37254,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -37267,7 +37267,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -37280,7 +37280,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -37293,7 +37293,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -37306,22 +37306,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -37977,7 +37977,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -37990,7 +37990,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -38003,7 +38003,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -38016,7 +38016,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -38029,22 +38029,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -38225,14 +38225,14 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 27,
+            "airTempC": 26,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Molhe Leste looks like a clean small window for Too soft, Low confidence: 0-0.3 m, 37 kJ, 11 s period, lully 26/100, and good wind at 10 km/h.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size.  Watch: Surfline consistency is lully; spot surf looks too small; 10-13s at low tide is fast and technical at Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size; Low rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Molhe Leste looks like a clean small window for Too soft, Low confidence: 0-0.3 m, 37 kJ, 11 s period, lully 26/100, and good wind at 15 km/h.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size.  Watch: Surfline consistency is lully; spot surf looks too small; 10-13s at low tide is fast and technical at Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size; Low rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "Surfline consistency is lully",
@@ -38719,7 +38719,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -38732,7 +38732,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -38745,7 +38745,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -38758,7 +38758,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -38771,22 +38771,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -39461,7 +39461,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -39474,7 +39474,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -39487,7 +39487,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -39500,7 +39500,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -39513,22 +39513,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -40191,7 +40191,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -40204,7 +40204,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -40217,7 +40217,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -40230,7 +40230,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -40243,22 +40243,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -40921,7 +40921,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -40934,7 +40934,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -40947,7 +40947,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -40960,7 +40960,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -40973,22 +40973,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -41654,7 +41654,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -41667,7 +41667,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -41680,7 +41680,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -41693,7 +41693,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -41706,22 +41706,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -42375,7 +42375,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -42388,7 +42388,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -42401,7 +42401,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -42414,7 +42414,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -42427,22 +42427,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -43096,7 +43096,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -43109,7 +43109,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -43122,7 +43122,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -43135,7 +43135,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -43148,22 +43148,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -43829,7 +43829,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -43842,7 +43842,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -43855,7 +43855,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -43868,7 +43868,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -43881,22 +43881,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -44100,15 +44100,13 @@
     }
   ],
   "targetDate": "2026-09-13",
-  "generatedAt": "2026-09-13 14:00 Portugal time",
-  "generatedAtUtc": "2026-09-13T13:00:00.000Z",
+  "generatedAt": "2026-09-13 15:00 Portugal time",
+  "generatedAtUtc": "2026-09-13T14:00:00.000Z",
   "displayTimezone": "Europe/Lisbon",
-  "status": "degraded",
+  "status": "ok",
   "dataQuality": {
-    "degraded": true,
-    "warnings": [
-      "Cerro | Surfline | after-work (Afternoon — 16:00, Evening — 17:00, Evening — 19:00) | consistencyScore missing | time=15:00 | url=https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506?view=table"
-    ],
+    "degraded": false,
+    "warnings": [],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -44116,7 +44114,7 @@
   },
   "collection": {
     "completed": true,
-    "retryCount": 2,
+    "retryCount": 0,
     "failedSources": [],
     "failedSpots": [],
     "generatedFromFallback": false
@@ -44221,7 +44219,7 @@
       },
       "timezone": "UTC",
       "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-      "fetchedAt": "2026-09-13T13:06:04.891Z",
+      "fetchedAt": "2026-09-13T14:05:07.353Z",
       "alignment": {
         "score": 83,
         "coverage": 1,
@@ -44683,7 +44681,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 54,
-            "eligible_rows": 38,
+            "eligible_rows": 37,
             "support_window_hours": 54
           },
           {
@@ -44696,7 +44694,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           },
           {
@@ -44709,7 +44707,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           },
           {
@@ -44722,7 +44720,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           }
         ],
@@ -44735,22 +44733,22 @@
             {
               "model": "ibi_waves",
               "raw_rows": 54,
-              "eligible_rows": 38
+              "eligible_rows": 37
             },
             {
               "model": "dwd_ewam",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             },
             {
               "model": "ecmwf_wam",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             },
             {
               "model": "meteofrance_wave",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             }
           ],
           "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -44970,13 +44968,13 @@
       "spot": "Cerro",
       "spotId": "cerro",
       "windowEnd": "17:30",
-      "qualityScore": 59,
-      "conditionsScore": 24,
+      "qualityScore": 61,
+      "conditionsScore": 26,
       "preferenceScore": 0.5,
       "scoreBreakdown": [
         {
           "label": "Provider grades and consistency",
-          "points": 17
+          "points": 19
         },
         {
           "label": "Wave size floor",
@@ -45045,7 +45043,7 @@
       "window": "Afternoon — 16:00",
       "windowRaw": "Afternoon",
       "windowTime": "16:00",
-      "score": 24.5,
+      "score": 26.5,
       "sessionLabel": "Worth checking",
       "sessionLabelRaw": "check first",
       "confidenceLabel": "Low confidence",
@@ -45093,7 +45091,7 @@
         "swellM": 0.9,
         "periodS": 12,
         "energyKj": 159,
-        "consistencyScore": null,
+        "consistencyScore": 50,
         "windKph": 15,
         "gustKph": 15,
         "waterTempC": null,
@@ -45430,7 +45428,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 38,
+              "eligible_rows": 37,
               "support_window_hours": 54
             },
             {
@@ -45443,7 +45441,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -45456,7 +45454,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -45469,7 +45467,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             }
           ],
@@ -45482,22 +45480,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 38
+                "eligible_rows": 37
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -45685,7 +45683,7 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 159 kJ, 12 s period, and good wind at 15 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+      "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 159 kJ, 12 s period, workable consistency 50/100, and good wind at 15 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash.  Watch: 10-13s at high tide tends to wash out on open beaches into shorebreak/backwash; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
       "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
       "warnings": [
         "10-13s at high tide tends to wash out on open beaches into shorebreak/backwash",
@@ -45780,7 +45778,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-09-13T13:06:04.891Z",
+        "fetchedAt": "2026-09-13T14:05:07.353Z",
         "alignment": {
           "score": 77,
           "coverage": 1,
@@ -46190,7 +46188,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 38,
+              "eligible_rows": 37,
               "support_window_hours": 54
             },
             {
@@ -46203,7 +46201,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -46216,7 +46214,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -46229,7 +46227,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             }
           ],
@@ -46242,22 +46240,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 38
+                "eligible_rows": 37
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
