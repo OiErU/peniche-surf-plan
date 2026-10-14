@@ -8,7 +8,7 @@
         "end": 1141,
         "estimated": true
       },
-      "status": "ok",
+      "status": "degraded",
       "verdict": {
         "state": "marginal",
         "label": "Worth checking",
@@ -21,13 +21,13 @@
           "spot": "Cantinho da Baia",
           "spotId": "cantinho",
           "windowEnd": "19:00",
-          "qualityScore": 68,
-          "conditionsScore": 40,
+          "qualityScore": 71,
+          "conditionsScore": 46.9,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 11
+              "points": 18
             },
             {
               "label": "Wave size floor",
@@ -75,7 +75,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 0
+              "points": -0.10000000000000142
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -83,9 +83,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 0,
+            "adjustment": -0.09999999999999964,
             "usable": true,
-            "difference": 6,
+            "difference": -2,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -104,15 +104,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -124,7 +124,7 @@
           "window": "After work (17:30 start)",
           "windowRaw": "After work",
           "windowTime": "17:30",
-          "score": 49,
+          "score": 55.9,
           "sessionLabel": "Safe fun",
           "sessionLabelRaw": "safe fun",
           "confidenceLabel": "Medium confidence",
@@ -140,7 +140,7 @@
             },
             {
               "name": "Surf-Forecast",
-              "value": "0 / 10",
+              "value": "1 / 10",
               "detail": "6 PM · hourly",
               "state": "available",
               "url": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest"
@@ -154,7 +154,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -164,7 +164,7 @@
           ],
           "sourceVerdicts": {
             "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
+            "surfForecast": 1,
             "swellmap": "7/10 Good"
           },
           "surflineDetails": {
@@ -180,7 +180,7 @@
             "waterTempC": null,
             "airTempC": null
           },
-          "surfForecast": 0,
+          "surfForecast": 1,
           "swellmap": {
             "time": "18:00",
             "rating": 7,
@@ -508,7 +508,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -521,7 +521,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -534,7 +534,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -547,7 +547,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -560,22 +560,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -858,7 +858,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -1332,7 +1332,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -1345,7 +1345,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -1358,7 +1358,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -1371,7 +1371,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -1384,22 +1384,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -1683,7 +1683,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 19,
+            "difference": 14,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -1702,15 +1702,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -1752,7 +1752,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -2106,7 +2106,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -2119,7 +2119,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2132,7 +2132,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2145,7 +2145,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -2158,22 +2158,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2438,7 +2438,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 19,
+            "difference": 14,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -2457,15 +2457,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -2507,7 +2507,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -2861,7 +2861,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -2874,7 +2874,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2887,7 +2887,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -2900,7 +2900,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -2913,22 +2913,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3212,7 +3212,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -3686,7 +3686,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -3699,7 +3699,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -3712,7 +3712,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -3725,7 +3725,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -3738,22 +3738,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4057,7 +4057,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -4531,7 +4531,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -4544,7 +4544,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -4557,7 +4557,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -4570,7 +4570,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -4583,22 +4583,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4902,7 +4902,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 84,
               "coverage": 1,
@@ -5308,7 +5308,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -5321,7 +5321,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5334,7 +5334,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -5347,7 +5347,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -5360,22 +5360,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5563,7 +5563,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 10 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 15 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "exposed north spot needs Lagide to be under 0.8 m",
@@ -5658,7 +5658,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 84,
               "coverage": 1,
@@ -6064,7 +6064,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -6077,7 +6077,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6090,7 +6090,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6103,7 +6103,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -6116,22 +6116,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6319,7 +6319,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 10 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 15 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "exposed north spot needs Lagide to be under 0.8 m",
@@ -6414,7 +6414,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 84,
               "coverage": 1,
@@ -6820,7 +6820,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -6833,7 +6833,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6846,7 +6846,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -6859,7 +6859,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -6872,22 +6872,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -7087,8 +7087,8 @@
           "spot": "Meio da Baia",
           "spotId": "meio-da-baia",
           "windowEnd": "19:00",
-          "qualityScore": 47,
-          "conditionsScore": 11.5,
+          "qualityScore": 46,
+          "conditionsScore": 11.2,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -7141,7 +7141,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.5
+              "points": 1.1999999999999993
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -7149,9 +7149,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.5,
+            "adjustment": 1.2,
             "usable": true,
-            "difference": 29,
+            "difference": 24,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -7170,15 +7170,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -7190,7 +7190,7 @@
           "window": "After work (17:30 start)",
           "windowRaw": "After work",
           "windowTime": "17:30",
-          "score": 13.5,
+          "score": 13.2,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -7219,7 +7219,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -7592,7 +7592,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -7605,7 +7605,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -7618,7 +7618,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -7631,7 +7631,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -7644,22 +7644,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8332,7 +8332,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -8345,7 +8345,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8358,7 +8358,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -8371,7 +8371,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -8384,22 +8384,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8600,8 +8600,8 @@
           "spot": "Meio da Baia",
           "spotId": "meio-da-baia",
           "windowEnd": "18:00",
-          "qualityScore": 45,
-          "conditionsScore": 9.6,
+          "qualityScore": 44,
+          "conditionsScore": 9.3,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -8654,7 +8654,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.5999999999999996
+              "points": 1.3000000000000007
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -8662,9 +8662,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.6,
+            "adjustment": 1.3,
             "usable": true,
-            "difference": 31,
+            "difference": 26,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -8683,15 +8683,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -8703,7 +8703,7 @@
           "window": "After work (16:30 start)",
           "windowRaw": "After work",
           "windowTime": "16:30",
-          "score": 11.6,
+          "score": 11.3,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -8732,7 +8732,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -9105,7 +9105,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -9118,7 +9118,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9131,7 +9131,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9144,7 +9144,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -9157,22 +9157,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -9373,8 +9373,8 @@
           "spot": "Meio da Baia",
           "spotId": "meio-da-baia",
           "windowEnd": "18:30",
-          "qualityScore": 45,
-          "conditionsScore": 9.6,
+          "qualityScore": 44,
+          "conditionsScore": 9.3,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -9427,7 +9427,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.5999999999999996
+              "points": 1.3000000000000007
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -9435,9 +9435,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.6,
+            "adjustment": 1.3,
             "usable": true,
-            "difference": 31,
+            "difference": 26,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -9456,15 +9456,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 74,
+              "score": 69,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-14T15:00:00.000Z",
                   "end": "2026-10-14T18:00:00.000Z",
-                  "score": 74,
+                  "score": 69,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -9476,7 +9476,7 @@
           "window": "After work (17:00 start)",
           "windowRaw": "After work",
           "windowTime": "17:00",
-          "score": 11.6,
+          "score": 11.3,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -9505,7 +9505,7 @@
             },
             {
               "name": "4Shor",
-              "value": "74 / 100",
+              "value": "69 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -9878,7 +9878,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -9891,7 +9891,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9904,7 +9904,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -9917,7 +9917,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -9930,22 +9930,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -10618,7 +10618,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -10631,7 +10631,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -10644,7 +10644,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -10657,7 +10657,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -10670,22 +10670,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11358,7 +11358,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -11371,7 +11371,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -11384,7 +11384,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -11397,7 +11397,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -11410,22 +11410,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11626,13 +11626,13 @@
           "spot": "Supertubos",
           "spotId": "supertubos",
           "windowEnd": "19:00",
-          "qualityScore": 63,
-          "conditionsScore": 31,
+          "qualityScore": 62,
+          "conditionsScore": 29,
           "preferenceScore": 8,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 26
+              "points": 24
             },
             {
               "label": "Wave size floor",
@@ -11690,7 +11690,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 15,
+            "difference": 16,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -11709,7 +11709,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -11729,7 +11729,7 @@
           "window": "After work (17:30 start)",
           "windowRaw": "After work",
           "windowTime": "17:30",
-          "score": 39,
+          "score": 37,
           "sessionLabel": "Too soft",
           "sessionLabelRaw": "too weak",
           "confidenceLabel": "Low confidence",
@@ -11779,7 +11779,7 @@
             "swellM": 1,
             "periodS": 9,
             "energyKj": 132,
-            "consistencyScore": 50,
+            "consistencyScore": null,
             "windKph": 5,
             "gustKph": 7,
             "waterTempC": null,
@@ -12140,7 +12140,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -12153,7 +12153,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -12166,7 +12166,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -12179,7 +12179,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -12192,22 +12192,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -12395,7 +12395,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 15 s period, workable consistency 50/100, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 14s+ at high tide can get too violent and shorebreaky for Supertubos / Molhe Leste.  Watch: 14s+ at high tide can get too violent and shorebreaky for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 15 s period, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 14s+ at high tide can get too violent and shorebreaky for Supertubos / Molhe Leste.  Watch: 14s+ at high tide can get too violent and shorebreaky for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "14s+ at high tide can get too violent and shorebreaky for Supertubos / Molhe Leste",
@@ -12408,13 +12408,13 @@
           "spot": "Supertubos",
           "spotId": "supertubos",
           "windowEnd": "18:00",
-          "qualityScore": 61,
-          "conditionsScore": 26,
+          "qualityScore": 59,
+          "conditionsScore": 24,
           "preferenceScore": 8,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 26
+              "points": 24
             },
             {
               "label": "Wave size floor",
@@ -12472,7 +12472,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 17,
+            "difference": 19,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -12491,7 +12491,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -12511,7 +12511,7 @@
           "window": "After work (16:30 start)",
           "windowRaw": "After work",
           "windowTime": "16:30",
-          "score": 34,
+          "score": 32,
           "sessionLabel": "Too soft",
           "sessionLabelRaw": "too weak",
           "confidenceLabel": "Low confidence",
@@ -12561,7 +12561,7 @@
             "swellM": 1,
             "periodS": 9,
             "energyKj": 132,
-            "consistencyScore": 50,
+            "consistencyScore": null,
             "windKph": 5,
             "gustKph": 7,
             "waterTempC": null,
@@ -12922,7 +12922,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -12935,7 +12935,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -12948,7 +12948,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -12961,7 +12961,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -12974,22 +12974,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -13177,7 +13177,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 9 s period, workable consistency 50/100, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 9 s period, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "6-9s at high tide is too flat and weak for Supertubos / Molhe Leste",
@@ -13190,13 +13190,13 @@
           "spot": "Supertubos",
           "spotId": "supertubos",
           "windowEnd": "18:30",
-          "qualityScore": 61,
-          "conditionsScore": 26,
+          "qualityScore": 59,
+          "conditionsScore": 24,
           "preferenceScore": 8,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 26
+              "points": 24
             },
             {
               "label": "Wave size floor",
@@ -13254,7 +13254,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 17,
+            "difference": 19,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -13273,7 +13273,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -13293,7 +13293,7 @@
           "window": "After work (17:00 start)",
           "windowRaw": "After work",
           "windowTime": "17:00",
-          "score": 34,
+          "score": 32,
           "sessionLabel": "Too soft",
           "sessionLabelRaw": "too weak",
           "confidenceLabel": "Low confidence",
@@ -13343,7 +13343,7 @@
             "swellM": 1,
             "periodS": 9,
             "energyKj": 132,
-            "consistencyScore": 50,
+            "consistencyScore": null,
             "windKph": 5,
             "gustKph": 7,
             "waterTempC": null,
@@ -13704,7 +13704,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -13717,7 +13717,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -13730,7 +13730,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -13743,7 +13743,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -13756,22 +13756,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -13959,7 +13959,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 9 s period, workable consistency 50/100, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Supertubos looks like a clean fun-sized window for Too soft, Low confidence: 0.6-0.9 m, 132 kJ, 9 s period, and good wind at 15 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort; 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste.  Watch: 6-9s at high tide is too flat and weak for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "6-9s at high tide is too flat and weak for Supertubos / Molhe Leste",
@@ -14435,7 +14435,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -14448,7 +14448,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -14461,7 +14461,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -14474,7 +14474,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -14487,22 +14487,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -15167,7 +15167,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -15180,7 +15180,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -15193,7 +15193,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -15206,7 +15206,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -15219,22 +15219,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -15899,7 +15899,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -15912,7 +15912,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -15925,7 +15925,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -15938,7 +15938,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -15951,22 +15951,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -16573,7 +16573,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -16586,7 +16586,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -16599,7 +16599,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -16612,7 +16612,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -16625,22 +16625,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -17248,7 +17248,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -17261,7 +17261,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -17274,7 +17274,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -17287,7 +17287,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -17300,22 +17300,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -17923,7 +17923,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 38,
+                  "eligible_rows": 37,
                   "support_window_hours": 54
                 },
                 {
@@ -17936,7 +17936,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -17949,7 +17949,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 },
                 {
@@ -17962,7 +17962,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 34,
+                  "eligible_rows": 33,
                   "support_window_hours": null
                 }
               ],
@@ -17975,22 +17975,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 38
+                    "eligible_rows": 37
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 34
+                    "eligible_rows": 33
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -18212,7 +18212,7 @@
           "spotId": "cantinho",
           "windowEnd": "19:00",
           "qualityScore": 70,
-          "conditionsScore": 45.6,
+          "conditionsScore": 45.4,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
@@ -18265,7 +18265,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": -0.3999999999999986
+              "points": -0.6000000000000014
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -18273,9 +18273,9 @@
             }
           ],
           "consensus": {
-            "adjustment": -0.40000000000000036,
+            "adjustment": -0.5999999999999996,
             "usable": true,
-            "difference": -9,
+            "difference": -12,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -18294,15 +18294,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -18314,7 +18314,7 @@
           "window": "After work (17:30 start)",
           "windowRaw": "After work",
           "windowTime": "17:30",
-          "score": 54.6,
+          "score": 54.4,
           "sessionLabel": "Safe fun",
           "sessionLabelRaw": "safe fun",
           "confidenceLabel": "Medium confidence",
@@ -18344,7 +18344,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -18698,7 +18698,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -18711,7 +18711,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18724,7 +18724,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -18737,7 +18737,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -18750,22 +18750,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -19049,7 +19049,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 67.33333333333333,
               "coverage": 1,
@@ -19487,7 +19487,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -19500,7 +19500,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -19513,7 +19513,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -19526,7 +19526,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -19539,22 +19539,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -19831,7 +19831,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -20262,7 +20262,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -20275,7 +20275,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -20288,7 +20288,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -20301,7 +20301,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -20314,22 +20314,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -20501,7 +20501,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -20605,7 +20605,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -21036,7 +21036,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -21049,7 +21049,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21062,7 +21062,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21075,7 +21075,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -21088,22 +21088,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -21275,7 +21275,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -21379,7 +21379,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 68,
               "coverage": 1,
@@ -21810,7 +21810,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -21823,7 +21823,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21836,7 +21836,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -21849,7 +21849,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -21862,22 +21862,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -22080,7 +22080,7 @@
           "spotId": "cantinho",
           "windowEnd": "18:00",
           "qualityScore": 67,
-          "conditionsScore": 38.8,
+          "conditionsScore": 38.6,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
@@ -22133,7 +22133,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": -0.20000000000000284
+              "points": -0.3999999999999986
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -22141,9 +22141,9 @@
             }
           ],
           "consensus": {
-            "adjustment": -0.1999999999999993,
+            "adjustment": -0.40000000000000036,
             "usable": true,
-            "difference": -5,
+            "difference": -8,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -22162,15 +22162,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -22182,7 +22182,7 @@
           "window": "After work (16:30 start)",
           "windowRaw": "After work",
           "windowTime": "16:30",
-          "score": 47.8,
+          "score": 47.6,
           "sessionLabel": "Safe fun",
           "sessionLabelRaw": "safe fun",
           "confidenceLabel": "Low confidence",
@@ -22212,7 +22212,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -22566,7 +22566,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -22579,7 +22579,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -22592,7 +22592,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -22605,7 +22605,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -22618,22 +22618,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -22805,7 +22805,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -22826,7 +22826,7 @@
           "spotId": "cantinho",
           "windowEnd": "18:30",
           "qualityScore": 67,
-          "conditionsScore": 38.8,
+          "conditionsScore": 38.6,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
@@ -22879,7 +22879,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": -0.20000000000000284
+              "points": -0.3999999999999986
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -22887,9 +22887,9 @@
             }
           ],
           "consensus": {
-            "adjustment": -0.1999999999999993,
+            "adjustment": -0.40000000000000036,
             "usable": true,
-            "difference": -5,
+            "difference": -8,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -22908,15 +22908,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -22928,7 +22928,7 @@
           "window": "After work (17:00 start)",
           "windowRaw": "After work",
           "windowTime": "17:00",
-          "score": 47.8,
+          "score": 47.6,
           "sessionLabel": "Safe fun",
           "sessionLabelRaw": "safe fun",
           "confidenceLabel": "Low confidence",
@@ -22958,7 +22958,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -23312,7 +23312,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -23325,7 +23325,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23338,7 +23338,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -23351,7 +23351,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -23364,22 +23364,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -23551,7 +23551,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -23571,13 +23571,13 @@
           "spot": "Cantinho da Baia",
           "spotId": "cantinho",
           "windowEnd": "13:30",
-          "qualityScore": 63,
-          "conditionsScore": 31,
+          "qualityScore": 66,
+          "conditionsScore": 37.8,
           "preferenceScore": 8,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 15
+              "points": 22
             },
             {
               "label": "Wave size floor",
@@ -23625,7 +23625,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 0
+              "points": -0.20000000000000284
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -23633,9 +23633,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 0,
+            "adjustment": -0.1999999999999993,
             "usable": true,
-            "difference": 7.666666666666671,
+            "difference": -3.3333333333333357,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -23654,22 +23654,22 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 70.66666666666667,
+              "score": 63.666666666666664,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T09:00:00.000Z",
                   "end": "2026-10-15T12:00:00.000Z",
-                  "score": 73,
+                  "score": 64,
                   "samples": 3,
                   "resolutionMinutes": 180
                 },
                 {
                   "start": "2026-10-15T12:00:00.000Z",
                   "end": "2026-10-15T15:00:00.000Z",
-                  "score": 66,
+                  "score": 63,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -23681,7 +23681,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 39,
+          "score": 45.8,
           "sessionLabel": "Safe fun",
           "sessionLabelRaw": "safe fun",
           "confidenceLabel": "Low confidence",
@@ -23697,7 +23697,7 @@
             },
             {
               "name": "Surf-Forecast",
-              "value": "0 / 10",
+              "value": "1 / 10",
               "detail": "1 PM · period",
               "state": "available",
               "url": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest"
@@ -23711,7 +23711,7 @@
             },
             {
               "name": "4Shor",
-              "value": "70.7 / 100",
+              "value": "63.7 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -23721,7 +23721,7 @@
           ],
           "sourceVerdicts": {
             "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
+            "surfForecast": 1,
             "swellmap": "7/10 Good"
           },
           "surflineDetails": {
@@ -23737,7 +23737,7 @@
             "waterTempC": null,
             "airTempC": null
           },
-          "surfForecast": 0,
+          "surfForecast": 1,
           "swellmap": {
             "time": "12:00",
             "rating": 7,
@@ -24065,7 +24065,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -24078,7 +24078,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24091,7 +24091,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24104,7 +24104,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -24117,22 +24117,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -24264,8 +24264,8 @@
           "periodS": 12,
           "windKph": 15,
           "windDirection": "N",
-          "windState": "cross-on",
-          "windStateLabel": "cross-onshore",
+          "windState": "cross",
+          "windStateLabel": "cross-shore",
           "windFit": "N 15 km/h · geometry unverified; estimated cross-shore from preferences at Cantinho da Baia · chop and poorer wave shape",
           "windAssessment": {
             "verdict": "mixed",
@@ -24277,10 +24277,10 @@
             "speedKph": 15,
             "sector": "cross-shore",
             "geometricClass": null,
-            "providerClass": "cross-onshore",
-            "quality": 59,
+            "providerClass": "cross-shore",
+            "quality": 66,
             "relativeAngleDeg": 96.53991353371106,
-            "conflict": true,
+            "conflict": false,
             "hardBlocked": false,
             "orientationConfidence": "unknown",
             "qualityBasis": "project_preferences_and_provider_claims",
@@ -24304,18 +24304,17 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 21,
+            "airTempC": 22,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.9-1.2 m, 779 kJ, 12 s period, very consistent 98/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: N 15 km/h · geometry unverified; estimated cross-shore from preferences at Cantinho da Baia · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
+          "explanation": "Cantinho da Baia looks like a fun-sized window for Safe fun, Low confidence: 0.9-1.2 m, 779 kJ, 12 s period, very consistent 98/100, and wind is not fully clear.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches.  Watch: N 15 km/h · geometry unverified; estimated cross-shore from preferences at Cantinho da Baia · chop and poorer wave shape; 10-13s at low tide is fast and shallow in the sheltered bay; Low rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "N 15 km/h · geometry unverified; estimated cross-shore from preferences at Cantinho da Baia · chop and poorer wave shape",
-            "Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
             "10-13s at low tide is fast and shallow in the sheltered bay",
             "Low rising · approximate stormglass · MSL · astronomical prediction",
             "Wind geometry unverified; quality uses project preferences, not a surveyed local normal."
@@ -24389,7 +24388,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 17,
+            "difference": 10.666666666666671,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -24408,22 +24407,22 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 75,
+              "score": 68.66666666666667,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T09:00:00.000Z",
                   "end": "2026-10-15T12:00:00.000Z",
-                  "score": 81,
+                  "score": 75,
                   "samples": 3,
                   "resolutionMinutes": 180
                 },
                 {
                   "start": "2026-10-15T12:00:00.000Z",
                   "end": "2026-10-15T15:00:00.000Z",
-                  "score": 63,
+                  "score": 56,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -24465,7 +24464,7 @@
             },
             {
               "name": "4Shor",
-              "value": "75 / 100",
+              "value": "68.7 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-norte-768#scores",
@@ -24889,7 +24888,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -24902,7 +24901,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24915,7 +24914,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -24928,7 +24927,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -24941,22 +24940,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -25147,7 +25146,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 21,
+            "airTempC": 22,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -25169,7 +25168,7 @@
           "spotId": "meio-da-baia",
           "windowEnd": "13:30",
           "qualityScore": 61,
-          "conditionsScore": 27.5,
+          "conditionsScore": 27.1,
           "preferenceScore": 1,
           "scoreBreakdown": [
             {
@@ -25222,7 +25221,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 0.5
+              "points": 0.10000000000000142
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -25230,9 +25229,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 0.5,
+            "adjustment": 0.1,
             "usable": true,
-            "difference": 9.666666666666671,
+            "difference": 2.6666666666666643,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -25251,22 +25250,22 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 70.66666666666667,
+              "score": 63.666666666666664,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T09:00:00.000Z",
                   "end": "2026-10-15T12:00:00.000Z",
-                  "score": 73,
+                  "score": 64,
                   "samples": 3,
                   "resolutionMinutes": 180
                 },
                 {
                   "start": "2026-10-15T12:00:00.000Z",
                   "end": "2026-10-15T15:00:00.000Z",
-                  "score": 66,
+                  "score": 63,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -25278,7 +25277,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 28.5,
+          "score": 28.1,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -25307,7 +25306,7 @@
             },
             {
               "name": "4Shor",
-              "value": "70.7 / 100",
+              "value": "63.7 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -25680,7 +25679,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -25693,7 +25692,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -25706,7 +25705,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -25719,7 +25718,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -25732,22 +25731,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -25919,7 +25918,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 21,
+            "airTempC": 22,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -26017,8 +26016,8 @@
           "score": 23,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
+          "confidenceLabel": "Medium confidence",
+          "confidenceLabelRaw": "medium",
           "surfline": "POOR TO FAIR",
           "providerRatings": [
             {
@@ -26411,7 +26410,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -26424,7 +26423,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26437,7 +26436,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -26450,7 +26449,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -26463,22 +26462,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -26610,8 +26609,8 @@
           "periodS": 12,
           "windKph": 15,
           "windDirection": "N",
-          "windState": "cross-on",
-          "windStateLabel": "cross-onshore",
+          "windState": "on",
+          "windStateLabel": "on-shore",
           "windFit": "N 15 km/h · geometry unverified; estimated onshore from preferences at Cerro · chop and poorer wave shape",
           "windAssessment": {
             "verdict": "mixed",
@@ -26623,10 +26622,10 @@
             "speedKph": 15,
             "sector": "onshore",
             "geometricClass": null,
-            "providerClass": "cross-onshore",
+            "providerClass": "onshore",
             "quality": 52,
             "relativeAngleDeg": 157.5,
-            "conflict": true,
+            "conflict": false,
             "hardBlocked": false,
             "orientationConfidence": "unknown",
             "qualityBasis": "project_preferences_and_provider_claims",
@@ -26650,18 +26649,17 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 21,
+            "airTempC": 22,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Cerro looks like a solid window for Worth checking, Low confidence: 0.9-1.4 m, 335 kJ, 12 s period, workable consistency 48/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at low tide can still work on exposed beaches.  Watch: N 15 km/h · geometry unverified; estimated onshore from preferences at Cerro · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
+          "explanation": "Cerro looks like a solid window for Worth checking, Medium confidence: 0.9-1.4 m, 335 kJ, 12 s period, workable consistency 48/100, and wind is not fully clear.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 10-13s at low tide can still work on exposed beaches.  Watch: N 15 km/h · geometry unverified; estimated onshore from preferences at Cerro · chop and poorer wave shape; Low rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "N 15 km/h · geometry unverified; estimated onshore from preferences at Cerro · chop and poorer wave shape",
-            "Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
             "Low rising · approximate stormglass · MSL · astronomical prediction",
             "Wind geometry unverified; quality uses project preferences, not a surveyed local normal."
           ]
@@ -26671,7 +26669,7 @@
           "spotId": "meio-da-baia",
           "windowEnd": "19:00",
           "qualityScore": 46,
-          "conditionsScore": 10.9,
+          "conditionsScore": 10.7,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -26724,7 +26722,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 0.9000000000000004
+              "points": 0.6999999999999993
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -26732,9 +26730,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 0.9,
+            "adjustment": 0.7,
             "usable": true,
-            "difference": 17,
+            "difference": 14,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -26753,15 +26751,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -26773,7 +26771,7 @@
           "window": "After work (17:30 start)",
           "windowRaw": "After work",
           "windowTime": "17:30",
-          "score": 12.9,
+          "score": 12.7,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -26802,7 +26800,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -27175,7 +27173,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -27188,7 +27186,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -27201,7 +27199,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -27214,7 +27212,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -27227,22 +27225,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -27526,7 +27524,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -28000,7 +27998,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -28013,7 +28011,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28026,7 +28024,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28039,7 +28037,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -28052,22 +28050,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -28370,7 +28368,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -28844,7 +28842,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -28857,7 +28855,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28870,7 +28868,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -28883,7 +28881,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -28896,22 +28894,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -29111,7 +29109,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -29214,7 +29212,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
               "score": 56,
               "coverage": 1,
@@ -29688,7 +29686,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -29701,7 +29699,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29714,7 +29712,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -29727,7 +29725,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -29740,22 +29738,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -29955,7 +29953,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -29976,7 +29974,7 @@
           "spotId": "meio-da-baia",
           "windowEnd": "18:00",
           "qualityScore": 39,
-          "conditionsScore": 4.2,
+          "conditionsScore": 4.1,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -30029,7 +30027,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.2000000000000002
+              "points": 1.0999999999999996
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -30037,9 +30035,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.2,
+            "adjustment": 1.1,
             "usable": true,
-            "difference": 24,
+            "difference": 21,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -30058,15 +30056,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -30078,7 +30076,7 @@
           "window": "After work (16:30 start)",
           "windowRaw": "After work",
           "windowTime": "16:30",
-          "score": 6.2,
+          "score": 6.1,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -30107,7 +30105,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -30480,7 +30478,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -30493,7 +30491,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -30506,7 +30504,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -30519,7 +30517,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -30532,22 +30530,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -30719,7 +30717,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -30741,7 +30739,7 @@
           "spotId": "meio-da-baia",
           "windowEnd": "18:30",
           "qualityScore": 39,
-          "conditionsScore": 4.2,
+          "conditionsScore": 4.1,
           "preferenceScore": 2,
           "scoreBreakdown": [
             {
@@ -30794,7 +30792,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.2000000000000002
+              "points": 1.0999999999999996
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -30802,9 +30800,9 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.2,
+            "adjustment": 1.1,
             "usable": true,
-            "difference": 24,
+            "difference": 21,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -30823,15 +30821,15 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-14T13:04:13.988Z",
+            "fetchedAt": "2026-10-14T14:04:25.813Z",
             "alignment": {
-              "score": 62,
+              "score": 59,
               "coverage": 1,
               "blocks": [
                 {
                   "start": "2026-10-15T15:00:00.000Z",
                   "end": "2026-10-15T18:00:00.000Z",
-                  "score": 62,
+                  "score": 59,
                   "samples": 3,
                   "resolutionMinutes": 180
                 }
@@ -30843,7 +30841,7 @@
           "window": "After work (17:00 start)",
           "windowRaw": "After work",
           "windowTime": "17:00",
-          "score": 6.2,
+          "score": 6.1,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -30872,7 +30870,7 @@
             },
             {
               "name": "4Shor",
-              "value": "62 / 100",
+              "value": "59 / 100",
               "detail": "Surfing · Intermediate",
               "state": "available",
               "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -31245,7 +31243,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -31258,7 +31256,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31271,7 +31269,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -31284,7 +31282,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -31297,22 +31295,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -31484,7 +31482,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -31977,7 +31975,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -31990,7 +31988,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32003,7 +32001,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32016,7 +32014,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -32029,22 +32027,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -32216,7 +32214,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -32708,7 +32706,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -32721,7 +32719,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32734,7 +32732,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -32747,7 +32745,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -32760,22 +32758,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -32947,7 +32945,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -33439,7 +33437,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -33452,7 +33450,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -33465,7 +33463,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -33478,7 +33476,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -33491,22 +33489,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -34170,7 +34168,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -34183,7 +34181,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34196,7 +34194,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34209,7 +34207,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -34222,22 +34220,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -34409,7 +34407,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -34894,7 +34892,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -34907,7 +34905,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34920,7 +34918,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -34933,7 +34931,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -34946,22 +34944,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -35133,7 +35131,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 20,
+            "airTempC": 21,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -35618,7 +35616,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -35631,7 +35629,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35644,7 +35642,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -35657,7 +35655,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -35670,22 +35668,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -36351,7 +36349,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 40,
+                  "eligible_rows": 41,
                   "support_window_hours": 54
                 },
                 {
@@ -36364,7 +36362,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -36377,7 +36375,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 },
                 {
@@ -36390,7 +36388,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 38,
+                  "eligible_rows": 39,
                   "support_window_hours": null
                 }
               ],
@@ -36403,22 +36401,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 40
+                    "eligible_rows": 41
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 38
+                    "eligible_rows": 39
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -36590,7 +36588,7 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 21,
+            "airTempC": 22,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
@@ -36613,13 +36611,15 @@
     }
   ],
   "targetDate": "2026-10-14",
-  "generatedAt": "2026-10-14 14:00 Portugal time",
-  "generatedAtUtc": "2026-10-14T13:00:00.000Z",
+  "generatedAt": "2026-10-14 15:00 Portugal time",
+  "generatedAtUtc": "2026-10-14T14:00:00.000Z",
   "displayTimezone": "Europe/Lisbon",
-  "status": "ok",
+  "status": "degraded",
   "dataQuality": {
-    "degraded": false,
-    "warnings": [],
+    "degraded": true,
+    "warnings": [
+      "Supertubos | Surfline | after-work (After work) | consistencyScore missing | time=18:00 | url=https://www.surfline.com/surf-report/supertubos/5842041f4e65fad6a7708bc3?view=table"
+    ],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -36640,22 +36640,22 @@
     "quote": null
   },
   "conversationalSummary": {
-    "text": "Today, I’d do a cam check first at Cantinho da Baia after work (around 17:30). Surfline is only poor to fair and the north wind is a bit chopped/cross-on, so it sounds marginal even though the sheltered sandbank setup can help when other beaches get messy. I’m picking Cantinho da Baia as the best place to look, but I’d only leave if the Surfline or MEO Beachcam pics show noticeably cleaner sets than what the forecasts suggest. Otherwise, I’d save the drive.",
-    "provider": "openai",
-    "model": "gpt-5.4-nano",
-    "cacheHit": true
+    "text": "Cantinho da Baia is a check-first option. Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation. Check Surfline or MEO Beachcam before leaving.",
+    "provider": "fallback",
+    "model": null,
+    "cacheHit": false
   },
   "best": {
     "spot": "Cantinho da Baia",
     "spotId": "cantinho",
     "windowEnd": "19:00",
-    "qualityScore": 68,
-    "conditionsScore": 40,
+    "qualityScore": 71,
+    "conditionsScore": 46.9,
     "preferenceScore": 9,
     "scoreBreakdown": [
       {
         "label": "Provider grades and consistency",
-        "points": 11
+        "points": 18
       },
       {
         "label": "Wave size floor",
@@ -36703,7 +36703,7 @@
       },
       {
         "label": "Provider consensus",
-        "points": 0
+        "points": -0.10000000000000142
       },
       {
         "label": "Surf outcome compatibility cap",
@@ -36711,9 +36711,9 @@
       }
     ],
     "consensus": {
-      "adjustment": 0,
+      "adjustment": -0.09999999999999964,
       "usable": true,
-      "difference": 6,
+      "difference": -2,
       "agreement": "agreement",
       "explanation": "4Shor broadly agrees with our conditions assessment.",
       "relevance": 0.5,
@@ -36732,15 +36732,15 @@
       },
       "timezone": "UTC",
       "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-      "fetchedAt": "2026-10-14T13:04:13.988Z",
+      "fetchedAt": "2026-10-14T14:04:25.813Z",
       "alignment": {
-        "score": 74,
+        "score": 69,
         "coverage": 1,
         "blocks": [
           {
             "start": "2026-10-14T15:00:00.000Z",
             "end": "2026-10-14T18:00:00.000Z",
-            "score": 74,
+            "score": 69,
             "samples": 3,
             "resolutionMinutes": 180
           }
@@ -36752,7 +36752,7 @@
     "window": "After work (17:30 start)",
     "windowRaw": "After work",
     "windowTime": "17:30",
-    "score": 49,
+    "score": 55.9,
     "sessionLabel": "Safe fun",
     "sessionLabelRaw": "safe fun",
     "confidenceLabel": "Medium confidence",
@@ -36768,7 +36768,7 @@
       },
       {
         "name": "Surf-Forecast",
-        "value": "0 / 10",
+        "value": "1 / 10",
         "detail": "6 PM · hourly",
         "state": "available",
         "url": "https://www.surf-forecast.com/breaks/Cantinho/forecasts/latest"
@@ -36782,7 +36782,7 @@
       },
       {
         "name": "4Shor",
-        "value": "74 / 100",
+        "value": "69 / 100",
         "detail": "Surfing · Intermediate",
         "state": "available",
         "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -36792,7 +36792,7 @@
     ],
     "sourceVerdicts": {
       "surfline": "POOR TO FAIR",
-      "surfForecast": 0,
+      "surfForecast": 1,
       "swellmap": "7/10 Good"
     },
     "surflineDetails": {
@@ -36808,7 +36808,7 @@
       "waterTempC": null,
       "airTempC": null
     },
-    "surfForecast": 0,
+    "surfForecast": 1,
     "swellmap": {
       "time": "18:00",
       "rating": 7,
@@ -37136,7 +37136,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 54,
-            "eligible_rows": 38,
+            "eligible_rows": 37,
             "support_window_hours": 54
           },
           {
@@ -37149,7 +37149,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           },
           {
@@ -37162,7 +37162,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           },
           {
@@ -37175,7 +37175,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 34,
+            "eligible_rows": 33,
             "support_window_hours": null
           }
         ],
@@ -37188,22 +37188,22 @@
             {
               "model": "ibi_waves",
               "raw_rows": 54,
-              "eligible_rows": 38
+              "eligible_rows": 37
             },
             {
               "model": "dwd_ewam",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             },
             {
               "model": "ecmwf_wam",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             },
             {
               "model": "meteofrance_wave",
               "raw_rows": 48,
-              "eligible_rows": 34
+              "eligible_rows": 33
             }
           ],
           "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -37487,7 +37487,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-        "fetchedAt": "2026-10-14T13:04:13.988Z",
+        "fetchedAt": "2026-10-14T14:04:25.813Z",
         "alignment": {
           "score": 56,
           "coverage": 1,
@@ -37961,7 +37961,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 38,
+              "eligible_rows": 37,
               "support_window_hours": 54
             },
             {
@@ -37974,7 +37974,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -37987,7 +37987,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -38000,7 +38000,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             }
           ],
@@ -38013,22 +38013,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 38
+                "eligible_rows": 37
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -38331,7 +38331,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-        "fetchedAt": "2026-10-14T13:04:13.988Z",
+        "fetchedAt": "2026-10-14T14:04:25.813Z",
         "alignment": {
           "score": 84,
           "coverage": 1,
@@ -38737,7 +38737,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 38,
+              "eligible_rows": 37,
               "support_window_hours": 54
             },
             {
@@ -38750,7 +38750,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -38763,7 +38763,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -38776,7 +38776,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             }
           ],
@@ -38789,22 +38789,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 38
+                "eligible_rows": 37
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -38992,7 +38992,7 @@
         "suit": "4/3",
         "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
       },
-      "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 10 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+      "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 157 kJ, 5 s period, workable consistency 52/100, and good wind at 15 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High rising · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
       "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
       "warnings": [
         "exposed north spot needs Lagide to be under 0.8 m",
@@ -39004,8 +39004,8 @@
       "spot": "Meio da Baia",
       "spotId": "meio-da-baia",
       "windowEnd": "19:00",
-      "qualityScore": 47,
-      "conditionsScore": 11.5,
+      "qualityScore": 46,
+      "conditionsScore": 11.2,
       "preferenceScore": 2,
       "scoreBreakdown": [
         {
@@ -39058,7 +39058,7 @@
         },
         {
           "label": "Provider consensus",
-          "points": 1.5
+          "points": 1.1999999999999993
         },
         {
           "label": "Surf outcome compatibility cap",
@@ -39066,9 +39066,9 @@
         }
       ],
       "consensus": {
-        "adjustment": 1.5,
+        "adjustment": 1.2,
         "usable": true,
-        "difference": 29,
+        "difference": 24,
         "agreement": "mixed",
         "explanation": "4Shor is more optimistic than our conditions assessment.",
         "relevance": 0.5,
@@ -39087,15 +39087,15 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-10-14T13:04:13.988Z",
+        "fetchedAt": "2026-10-14T14:04:25.813Z",
         "alignment": {
-          "score": 74,
+          "score": 69,
           "coverage": 1,
           "blocks": [
             {
               "start": "2026-10-14T15:00:00.000Z",
               "end": "2026-10-14T18:00:00.000Z",
-              "score": 74,
+              "score": 69,
               "samples": 3,
               "resolutionMinutes": 180
             }
@@ -39107,7 +39107,7 @@
       "window": "After work (17:30 start)",
       "windowRaw": "After work",
       "windowTime": "17:30",
-      "score": 13.5,
+      "score": 13.2,
       "sessionLabel": "Worth checking",
       "sessionLabelRaw": "check first",
       "confidenceLabel": "Low confidence",
@@ -39136,7 +39136,7 @@
         },
         {
           "name": "4Shor",
-          "value": "74 / 100",
+          "value": "69 / 100",
           "detail": "Surfing · Intermediate",
           "state": "available",
           "url": "https://4shor.app/locations/praia-baleal-sul-175#scores",
@@ -39509,7 +39509,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 38,
+              "eligible_rows": 37,
               "support_window_hours": 54
             },
             {
@@ -39522,7 +39522,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -39535,7 +39535,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             },
             {
@@ -39548,7 +39548,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 34,
+              "eligible_rows": 33,
               "support_window_hours": null
             }
           ],
@@ -39561,22 +39561,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 38
+                "eligible_rows": 37
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 34
+                "eligible_rows": 33
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
