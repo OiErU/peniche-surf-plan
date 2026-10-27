@@ -8,7 +8,7 @@
         "end": 1063,
         "estimated": true
       },
-      "status": "degraded",
+      "status": "ok",
       "verdict": {
         "state": "marginal",
         "label": "Worth checking",
@@ -21,13 +21,13 @@
           "spot": "Lagide",
           "spotId": "lagide",
           "windowEnd": "13:30",
-          "qualityScore": 75,
-          "conditionsScore": 55,
+          "qualityScore": 76,
+          "conditionsScore": 57,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 31
+              "points": 33
             },
             {
               "label": "Wave size floor",
@@ -85,7 +85,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 3,
+            "difference": 2,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -104,7 +104,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -124,7 +124,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 64,
+          "score": 66,
           "sessionLabel": "Fun progression",
           "sessionLabelRaw": "progression",
           "confidenceLabel": "Low confidence",
@@ -174,7 +174,7 @@
             "swellM": 2,
             "periodS": 13,
             "energyKj": 408,
-            "consistencyScore": null,
+            "consistencyScore": 48,
             "windKph": 14,
             "gustKph": 15,
             "waterTempC": null,
@@ -493,7 +493,8 @@
                 "Wave models broadly agree but differ on some components.",
                 "Wind models agree closely on direction and speed.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-                "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+                "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
+                "PredictWind table consensus agrees with the primary wind tuple."
               ]
             },
             "explanation": [
@@ -577,7 +578,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -590,7 +591,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -603,7 +604,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -616,7 +617,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -629,22 +630,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -746,7 +747,8 @@
               "Wave models broadly agree but differ on some components.",
               "Wind models agree closely on direction and speed.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
+              "PredictWind table consensus agrees with the primary wind tuple."
             ]
           },
           "windAgreement": {
@@ -756,14 +758,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -776,7 +778,25 @@
               "Surf-Forecast structured events are all outside the 48-hour horizon."
             ]
           },
-          "predictWind": null,
+          "predictWind": {
+            "available": true,
+            "location": "Lagide",
+            "role": "regional/reference wind consensus",
+            "stale": false,
+            "modelCount": 8,
+            "familyCount": 5,
+            "medianSpeedKmh": 10.5,
+            "interquartileRangeKmh": 1,
+            "directionMeanDeg": null,
+            "directionSpreadDeg": null,
+            "confidence": "high",
+            "reasons": [
+              "5 independent model families from 8 PredictWind row(s).",
+              "No family outliers detected.",
+              "PredictWind direction is not displayed as text in this table; speed consensus only."
+            ],
+            "validTimeLocal": "2026-10-27 13:00"
+          },
           "surflinePeriod": {
             "date": "2026-10-27",
             "time": "12:00",
@@ -832,7 +852,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Lagide looks like a solid window for Fun progression, Low confidence: 1.2-1.5 m, 408 kJ, 13 s period, and wind is not fully clear.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
+          "explanation": "Lagide looks like a solid window for Fun progression, Low confidence: 1.2-1.5 m, 408 kJ, 13 s period, workable consistency 48/100, and wind is not fully clear.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape",
@@ -928,7 +948,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -1332,7 +1352,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -1345,7 +1365,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -1358,7 +1378,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -1371,7 +1391,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -1384,22 +1404,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -1520,14 +1540,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -2081,7 +2101,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -2094,7 +2114,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2107,7 +2127,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2120,7 +2140,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -2133,22 +2153,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2269,14 +2289,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -2443,7 +2463,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -2865,7 +2885,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -2878,7 +2898,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2891,7 +2911,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2904,7 +2924,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -2917,22 +2937,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3053,14 +3073,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -3226,7 +3246,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 60,
               "coverage": 1,
@@ -3297,8 +3317,8 @@
             "periodS": 12,
             "energyKj": 420,
             "consistencyScore": 50,
-            "windKph": 14,
-            "gustKph": 14,
+            "windKph": 12,
+            "gustKph": 12,
             "waterTempC": null,
             "airTempC": null
           },
@@ -3627,7 +3647,7 @@
               "wind": {
                 "speed_kph": 15,
                 "direction_deg": "W",
-                "gust_kph": 14,
+                "gust_kph": 12,
                 "source": "Surf-Forecast",
                 "model_agreement": "high"
               },
@@ -3657,7 +3677,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -3670,7 +3690,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -3683,7 +3703,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -3696,7 +3716,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -3709,22 +3729,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3845,14 +3865,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -4400,7 +4420,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 40,
                   "support_window_hours": 54
                 },
                 {
@@ -4413,7 +4433,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -4426,7 +4446,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -4439,7 +4459,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 39,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -4452,22 +4472,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 40
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 39
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4588,14 +4608,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 260.5,
-            "directionSpreadDeg": 7,
+            "directionMeanDeg": 262.5,
+            "directionSpreadDeg": 11,
             "speedMedianKph": 11.6,
-            "speedMinKph": 10.5,
+            "speedMinKph": 10.8,
             "speedMaxKph": 11.6,
-            "speedDifferenceKph": 1.0999999999999996,
+            "speedDifferenceKph": 0.7999999999999989,
             "gustMaxKph": 28.4,
-            "gustDifferenceKph": 8.2
+            "gustDifferenceKph": 9
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -5069,12 +5089,12 @@
             "expectedM": 0.7,
             "upperM": 1.4,
             "confidence": {
-              "score": 0.6,
+              "score": 0.72,
               "label": "medium",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models broadly agree but differ on some components.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
               ]
@@ -5083,7 +5103,7 @@
               "0.7 m faces expected (0.2–1.4 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -5121,7 +5141,7 @@
                 "direction_deg": "N",
                 "gust_kph": 13,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -5149,7 +5169,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -5162,7 +5182,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -5175,7 +5195,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -5188,7 +5208,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -5201,22 +5221,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5311,31 +5331,31 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.6,
+            "score": 0.72,
             "label": "medium",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -5500,7 +5520,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 16,
               "coverage": 1,
@@ -5813,12 +5833,12 @@
             "expectedM": 2,
             "upperM": 2.9,
             "confidence": {
-              "score": 0.6,
+              "score": 0.72,
               "label": "medium",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models broadly agree but differ on some components.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
               ]
@@ -5827,7 +5847,7 @@
               "2.0 m faces expected (1.2–2.9 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -5865,7 +5885,7 @@
                 "direction_deg": "N",
                 "gust_kph": 16,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -5893,7 +5913,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -5906,7 +5926,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -5919,7 +5939,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -5932,7 +5952,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -5945,22 +5965,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6055,31 +6075,31 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.6,
+            "score": 0.72,
             "label": "medium",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -6245,7 +6265,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 52,
               "coverage": 1,
@@ -6627,12 +6647,12 @@
             "expectedM": 2.5,
             "upperM": 3.3,
             "confidence": {
-              "score": 0.75,
+              "score": 0.9,
               "label": "high",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models agree closely on size, direction and period.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
                 "PredictWind table consensus agrees with the primary wind tuple."
@@ -6642,7 +6662,7 @@
               "2.5 m faces expected (1.8–3.3 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models agree closely on size, direction and period.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -6668,7 +6688,7 @@
                 "direction_deg": "N",
                 "gust_kph": 16,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -6696,7 +6716,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -6709,7 +6729,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -6722,7 +6742,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -6735,7 +6755,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -6748,22 +6768,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6858,32 +6878,32 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.75,
+            "score": 0.9,
             "label": "high",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models agree closely on size, direction and period.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
               "PredictWind table consensus agrees with the primary wind tuple."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -6903,8 +6923,8 @@
             "stale": false,
             "modelCount": 8,
             "familyCount": 5,
-            "medianSpeedKmh": 10,
-            "interquartileRangeKmh": 0,
+            "medianSpeedKmh": 13.5,
+            "interquartileRangeKmh": 2,
             "directionMeanDeg": null,
             "directionSpreadDeg": null,
             "confidence": "high",
@@ -7067,7 +7087,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 40,
               "coverage": 1,
@@ -7407,12 +7427,12 @@
             "expectedM": 2.2,
             "upperM": 3.2,
             "confidence": {
-              "score": 0.6,
+              "score": 0.72,
               "label": "medium",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models broadly agree but differ on some components.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
               ]
@@ -7421,7 +7441,7 @@
               "2.2 m faces expected (1.3–3.2 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -7459,7 +7479,7 @@
                 "direction_deg": "N",
                 "gust_kph": 13,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -7487,7 +7507,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -7500,7 +7520,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -7513,7 +7533,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -7526,7 +7546,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -7539,22 +7559,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -7649,31 +7669,31 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.6,
+            "score": 0.72,
             "label": "medium",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -8140,12 +8160,12 @@
             "expectedM": 2.3,
             "upperM": 3.3,
             "confidence": {
-              "score": 0.6,
+              "score": 0.72,
               "label": "medium",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models broadly agree but differ on some components.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
               ]
@@ -8154,7 +8174,7 @@
               "2.3 m faces expected (1.4–3.3 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -8192,7 +8212,7 @@
                 "direction_deg": "N",
                 "gust_kph": 16,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -8220,7 +8240,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -8233,7 +8253,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -8246,7 +8266,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -8259,7 +8279,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -8272,22 +8292,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8382,31 +8402,31 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.6,
+            "score": 0.72,
             "label": "medium",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -8572,7 +8592,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T09:04:40.031Z",
+            "fetchedAt": "2026-10-27T10:04:45.383Z",
             "alignment": {
               "score": 16,
               "coverage": 1,
@@ -8903,12 +8923,12 @@
             "expectedM": 2.2,
             "upperM": 3.2,
             "confidence": {
-              "score": 0.6,
+              "score": 0.72,
               "label": "medium",
               "reasons": [
                 "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
                 "Wave models broadly agree but differ on some components.",
-                "Wind models disagree; confidence is reduced.",
+                "Wind models differ moderately.",
                 "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
                 "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
               ]
@@ -8917,7 +8937,7 @@
               "2.2 m faces expected (1.3–3.2 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ],
@@ -8955,7 +8975,7 @@
                 "direction_deg": "N",
                 "gust_kph": 16,
                 "source": "Surf-Forecast",
-                "model_agreement": "low"
+                "model_agreement": "medium"
               },
               "tide": {
                 "label": "Mid rising",
@@ -8983,7 +9003,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": 54
                 },
                 {
@@ -8996,7 +9016,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -9009,7 +9029,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 },
                 {
@@ -9022,7 +9042,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 33,
+                  "eligible_rows": 34,
                   "support_window_hours": null
                 }
               ],
@@ -9035,22 +9055,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 33
+                    "eligible_rows": 34
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -9145,31 +9165,31 @@
             }
           },
           "forecastConfidence": {
-            "score": 0.6,
+            "score": 0.72,
             "label": "medium",
             "reasons": [
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
-              "Wind models disagree; confidence is reduced.",
+              "Wind models differ moderately.",
               "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
               "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
             ]
           },
           "windAgreement": {
-            "agreement": "low",
+            "agreement": "medium",
             "modelCount": 2,
             "models": [
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 344.5,
-            "directionSpreadDeg": 45,
-            "speedMedianKph": 14,
-            "speedMinKph": 13.3,
-            "speedMaxKph": 14,
-            "speedDifferenceKph": 0.6999999999999993,
+            "directionMeanDeg": 356,
+            "directionSpreadDeg": 22,
+            "speedMedianKph": 15.3,
+            "speedMinKph": 14,
+            "speedMaxKph": 15.3,
+            "speedDifferenceKph": 1.3000000000000007,
             "gustMaxKph": 31.3,
-            "gustDifferenceKph": 8.600000000000001
+            "gustDifferenceKph": 5.400000000000002
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -9251,16 +9271,13 @@
     }
   ],
   "targetDate": "2026-10-27",
-  "generatedAt": "2026-10-27 09:00 Portugal time",
-  "generatedAtUtc": "2026-10-27T09:00:00.000Z",
+  "generatedAt": "2026-10-27 10:00 Portugal time",
+  "generatedAtUtc": "2026-10-27T10:00:00.000Z",
   "displayTimezone": "Europe/Lisbon",
-  "status": "degraded",
+  "status": "ok",
   "dataQuality": {
-    "degraded": true,
-    "warnings": [
-      "Lagide | Surfline | lunch (Lunch) | consistencyScore missing | time=12:00 | url=https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2?view=table",
-      "Lagide | Surfline | after-work (After work) | consistencyScore missing | time=18:00 | url=https://www.surfline.com/surf-report/lagide/58bdf3a70cec4200133464f2?view=table"
-    ],
+    "degraded": false,
+    "warnings": [],
     "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
@@ -9290,13 +9307,13 @@
     "spot": "Lagide",
     "spotId": "lagide",
     "windowEnd": "13:30",
-    "qualityScore": 75,
-    "conditionsScore": 55,
+    "qualityScore": 76,
+    "conditionsScore": 57,
     "preferenceScore": 9,
     "scoreBreakdown": [
       {
         "label": "Provider grades and consistency",
-        "points": 31
+        "points": 33
       },
       {
         "label": "Wave size floor",
@@ -9354,7 +9371,7 @@
     "consensus": {
       "adjustment": 0,
       "usable": true,
-      "difference": 3,
+      "difference": 2,
       "agreement": "agreement",
       "explanation": "4Shor broadly agrees with our conditions assessment.",
       "relevance": 0.5,
@@ -9373,7 +9390,7 @@
       },
       "timezone": "UTC",
       "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-      "fetchedAt": "2026-10-27T09:04:40.031Z",
+      "fetchedAt": "2026-10-27T10:04:45.383Z",
       "alignment": {
         "score": 78,
         "coverage": 1,
@@ -9393,7 +9410,7 @@
     "window": "Lunch",
     "windowRaw": "Lunch",
     "windowTime": "12:00",
-    "score": 64,
+    "score": 66,
     "sessionLabel": "Fun progression",
     "sessionLabelRaw": "progression",
     "confidenceLabel": "Low confidence",
@@ -9443,7 +9460,7 @@
       "swellM": 2,
       "periodS": 13,
       "energyKj": 408,
-      "consistencyScore": null,
+      "consistencyScore": 48,
       "windKph": 14,
       "gustKph": 15,
       "waterTempC": null,
@@ -9762,7 +9779,8 @@
           "Wave models broadly agree but differ on some components.",
           "Wind models agree closely on direction and speed.",
           "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-          "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+          "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
+          "PredictWind table consensus agrees with the primary wind tuple."
         ]
       },
       "explanation": [
@@ -9846,7 +9864,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 54,
-            "eligible_rows": 41,
+            "eligible_rows": 40,
             "support_window_hours": 54
           },
           {
@@ -9859,7 +9877,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 39,
+            "eligible_rows": 38,
             "support_window_hours": null
           },
           {
@@ -9872,7 +9890,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 39,
+            "eligible_rows": 38,
             "support_window_hours": null
           },
           {
@@ -9885,7 +9903,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 39,
+            "eligible_rows": 38,
             "support_window_hours": null
           }
         ],
@@ -9898,22 +9916,22 @@
             {
               "model": "ibi_waves",
               "raw_rows": 54,
-              "eligible_rows": 41
+              "eligible_rows": 40
             },
             {
               "model": "dwd_ewam",
               "raw_rows": 48,
-              "eligible_rows": 39
+              "eligible_rows": 38
             },
             {
               "model": "ecmwf_wam",
               "raw_rows": 48,
-              "eligible_rows": 39
+              "eligible_rows": 38
             },
             {
               "model": "meteofrance_wave",
               "raw_rows": 48,
-              "eligible_rows": 39
+              "eligible_rows": 38
             }
           ],
           "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -10015,7 +10033,8 @@
         "Wave models broadly agree but differ on some components.",
         "Wind models agree closely on direction and speed.",
         "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-        "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+        "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%.",
+        "PredictWind table consensus agrees with the primary wind tuple."
       ]
     },
     "windAgreement": {
@@ -10025,14 +10044,14 @@
         "icon_eu",
         "ecmwf_ifs"
       ],
-      "directionMeanDeg": 260.5,
-      "directionSpreadDeg": 7,
+      "directionMeanDeg": 262.5,
+      "directionSpreadDeg": 11,
       "speedMedianKph": 11.6,
-      "speedMinKph": 10.5,
+      "speedMinKph": 10.8,
       "speedMaxKph": 11.6,
-      "speedDifferenceKph": 1.0999999999999996,
+      "speedDifferenceKph": 0.7999999999999989,
       "gustMaxKph": 28.4,
-      "gustDifferenceKph": 8.2
+      "gustDifferenceKph": 9
     },
     "surfForecastStructured": {
       "provider": "surf-forecast",
@@ -10045,7 +10064,25 @@
         "Surf-Forecast structured events are all outside the 48-hour horizon."
       ]
     },
-    "predictWind": null,
+    "predictWind": {
+      "available": true,
+      "location": "Lagide",
+      "role": "regional/reference wind consensus",
+      "stale": false,
+      "modelCount": 8,
+      "familyCount": 5,
+      "medianSpeedKmh": 10.5,
+      "interquartileRangeKmh": 1,
+      "directionMeanDeg": null,
+      "directionSpreadDeg": null,
+      "confidence": "high",
+      "reasons": [
+        "5 independent model families from 8 PredictWind row(s).",
+        "No family outliers detected.",
+        "PredictWind direction is not displayed as text in this table; speed consensus only."
+      ],
+      "validTimeLocal": "2026-10-27 13:00"
+    },
     "surflinePeriod": {
       "date": "2026-10-27",
       "time": "12:00",
@@ -10101,7 +10138,7 @@
       "suit": "4/3",
       "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
     },
-    "explanation": "Lagide looks like a solid window for Fun progression, Low confidence: 1.2-1.5 m, 408 kJ, 13 s period, and wind is not fully clear.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
+    "explanation": "Lagide looks like a solid window for Fun progression, Low confidence: 1.2-1.5 m, 408 kJ, 13 s period, workable consistency 48/100, and wind is not fully clear.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 10-13s at high tide is softer but still workable on the reef shelves.  Watch: W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape; Provider wind classification conflicts with spot sectors; geometry remains unverified; preference quality is provisional.",
     "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
     "warnings": [
       "W 15 km/h · geometry unverified; estimated onshore from preferences at Lagide · chop and poorer wave shape",
@@ -10198,7 +10235,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-10-27T09:04:40.031Z",
+        "fetchedAt": "2026-10-27T10:04:45.383Z",
         "alignment": {
           "score": 59,
           "coverage": 1,
@@ -10602,7 +10639,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 41,
+              "eligible_rows": 40,
               "support_window_hours": 54
             },
             {
@@ -10615,7 +10652,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -10628,7 +10665,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -10641,7 +10678,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             }
           ],
@@ -10654,22 +10691,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 41
+                "eligible_rows": 40
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -10790,14 +10827,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 260.5,
-        "directionSpreadDeg": 7,
+        "directionMeanDeg": 262.5,
+        "directionSpreadDeg": 11,
         "speedMedianKph": 11.6,
-        "speedMinKph": 10.5,
+        "speedMinKph": 10.8,
         "speedMaxKph": 11.6,
-        "speedDifferenceKph": 1.0999999999999996,
+        "speedDifferenceKph": 0.7999999999999989,
         "gustMaxKph": 28.4,
-        "gustDifferenceKph": 8.2
+        "gustDifferenceKph": 9
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
@@ -11351,7 +11388,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 41,
+              "eligible_rows": 40,
               "support_window_hours": 54
             },
             {
@@ -11364,7 +11401,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -11377,7 +11414,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -11390,7 +11427,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             }
           ],
@@ -11403,22 +11440,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 41
+                "eligible_rows": 40
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11539,14 +11576,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 260.5,
-        "directionSpreadDeg": 7,
+        "directionMeanDeg": 262.5,
+        "directionSpreadDeg": 11,
         "speedMedianKph": 11.6,
-        "speedMinKph": 10.5,
+        "speedMinKph": 10.8,
         "speedMaxKph": 11.6,
-        "speedDifferenceKph": 1.0999999999999996,
+        "speedDifferenceKph": 0.7999999999999989,
         "gustMaxKph": 28.4,
-        "gustDifferenceKph": 8.2
+        "gustDifferenceKph": 9
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
@@ -11713,7 +11750,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-10-27T09:04:40.031Z",
+        "fetchedAt": "2026-10-27T10:04:45.383Z",
         "alignment": {
           "score": 59,
           "coverage": 1,
@@ -12135,7 +12172,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 41,
+              "eligible_rows": 40,
               "support_window_hours": 54
             },
             {
@@ -12148,7 +12185,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -12161,7 +12198,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             },
             {
@@ -12174,7 +12211,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 39,
+              "eligible_rows": 38,
               "support_window_hours": null
             }
           ],
@@ -12187,22 +12224,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 41
+                "eligible_rows": 40
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 39
+                "eligible_rows": 38
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -12323,14 +12360,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 260.5,
-        "directionSpreadDeg": 7,
+        "directionMeanDeg": 262.5,
+        "directionSpreadDeg": 11,
         "speedMedianKph": 11.6,
-        "speedMinKph": 10.5,
+        "speedMinKph": 10.8,
         "speedMaxKph": 11.6,
-        "speedDifferenceKph": 1.0999999999999996,
+        "speedDifferenceKph": 0.7999999999999989,
         "gustMaxKph": 28.4,
-        "gustDifferenceKph": 8.2
+        "gustDifferenceKph": 9
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
