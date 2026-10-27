@@ -104,7 +104,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -481,10 +481,10 @@
           "typicalSurfM": 1.5,
           "surfHeightSource": "Surfline",
           "faceSize": {
-            "display": "1.1–3.0 m faces",
-            "lowerM": 1.1,
+            "display": "1.0–3.2 m faces",
+            "lowerM": 1,
             "expectedM": 1.9,
-            "upperM": 3,
+            "upperM": 3.2,
             "confidence": {
               "score": 0.8,
               "label": "high",
@@ -497,7 +497,7 @@
               ]
             },
             "explanation": [
-              "1.9 m faces expected (1.1–3.0 m range).",
+              "1.9 m faces expected (1.0–3.2 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
               "Wind models agree closely on direction and speed.",
@@ -577,7 +577,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -590,7 +590,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -599,11 +599,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 2.69,
+                  "height_m": 2.85,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -616,7 +616,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -629,22 +629,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -684,28 +684,28 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 2.39,
-              "model_prediction_m": 2.06,
+              "weighted_height_m": 2.44,
+              "model_prediction_m": 2.1,
               "provider_anchor_m": 1.5,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.09711984419417563,
+                "heightComponent": 0.12952169620471232,
                 "directionComponent": 0.26666666666666666,
-                "periodComponent": 0.0875,
-                "agreementFactor": 0.45,
+                "periodComponent": 0.1,
+                "agreementFactor": 0.5,
                 "label": "medium",
-                "widthM": 0.8584495560088704
+                "widthM": 0.9598648597596627
               },
               "component_clusters": [
                 {
                   "type": "total_wave",
                   "model_count": 4,
-                  "height_mean_m": 2.36,
-                  "direction_mean_deg": 301.8748618308834,
+                  "height_mean_m": 2.39,
+                  "direction_mean_deg": 302.1249511007368,
                   "direction_spread_deg": 4.499997217208147,
-                  "period_spread_s": 1.75,
+                  "period_spread_s": 2,
                   "unconfirmed_partition": true
                 },
                 {
@@ -756,14 +756,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -929,7 +929,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -1237,10 +1237,10 @@
           "typicalSurfM": 1.15,
           "surfHeightSource": "Surfline",
           "faceSize": {
-            "display": "0.9–2.2 m faces",
+            "display": "0.9–2.3 m faces",
             "lowerM": 0.9,
             "expectedM": 1.4,
-            "upperM": 2.2,
+            "upperM": 2.3,
             "confidence": {
               "score": 0.8,
               "label": "high",
@@ -1253,7 +1253,7 @@
               ]
             },
             "explanation": [
-              "1.4 m faces expected (0.9–2.2 m range).",
+              "1.4 m faces expected (0.9–2.3 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
               "Wind models agree closely on direction and speed.",
@@ -1321,7 +1321,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -1334,7 +1334,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -1343,11 +1343,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.74,
+                  "height_m": 1.84,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -1360,7 +1360,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -1373,22 +1373,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -1428,8 +1428,8 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 1.84,
-              "model_prediction_m": 1.53,
+              "weighted_height_m": 1.87,
+              "model_prediction_m": 1.56,
               "provider_anchor_m": 1.15,
               "blend_weight": 0.72,
               "condition_class": "medium",
@@ -1437,19 +1437,19 @@
               "disagreement": {
                 "heightComponent": 0.156796923618846,
                 "directionComponent": 0.1371110797342327,
-                "periodComponent": 0.09700001068413258,
-                "agreementFactor": 0.39,
+                "periodComponent": 0.10950001068413258,
+                "agreementFactor": 0.4,
                 "label": "medium",
-                "widthM": 0.557427275667408
+                "widthM": 0.583528614177929
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.09,
-                  "direction_mean_deg": 299.83403258057507,
+                  "height_mean_m": 2.12,
+                  "direction_mean_deg": 300.0847523943799,
                   "direction_spread_deg": 12.339997176080942,
-                  "period_spread_s": 1.9400002136826515,
+                  "period_spread_s": 2.1900002136826515,
                   "unconfirmed_partition": false
                 },
                 {
@@ -1509,14 +1509,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -1682,7 +1682,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 59,
               "coverage": 1,
@@ -2092,7 +2092,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -2105,7 +2105,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -2114,11 +2114,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.74,
+                  "height_m": 1.86,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -2131,7 +2131,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -2144,22 +2144,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2199,8 +2199,8 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 1.83,
-              "model_prediction_m": 1.63,
+              "weighted_height_m": 1.87,
+              "model_prediction_m": 1.66,
               "provider_anchor_m": 1.5,
               "blend_weight": 0.72,
               "condition_class": "medium",
@@ -2208,19 +2208,19 @@
               "disagreement": {
                 "heightComponent": 0.156796923618846,
                 "directionComponent": 0.1371110797342327,
-                "periodComponent": 0.09700001068413258,
-                "agreementFactor": 0.39,
+                "periodComponent": 0.10950001068413258,
+                "agreementFactor": 0.4,
                 "label": "medium",
-                "widthM": 0.6231303879603478
+                "widthM": 0.6527537573880489
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.09,
-                  "direction_mean_deg": 299.83403258057507,
+                  "height_mean_m": 2.12,
+                  "direction_mean_deg": 300.0847523943799,
                   "direction_spread_deg": 12.339997176080942,
-                  "period_spread_s": 1.9400002136826515,
+                  "period_spread_s": 2.1900002136826515,
                   "unconfirmed_partition": false
                 },
                 {
@@ -2280,14 +2280,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -2747,10 +2747,10 @@
           "typicalSurfM": 1.5,
           "surfHeightSource": "Surfline",
           "faceSize": {
-            "display": "0.9–2.4 m faces",
+            "display": "0.9–2.5 m faces",
             "lowerM": 0.9,
             "expectedM": 1.6,
-            "upperM": 2.4,
+            "upperM": 2.5,
             "confidence": {
               "score": 0.8,
               "label": "high",
@@ -2763,7 +2763,7 @@
               ]
             },
             "explanation": [
-              "1.6 m faces expected (0.9–2.4 m range).",
+              "1.6 m faces expected (0.9–2.5 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
               "Wind models agree closely on direction and speed.",
@@ -2831,7 +2831,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -2844,7 +2844,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -2853,11 +2853,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.75,
+                  "height_m": 1.86,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -2870,7 +2870,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -2883,22 +2883,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2938,8 +2938,8 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 1.84,
-              "model_prediction_m": 1.66,
+              "weighted_height_m": 1.88,
+              "model_prediction_m": 1.69,
               "provider_anchor_m": 1.5,
               "blend_weight": 0.72,
               "condition_class": "medium",
@@ -2947,19 +2947,19 @@
               "disagreement": {
                 "heightComponent": 0.156796923618846,
                 "directionComponent": 0.1371110797342327,
-                "periodComponent": 0.09700001068413258,
-                "agreementFactor": 0.39,
+                "periodComponent": 0.10950001068413258,
+                "agreementFactor": 0.4,
                 "label": "medium",
-                "widthM": 0.6306904777261512
+                "widthM": 0.6605861829822649
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.09,
-                  "direction_mean_deg": 299.83403258057507,
+                  "height_mean_m": 2.12,
+                  "direction_mean_deg": 300.0847523943799,
                   "direction_spread_deg": 12.339997176080942,
-                  "period_spread_s": 1.9400002136826515,
+                  "period_spread_s": 2.1900002136826515,
                   "unconfirmed_partition": false
                 },
                 {
@@ -3019,14 +3019,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -3193,7 +3193,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 60,
               "coverage": 1,
@@ -3528,10 +3528,10 @@
           "typicalSurfM": 1.6,
           "surfHeightSource": "Surfline",
           "faceSize": {
-            "display": "1.0–2.6 m faces",
+            "display": "1.0–2.7 m faces",
             "lowerM": 1,
-            "expectedM": 1.7,
-            "upperM": 2.6,
+            "expectedM": 1.8,
+            "upperM": 2.7,
             "confidence": {
               "score": 0.8,
               "label": "high",
@@ -3544,7 +3544,7 @@
               ]
             },
             "explanation": [
-              "1.7 m faces expected (1.0–2.6 m range).",
+              "1.8 m faces expected (1.0–2.7 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models broadly agree but differ on some components.",
               "Wind models agree closely on direction and speed.",
@@ -3612,7 +3612,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -3625,7 +3625,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -3634,11 +3634,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.17,
+                  "height_m": 1.22,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -3651,7 +3651,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -3664,22 +3664,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3719,8 +3719,8 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 1.24,
-              "model_prediction_m": 1.8,
+              "weighted_height_m": 1.26,
+              "model_prediction_m": 1.83,
               "provider_anchor_m": 1.6,
               "blend_weight": 0.72,
               "condition_class": "medium",
@@ -3728,19 +3728,19 @@
               "disagreement": {
                 "heightComponent": 0.156796923618846,
                 "directionComponent": 0.1371110797342327,
-                "periodComponent": 0.09700001068413258,
-                "agreementFactor": 0.39,
+                "periodComponent": 0.10950001068413258,
+                "agreementFactor": 0.4,
                 "label": "medium",
-                "widthM": 0.6822648829325161
+                "widthM": 0.7112877904162491
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.09,
-                  "direction_mean_deg": 299.83403258057507,
+                  "height_mean_m": 2.12,
+                  "direction_mean_deg": 300.0847523943799,
                   "direction_spread_deg": 12.339997176080942,
-                  "period_spread_s": 1.9400002136826515,
+                  "period_spread_s": 2.1900002136826515,
                   "unconfirmed_partition": false
                 },
                 {
@@ -3800,14 +3800,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -4343,7 +4343,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 44,
+                  "eligible_rows": 43,
                   "support_window_hours": 54
                 },
                 {
@@ -4356,7 +4356,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -4365,11 +4365,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-27T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.17,
+                  "height_m": 1.22,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 },
                 {
@@ -4382,7 +4382,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 42,
+                  "eligible_rows": 41,
                   "support_window_hours": null
                 }
               ],
@@ -4395,22 +4395,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 44
+                    "eligible_rows": 43
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 42
+                    "eligible_rows": 41
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4450,7 +4450,7 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 1.24,
+              "weighted_height_m": 1.26,
               "model_prediction_m": 0.44,
               "provider_anchor_m": 0.75,
               "blend_weight": 0.72,
@@ -4459,19 +4459,19 @@
               "disagreement": {
                 "heightComponent": 0.156796923618846,
                 "directionComponent": 0.1371110797342327,
-                "periodComponent": 0.09700001068413258,
-                "agreementFactor": 0.39,
+                "periodComponent": 0.10950001068413258,
+                "agreementFactor": 0.4,
                 "label": "medium",
-                "widthM": 0.20495825035317827
+                "widthM": 0.21325806694816885
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.09,
-                  "direction_mean_deg": 299.83403258057507,
+                  "height_mean_m": 2.12,
+                  "direction_mean_deg": 300.0847523943799,
                   "direction_spread_deg": 12.339997176080942,
-                  "period_spread_s": 1.9400002136826515,
+                  "period_spread_s": 2.1900002136826515,
                   "unconfirmed_partition": false
                 },
                 {
@@ -4531,14 +4531,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 262.5,
-            "directionSpreadDeg": 3,
-            "speedMedianKph": 12,
+            "directionMeanDeg": 260.5,
+            "directionSpreadDeg": 7,
+            "speedMedianKph": 11.6,
             "speedMinKph": 10.5,
-            "speedMaxKph": 12,
-            "speedDifferenceKph": 1.5,
-            "gustMaxKph": 28.8,
-            "gustDifferenceKph": 8.600000000000001
+            "speedMaxKph": 11.6,
+            "speedDifferenceKph": 1.0999999999999996,
+            "gustMaxKph": 28.4,
+            "gustDifferenceKph": 8.2
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -4627,7 +4627,7 @@
         "end": 1062,
         "estimated": true
       },
-      "status": "degraded",
+      "status": "ok",
       "verdict": {
         "state": "marginal",
         "label": "Worth checking",
@@ -4723,7 +4723,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 16,
               "coverage": 1,
@@ -5127,7 +5127,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -5140,7 +5140,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -5149,11 +5149,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 2.27,
+                  "height_m": 2.31,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -5166,7 +5166,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -5179,22 +5179,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5234,28 +5234,28 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 2.48,
-              "model_prediction_m": 2.07,
+              "weighted_height_m": 2.49,
+              "model_prediction_m": 2.08,
               "provider_anchor_m": 1.6,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.12355718978541386,
+                "heightComponent": 0.11349981575661683,
                 "directionComponent": 0.17877774422781334,
-                "periodComponent": 0.09350001109763983,
-                "agreementFactor": 0.4,
+                "periodComponent": 0.09600001109763978,
+                "agreementFactor": 0.39,
                 "label": "medium",
-                "widthM": 0.7670027364457834
+                "widthM": 0.7553834143756334
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.74,
+                  "height_mean_m": 2.75,
                   "direction_mean_deg": 307.27358528040645,
                   "direction_spread_deg": 16.0899969805032,
-                  "period_spread_s": 1.8700002219527967,
+                  "period_spread_s": 1.9200002219527956,
                   "unconfirmed_partition": false
                 },
                 {
@@ -5315,14 +5315,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -5867,7 +5867,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -5880,7 +5880,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -5889,11 +5889,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.37,
+                  "height_m": 1.4,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -5906,7 +5906,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -5919,22 +5919,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5981,21 +5981,21 @@
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.12355718978541386,
+                "heightComponent": 0.11349981575661683,
                 "directionComponent": 0.17877774422781334,
-                "periodComponent": 0.09350001109763983,
-                "agreementFactor": 0.4,
+                "periodComponent": 0.09600001109763978,
+                "agreementFactor": 0.39,
                 "label": "medium",
-                "widthM": 0.27912234857273993
+                "widthM": 0.2745617403187668
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.74,
+                  "height_mean_m": 2.75,
                   "direction_mean_deg": 307.27358528040645,
                   "direction_spread_deg": 16.0899969805032,
-                  "period_spread_s": 1.8700002219527967,
+                  "period_spread_s": 1.9200002219527956,
                   "unconfirmed_partition": false
                 },
                 {
@@ -6055,14 +6055,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -6227,7 +6227,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 52,
               "coverage": 1,
@@ -6604,10 +6604,10 @@
           "typicalSurfM": 2.1,
           "surfHeightSource": "Surfline",
           "faceSize": {
-            "display": "1.8–3.5 m faces",
+            "display": "1.8–3.6 m faces",
             "lowerM": 1.8,
             "expectedM": 2.5,
-            "upperM": 3.5,
+            "upperM": 3.6,
             "confidence": {
               "score": 0.75,
               "label": "high",
@@ -6621,7 +6621,7 @@
               ]
             },
             "explanation": [
-              "2.5 m faces expected (1.8–3.5 m range).",
+              "2.5 m faces expected (1.8–3.6 m range).",
               "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
               "Wave models agree closely on size, direction and period.",
               "Wind models disagree; confidence is reduced.",
@@ -6690,7 +6690,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -6703,7 +6703,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -6712,11 +6712,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 3.37,
+                  "height_m": 3.42,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -6729,7 +6729,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -6742,22 +6742,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6797,28 +6797,28 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 3.09,
-              "model_prediction_m": 2.67,
+              "weighted_height_m": 3.11,
+              "model_prediction_m": 2.68,
               "provider_anchor_m": 2.1,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.06216122209914332,
+                "heightComponent": 0.0691014841003672,
                 "directionComponent": 0.13988893270078634,
-                "periodComponent": 0.09249999999999999,
-                "agreementFactor": 0.29,
+                "periodComponent": 0.09500000000000001,
+                "agreementFactor": 0.3,
                 "label": "high",
-                "widthM": 0.7389318080535185
+                "widthM": 0.7654095729537352
               },
               "component_clusters": [
                 {
                   "type": "total_wave",
                   "model_count": 4,
-                  "height_mean_m": 3.04,
+                  "height_mean_m": 3.05,
                   "direction_mean_deg": 310.361728328951,
                   "direction_spread_deg": 5.449996994808316,
-                  "period_spread_s": 1.8499999999999996,
+                  "period_spread_s": 1.9000000000000004,
                   "unconfirmed_partition": true
                 },
                 {
@@ -6870,14 +6870,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -7450,7 +7450,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -7463,7 +7463,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -7472,11 +7472,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 2.36,
+                  "height_m": 2.4,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -7489,7 +7489,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -7502,22 +7502,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -7557,28 +7557,28 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 2.56,
-              "model_prediction_m": 2.31,
+              "weighted_height_m": 2.58,
+              "model_prediction_m": 2.32,
               "provider_anchor_m": 2.1,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.12355718978541386,
+                "heightComponent": 0.11349981575661683,
                 "directionComponent": 0.17877774422781334,
-                "periodComponent": 0.09350001109763983,
-                "agreementFactor": 0.4,
+                "periodComponent": 0.09600001109763978,
+                "agreementFactor": 0.39,
                 "label": "medium",
-                "widthM": 0.8910343839693962
+                "widthM": 0.8774104391647836
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.74,
+                  "height_mean_m": 2.75,
                   "direction_mean_deg": 307.27358528040645,
                   "direction_spread_deg": 16.0899969805032,
-                  "period_spread_s": 1.8700002219527967,
+                  "period_spread_s": 1.9200002219527956,
                   "unconfirmed_partition": false
                 },
                 {
@@ -7638,14 +7638,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -7811,7 +7811,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 16,
               "coverage": 1,
@@ -8233,7 +8233,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -8246,7 +8246,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -8255,11 +8255,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 2.37,
+                  "height_m": 2.41,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -8272,7 +8272,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -8285,22 +8285,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -8340,28 +8340,28 @@
               },
               "model_errors": [],
               "stale_models": [],
-              "weighted_height_m": 2.56,
-              "model_prediction_m": 2.27,
+              "weighted_height_m": 2.57,
+              "model_prediction_m": 2.28,
               "provider_anchor_m": 2.1,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.12355718978541386,
+                "heightComponent": 0.11349981575661683,
                 "directionComponent": 0.17877774422781334,
-                "periodComponent": 0.09350001109763983,
-                "agreementFactor": 0.4,
+                "periodComponent": 0.09600001109763978,
+                "agreementFactor": 0.39,
                 "label": "medium",
-                "widthM": 0.8804943579595913
+                "widthM": 0.8670359997215817
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.74,
+                  "height_mean_m": 2.75,
                   "direction_mean_deg": 307.27358528040645,
                   "direction_spread_deg": 16.0899969805032,
-                  "period_spread_s": 1.8700002219527967,
+                  "period_spread_s": 1.9200002219527956,
                   "unconfirmed_partition": false
                 },
                 {
@@ -8421,14 +8421,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -8594,7 +8594,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-10-27T06:04:31.027Z",
+            "fetchedAt": "2026-10-27T07:04:21.659Z",
             "alignment": {
               "score": 40,
               "coverage": 1,
@@ -9025,7 +9025,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 34,
+                  "eligible_rows": 35,
                   "support_window_hours": 54
                 },
                 {
@@ -9038,7 +9038,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -9047,11 +9047,11 @@
                   "provider": "open-meteo",
                   "sample_time": "2026-10-28T13:00",
                   "minutes_from_requested": 0,
-                  "height_m": 1.37,
+                  "height_m": 1.4,
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 },
                 {
@@ -9064,7 +9064,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 30,
+                  "eligible_rows": 31,
                   "support_window_hours": null
                 }
               ],
@@ -9077,22 +9077,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 34
+                    "eligible_rows": 35
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 30
+                    "eligible_rows": 31
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -9133,27 +9133,27 @@
               "model_errors": [],
               "stale_models": [],
               "weighted_height_m": 1.52,
-              "model_prediction_m": 2.2,
+              "model_prediction_m": 2.21,
               "provider_anchor_m": 2.1,
               "blend_weight": 0.72,
               "condition_class": "medium",
               "mix_class": "mixed",
               "disagreement": {
-                "heightComponent": 0.12355718978541386,
+                "heightComponent": 0.11349981575661683,
                 "directionComponent": 0.17877774422781334,
-                "periodComponent": 0.09350001109763983,
-                "agreementFactor": 0.4,
+                "periodComponent": 0.09600001109763978,
+                "agreementFactor": 0.39,
                 "label": "medium",
-                "widthM": 0.858744754184025
+                "widthM": 0.8455212351977728
               },
               "component_clusters": [
                 {
                   "type": "primary_swell",
                   "model_count": 4,
-                  "height_mean_m": 2.74,
+                  "height_mean_m": 2.75,
                   "direction_mean_deg": 307.27358528040645,
                   "direction_spread_deg": 16.0899969805032,
-                  "period_spread_s": 1.8700002219527967,
+                  "period_spread_s": 1.9200002219527956,
                   "unconfirmed_partition": false
                 },
                 {
@@ -9213,14 +9213,14 @@
               "icon_eu",
               "ecmwf_ifs"
             ],
-            "directionMeanDeg": 343.5,
-            "directionSpreadDeg": 43,
-            "speedMedianKph": 13.3,
-            "speedMinKph": 12.3,
-            "speedMaxKph": 13.3,
-            "speedDifferenceKph": 1,
-            "gustMaxKph": 29.2,
-            "gustDifferenceKph": 6.5
+            "directionMeanDeg": 344.5,
+            "directionSpreadDeg": 45,
+            "speedMedianKph": 14,
+            "speedMinKph": 13.3,
+            "speedMaxKph": 14,
+            "speedDifferenceKph": 0.6999999999999993,
+            "gustMaxKph": 31.3,
+            "gustDifferenceKph": 8.600000000000001
           },
           "surfForecastStructured": {
             "provider": "surf-forecast",
@@ -9306,8 +9306,8 @@
     }
   ],
   "targetDate": "2026-10-27",
-  "generatedAt": "2026-10-27 06:00 Portugal time",
-  "generatedAtUtc": "2026-10-27T06:00:00.000Z",
+  "generatedAt": "2026-10-27 07:00 Portugal time",
+  "generatedAtUtc": "2026-10-27T07:00:00.000Z",
   "displayTimezone": "Europe/Lisbon",
   "status": "degraded",
   "dataQuality": {
@@ -9395,9 +9395,7 @@
       "Cerro | Surf-Forecast | after-work (After work) | windDirection missing | url=https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
       "Cerro | Surf-Forecast | after-work (After work) | windState missing | url=https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest"
     ],
-    "errors": [
-      "Tide data for target date 2026-10-27 is missing or incomplete in the cache. Run `npm run tides:fetch` to update it."
-    ],
+    "errors": [],
     "excludedSpots": [],
     "excludedWindows": [],
     "fallbackSourcesUsed": [
@@ -9646,7 +9644,7 @@
     "quote": null
   },
   "conversationalSummary": {
-    "text": "TODAY is a check-first kind of day, and Lagide (lunch) is your best bet to look at, mainly because the wave size could be there but the wind/geometry looks a bit onshore and choppy. I’d open the Surfline cams and the MEO Beachcam before you go—if Lagide doesn’t look noticeably cleaner than expected, I’d save the drive. Tide is rising, which may help the setup, but with low confidence I wouldn’t commit without what the cameras show.",
+    "text": "TODAY looks marginal for a proper session, but Lagide is the best place to check first at lunch. The wind/wave setup sounds a bit choppy and the spot conditions are still uncertain, so I’d quickly look at Surfline and the MEO Beachcam before committing—cams can easily talk me out of it. If they don’t show noticeably cleaner faces and workable sets, I’d save the drive.",
     "provider": "openai",
     "model": "gpt-5.4-nano",
     "cacheHit": false
@@ -9738,7 +9736,7 @@
       },
       "timezone": "UTC",
       "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-      "fetchedAt": "2026-10-27T06:04:31.027Z",
+      "fetchedAt": "2026-10-27T07:04:21.659Z",
       "alignment": {
         "score": 78,
         "coverage": 1,
@@ -10115,10 +10113,10 @@
     "typicalSurfM": 1.5,
     "surfHeightSource": "Surfline",
     "faceSize": {
-      "display": "1.1–3.0 m faces",
-      "lowerM": 1.1,
+      "display": "1.0–3.2 m faces",
+      "lowerM": 1,
       "expectedM": 1.9,
-      "upperM": 3,
+      "upperM": 3.2,
       "confidence": {
         "score": 0.8,
         "label": "high",
@@ -10131,7 +10129,7 @@
         ]
       },
       "explanation": [
-        "1.9 m faces expected (1.1–3.0 m range).",
+        "1.9 m faces expected (1.0–3.2 m range).",
         "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
         "Wave models broadly agree but differ on some components.",
         "Wind models agree closely on direction and speed.",
@@ -10211,7 +10209,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 54,
-            "eligible_rows": 44,
+            "eligible_rows": 43,
             "support_window_hours": 54
           },
           {
@@ -10224,7 +10222,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 42,
+            "eligible_rows": 41,
             "support_window_hours": null
           },
           {
@@ -10233,11 +10231,11 @@
             "provider": "open-meteo",
             "sample_time": "2026-10-27T13:00",
             "minutes_from_requested": 0,
-            "height_m": 2.69,
+            "height_m": 2.85,
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 42,
+            "eligible_rows": 41,
             "support_window_hours": null
           },
           {
@@ -10250,7 +10248,7 @@
             "out_of_distribution": false,
             "stale": false,
             "raw_rows": 48,
-            "eligible_rows": 42,
+            "eligible_rows": 41,
             "support_window_hours": null
           }
         ],
@@ -10263,22 +10261,22 @@
             {
               "model": "ibi_waves",
               "raw_rows": 54,
-              "eligible_rows": 44
+              "eligible_rows": 43
             },
             {
               "model": "dwd_ewam",
               "raw_rows": 48,
-              "eligible_rows": 42
+              "eligible_rows": 41
             },
             {
               "model": "ecmwf_wam",
               "raw_rows": 48,
-              "eligible_rows": 42
+              "eligible_rows": 41
             },
             {
               "model": "meteofrance_wave",
               "raw_rows": 48,
-              "eligible_rows": 42
+              "eligible_rows": 41
             }
           ],
           "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -10318,28 +10316,28 @@
         },
         "model_errors": [],
         "stale_models": [],
-        "weighted_height_m": 2.39,
-        "model_prediction_m": 2.06,
+        "weighted_height_m": 2.44,
+        "model_prediction_m": 2.1,
         "provider_anchor_m": 1.5,
         "blend_weight": 0.72,
         "condition_class": "medium",
         "mix_class": "mixed",
         "disagreement": {
-          "heightComponent": 0.09711984419417563,
+          "heightComponent": 0.12952169620471232,
           "directionComponent": 0.26666666666666666,
-          "periodComponent": 0.0875,
-          "agreementFactor": 0.45,
+          "periodComponent": 0.1,
+          "agreementFactor": 0.5,
           "label": "medium",
-          "widthM": 0.8584495560088704
+          "widthM": 0.9598648597596627
         },
         "component_clusters": [
           {
             "type": "total_wave",
             "model_count": 4,
-            "height_mean_m": 2.36,
-            "direction_mean_deg": 301.8748618308834,
+            "height_mean_m": 2.39,
+            "direction_mean_deg": 302.1249511007368,
             "direction_spread_deg": 4.499997217208147,
-            "period_spread_s": 1.75,
+            "period_spread_s": 2,
             "unconfirmed_partition": true
           },
           {
@@ -10390,14 +10388,14 @@
         "icon_eu",
         "ecmwf_ifs"
       ],
-      "directionMeanDeg": 262.5,
-      "directionSpreadDeg": 3,
-      "speedMedianKph": 12,
+      "directionMeanDeg": 260.5,
+      "directionSpreadDeg": 7,
+      "speedMedianKph": 11.6,
       "speedMinKph": 10.5,
-      "speedMaxKph": 12,
-      "speedDifferenceKph": 1.5,
-      "gustMaxKph": 28.8,
-      "gustDifferenceKph": 8.600000000000001
+      "speedMaxKph": 11.6,
+      "speedDifferenceKph": 1.0999999999999996,
+      "gustMaxKph": 28.4,
+      "gustDifferenceKph": 8.2
     },
     "surfForecastStructured": {
       "provider": "surf-forecast",
@@ -10564,7 +10562,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-10-27T06:04:31.027Z",
+        "fetchedAt": "2026-10-27T07:04:21.659Z",
         "alignment": {
           "score": 59,
           "coverage": 1,
@@ -10872,10 +10870,10 @@
       "typicalSurfM": 1.15,
       "surfHeightSource": "Surfline",
       "faceSize": {
-        "display": "0.9–2.2 m faces",
+        "display": "0.9–2.3 m faces",
         "lowerM": 0.9,
         "expectedM": 1.4,
-        "upperM": 2.2,
+        "upperM": 2.3,
         "confidence": {
           "score": 0.8,
           "label": "high",
@@ -10888,7 +10886,7 @@
           ]
         },
         "explanation": [
-          "1.4 m faces expected (0.9–2.2 m range).",
+          "1.4 m faces expected (0.9–2.3 m range).",
           "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
           "Wave models broadly agree but differ on some components.",
           "Wind models agree closely on direction and speed.",
@@ -10956,7 +10954,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 44,
+              "eligible_rows": 43,
               "support_window_hours": 54
             },
             {
@@ -10969,7 +10967,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -10978,11 +10976,11 @@
               "provider": "open-meteo",
               "sample_time": "2026-10-27T13:00",
               "minutes_from_requested": 0,
-              "height_m": 1.74,
+              "height_m": 1.84,
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -10995,7 +10993,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             }
           ],
@@ -11008,22 +11006,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 44
+                "eligible_rows": 43
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11063,8 +11061,8 @@
           },
           "model_errors": [],
           "stale_models": [],
-          "weighted_height_m": 1.84,
-          "model_prediction_m": 1.53,
+          "weighted_height_m": 1.87,
+          "model_prediction_m": 1.56,
           "provider_anchor_m": 1.15,
           "blend_weight": 0.72,
           "condition_class": "medium",
@@ -11072,19 +11070,19 @@
           "disagreement": {
             "heightComponent": 0.156796923618846,
             "directionComponent": 0.1371110797342327,
-            "periodComponent": 0.09700001068413258,
-            "agreementFactor": 0.39,
+            "periodComponent": 0.10950001068413258,
+            "agreementFactor": 0.4,
             "label": "medium",
-            "widthM": 0.557427275667408
+            "widthM": 0.583528614177929
           },
           "component_clusters": [
             {
               "type": "primary_swell",
               "model_count": 4,
-              "height_mean_m": 2.09,
-              "direction_mean_deg": 299.83403258057507,
+              "height_mean_m": 2.12,
+              "direction_mean_deg": 300.0847523943799,
               "direction_spread_deg": 12.339997176080942,
-              "period_spread_s": 1.9400002136826515,
+              "period_spread_s": 2.1900002136826515,
               "unconfirmed_partition": false
             },
             {
@@ -11144,14 +11142,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 262.5,
-        "directionSpreadDeg": 3,
-        "speedMedianKph": 12,
+        "directionMeanDeg": 260.5,
+        "directionSpreadDeg": 7,
+        "speedMedianKph": 11.6,
         "speedMinKph": 10.5,
-        "speedMaxKph": 12,
-        "speedDifferenceKph": 1.5,
-        "gustMaxKph": 28.8,
-        "gustDifferenceKph": 8.600000000000001
+        "speedMaxKph": 11.6,
+        "speedDifferenceKph": 1.0999999999999996,
+        "gustMaxKph": 28.4,
+        "gustDifferenceKph": 8.2
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
@@ -11317,7 +11315,7 @@
         },
         "timezone": "UTC",
         "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-        "fetchedAt": "2026-10-27T06:04:31.027Z",
+        "fetchedAt": "2026-10-27T07:04:21.659Z",
         "alignment": {
           "score": 59,
           "coverage": 1,
@@ -11727,7 +11725,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 44,
+              "eligible_rows": 43,
               "support_window_hours": 54
             },
             {
@@ -11740,7 +11738,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -11749,11 +11747,11 @@
               "provider": "open-meteo",
               "sample_time": "2026-10-27T13:00",
               "minutes_from_requested": 0,
-              "height_m": 1.74,
+              "height_m": 1.86,
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -11766,7 +11764,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             }
           ],
@@ -11779,22 +11777,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 44
+                "eligible_rows": 43
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -11834,8 +11832,8 @@
           },
           "model_errors": [],
           "stale_models": [],
-          "weighted_height_m": 1.83,
-          "model_prediction_m": 1.63,
+          "weighted_height_m": 1.87,
+          "model_prediction_m": 1.66,
           "provider_anchor_m": 1.5,
           "blend_weight": 0.72,
           "condition_class": "medium",
@@ -11843,19 +11841,19 @@
           "disagreement": {
             "heightComponent": 0.156796923618846,
             "directionComponent": 0.1371110797342327,
-            "periodComponent": 0.09700001068413258,
-            "agreementFactor": 0.39,
+            "periodComponent": 0.10950001068413258,
+            "agreementFactor": 0.4,
             "label": "medium",
-            "widthM": 0.6231303879603478
+            "widthM": 0.6527537573880489
           },
           "component_clusters": [
             {
               "type": "primary_swell",
               "model_count": 4,
-              "height_mean_m": 2.09,
-              "direction_mean_deg": 299.83403258057507,
+              "height_mean_m": 2.12,
+              "direction_mean_deg": 300.0847523943799,
               "direction_spread_deg": 12.339997176080942,
-              "period_spread_s": 1.9400002136826515,
+              "period_spread_s": 2.1900002136826515,
               "unconfirmed_partition": false
             },
             {
@@ -11915,14 +11913,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 262.5,
-        "directionSpreadDeg": 3,
-        "speedMedianKph": 12,
+        "directionMeanDeg": 260.5,
+        "directionSpreadDeg": 7,
+        "speedMedianKph": 11.6,
         "speedMinKph": 10.5,
-        "speedMaxKph": 12,
-        "speedDifferenceKph": 1.5,
-        "gustMaxKph": 28.8,
-        "gustDifferenceKph": 8.600000000000001
+        "speedMaxKph": 11.6,
+        "speedDifferenceKph": 1.0999999999999996,
+        "gustMaxKph": 28.4,
+        "gustDifferenceKph": 8.2
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
@@ -12382,10 +12380,10 @@
       "typicalSurfM": 1.5,
       "surfHeightSource": "Surfline",
       "faceSize": {
-        "display": "0.9–2.4 m faces",
+        "display": "0.9–2.5 m faces",
         "lowerM": 0.9,
         "expectedM": 1.6,
-        "upperM": 2.4,
+        "upperM": 2.5,
         "confidence": {
           "score": 0.8,
           "label": "high",
@@ -12398,7 +12396,7 @@
           ]
         },
         "explanation": [
-          "1.6 m faces expected (0.9–2.4 m range).",
+          "1.6 m faces expected (0.9–2.5 m range).",
           "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
           "Wave models broadly agree but differ on some components.",
           "Wind models agree closely on direction and speed.",
@@ -12466,7 +12464,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 54,
-              "eligible_rows": 44,
+              "eligible_rows": 43,
               "support_window_hours": 54
             },
             {
@@ -12479,7 +12477,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -12488,11 +12486,11 @@
               "provider": "open-meteo",
               "sample_time": "2026-10-27T13:00",
               "minutes_from_requested": 0,
-              "height_m": 1.75,
+              "height_m": 1.86,
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             },
             {
@@ -12505,7 +12503,7 @@
               "out_of_distribution": false,
               "stale": false,
               "raw_rows": 48,
-              "eligible_rows": 42,
+              "eligible_rows": 41,
               "support_window_hours": null
             }
           ],
@@ -12518,22 +12516,22 @@
               {
                 "model": "ibi_waves",
                 "raw_rows": 54,
-                "eligible_rows": 44
+                "eligible_rows": 43
               },
               {
                 "model": "dwd_ewam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "ecmwf_wam",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               },
               {
                 "model": "meteofrance_wave",
                 "raw_rows": 48,
-                "eligible_rows": 42
+                "eligible_rows": 41
               }
             ],
             "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -12573,8 +12571,8 @@
           },
           "model_errors": [],
           "stale_models": [],
-          "weighted_height_m": 1.84,
-          "model_prediction_m": 1.66,
+          "weighted_height_m": 1.88,
+          "model_prediction_m": 1.69,
           "provider_anchor_m": 1.5,
           "blend_weight": 0.72,
           "condition_class": "medium",
@@ -12582,19 +12580,19 @@
           "disagreement": {
             "heightComponent": 0.156796923618846,
             "directionComponent": 0.1371110797342327,
-            "periodComponent": 0.09700001068413258,
-            "agreementFactor": 0.39,
+            "periodComponent": 0.10950001068413258,
+            "agreementFactor": 0.4,
             "label": "medium",
-            "widthM": 0.6306904777261512
+            "widthM": 0.6605861829822649
           },
           "component_clusters": [
             {
               "type": "primary_swell",
               "model_count": 4,
-              "height_mean_m": 2.09,
-              "direction_mean_deg": 299.83403258057507,
+              "height_mean_m": 2.12,
+              "direction_mean_deg": 300.0847523943799,
               "direction_spread_deg": 12.339997176080942,
-              "period_spread_s": 1.9400002136826515,
+              "period_spread_s": 2.1900002136826515,
               "unconfirmed_partition": false
             },
             {
@@ -12654,14 +12652,14 @@
           "icon_eu",
           "ecmwf_ifs"
         ],
-        "directionMeanDeg": 262.5,
-        "directionSpreadDeg": 3,
-        "speedMedianKph": 12,
+        "directionMeanDeg": 260.5,
+        "directionSpreadDeg": 7,
+        "speedMedianKph": 11.6,
         "speedMinKph": 10.5,
-        "speedMaxKph": 12,
-        "speedDifferenceKph": 1.5,
-        "gustMaxKph": 28.8,
-        "gustDifferenceKph": 8.600000000000001
+        "speedMaxKph": 11.6,
+        "speedDifferenceKph": 1.0999999999999996,
+        "gustMaxKph": 28.4,
+        "gustDifferenceKph": 8.2
       },
       "surfForecastStructured": {
         "provider": "surf-forecast",
