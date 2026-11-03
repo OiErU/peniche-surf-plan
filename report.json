@@ -38,13 +38,13 @@
           "spot": "Lagide",
           "spotId": "lagide",
           "windowEnd": "13:30",
-          "qualityScore": 60,
-          "conditionsScore": 25,
+          "qualityScore": 64,
+          "conditionsScore": 32,
           "preferenceScore": 9,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 11
+              "points": 18
             },
             {
               "label": "Wave size floor",
@@ -102,7 +102,7 @@
           "consensus": {
             "adjustment": 0,
             "usable": true,
-            "difference": 14,
+            "difference": 10,
             "agreement": "agreement",
             "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
@@ -121,7 +121,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.553Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 74,
               "coverage": 1,
@@ -141,7 +141,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 34,
+          "score": 41,
           "sessionLabel": "Fun progression",
           "sessionLabelRaw": "progression",
           "confidenceLabel": "Low confidence",
@@ -157,7 +157,7 @@
             },
             {
               "name": "Surf-Forecast",
-              "value": "0 / 10",
+              "value": "1 / 10",
               "detail": "12 PM · period",
               "state": "available",
               "url": "https://www.surf-forecast.com/breaks/Lagide/forecasts/latest"
@@ -181,7 +181,7 @@
           ],
           "sourceVerdicts": {
             "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
+            "surfForecast": 1,
             "swellmap": "7/10 Good"
           },
           "surflineDetails": {
@@ -197,7 +197,7 @@
             "waterTempC": null,
             "airTempC": null
           },
-          "surfForecast": 0,
+          "surfForecast": 1,
           "swellmap": {
             "time": "12:00",
             "rating": 7,
@@ -595,7 +595,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -608,7 +608,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -621,7 +621,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -634,7 +634,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -647,22 +647,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -869,7 +869,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Lagide looks like a clean fun-sized window for Fun progression, Low confidence: 0.6-1.1 m, 97 kJ, 9 s period, consistent 69/100, and good wind at 5 km/h.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 6-9s at high tide is too flat and weak on the reef shelves.  Watch: Pedro: small surf around 0.6–0.9 m can become too mellow near peak high tide at Lagide; check that there is enough push.",
+          "explanation": "Lagide looks like a clean fun-sized window for Fun progression, Low confidence: 0.6-1.1 m, 97 kJ, 9 s period, consistent 69/100, and glassy conditions.  A dependable left-hand reef that produces good wave faces from 0.8m+, especially on mid-to-low tide over the rocks; high tide works well when swell has push; this is best for clean, playful walls when the bigger beaches are too wild or too small; 6-9s at high tide is too flat and weak on the reef shelves.  Watch: Pedro: small surf around 0.6–0.9 m can become too mellow near peak high tide at Lagide; check that there is enough push.",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "Pedro: small surf around 0.6–0.9 m can become too mellow near peak high tide at Lagide; check that there is enough push. This is surf size, not a safe tide-height threshold.",
@@ -882,13 +882,13 @@
           "spot": "Meio da Baia",
           "spotId": "meio-da-baia",
           "windowEnd": "13:30",
-          "qualityScore": 45,
-          "conditionsScore": 10.1,
+          "qualityScore": 52,
+          "conditionsScore": 16.8,
           "preferenceScore": 1,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 11
+              "points": 18
             },
             {
               "label": "Wave size floor",
@@ -936,7 +936,7 @@
             },
             {
               "label": "Provider consensus",
-              "points": 1.0999999999999996
+              "points": 0.8000000000000007
             },
             {
               "label": "Surf outcome compatibility cap",
@@ -944,11 +944,11 @@
             }
           ],
           "consensus": {
-            "adjustment": 1.1,
+            "adjustment": 0.8,
             "usable": true,
-            "difference": 22,
-            "agreement": "mixed",
-            "explanation": "4Shor is more optimistic than our conditions assessment.",
+            "difference": 15,
+            "agreement": "agreement",
+            "explanation": "4Shor broadly agrees with our conditions assessment.",
             "relevance": 0.5,
             "activity": "surfing",
             "ability": "intermediate"
@@ -965,7 +965,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -985,7 +985,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 11.1,
+          "score": 17.8,
           "sessionLabel": "Worth checking",
           "sessionLabelRaw": "check first",
           "confidenceLabel": "Low confidence",
@@ -1001,7 +1001,7 @@
             },
             {
               "name": "Surf-Forecast",
-              "value": "0 / 10",
+              "value": "1 / 10",
               "detail": "12 PM · period",
               "state": "available",
               "url": "https://www.surf-forecast.com/breaks/Baia/forecasts/latest"
@@ -1024,7 +1024,7 @@
           ],
           "sourceVerdicts": {
             "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
+            "surfForecast": 1,
             "swellmap": null
           },
           "surflineDetails": {
@@ -1040,7 +1040,7 @@
             "waterTempC": null,
             "airTempC": null
           },
-          "surfForecast": 0,
+          "surfForecast": 1,
           "swellmap": null,
           "tide": {
             "status": "approximate",
@@ -1387,7 +1387,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -1400,7 +1400,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -1413,7 +1413,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -1426,7 +1426,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -1439,22 +1439,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -1642,11 +1642,751 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Meio da Baia looks like a fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 113 kJ, 9 s period, consistent 71/100, and wind is not fully clear.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at high tide tends to wash out on open beaches into shorebreak.  Watch: E 9 km/h · geometry unverified; estimated cross-shore from preferences at Meio da Baia · chop and poorer wave shape; 6-9s at high tide tends to wash out on open beaches into shorebreak; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Meio da Baia looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-1.1 m, 113 kJ, 9 s period, consistent 71/100, and glassy conditions.  An inconsistent Baía spot that can work well when north-northwest swell reaches the bay; this is best for bodyboard sessions when the bay is clean, there is enough period and size, and the forecast shows a defined wave; 6-9s at high tide tends to wash out on open beaches into shorebreak.  Watch: E 9 km/h · geometry unverified; estimated cross-shore from preferences at Meio da Baia · chop and poorer wave shape; 6-9s at high tide tends to wash out on open beaches into shorebreak; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "E 9 km/h · geometry unverified; estimated cross-shore from preferences at Meio da Baia · chop and poorer wave shape",
             "6-9s at high tide tends to wash out on open beaches into shorebreak",
+            "High falling · approximate stormglass · MSL · astronomical prediction",
+            "Wind geometry unverified; quality uses project preferences, not a surveyed local normal."
+          ]
+        },
+        {
+          "spot": "Cerro",
+          "spotId": "cerro",
+          "windowEnd": "13:30",
+          "qualityScore": 50,
+          "conditionsScore": 15,
+          "preferenceScore": 1,
+          "scoreBreakdown": [
+            {
+              "label": "Provider grades and consistency",
+              "points": 18
+            },
+            {
+              "label": "Wave size floor",
+              "points": 0
+            },
+            {
+              "label": "Tide safety",
+              "points": 0
+            },
+            {
+              "label": "Wind",
+              "points": 4
+            },
+            {
+              "label": "Period and tide",
+              "points": -8
+            },
+            {
+              "label": "Spot exposure and comfort",
+              "points": 0
+            },
+            {
+              "label": "Wave and power fit",
+              "points": 1
+            },
+            {
+              "label": "Local Surfline opportunity",
+              "points": 0
+            },
+            {
+              "label": "Wind gusts",
+              "points": 0
+            },
+            {
+              "label": "SwellMap support",
+              "points": 0
+            },
+            {
+              "label": "Personal ground truth",
+              "points": 0
+            },
+            {
+              "label": "Personal ranking preference",
+              "points": 1
+            },
+            {
+              "label": "Provider consensus",
+              "points": 0
+            },
+            {
+              "label": "Surf outcome compatibility cap",
+              "points": 0
+            }
+          ],
+          "consensus": {
+            "adjustment": 0,
+            "usable": false,
+            "difference": null,
+            "agreement": "unavailable",
+            "explanation": "4Shor is unavailable, stale, incomplete, or does not match this profile.",
+            "relevance": 0.5,
+            "activity": "surfing",
+            "ability": "intermediate"
+          },
+          "fourshor": null,
+          "window": "Lunch",
+          "windowRaw": "Lunch",
+          "windowTime": "12:00",
+          "score": 16,
+          "sessionLabel": "Worth checking",
+          "sessionLabelRaw": "check first",
+          "confidenceLabel": "Low confidence",
+          "confidenceLabelRaw": "low",
+          "surfline": "POOR TO FAIR",
+          "providerRatings": [
+            {
+              "name": "Surfline",
+              "value": "Poor To Fair",
+              "detail": "12:00 · period",
+              "state": "available",
+              "url": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506"
+            },
+            {
+              "name": "Surf-Forecast",
+              "value": "1 / 10",
+              "detail": "12 PM · period",
+              "state": "available",
+              "url": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest"
+            },
+            {
+              "name": "SwellMap",
+              "value": "Not covered",
+              "detail": "ECMWF",
+              "state": "unavailable"
+            },
+            {
+              "name": "4Shor",
+              "value": "Not mapped",
+              "detail": "No matching session score",
+              "state": "unavailable",
+              "profile": "Surfing / Intermediate",
+              "blended": false
+            }
+          ],
+          "sourceVerdicts": {
+            "surfline": "POOR TO FAIR",
+            "surfForecast": 1,
+            "swellmap": null
+          },
+          "surflineDetails": {
+            "rating": "POOR TO FAIR",
+            "waveMinM": 0.6,
+            "waveMaxM": 0.9,
+            "swellM": 0.7,
+            "periodS": 9,
+            "energyKj": 80,
+            "consistencyScore": 66,
+            "windKph": 9,
+            "gustKph": 10,
+            "waterTempC": null,
+            "airTempC": null
+          },
+          "surfForecast": 1,
+          "swellmap": null,
+          "tide": {
+            "status": "approximate",
+            "source": "stormglass",
+            "datum": "MSL",
+            "productKind": "astronomical_prediction",
+            "isApproximate": true,
+            "stationId": "sg-ha:penichetg:39.354,-9.3669996",
+            "heightM": 0.7050000000000001,
+            "previousEvent": {
+              "time": "2026-11-04T11:00:00.000Z",
+              "height": 1.15,
+              "type": "high",
+              "isApproximate": true
+            },
+            "nextEvent": {
+              "time": "2026-11-04T17:00:00.000Z",
+              "height": -1.01,
+              "type": "low",
+              "isApproximate": true
+            },
+            "label": "High falling",
+            "direction": "falling",
+            "summary": "High falling · approximate stormglass · MSL · astronomical prediction",
+            "captured": true
+          },
+          "assessment": {
+            "state": "marginal",
+            "worthGoing": false,
+            "bestAvailableOnly": true,
+            "blocked": false,
+            "uncertain": true,
+            "explanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation."
+          },
+          "evidence": {
+            "research": {
+              "id": "cerro",
+              "name": "Cerro",
+              "aliases": [
+                "Praia do Cerro"
+              ],
+              "identity_status": "named_break_requires_project_pin_match",
+              "location": {
+                "latitude": 39.36443,
+                "longitude": -9.368119,
+                "crs": "WGS84",
+                "status": "published_approximate_locator_not_surveyed_peak",
+                "source_ids": [
+                  "34"
+                ]
+              },
+              "bottom": "sand",
+              "geometry": {
+                "verified_seaward_normal_deg": null,
+                "verified_offshore_wind_from_deg": null,
+                "verified_swell_exposure_window": null,
+                "verified_onshore_wind_sectors": null,
+                "verified_cross_shore_wind_sectors": null,
+                "status": "not_surveyed",
+                "source_offshore_direction_claims": [
+                  {
+                    "from_deg": 202.5,
+                    "label": "SSW",
+                    "status": "guide_claim_not_surveyed_normal",
+                    "source_ids": [
+                      "7"
+                    ]
+                  }
+                ]
+              },
+              "published_preferences": {
+                "source_ids": [
+                  "6"
+                ],
+                "provider": "Mondo",
+                "semantics": "best_condition_sectors_not_geometric_offshore_or_absolute_swell_transmission",
+                "swell_from_sector": {
+                  "start_deg": 282,
+                  "end_deg": 13,
+                  "clockwise": true,
+                  "wraps_north": true,
+                  "boundary_precision": "provider_published_not_surveyed"
+                },
+                "wind_from_sector": {
+                  "start_deg": 135,
+                  "end_deg": 279,
+                  "clockwise": true,
+                  "wraps_north": false,
+                  "boundary_precision": "provider_published_not_surveyed"
+                },
+                "confidence": "medium_as_published_guidance_low_as_exact_physical_boundary"
+              },
+              "local_guidance": {
+                "wind_preferences": [
+                  {
+                    "from_deg": [
+                      135,
+                      180
+                    ],
+                    "source_ids": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "from_deg": [
+                      202.5
+                    ],
+                    "source_ids": [
+                      "7"
+                    ]
+                  }
+                ],
+                "swell_preferences": [
+                  {
+                    "from_deg": [
+                      0
+                    ],
+                    "source_ids": [
+                      "3"
+                    ]
+                  },
+                  {
+                    "from_deg": [
+                      337.5
+                    ],
+                    "source_ids": [
+                      "7"
+                    ]
+                  }
+                ],
+                "tide_claims": [
+                  {
+                    "stages": [
+                      "mid",
+                      "high"
+                    ],
+                    "source_ids": [
+                      "3",
+                      "6"
+                    ]
+                  }
+                ]
+              },
+              "conflicts": [
+                "Guide wind sectors differ in width; western-sector tolerance must not become a universal strong-wind bonus."
+              ],
+              "recommended_initial_use": {
+                "soft_preference_scoring_enabled": true,
+                "geometric_wind_label_override_enabled": false,
+                "hard_swell_exclusion_enabled": false,
+                "numeric_swell_attenuation": null,
+                "wind_shelter_factor": null,
+                "tide_preference_weight": "weak_prior",
+                "favoured_wind_from_deg": [
+                  180,
+                  202.5,
+                  225
+                ],
+                "favoured_swell_from_deg": [
+                  315,
+                  337.5,
+                  0
+                ],
+                "analysis_note": "Directional choices synthesise the guides; geometric offshore remains unverified."
+              },
+              "tide": {
+                "reference_policy": "validated_peniche_regional_reference",
+                "preferred_stages": [
+                  "mid",
+                  "high"
+                ],
+                "preferred_movement": null,
+                "preferred_height_min_m": null,
+                "preferred_height_max_m": null,
+                "preferred_height_datum": null,
+                "minimum_safe_reef_depth_m": null,
+                "numeric_threshold_status": "not_established",
+                "low_water_reef_caution": false,
+                "source_ids": [
+                  "3",
+                  "6"
+                ],
+                "preference_status": "supported_qualitative"
+              }
+            },
+            "personalEvidence": {
+              "aliases": null,
+              "source": "Pedro, direct clarification in project conversation",
+              "confirmedAt": "2026-09-09"
+            },
+            "publishedPreferences": {
+              "source_ids": [
+                "6"
+              ],
+              "provider": "Mondo",
+              "semantics": "best_condition_sectors_not_geometric_offshore_or_absolute_swell_transmission",
+              "swell_from_sector": {
+                "start_deg": 282,
+                "end_deg": 13,
+                "clockwise": true,
+                "wraps_north": true,
+                "boundary_precision": "provider_published_not_surveyed"
+              },
+              "wind_from_sector": {
+                "start_deg": 135,
+                "end_deg": 279,
+                "clockwise": true,
+                "wraps_north": false,
+                "boundary_precision": "provider_published_not_surveyed"
+              },
+              "confidence": "medium_as_published_guidance_low_as_exact_physical_boundary"
+            },
+            "verifiedGeometry": {
+              "verified_seaward_normal_deg": null,
+              "verified_offshore_wind_from_deg": null,
+              "verified_swell_exposure_window": null,
+              "verified_onshore_wind_sectors": null,
+              "verified_cross_shore_wind_sectors": null,
+              "status": "not_surveyed",
+              "source_offshore_direction_claims": [
+                {
+                  "from_deg": 202.5,
+                  "label": "SSW",
+                  "status": "guide_claim_not_surveyed_normal",
+                  "source_ids": [
+                    "7"
+                  ]
+                }
+              ]
+            },
+            "implementationAssumptions": {
+              "windQualityPrior": "existing project preferences; not surveyed geometry",
+              "tideReference": "regional approximation, not local reef depth"
+            },
+            "identity": {
+              "status": "named_break_requires_project_pin_match"
+            }
+          },
+          "waveM": 0.9,
+          "surfRangeM": [
+            0.6,
+            0.9
+          ],
+          "typicalSurfM": 0.75,
+          "surfHeightSource": "Surfline",
+          "faceSize": {
+            "display": "0.3–1.4 m faces",
+            "lowerM": 0.3,
+            "expectedM": 0.8,
+            "upperM": 1.4,
+            "confidence": {
+              "score": 0.8,
+              "label": "high",
+              "reasons": [
+                "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
+                "Wave models broadly agree but differ on some components.",
+                "Wind models agree closely on direction and speed.",
+                "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
+                "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+              ]
+            },
+            "explanation": [
+              "0.8 m faces expected (0.3–1.4 m range).",
+              "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
+              "Wave models broadly agree but differ on some components.",
+              "Wind models agree closely on direction and speed.",
+              "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
+              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+            ],
+            "conditions": {
+              "primary_swell": {
+                "type": "primary_swell",
+                "height_m": 0.92,
+                "direction_from_degrees": 346.23999628424644,
+                "period_seconds": 6.479999855160713,
+                "source_model": "ibi_waves",
+                "valid_time": "2026-11-04T13:00",
+                "models_reporting": [
+                  "ibi_waves",
+                  "dwd_ewam",
+                  "meteofrance_wave"
+                ]
+              },
+              "secondary_swell": {
+                "type": "secondary_swell",
+                "height_m": 0.45,
+                "direction_from_degrees": 295.71999741345644,
+                "period_seconds": 12.919999711215496,
+                "source_model": "ibi_waves",
+                "valid_time": "2026-11-04T13:00",
+                "models_reporting": [
+                  "ibi_waves",
+                  "meteofrance_wave"
+                ]
+              },
+              "wind_sea": {
+                "type": "wind_sea",
+                "height_m": 0.06,
+                "direction_from_degrees": 344.9499963130802,
+                "period_seconds": 1.8099999595433474,
+                "source_model": "ibi_waves",
+                "valid_time": "2026-11-04T13:00",
+                "models_reporting": [
+                  "ibi_waves",
+                  "dwd_ewam",
+                  "meteofrance_wave"
+                ]
+              },
+              "other_components": [],
+              "wind": {
+                "speed_kph": 7.7,
+                "direction_deg": "E",
+                "gust_kph": 23.6,
+                "source": "IPMA AROME 2.5km",
+                "model_agreement": "high"
+              },
+              "tide": {
+                "label": "High falling",
+                "status": "approximate",
+                "direction": "falling",
+                "minutes_from_nearest_extreme": 105
+              }
+            },
+            "modelVersions": [
+              "face-size-model-v1",
+              "face-size-model-v1",
+              "spot-response-config-v1"
+            ],
+            "outOfDistribution": false,
+            "inputs": {
+              "marine_node": "sw-bay",
+              "model_states": [
+                {
+                  "model": "ibi_waves",
+                  "model_family": "mfwam",
+                  "provider": "copernicus",
+                  "sample_time": "2026-11-04T13:00",
+                  "minutes_from_requested": 0,
+                  "height_m": 0.84,
+                  "out_of_distribution": false,
+                  "stale": false,
+                  "raw_rows": 54,
+                  "eligible_rows": 42,
+                  "support_window_hours": 54
+                },
+                {
+                  "model": "dwd_ewam",
+                  "model_family": "ewam",
+                  "provider": "open-meteo",
+                  "sample_time": "2026-11-04T13:00",
+                  "minutes_from_requested": 0,
+                  "height_m": 1.04,
+                  "out_of_distribution": false,
+                  "stale": false,
+                  "raw_rows": 48,
+                  "eligible_rows": 38,
+                  "support_window_hours": null
+                },
+                {
+                  "model": "ecmwf_wam",
+                  "model_family": "ecmwf_wam",
+                  "provider": "open-meteo",
+                  "sample_time": "2026-11-04T13:00",
+                  "minutes_from_requested": 0,
+                  "height_m": 0.73,
+                  "out_of_distribution": false,
+                  "stale": false,
+                  "raw_rows": 48,
+                  "eligible_rows": 38,
+                  "support_window_hours": null
+                },
+                {
+                  "model": "meteofrance_wave",
+                  "model_family": "mfwam",
+                  "provider": "open-meteo",
+                  "sample_time": "2026-11-04T13:00",
+                  "minutes_from_requested": 0,
+                  "height_m": 0.89,
+                  "out_of_distribution": false,
+                  "stale": false,
+                  "raw_rows": 48,
+                  "eligible_rows": 38,
+                  "support_window_hours": null
+                }
+              ],
+              "sample_coverage": {
+                "target_dates": [
+                  "2026-11-04",
+                  "2026-11-05"
+                ],
+                "models": [
+                  {
+                    "model": "ibi_waves",
+                    "raw_rows": 54,
+                    "eligible_rows": 42
+                  },
+                  {
+                    "model": "dwd_ewam",
+                    "raw_rows": 48,
+                    "eligible_rows": 38
+                  },
+                  {
+                    "model": "ecmwf_wam",
+                    "raw_rows": 48,
+                    "eligible_rows": 38
+                  },
+                  {
+                    "model": "meteofrance_wave",
+                    "raw_rows": 48,
+                    "eligible_rows": 38
+                  }
+                ],
+                "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
+              },
+              "family_weights": {
+                "ibi_waves": 0.6649999999999999,
+                "meteofrance_wave": 0.285,
+                "dwd_ewam": 1.13,
+                "ecmwf_wam": 0.99
+              },
+              "family_weight_breakdown": {
+                "formula": "family mass = max member weight; preferred regional member gets 70% of its family mass, remaining family members share 30%; effective weights normalise to 100% for display; the weighted mean divides by the effective weight sum",
+                "effective": {
+                  "ibi_waves": 0.6649999999999999,
+                  "meteofrance_wave": 0.285,
+                  "dwd_ewam": 1.13,
+                  "ecmwf_wam": 0.99
+                },
+                "effective_total": 3.0700000000000003,
+                "family_mass": {
+                  "mfwam": 0.95,
+                  "ewam": 1.13,
+                  "ecmwf_wam": 0.99
+                },
+                "normalized": {
+                  "ibi_waves": 0.21661237785016282,
+                  "meteofrance_wave": 0.09283387622149836,
+                  "dwd_ewam": 0.3680781758957654,
+                  "ecmwf_wam": 0.32247557003257327
+                },
+                "normalized_percent": {
+                  "ibi_waves": 21.7,
+                  "meteofrance_wave": 9.3,
+                  "dwd_ewam": 36.8,
+                  "ecmwf_wam": 32.2
+                }
+              },
+              "model_errors": [],
+              "stale_models": [],
+              "weighted_height_m": 0.88,
+              "model_prediction_m": 0.8,
+              "provider_anchor_m": 0.75,
+              "blend_weight": 0.72,
+              "condition_class": "short",
+              "mix_class": "mixed",
+              "disagreement": {
+                "heightComponent": 0.19214340999535628,
+                "directionComponent": 0.26722226318799785,
+                "periodComponent": 0.15250000000000002,
+                "agreementFactor": 0.61,
+                "label": "medium",
+                "widthM": 0.47977257585384914
+              },
+              "component_clusters": [
+                {
+                  "type": "primary_swell",
+                  "model_count": 4,
+                  "height_mean_m": 0.94,
+                  "direction_mean_deg": 337.31866268953235,
+                  "direction_spread_deg": 24,
+                  "period_spread_s": 3.0500000000000007,
+                  "unconfirmed_partition": false
+                },
+                {
+                  "type": "secondary_swell",
+                  "model_count": 2,
+                  "height_mean_m": 0.51,
+                  "direction_mean_deg": 295.8599987067282,
+                  "direction_spread_deg": 0.28000258654356003,
+                  "period_spread_s": 1.5199997112154957,
+                  "unconfirmed_partition": false
+                },
+                {
+                  "type": "wind_sea",
+                  "model_count": 2,
+                  "height_mean_m": 0.07,
+                  "direction_mean_deg": 356.9749981565401,
+                  "direction_spread_deg": 24.05000368691981,
+                  "period_spread_s": 1.3099999595433474,
+                  "unconfirmed_partition": false
+                },
+                {
+                  "type": "wind_sea",
+                  "model_count": 1,
+                  "height_mean_m": 0.04,
+                  "direction_mean_deg": 180,
+                  "direction_spread_deg": null,
+                  "period_spread_s": null,
+                  "unconfirmed_partition": false
+                }
+              ]
+            }
+          },
+          "forecastConfidence": {
+            "score": 0.8,
+            "label": "high",
+            "reasons": [
+              "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
+              "Wave models broadly agree but differ on some components.",
+              "Wind models agree closely on direction and speed.",
+              "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
+              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
+            ]
+          },
+          "windAgreement": {
+            "agreement": "high",
+            "modelCount": 2,
+            "models": [
+              "icon_eu",
+              "ecmwf_ifs"
+            ],
+            "directionMeanDeg": 2,
+            "directionSpreadDeg": 14,
+            "speedMedianKph": 9.6,
+            "speedMinKph": 6.9,
+            "speedMaxKph": 9.6,
+            "speedDifferenceKph": 2.6999999999999993,
+            "gustMaxKph": 23.4,
+            "gustDifferenceKph": 8.999999999999998
+          },
+          "surfForecastStructured": {
+            "provider": "surf-forecast",
+            "role": "timing provider opinion",
+            "inside48h": false,
+            "bestEventType": null,
+            "bestValidDate": null,
+            "sameDay": null,
+            "reasons": [
+              "Surf-Forecast structured events are all outside the 48-hour horizon."
+            ]
+          },
+          "predictWind": null,
+          "surflinePeriod": {
+            "date": "2026-11-04",
+            "time": "12:00",
+            "resolutionMinutes": 180
+          },
+          "periodS": 9,
+          "windKph": 7.7,
+          "windDirection": "E",
+          "windState": null,
+          "windStateLabel": "cross-shore",
+          "windFit": "E 8 km/h · geometry unverified; estimated cross-shore from preferences at Cerro · cleaner wave faces",
+          "windAssessment": {
+            "verdict": "good",
+            "label": "Good wind fit",
+            "summary": "E 8 km/h · geometry unverified; estimated cross-shore from preferences at Cerro · cleaner wave faces",
+            "direction": "E",
+            "directionVerdict": "unknown",
+            "state": "cross",
+            "speedKph": 7.7,
+            "sector": "cross-shore",
+            "geometricClass": null,
+            "providerClass": null,
+            "quality": 76,
+            "relativeAngleDeg": 112.5,
+            "conflict": false,
+            "hardBlocked": false,
+            "orientationConfidence": "unknown",
+            "qualityBasis": "project_preferences_and_provider_claims",
+            "score": 4,
+            "profileSummary": "SSW preferred; clean ≤22 km/h; offshore excessive ≥50 km/h",
+            "speedVerdict": "good"
+          },
+          "bestWind": "SSW preferred; clean ≤22 km/h; offshore excessive ≥50 km/h",
+          "windSource": "IPMA AROME 2.5km",
+          "sourceLinks": {
+            "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
+            "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
+            "swellmap": null,
+            "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
+          },
+          "photo": {
+            "url": "images/spots/cerro.jpg",
+            "credit": "Local file",
+            "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
+            "alt": "Photo of Cerro surf spot"
+          },
+          "temperature": {
+            "waterTempC": null,
+            "airTempC": 16,
+            "source": "Surf-Forecast"
+          },
+          "wetsuit": {
+            "suit": "4/3",
+            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
+          },
+          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-0.9 m, 80 kJ, 9 s period, consistent 66/100, and glassy conditions.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at high tide tends to wash out on open beaches into shorebreak.  Watch: 6-9s at high tide tends to wash out on open beaches into shorebreak; Cerro may feel too soft without more push; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
+          "warnings": [
+            "6-9s at high tide tends to wash out on open beaches into shorebreak",
+            "Cerro may feel too soft without more push",
             "High falling · approximate stormglass · MSL · astronomical prediction",
             "Wind geometry unverified; quality uses project preferences, not a surveyed local normal."
           ]
@@ -1738,7 +2478,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:31.576Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 78,
               "coverage": 1,
@@ -2144,7 +2884,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -2157,7 +2897,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2170,7 +2910,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -2183,7 +2923,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -2196,22 +2936,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -2399,7 +3139,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 80 kJ, 6 s period, workable consistency 64/100, and good wind at 5 km/h.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Pico da Mota looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 80 kJ, 6 s period, workable consistency 64/100, and glassy conditions.  An exposed north-coast stretch that handles all tides without washing out; this is best for small, clean north-coast days and high-tide windows when other northern beach breaks wash out; 6-9s at high tide holds up cleanly at Pico da Mota unlike other north beaches.  Watch: exposed north spot needs Lagide to be under 0.8 m; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "exposed north spot needs Lagide to be under 0.8 m",
@@ -2408,756 +3148,16 @@
           ]
         },
         {
-          "spot": "Cerro",
-          "spotId": "cerro",
-          "windowEnd": "13:30",
-          "qualityScore": 43,
-          "conditionsScore": 8,
-          "preferenceScore": 1,
-          "scoreBreakdown": [
-            {
-              "label": "Provider grades and consistency",
-              "points": 11
-            },
-            {
-              "label": "Wave size floor",
-              "points": 0
-            },
-            {
-              "label": "Tide safety",
-              "points": 0
-            },
-            {
-              "label": "Wind",
-              "points": 4
-            },
-            {
-              "label": "Period and tide",
-              "points": -8
-            },
-            {
-              "label": "Spot exposure and comfort",
-              "points": 0
-            },
-            {
-              "label": "Wave and power fit",
-              "points": 1
-            },
-            {
-              "label": "Local Surfline opportunity",
-              "points": 0
-            },
-            {
-              "label": "Wind gusts",
-              "points": 0
-            },
-            {
-              "label": "SwellMap support",
-              "points": 0
-            },
-            {
-              "label": "Personal ground truth",
-              "points": 0
-            },
-            {
-              "label": "Personal ranking preference",
-              "points": 1
-            },
-            {
-              "label": "Provider consensus",
-              "points": 0
-            },
-            {
-              "label": "Surf outcome compatibility cap",
-              "points": 0
-            }
-          ],
-          "consensus": {
-            "adjustment": 0,
-            "usable": false,
-            "difference": null,
-            "agreement": "unavailable",
-            "explanation": "4Shor is unavailable, stale, incomplete, or does not match this profile.",
-            "relevance": 0.5,
-            "activity": "surfing",
-            "ability": "intermediate"
-          },
-          "fourshor": null,
-          "window": "Lunch",
-          "windowRaw": "Lunch",
-          "windowTime": "12:00",
-          "score": 9,
-          "sessionLabel": "Worth checking",
-          "sessionLabelRaw": "check first",
-          "confidenceLabel": "Low confidence",
-          "confidenceLabelRaw": "low",
-          "surfline": "POOR TO FAIR",
-          "providerRatings": [
-            {
-              "name": "Surfline",
-              "value": "Poor To Fair",
-              "detail": "12:00 · period",
-              "state": "available",
-              "url": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506"
-            },
-            {
-              "name": "Surf-Forecast",
-              "value": "0 / 10",
-              "detail": "12 PM · period",
-              "state": "available",
-              "url": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest"
-            },
-            {
-              "name": "SwellMap",
-              "value": "Not covered",
-              "detail": "ECMWF",
-              "state": "unavailable"
-            },
-            {
-              "name": "4Shor",
-              "value": "Not mapped",
-              "detail": "No matching session score",
-              "state": "unavailable",
-              "profile": "Surfing / Intermediate",
-              "blended": false
-            }
-          ],
-          "sourceVerdicts": {
-            "surfline": "POOR TO FAIR",
-            "surfForecast": 0,
-            "swellmap": null
-          },
-          "surflineDetails": {
-            "rating": "POOR TO FAIR",
-            "waveMinM": 0.6,
-            "waveMaxM": 0.9,
-            "swellM": 0.7,
-            "periodS": 9,
-            "energyKj": 80,
-            "consistencyScore": 66,
-            "windKph": 9,
-            "gustKph": 10,
-            "waterTempC": null,
-            "airTempC": null
-          },
-          "surfForecast": 0,
-          "swellmap": null,
-          "tide": {
-            "status": "approximate",
-            "source": "stormglass",
-            "datum": "MSL",
-            "productKind": "astronomical_prediction",
-            "isApproximate": true,
-            "stationId": "sg-ha:penichetg:39.354,-9.3669996",
-            "heightM": 0.7050000000000001,
-            "previousEvent": {
-              "time": "2026-11-04T11:00:00.000Z",
-              "height": 1.15,
-              "type": "high",
-              "isApproximate": true
-            },
-            "nextEvent": {
-              "time": "2026-11-04T17:00:00.000Z",
-              "height": -1.01,
-              "type": "low",
-              "isApproximate": true
-            },
-            "label": "High falling",
-            "direction": "falling",
-            "summary": "High falling · approximate stormglass · MSL · astronomical prediction",
-            "captured": true
-          },
-          "assessment": {
-            "state": "marginal",
-            "worthGoing": false,
-            "bestAvailableOnly": true,
-            "blocked": false,
-            "uncertain": true,
-            "explanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation."
-          },
-          "evidence": {
-            "research": {
-              "id": "cerro",
-              "name": "Cerro",
-              "aliases": [
-                "Praia do Cerro"
-              ],
-              "identity_status": "named_break_requires_project_pin_match",
-              "location": {
-                "latitude": 39.36443,
-                "longitude": -9.368119,
-                "crs": "WGS84",
-                "status": "published_approximate_locator_not_surveyed_peak",
-                "source_ids": [
-                  "34"
-                ]
-              },
-              "bottom": "sand",
-              "geometry": {
-                "verified_seaward_normal_deg": null,
-                "verified_offshore_wind_from_deg": null,
-                "verified_swell_exposure_window": null,
-                "verified_onshore_wind_sectors": null,
-                "verified_cross_shore_wind_sectors": null,
-                "status": "not_surveyed",
-                "source_offshore_direction_claims": [
-                  {
-                    "from_deg": 202.5,
-                    "label": "SSW",
-                    "status": "guide_claim_not_surveyed_normal",
-                    "source_ids": [
-                      "7"
-                    ]
-                  }
-                ]
-              },
-              "published_preferences": {
-                "source_ids": [
-                  "6"
-                ],
-                "provider": "Mondo",
-                "semantics": "best_condition_sectors_not_geometric_offshore_or_absolute_swell_transmission",
-                "swell_from_sector": {
-                  "start_deg": 282,
-                  "end_deg": 13,
-                  "clockwise": true,
-                  "wraps_north": true,
-                  "boundary_precision": "provider_published_not_surveyed"
-                },
-                "wind_from_sector": {
-                  "start_deg": 135,
-                  "end_deg": 279,
-                  "clockwise": true,
-                  "wraps_north": false,
-                  "boundary_precision": "provider_published_not_surveyed"
-                },
-                "confidence": "medium_as_published_guidance_low_as_exact_physical_boundary"
-              },
-              "local_guidance": {
-                "wind_preferences": [
-                  {
-                    "from_deg": [
-                      135,
-                      180
-                    ],
-                    "source_ids": [
-                      "3"
-                    ]
-                  },
-                  {
-                    "from_deg": [
-                      202.5
-                    ],
-                    "source_ids": [
-                      "7"
-                    ]
-                  }
-                ],
-                "swell_preferences": [
-                  {
-                    "from_deg": [
-                      0
-                    ],
-                    "source_ids": [
-                      "3"
-                    ]
-                  },
-                  {
-                    "from_deg": [
-                      337.5
-                    ],
-                    "source_ids": [
-                      "7"
-                    ]
-                  }
-                ],
-                "tide_claims": [
-                  {
-                    "stages": [
-                      "mid",
-                      "high"
-                    ],
-                    "source_ids": [
-                      "3",
-                      "6"
-                    ]
-                  }
-                ]
-              },
-              "conflicts": [
-                "Guide wind sectors differ in width; western-sector tolerance must not become a universal strong-wind bonus."
-              ],
-              "recommended_initial_use": {
-                "soft_preference_scoring_enabled": true,
-                "geometric_wind_label_override_enabled": false,
-                "hard_swell_exclusion_enabled": false,
-                "numeric_swell_attenuation": null,
-                "wind_shelter_factor": null,
-                "tide_preference_weight": "weak_prior",
-                "favoured_wind_from_deg": [
-                  180,
-                  202.5,
-                  225
-                ],
-                "favoured_swell_from_deg": [
-                  315,
-                  337.5,
-                  0
-                ],
-                "analysis_note": "Directional choices synthesise the guides; geometric offshore remains unverified."
-              },
-              "tide": {
-                "reference_policy": "validated_peniche_regional_reference",
-                "preferred_stages": [
-                  "mid",
-                  "high"
-                ],
-                "preferred_movement": null,
-                "preferred_height_min_m": null,
-                "preferred_height_max_m": null,
-                "preferred_height_datum": null,
-                "minimum_safe_reef_depth_m": null,
-                "numeric_threshold_status": "not_established",
-                "low_water_reef_caution": false,
-                "source_ids": [
-                  "3",
-                  "6"
-                ],
-                "preference_status": "supported_qualitative"
-              }
-            },
-            "personalEvidence": {
-              "aliases": null,
-              "source": "Pedro, direct clarification in project conversation",
-              "confirmedAt": "2026-09-09"
-            },
-            "publishedPreferences": {
-              "source_ids": [
-                "6"
-              ],
-              "provider": "Mondo",
-              "semantics": "best_condition_sectors_not_geometric_offshore_or_absolute_swell_transmission",
-              "swell_from_sector": {
-                "start_deg": 282,
-                "end_deg": 13,
-                "clockwise": true,
-                "wraps_north": true,
-                "boundary_precision": "provider_published_not_surveyed"
-              },
-              "wind_from_sector": {
-                "start_deg": 135,
-                "end_deg": 279,
-                "clockwise": true,
-                "wraps_north": false,
-                "boundary_precision": "provider_published_not_surveyed"
-              },
-              "confidence": "medium_as_published_guidance_low_as_exact_physical_boundary"
-            },
-            "verifiedGeometry": {
-              "verified_seaward_normal_deg": null,
-              "verified_offshore_wind_from_deg": null,
-              "verified_swell_exposure_window": null,
-              "verified_onshore_wind_sectors": null,
-              "verified_cross_shore_wind_sectors": null,
-              "status": "not_surveyed",
-              "source_offshore_direction_claims": [
-                {
-                  "from_deg": 202.5,
-                  "label": "SSW",
-                  "status": "guide_claim_not_surveyed_normal",
-                  "source_ids": [
-                    "7"
-                  ]
-                }
-              ]
-            },
-            "implementationAssumptions": {
-              "windQualityPrior": "existing project preferences; not surveyed geometry",
-              "tideReference": "regional approximation, not local reef depth"
-            },
-            "identity": {
-              "status": "named_break_requires_project_pin_match"
-            }
-          },
-          "waveM": 0.9,
-          "surfRangeM": [
-            0.6,
-            0.9
-          ],
-          "typicalSurfM": 0.75,
-          "surfHeightSource": "Surfline",
-          "faceSize": {
-            "display": "0.3–1.4 m faces",
-            "lowerM": 0.3,
-            "expectedM": 0.8,
-            "upperM": 1.4,
-            "confidence": {
-              "score": 0.8,
-              "label": "high",
-              "reasons": [
-                "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
-                "Wave models broadly agree but differ on some components.",
-                "Wind models agree closely on direction and speed.",
-                "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-                "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
-              ]
-            },
-            "explanation": [
-              "0.8 m faces expected (0.3–1.4 m range).",
-              "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
-              "Wave models broadly agree but differ on some components.",
-              "Wind models agree closely on direction and speed.",
-              "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
-            ],
-            "conditions": {
-              "primary_swell": {
-                "type": "primary_swell",
-                "height_m": 0.92,
-                "direction_from_degrees": 346.23999628424644,
-                "period_seconds": 6.479999855160713,
-                "source_model": "ibi_waves",
-                "valid_time": "2026-11-04T13:00",
-                "models_reporting": [
-                  "ibi_waves",
-                  "dwd_ewam",
-                  "meteofrance_wave"
-                ]
-              },
-              "secondary_swell": {
-                "type": "secondary_swell",
-                "height_m": 0.45,
-                "direction_from_degrees": 295.71999741345644,
-                "period_seconds": 12.919999711215496,
-                "source_model": "ibi_waves",
-                "valid_time": "2026-11-04T13:00",
-                "models_reporting": [
-                  "ibi_waves",
-                  "meteofrance_wave"
-                ]
-              },
-              "wind_sea": {
-                "type": "wind_sea",
-                "height_m": 0.06,
-                "direction_from_degrees": 344.9499963130802,
-                "period_seconds": 1.8099999595433474,
-                "source_model": "ibi_waves",
-                "valid_time": "2026-11-04T13:00",
-                "models_reporting": [
-                  "ibi_waves",
-                  "dwd_ewam",
-                  "meteofrance_wave"
-                ]
-              },
-              "other_components": [],
-              "wind": {
-                "speed_kph": 7.7,
-                "direction_deg": "E",
-                "gust_kph": 23.6,
-                "source": "IPMA AROME 2.5km",
-                "model_agreement": "high"
-              },
-              "tide": {
-                "label": "High falling",
-                "status": "approximate",
-                "direction": "falling",
-                "minutes_from_nearest_extreme": 105
-              }
-            },
-            "modelVersions": [
-              "face-size-model-v1",
-              "face-size-model-v1",
-              "spot-response-config-v1"
-            ],
-            "outOfDistribution": false,
-            "inputs": {
-              "marine_node": "sw-bay",
-              "model_states": [
-                {
-                  "model": "ibi_waves",
-                  "model_family": "mfwam",
-                  "provider": "copernicus",
-                  "sample_time": "2026-11-04T13:00",
-                  "minutes_from_requested": 0,
-                  "height_m": 0.84,
-                  "out_of_distribution": false,
-                  "stale": false,
-                  "raw_rows": 54,
-                  "eligible_rows": 41,
-                  "support_window_hours": 54
-                },
-                {
-                  "model": "dwd_ewam",
-                  "model_family": "ewam",
-                  "provider": "open-meteo",
-                  "sample_time": "2026-11-04T13:00",
-                  "minutes_from_requested": 0,
-                  "height_m": 1.04,
-                  "out_of_distribution": false,
-                  "stale": false,
-                  "raw_rows": 48,
-                  "eligible_rows": 37,
-                  "support_window_hours": null
-                },
-                {
-                  "model": "ecmwf_wam",
-                  "model_family": "ecmwf_wam",
-                  "provider": "open-meteo",
-                  "sample_time": "2026-11-04T13:00",
-                  "minutes_from_requested": 0,
-                  "height_m": 0.73,
-                  "out_of_distribution": false,
-                  "stale": false,
-                  "raw_rows": 48,
-                  "eligible_rows": 37,
-                  "support_window_hours": null
-                },
-                {
-                  "model": "meteofrance_wave",
-                  "model_family": "mfwam",
-                  "provider": "open-meteo",
-                  "sample_time": "2026-11-04T13:00",
-                  "minutes_from_requested": 0,
-                  "height_m": 0.89,
-                  "out_of_distribution": false,
-                  "stale": false,
-                  "raw_rows": 48,
-                  "eligible_rows": 37,
-                  "support_window_hours": null
-                }
-              ],
-              "sample_coverage": {
-                "target_dates": [
-                  "2026-11-04",
-                  "2026-11-05"
-                ],
-                "models": [
-                  {
-                    "model": "ibi_waves",
-                    "raw_rows": 54,
-                    "eligible_rows": 41
-                  },
-                  {
-                    "model": "dwd_ewam",
-                    "raw_rows": 48,
-                    "eligible_rows": 37
-                  },
-                  {
-                    "model": "ecmwf_wam",
-                    "raw_rows": 48,
-                    "eligible_rows": 37
-                  },
-                  {
-                    "model": "meteofrance_wave",
-                    "raw_rows": 48,
-                    "eligible_rows": 37
-                  }
-                ],
-                "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
-              },
-              "family_weights": {
-                "ibi_waves": 0.6649999999999999,
-                "meteofrance_wave": 0.285,
-                "dwd_ewam": 1.13,
-                "ecmwf_wam": 0.99
-              },
-              "family_weight_breakdown": {
-                "formula": "family mass = max member weight; preferred regional member gets 70% of its family mass, remaining family members share 30%; effective weights normalise to 100% for display; the weighted mean divides by the effective weight sum",
-                "effective": {
-                  "ibi_waves": 0.6649999999999999,
-                  "meteofrance_wave": 0.285,
-                  "dwd_ewam": 1.13,
-                  "ecmwf_wam": 0.99
-                },
-                "effective_total": 3.0700000000000003,
-                "family_mass": {
-                  "mfwam": 0.95,
-                  "ewam": 1.13,
-                  "ecmwf_wam": 0.99
-                },
-                "normalized": {
-                  "ibi_waves": 0.21661237785016282,
-                  "meteofrance_wave": 0.09283387622149836,
-                  "dwd_ewam": 0.3680781758957654,
-                  "ecmwf_wam": 0.32247557003257327
-                },
-                "normalized_percent": {
-                  "ibi_waves": 21.7,
-                  "meteofrance_wave": 9.3,
-                  "dwd_ewam": 36.8,
-                  "ecmwf_wam": 32.2
-                }
-              },
-              "model_errors": [],
-              "stale_models": [],
-              "weighted_height_m": 0.88,
-              "model_prediction_m": 0.8,
-              "provider_anchor_m": 0.75,
-              "blend_weight": 0.72,
-              "condition_class": "short",
-              "mix_class": "mixed",
-              "disagreement": {
-                "heightComponent": 0.19214340999535628,
-                "directionComponent": 0.26722226318799785,
-                "periodComponent": 0.15250000000000002,
-                "agreementFactor": 0.61,
-                "label": "medium",
-                "widthM": 0.47977257585384914
-              },
-              "component_clusters": [
-                {
-                  "type": "primary_swell",
-                  "model_count": 4,
-                  "height_mean_m": 0.94,
-                  "direction_mean_deg": 337.31866268953235,
-                  "direction_spread_deg": 24,
-                  "period_spread_s": 3.0500000000000007,
-                  "unconfirmed_partition": false
-                },
-                {
-                  "type": "secondary_swell",
-                  "model_count": 2,
-                  "height_mean_m": 0.51,
-                  "direction_mean_deg": 295.8599987067282,
-                  "direction_spread_deg": 0.28000258654356003,
-                  "period_spread_s": 1.5199997112154957,
-                  "unconfirmed_partition": false
-                },
-                {
-                  "type": "wind_sea",
-                  "model_count": 2,
-                  "height_mean_m": 0.07,
-                  "direction_mean_deg": 356.9749981565401,
-                  "direction_spread_deg": 24.05000368691981,
-                  "period_spread_s": 1.3099999595433474,
-                  "unconfirmed_partition": false
-                },
-                {
-                  "type": "wind_sea",
-                  "model_count": 1,
-                  "height_mean_m": 0.04,
-                  "direction_mean_deg": 180,
-                  "direction_spread_deg": null,
-                  "period_spread_s": null,
-                  "unconfirmed_partition": false
-                }
-              ]
-            }
-          },
-          "forecastConfidence": {
-            "score": 0.8,
-            "label": "high",
-            "reasons": [
-              "Copernicus IBI-Waves (3 km regional, MFWAM family) is included; the MFWAM family is counted once, not twice.",
-              "Wave models broadly agree but differ on some components.",
-              "Wind models agree closely on direction and speed.",
-              "Provider breaking-surf range (Surfline breaking-surf range) is available as a scale check.",
-              "Family-deduplicated source contributions: Copernicus IBI-Waves 21.7%, Météo-France MFWAM 9.3%, DWD EWAM 36.8%, ECMWF WAM 32.2%."
-            ]
-          },
-          "windAgreement": {
-            "agreement": "high",
-            "modelCount": 2,
-            "models": [
-              "icon_eu",
-              "ecmwf_ifs"
-            ],
-            "directionMeanDeg": 2,
-            "directionSpreadDeg": 14,
-            "speedMedianKph": 9.6,
-            "speedMinKph": 6.9,
-            "speedMaxKph": 9.6,
-            "speedDifferenceKph": 2.6999999999999993,
-            "gustMaxKph": 23.4,
-            "gustDifferenceKph": 8.999999999999998
-          },
-          "surfForecastStructured": {
-            "provider": "surf-forecast",
-            "role": "timing provider opinion",
-            "inside48h": false,
-            "bestEventType": null,
-            "bestValidDate": null,
-            "sameDay": null,
-            "reasons": [
-              "Surf-Forecast structured events are all outside the 48-hour horizon."
-            ]
-          },
-          "predictWind": null,
-          "surflinePeriod": {
-            "date": "2026-11-04",
-            "time": "12:00",
-            "resolutionMinutes": 180
-          },
-          "periodS": 9,
-          "windKph": 7.7,
-          "windDirection": "E",
-          "windState": null,
-          "windStateLabel": "cross-shore",
-          "windFit": "E 8 km/h · geometry unverified; estimated cross-shore from preferences at Cerro · cleaner wave faces",
-          "windAssessment": {
-            "verdict": "good",
-            "label": "Good wind fit",
-            "summary": "E 8 km/h · geometry unverified; estimated cross-shore from preferences at Cerro · cleaner wave faces",
-            "direction": "E",
-            "directionVerdict": "unknown",
-            "state": "cross",
-            "speedKph": 7.7,
-            "sector": "cross-shore",
-            "geometricClass": null,
-            "providerClass": null,
-            "quality": 76,
-            "relativeAngleDeg": 112.5,
-            "conflict": false,
-            "hardBlocked": false,
-            "orientationConfidence": "unknown",
-            "qualityBasis": "project_preferences_and_provider_claims",
-            "score": 4,
-            "profileSummary": "SSW preferred; clean ≤22 km/h; offshore excessive ≥50 km/h",
-            "speedVerdict": "good"
-          },
-          "bestWind": "SSW preferred; clean ≤22 km/h; offshore excessive ≥50 km/h",
-          "windSource": "IPMA AROME 2.5km",
-          "sourceLinks": {
-            "surfline": "https://www.surfline.com/surf-report/cerro/603419021b17499cb1135506",
-            "surfForecast": "https://www.surf-forecast.com/breaks/Praia-do-Cerro/forecasts/latest",
-            "swellmap": null,
-            "beachcam": "https://beachcam.meo.pt/livecams/peniche-baleal-panoramica/"
-          },
-          "photo": {
-            "url": "images/spots/cerro.jpg",
-            "credit": "Local file",
-            "creditUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0c/69/1c/a6/surf-center-on-the-beach.jpg",
-            "alt": "Photo of Cerro surf spot"
-          },
-          "temperature": {
-            "waterTempC": null,
-            "airTempC": 16,
-            "source": "Surf-Forecast"
-          },
-          "wetsuit": {
-            "suit": "4/3",
-            "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
-          },
-          "explanation": "Cerro looks like a clean fun-sized window for Worth checking, Low confidence: 0.6-0.9 m, 80 kJ, 9 s period, consistent 66/100, and good wind at 5 km/h.  A sheltered beachbreak with gentle lefts and rights, somewhat similar to Cantinho but less consistent; this is best for manageable bodyboard waves when north-northwest swell reaches the bay with clean southerly wind; 6-9s at high tide tends to wash out on open beaches into shorebreak.  Watch: 6-9s at high tide tends to wash out on open beaches into shorebreak; Cerro may feel too soft without more push; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
-          "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
-          "warnings": [
-            "6-9s at high tide tends to wash out on open beaches into shorebreak",
-            "Cerro may feel too soft without more push",
-            "High falling · approximate stormglass · MSL · astronomical prediction",
-            "Wind geometry unverified; quality uses project preferences, not a surveyed local normal."
-          ]
-        },
-        {
           "spot": "Rey Cortiço",
           "spotId": "belgas",
           "windowEnd": "13:30",
-          "qualityScore": 32,
-          "conditionsScore": -3,
+          "qualityScore": 39,
+          "conditionsScore": 4,
           "preferenceScore": 4,
           "scoreBreakdown": [
             {
               "label": "Provider grades and consistency",
-              "points": 12
+              "points": 19
             },
             {
               "label": "Wave size floor",
@@ -3215,7 +3215,7 @@
           "consensus": {
             "adjustment": 2,
             "usable": true,
-            "difference": 56,
+            "difference": 49,
             "agreement": "mixed",
             "explanation": "4Shor is more optimistic than our conditions assessment.",
             "relevance": 0.5,
@@ -3234,7 +3234,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.770Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 86,
               "coverage": 1,
@@ -3254,7 +3254,7 @@
           "window": "Lunch",
           "windowRaw": "Lunch",
           "windowTime": "12:00",
-          "score": 1,
+          "score": 8,
           "sessionLabel": "Rare window",
           "sessionLabelRaw": "rare opportunity",
           "confidenceLabel": "Low confidence",
@@ -3270,7 +3270,7 @@
             },
             {
               "name": "Surf-Forecast",
-              "value": "1 / 10",
+              "value": "2 / 10",
               "detail": "12 PM · period",
               "state": "available",
               "url": "https://www.surf-forecast.com/breaks/Belgas/forecasts/latest"
@@ -3293,7 +3293,7 @@
           ],
           "sourceVerdicts": {
             "surfline": "POOR TO FAIR",
-            "surfForecast": 1,
+            "surfForecast": 2,
             "swellmap": null
           },
           "surflineDetails": {
@@ -3309,7 +3309,7 @@
             "waterTempC": null,
             "airTempC": null
           },
-          "surfForecast": 1,
+          "surfForecast": 2,
           "swellmap": null,
           "tide": {
             "status": "approximate",
@@ -3337,12 +3337,12 @@
             "captured": true
           },
           "assessment": {
-            "state": "no-surf",
+            "state": "marginal",
             "worthGoing": false,
             "bestAvailableOnly": true,
             "blocked": false,
             "uncertain": true,
-            "explanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations."
+            "explanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation."
           },
           "evidence": {
             "research": {
@@ -3599,7 +3599,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -3612,7 +3612,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -3625,7 +3625,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -3638,7 +3638,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -3651,22 +3651,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -3847,15 +3847,15 @@
           },
           "temperature": {
             "waterTempC": null,
-            "airTempC": 15,
+            "airTempC": 16,
             "source": "Surf-Forecast"
           },
           "wetsuit": {
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Rey Cortiço looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 91 kJ, 9 s period, lully 39/100, and good wind at 5 km/h.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at high tide washes out Belgas banks into shorebreak.  Watch: 6-9s at high tide washes out Belgas banks into shorebreak; exposed north spot needs Lagide to be under 0.8 m; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
-          "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
+          "explanation": "Rey Cortiço looks like a clean fun-sized window for Rare window, Low confidence: 0.6-0.9 m, 91 kJ, 9 s period, lully 39/100, and glassy conditions.  An open beach break where the sandbanks decide everything; this is best for quiet, punchy peaks when Lagide is too small; 6-9s at high tide washes out Belgas banks into shorebreak.  Watch: 6-9s at high tide washes out Belgas banks into shorebreak; exposed north spot needs Lagide to be under 0.8 m; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "shortExplanation": "Best available for checking; location, geometry, tide or condition uncertainty prevents a confident go recommendation.",
           "warnings": [
             "6-9s at high tide washes out Belgas banks into shorebreak",
             "exposed north spot needs Lagide to be under 0.8 m",
@@ -3950,7 +3950,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.826Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 66,
               "coverage": 1,
@@ -4354,7 +4354,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -4367,7 +4367,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -4380,7 +4380,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -4393,7 +4393,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -4406,22 +4406,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -4609,7 +4609,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Cantinho da Baia looks like a clean small window for Too soft, Low confidence: 0.3-0.6 m, 141 kJ, 9 s period, workable consistency 62/100, and good wind at 5 km/h.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay.  Watch: spot surf looks too small; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Cantinho da Baia looks like a clean small window for Too soft, Low confidence: 0.3-0.6 m, 141 kJ, 9 s period, workable consistency 62/100, and glassy conditions.  A forgiving sandy bay with lots of take-off points; this is best for easy wave count and cleaner faces when the north wind is bothering exposed beaches; 6-9s at high tide is too weak and wrap-starved in the sheltered bay.  Watch: spot surf looks too small; 6-9s at high tide is too weak and wrap-starved in the sheltered bay; Cantinho da Baia looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "spot surf looks too small",
@@ -4706,7 +4706,7 @@
             },
             "timezone": "UTC",
             "providerUpdatedAt": "2026-06-16T08:08:15.860Z",
-            "fetchedAt": "2026-11-03T13:04:29.732Z",
+            "fetchedAt": "2026-11-03T14:04:48.921Z",
             "alignment": {
               "score": 72,
               "coverage": 1,
@@ -5137,7 +5137,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -5150,7 +5150,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -5163,7 +5163,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -5176,7 +5176,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -5189,22 +5189,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -5392,7 +5392,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Supertubos looks like a clean small window for Too soft, Low confidence: 0.3-0.6 m, 70 kJ, 13 s period, lully 36/100, and good wind at 5 km/h.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: spot surf looks too small; 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Supertubos looks like a clean small window for Too soft, Low confidence: 0.3-0.6 m, 70 kJ, 13 s period, lully 36/100, and glassy conditions.  A fast, hollow sand-bottom wave that gets serious quickly; this is best for short, punchy bodyboard barrels when it is small enough for comfort.  Watch: spot surf looks too small; 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Supertubos looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "spot surf looks too small",
@@ -5869,7 +5869,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -5882,7 +5882,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -5895,7 +5895,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -5908,7 +5908,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -5921,22 +5921,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6124,7 +6124,7 @@
             "suit": "4/3",
             "reason": "4/3 remains the safer default for Peniche unless water is warm and wind is light."
           },
-          "explanation": "Molhe Leste looks like a clean small window for Too soft, Low confidence: 0-0.3 m, 51 kJ, 13 s period, lully 23/100, and good wind at 5 km/h.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size.  Watch: Surfline consistency is lully; spot surf looks too small; 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
+          "explanation": "Molhe Leste looks like a clean small window for Too soft, Low confidence: 0-0.3 m, 51 kJ, 13 s period, lully 23/100, and glassy conditions.  A jetty-shaped beach break with punchy rights and lefts; this is best for sheltered power when Supertubos has too much size.  Watch: Surfline consistency is lully; spot surf looks too small; 10-13s at high tide can get too backed up for Supertubos / Molhe Leste; Molhe Leste looks below your bodyboard fun size; High falling · approximate stormglass · MSL · astronomical prediction; Wind geometry unverified; quality uses project preferences, not a surveyed local normal..",
           "shortExplanation": "Current conditions do not support a worthwhile session; a great historic rating cannot override these limitations.",
           "warnings": [
             "Surfline consistency is lully",
@@ -6544,7 +6544,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 54,
-                  "eligible_rows": 41,
+                  "eligible_rows": 42,
                   "support_window_hours": 54
                 },
                 {
@@ -6557,7 +6557,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -6570,7 +6570,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 },
                 {
@@ -6583,7 +6583,7 @@
                   "out_of_distribution": false,
                   "stale": false,
                   "raw_rows": 48,
-                  "eligible_rows": 37,
+                  "eligible_rows": 38,
                   "support_window_hours": null
                 }
               ],
@@ -6596,22 +6596,22 @@
                   {
                     "model": "ibi_waves",
                     "raw_rows": 54,
-                    "eligible_rows": 41
+                    "eligible_rows": 42
                   },
                   {
                     "model": "dwd_ewam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "ecmwf_wam",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   },
                   {
                     "model": "meteofrance_wave",
                     "raw_rows": 48,
-                    "eligible_rows": 37
+                    "eligible_rows": 38
                   }
                 ],
                 "note": "Raw rows may include support hours outside today/tomorrow for cycle alignment; only eligible rows can influence displayed windows."
@@ -6806,8 +6806,8 @@
     }
   ],
   "targetDate": "2026-11-03",
-  "generatedAt": "2026-11-03 13:00 Portugal time",
-  "generatedAtUtc": "2026-11-03T13:00:00.000Z",
+  "generatedAt": "2026-11-03 14:00 Portugal time",
+  "generatedAtUtc": "2026-11-03T14:00:00.000Z",
   "displayTimezone": "Europe/Lisbon",
   "status": "manual_check",
   "dataQuality": {
